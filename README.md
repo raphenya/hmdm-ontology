@@ -2,7 +2,7 @@
 ![Build Status](https://github.com/raphenya/hmdm-ontology/actions/workflows/qc.yml/badge.svg)
 # The Human Microbiome Drug Metabolism (HMDM) Ontology
 
-Description: None
+The Human Microbiome Drug Metabolism (HMDM) Ontology describes bacterial genes that encode enzymes that transform therapeutic drugs other than antibiotics. The ontology includes mechanisms, gene families, drug classes, and diseases associated with the therapeutic drugs. The HMDM ontology is used to build a platform to predict and catalog genes and strains in human microbiomes that can contribute to bacterial drug metabolism, termed the Human Microbiome Drug Metabolism (HMDM) database (https://hmdm.mcmaster.ca).
 
 More information can be found at http://obofoundry.org/ontology/hmdm
 
@@ -23,6 +23,8 @@ Editors of this ontology should use the edit version, [src/ontology/hmdm-edit.ow
 ## Contact
 
 Please use this GitHub repository's [Issue tracker](https://github.com/raphenya/hmdm-ontology/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
+
+Email us at hmdm@mcmaster.ca
 
 ## Acknowledgements
 
