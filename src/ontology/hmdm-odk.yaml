@@ -15,6 +15,12 @@ export_formats:
 import_group:
   products:
     - id: ro
+    - id: go
+    - id: chebi
+    - id: mop
+    - id : ncit
+    - id: doid
+    
     
 robot_java_args: "-Xmx10G"
 robot_report:
