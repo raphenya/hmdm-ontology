@@ -20,7 +20,10 @@ import_group:
     - id: mop
     - id : ncit
     - id: doid
-    
+workflows:
+  - docs
+documentation:
+  documentation_system: mkdocs 
     
 robot_java_args: "-Xmx10G"
 robot_report:
