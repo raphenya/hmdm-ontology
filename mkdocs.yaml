@@ -1,22 +1,11 @@
 site_name: The Human Microbiome Drug Metabolism (HMDM) Ontology
-theme:
-  name: material
-  features:
-    - content.tabs.link
+theme: readthedocs
 plugins:
   - search
   #- table-reader (see https://github.com/INCATools/ontology-development-kit/issues/1028)
 markdown_extensions:
-  - pymdownx.highlight:
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.superfences
-  - pymdownx.tabbed:
-  - pymdownx.critic
-  - pymdownx.caret
-  - pymdownx.keys
-  - pymdownx.mark
-  - pymdownx.tilde
+  - toc:
+      permalink: True
 
 site_url: https://raphenya.github.io/hmdm-ontology/
 repo_url: https://github.com/raphenya/hmdm-ontology/
