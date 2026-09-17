@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/hmdm/imports/ncit_import.owl>
-<http://purl.obolibrary.org/obo/hmdm/releases/2026-08-14/imports/ncit_import.owl>
+<http://purl.obolibrary.org/obo/hmdm/releases/2026-09-15/imports/ncit_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/ncit/releases/2026-03-19/ncit.owl>)
-Annotation(owl:versionInfo "2026-08-14")
+Annotation(owl:versionInfo "2026-09-15")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C1908>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C1909>))
@@ -22,66 +22,39 @@ Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/source>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasDbXref>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))
-############################
-#   Annotation Properties
-############################
-
-# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000115> (definition)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "definition")
-
-# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasDbXref> (xRef)
-
-AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "xRef")
-
-# Annotation Property: rdfs:label (label)
-
-AnnotationAssertion(rdfs:label rdfs:label "label")
-
 
 ############################
 #   Object Properties
 ############################
 
-# Object Property: <http://purl.obolibrary.org/obo/NCIT_R122> (Chemical_Or_Drug_Is_Metabolized_By_Enzyme)
+# Object Property: <http://purl.obolibrary.org/obo/NCIT_R122> (<http://purl.obolibrary.org/obo/NCIT_R122>)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_R122> "Chemical_Or_Drug_Is_Metabolized_By_Enzyme")
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/NCIT_R122> <http://purl.obolibrary.org/obo/NCIT_C1908>)
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/NCIT_R122> <http://purl.obolibrary.org/obo/NCIT_C26548>)
-
 
 
 ############################
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/NCIT_C1908> (Drug, Food, Chemical or Biomedical Material)
+# Class: <http://purl.obolibrary.org/obo/NCIT_C1908> (<http://purl.obolibrary.org/obo/NCIT_C1908>)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C1908> "Drug, Food, Chemical or Biomedical Material")
 DisjointClasses(<http://purl.obolibrary.org/obo/NCIT_C1908> <http://purl.obolibrary.org/obo/NCIT_C26548>)
 
-# Class: <http://purl.obolibrary.org/obo/NCIT_C1909> (Pharmacologic Substance)
+# Class: <http://purl.obolibrary.org/obo/NCIT_C1909> (<http://purl.obolibrary.org/obo/NCIT_C1909>)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C1909> "Pharmacologic Substance")
 SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C1909> <http://purl.obolibrary.org/obo/NCIT_C1908>)
 
-# Class: <http://purl.obolibrary.org/obo/NCIT_C241> (Analgesic Agent)
+# Class: <http://purl.obolibrary.org/obo/NCIT_C241> (<http://purl.obolibrary.org/obo/NCIT_C241>)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C241> "Analgesic Agent")
 SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C241> <http://purl.obolibrary.org/obo/NCIT_C78272>)
 
-# Class: <http://purl.obolibrary.org/obo/NCIT_C26548> (Gene Product)
+# Class: <http://purl.obolibrary.org/obo/NCIT_C77313> (<http://purl.obolibrary.org/obo/NCIT_C77313>)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C26548> "Gene Product")
-
-# Class: <http://purl.obolibrary.org/obo/NCIT_C77313> (Diacetamate)
-
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C77313> "Diacetamate")
 SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C77313> <http://purl.obolibrary.org/obo/NCIT_C241>)
 
-# Class: <http://purl.obolibrary.org/obo/NCIT_C78272> (Agent Affecting Nervous System)
+# Class: <http://purl.obolibrary.org/obo/NCIT_C78272> (<http://purl.obolibrary.org/obo/NCIT_C78272>)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C78272> "Agent Affecting Nervous System")
 SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C78272> <http://purl.obolibrary.org/obo/NCIT_C1909>)
 
 
