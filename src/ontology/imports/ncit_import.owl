@@ -7,55 +7,39 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/hmdm/imports/ncit_import.owl>
-<http://purl.obolibrary.org/obo/hmdm/releases/2026-09-15/imports/ncit_import.owl>
+<http://purl.obolibrary.org/obo/hmdm/releases/2026-09-22/imports/ncit_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/ncit/releases/2026-03-19/ncit.owl>)
-Annotation(owl:versionInfo "2026-09-15")
+Annotation(owl:versionInfo "2026-09-22")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C1908>))
-Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C1909>))
-Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C241>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C26548>))
-Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C77313>))
-Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C78272>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/NCIT_R122>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/source>))
-Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasDbXref>))
-Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))
 
 ############################
 #   Object Properties
 ############################
 
-# Object Property: <http://purl.obolibrary.org/obo/NCIT_R122> (<http://purl.obolibrary.org/obo/NCIT_R122>)
+# Object Property: <http://purl.obolibrary.org/obo/NCIT_R122> (Chemical_Or_Drug_Is_Metabolized_By_Enzyme)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_R122> "Chemical_Or_Drug_Is_Metabolized_By_Enzyme")
 ObjectPropertyDomain(<http://purl.obolibrary.org/obo/NCIT_R122> <http://purl.obolibrary.org/obo/NCIT_C1908>)
 ObjectPropertyRange(<http://purl.obolibrary.org/obo/NCIT_R122> <http://purl.obolibrary.org/obo/NCIT_C26548>)
+
 
 
 ############################
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/NCIT_C1908> (<http://purl.obolibrary.org/obo/NCIT_C1908>)
+# Class: <http://purl.obolibrary.org/obo/NCIT_C1908> (Drug, Food, Chemical or Biomedical Material)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C1908> "Drug, Food, Chemical or Biomedical Material")
 DisjointClasses(<http://purl.obolibrary.org/obo/NCIT_C1908> <http://purl.obolibrary.org/obo/NCIT_C26548>)
 
-# Class: <http://purl.obolibrary.org/obo/NCIT_C1909> (<http://purl.obolibrary.org/obo/NCIT_C1909>)
+# Class: <http://purl.obolibrary.org/obo/NCIT_C26548> (Gene Product)
 
-SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C1909> <http://purl.obolibrary.org/obo/NCIT_C1908>)
-
-# Class: <http://purl.obolibrary.org/obo/NCIT_C241> (<http://purl.obolibrary.org/obo/NCIT_C241>)
-
-SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C241> <http://purl.obolibrary.org/obo/NCIT_C78272>)
-
-# Class: <http://purl.obolibrary.org/obo/NCIT_C77313> (<http://purl.obolibrary.org/obo/NCIT_C77313>)
-
-SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C77313> <http://purl.obolibrary.org/obo/NCIT_C241>)
-
-# Class: <http://purl.obolibrary.org/obo/NCIT_C78272> (<http://purl.obolibrary.org/obo/NCIT_C78272>)
-
-SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C78272> <http://purl.obolibrary.org/obo/NCIT_C1909>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C26548> "Gene Product")
 
 
 )

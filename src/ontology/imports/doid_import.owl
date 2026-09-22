@@ -7,115 +7,10 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/hmdm/imports/doid_import.owl>
-<http://purl.obolibrary.org/obo/hmdm/releases/2026-09-15/imports/doid_import.owl>
+<http://purl.obolibrary.org/obo/hmdm/releases/2026-09-22/imports/doid_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/doid/releases/2026-08-31/doid.owl>)
-Annotation(owl:versionInfo "2026-09-15")
+Annotation(owl:versionInfo "2026-09-22")
 
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_140310>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_15365>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_16385>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_17334>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_17792>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_22682>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_22712>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_22723>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_23117>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_23132>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_23367>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_23443>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_23697>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_24129>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_24431>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_24471>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_24531>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_24532>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_24651>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_24833>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_24995>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_25367>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_25384>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_25558>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_25693>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_25806>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_25865>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_26421>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_26596>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_2676>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_26822>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_26835>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_27171>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_27470>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_27933>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_32988>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33241>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33256>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33261>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33284>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33285>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33302>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33304>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33308>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33424>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33552>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33575>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33579>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33582>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33595>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33597>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33598>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33608>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33635>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33636>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33655>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33659>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33661>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33670>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33671>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33672>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33674>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33675>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33709>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33832>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33836>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33859>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33860>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_35352>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_35358>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_35605>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_35627>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_35701>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_35715>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_35716>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_35992>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_36357>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_36586>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_36587>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_36683>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_36962>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_36963>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_37533>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_37577>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_37578>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_37622>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_38101>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_38104>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_38106>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_38166>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_47381>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_47622>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_50047>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_50860>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_50995>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_50996>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_51143>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_5686>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_64709>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_72695>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_8776>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_88187>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_9334>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DISDRIV_0000000>))
-Declaration(Class(<http://purl.obolibrary.org/obo/DISDRIV_0000003>))
 Declaration(Class(<http://purl.obolibrary.org/obo/DOID_0050890>))
 Declaration(Class(<http://purl.obolibrary.org/obo/DOID_0081062>))
 Declaration(Class(<http://purl.obolibrary.org/obo/DOID_1289>))
@@ -140,7 +35,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001062>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0004121>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0010000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0011216>))
-Declaration(Class(<http://purl.obolibrary.org/obo/doid#chebi>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002410>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0003302>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0003304>))
@@ -149,110 +43,53 @@ Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0004005>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0004017>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0004026>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0040035>))
-Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO#_is_a>))
 Declaration(ObjectProperty(owl:topObjectProperty))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
-Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/description>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/source>))
-Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/title>))
-Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#auto-generated-by>))
-Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#date>))
-Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#default-namespace>))
-Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasDbXref>))
-Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion>))
-Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace>))
-Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))
-Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#saved-by>))
-############################
-#   Annotation Properties
-############################
-
-# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000115> (<http://purl.obolibrary.org/obo/IAO_0000115>)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000115> "The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "url:http://purl.obolibrary.org/obo/iao.owl") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000115> "The official definition.")
-
-# Annotation Property: <http://purl.org/dc/elements/1.1/description> (<http://purl.org/dc/elements/1.1/description>)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "url:http://purl.org/dc/elements/1.1/description") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/dc/elements/1.1/description> "Description of the ontology.")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "url:http://purl.org/dc/elements/1.1/description") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/dc/elements/1.1/description> "Description.")
-
-# Annotation Property: <http://purl.org/dc/elements/1.1/title> (<http://purl.org/dc/elements/1.1/title>)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "url:http://purl.org/dc/elements/1.1/title") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/dc/elements/1.1/title> "Title of the ontology.")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "url:http://purl.org/dc/elements/1.1/title") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/dc/elements/1.1/title> "Title.")
-
-# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#date> (<http://www.geneontology.org/formats/oboInOwl#date>)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "url:http://purl.org/dc/elements/1.1/date") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.geneontology.org/formats/oboInOwl#date> "Date.")
-
-# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#default-namespace> (<http://www.geneontology.org/formats/oboInOwl#default-namespace>)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "url:http://www.geneontology.org/formats/oboInOwl#default-namespace") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.geneontology.org/formats/oboInOwl#default-namespace> "Default namespace.")
-
-# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasDbXref> (<http://www.geneontology.org/formats/oboInOwl#hasDbXref>)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "url:http://www.geneontology.org/formats/oboInOwl#hasDbXref") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Reference database or publication source.")
-
-# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion> (<http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion>)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "url:http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion> "Has OBO format version.")
-
-# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> (<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace>)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "url:http://www.geneontology.org/formats/oboInOwl#hasOBONamespace") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "Name space of the ontology.")
-
-# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#id> (<http://www.geneontology.org/formats/oboInOwl#id>)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "url:http://purl.obolibrary.org/obo/IAO_0020000") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.geneontology.org/formats/oboInOwl#id> "An identifier for an individual entity.")
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "url:http://purl.obolibrary.org/obo/IAO_0020000") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.geneontology.org/formats/oboInOwl#id> "An identifier is an information content entity that is the outcome of a dubbing process and is used to refer to one instance of entity shared by a group of people to refer to that individual entity.")
-
-# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#saved-by> (<http://www.geneontology.org/formats/oboInOwl#saved-by>)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "url:http://www.geneontology.org/formats/oboInOwl#saved-by") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.geneontology.org/formats/oboInOwl#saved-by> "Saved by.")
-
 
 ############################
 #   Object Properties
 ############################
 
-# Object Property: <http://purl.obolibrary.org/obo/RO_0002410> (<http://purl.obolibrary.org/obo/RO_0002410>)
+# Object Property: <http://purl.obolibrary.org/obo/RO_0002410> (causally related to)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002410> "causally related to"@en)
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0002410> owl:topObjectProperty)
 
-# Object Property: <http://purl.obolibrary.org/obo/RO_0003302> (<http://purl.obolibrary.org/obo/RO_0003302>)
+# Object Property: <http://purl.obolibrary.org/obo/RO_0003302> (causes or contributes to condition)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0003302> "causes or contributes to condition"@en)
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0003302> <http://purl.obolibrary.org/obo/RO_0002410>)
 
-# Object Property: <http://purl.obolibrary.org/obo/RO_0003304> (<http://purl.obolibrary.org/obo/RO_0003304>)
+# Object Property: <http://purl.obolibrary.org/obo/RO_0003304> (contributes to condition)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0003304> "contributes to condition"@en)
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0003304> <http://purl.obolibrary.org/obo/RO_0003302>)
 
-# Object Property: <http://purl.obolibrary.org/obo/RO_0004000> (<http://purl.obolibrary.org/obo/RO_0004000>)
+# Object Property: <http://purl.obolibrary.org/obo/RO_0004000> (condition has genetic basis in)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0004000> "condition has genetic basis in")
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0004000> <http://purl.obolibrary.org/obo/RO_0002410>)
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0004000> <http://purl.obolibrary.org/obo/RO_0004017>)
 
-# Object Property: <http://purl.obolibrary.org/obo/RO_0004005> (<http://purl.obolibrary.org/obo/RO_0004005>)
+# Object Property: <http://purl.obolibrary.org/obo/RO_0004005> (has major susceptibility factor)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0004005> "has major susceptibility factor")
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0004005> <http://purl.obolibrary.org/obo/RO_0004000>)
 
-# Object Property: <http://purl.obolibrary.org/obo/RO_0004017> (<http://purl.obolibrary.org/obo/RO_0004017>)
+# Object Property: <http://purl.obolibrary.org/obo/RO_0004017> (realizable has basis in)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0004017> "realizable has basis in")
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0004017> <http://purl.obolibrary.org/obo/RO_0002410>)
 
-# Object Property: <http://purl.obolibrary.org/obo/RO_0004026> (<http://purl.obolibrary.org/obo/RO_0004026>)
+# Object Property: <http://purl.obolibrary.org/obo/RO_0004026> (disease has location)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0004026> "disease has location")
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0004026> <http://purl.obolibrary.org/obo/RO_0040035>)
 
-# Object Property: <http://purl.obolibrary.org/obo/RO_0040035> (<http://purl.obolibrary.org/obo/RO_0040035>)
+# Object Property: <http://purl.obolibrary.org/obo/RO_0040035> (disease relationship)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0040035> "disease relationship")
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0040035> owl:topObjectProperty)
-
-# Object Property: <http://purl.obolibrary.org/obo/RO#_is_a> (<http://purl.obolibrary.org/obo/RO#_is_a>)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "url:http://geneontology.org/docs/ontology-relations/") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "url:http://purl.obolibrary.org/obo/rex#is_a") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO#_is_a> "Relation defining child to partent inheritance type.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/RO#_is_a> "disease_ontology")
 
 
 
@@ -260,641 +97,23 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/CHEBI_140310> (<http://purl.obolibrary.org/obo/CHEBI_140310>)
+# Class: <http://purl.obolibrary.org/obo/DOID_0050890> (synucleinopathy)
 
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_140310> "CHEBI:140310")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_140310> <http://purl.obolibrary.org/obo/CHEBI_22712>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_140310> <http://purl.obolibrary.org/obo/CHEBI_47622>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_15365> (<http://purl.obolibrary.org/obo/CHEBI_15365>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_15365> "CHEBI:15365")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_15365> <http://purl.obolibrary.org/obo/CHEBI_140310>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_15365> <http://purl.obolibrary.org/obo/CHEBI_22723>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_15365> <http://purl.obolibrary.org/obo/CHEBI_26596>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_16385> (<http://purl.obolibrary.org/obo/CHEBI_16385>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_16385> "CHEBI:16385")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_16385> <http://purl.obolibrary.org/obo/CHEBI_26822>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_16385> <http://purl.obolibrary.org/obo/CHEBI_33261>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_17334> (<http://purl.obolibrary.org/obo/CHEBI_17334>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_17334> "CHEBI:17334")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_17334> <http://purl.obolibrary.org/obo/CHEBI_25865>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_17792> (<http://purl.obolibrary.org/obo/CHEBI_17792>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_17792> "CHEBI:17792")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_17792> <http://purl.obolibrary.org/obo/CHEBI_33285>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_17792> <http://purl.obolibrary.org/obo/CHEBI_37578>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_22682> (<http://purl.obolibrary.org/obo/CHEBI_22682>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_22682> "CHEBI:22682")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_22682> <http://purl.obolibrary.org/obo/CHEBI_22712>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_22682> <http://purl.obolibrary.org/obo/CHEBI_37533>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_22712> (<http://purl.obolibrary.org/obo/CHEBI_22712>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_22712> "CHEBI:22712")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_22712> <http://purl.obolibrary.org/obo/CHEBI_33836>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_22723> (<http://purl.obolibrary.org/obo/CHEBI_22723>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_22723> "CHEBI:22723")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_22723> <http://purl.obolibrary.org/obo/CHEBI_22712>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_22723> <http://purl.obolibrary.org/obo/CHEBI_33859>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_23117> (<http://purl.obolibrary.org/obo/CHEBI_23117>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_23117> "CHEBI:23117")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_23117> <http://purl.obolibrary.org/obo/CHEBI_24471>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_23132> (<http://purl.obolibrary.org/obo/CHEBI_23132>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_23132> "CHEBI:23132")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_23132> <http://purl.obolibrary.org/obo/CHEBI_22712>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_23132> <http://purl.obolibrary.org/obo/CHEBI_36683>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_23367> (<http://purl.obolibrary.org/obo/CHEBI_23367>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_23367> "CHEBI:23367")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_23367> <http://purl.obolibrary.org/obo/CHEBI_24431>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_23443> (<http://purl.obolibrary.org/obo/CHEBI_23443>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_23443> "CHEBI:23443")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_23443> <http://purl.obolibrary.org/obo/CHEBI_32988>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_23697> (<http://purl.obolibrary.org/obo/CHEBI_23697>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_23697> "CHEBI:23697")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_23697> <http://purl.obolibrary.org/obo/CHEBI_23132>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_24129> (<http://purl.obolibrary.org/obo/CHEBI_24129>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_24129> "CHEBI:24129")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_24129> <http://purl.obolibrary.org/obo/CHEBI_25693>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_24129> <http://purl.obolibrary.org/obo/CHEBI_38104>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_24431> (<http://purl.obolibrary.org/obo/CHEBI_24431>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_24431> "CHEBI:24431")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_24431> <http://purl.obolibrary.org/obo/doid#chebi>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_24471> (<http://purl.obolibrary.org/obo/CHEBI_24471>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_24471> "CHEBI:24471")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_24471> <http://purl.obolibrary.org/obo/CHEBI_33675>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_24531> (<http://purl.obolibrary.org/obo/CHEBI_24531>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_24531> "CHEBI:24531")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_24531> <http://purl.obolibrary.org/obo/CHEBI_24532>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_24532> (<http://purl.obolibrary.org/obo/CHEBI_24532>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_24532> "CHEBI:24532")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_24532> <http://purl.obolibrary.org/obo/CHEBI_33285>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_24532> <http://purl.obolibrary.org/obo/CHEBI_33832>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_24532> <http://purl.obolibrary.org/obo/CHEBI_5686>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_24651> (<http://purl.obolibrary.org/obo/CHEBI_24651>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_24651> "CHEBI:24651")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_24651> <http://purl.obolibrary.org/obo/CHEBI_25806>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_24651> <http://purl.obolibrary.org/obo/CHEBI_33608>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_24651> <http://purl.obolibrary.org/obo/CHEBI_37577>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_24833> (<http://purl.obolibrary.org/obo/CHEBI_24833>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_24833> "CHEBI:24833")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_24833> <http://purl.obolibrary.org/obo/CHEBI_24651>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_24995> (<http://purl.obolibrary.org/obo/CHEBI_24995>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_24995> "CHEBI:24995")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_24995> <http://purl.obolibrary.org/obo/CHEBI_23443>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_24995> <http://purl.obolibrary.org/obo/CHEBI_37622>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_24995> <http://purl.obolibrary.org/obo/CHEBI_38101>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_25367> (<http://purl.obolibrary.org/obo/CHEBI_25367>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_25367> "CHEBI:25367")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_25367> <http://purl.obolibrary.org/obo/CHEBI_36357>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_25384> (<http://purl.obolibrary.org/obo/CHEBI_25384>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_25384> "CHEBI:25384")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_25384> <http://purl.obolibrary.org/obo/CHEBI_33575>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_25558> (<http://purl.obolibrary.org/obo/CHEBI_25558>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_25558> "CHEBI:25558")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_25558> <http://purl.obolibrary.org/obo/CHEBI_24531>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_25558> <http://purl.obolibrary.org/obo/CHEBI_38101>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_25693> (<http://purl.obolibrary.org/obo/CHEBI_25693>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_25693> "CHEBI:25693")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_25693> <http://purl.obolibrary.org/obo/CHEBI_24532>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_25693> <http://purl.obolibrary.org/obo/CHEBI_33670>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_25806> (<http://purl.obolibrary.org/obo/CHEBI_25806>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_25806> "CHEBI:25806")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_25806> <http://purl.obolibrary.org/obo/CHEBI_33304>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_25865> (<http://purl.obolibrary.org/obo/CHEBI_25865>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_25865> "CHEBI:25865")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_25865> <http://purl.obolibrary.org/obo/CHEBI_33575>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_25865> <http://purl.obolibrary.org/obo/CHEBI_35992>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_26421> (<http://purl.obolibrary.org/obo/CHEBI_26421>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_26421> "CHEBI:26421")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_26421> <http://purl.obolibrary.org/obo/CHEBI_25693>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_26421> <http://purl.obolibrary.org/obo/CHEBI_38101>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_26596> (<http://purl.obolibrary.org/obo/CHEBI_26596>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_26596> "CHEBI:26596")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_26596> <http://purl.obolibrary.org/obo/CHEBI_36963>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_2676> (<http://purl.obolibrary.org/obo/CHEBI_2676>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_2676> "CHEBI:2676")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_2676> <http://purl.obolibrary.org/obo/CHEBI_17334>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_2676> <http://purl.obolibrary.org/obo/CHEBI_88187>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_26822> (<http://purl.obolibrary.org/obo/CHEBI_26822>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_26822> "CHEBI:26822")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_26822> <http://purl.obolibrary.org/obo/CHEBI_26835>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_26835> (<http://purl.obolibrary.org/obo/CHEBI_26835>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_26835> "CHEBI:26835")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_26835> <http://purl.obolibrary.org/obo/CHEBI_33304>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_27171> (<http://purl.obolibrary.org/obo/CHEBI_27171>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_27171> "CHEBI:27171")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_27171> <http://purl.obolibrary.org/obo/CHEBI_33672>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_27171> <http://purl.obolibrary.org/obo/CHEBI_38166>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_27470> (<http://purl.obolibrary.org/obo/CHEBI_27470>)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "url:https://www.ncbi.nlm.nih.gov/books/NBK535377/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_27470> "An N-acyl-amino acid that is a form of the water-soluble vitamin B9. Its biologically active forms (tetrahydrofolate and others) are essential for nucleotide biosynthesis and homocysteine remethylation.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_27470> "CHEBI:27470")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_27470> <http://purl.obolibrary.org/obo/CHEBI_33284>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_27933> (<http://purl.obolibrary.org/obo/CHEBI_27933>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_27933> "CHEBI:27933")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_27933> <http://purl.obolibrary.org/obo/CHEBI_25558>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_27933> <http://purl.obolibrary.org/obo/CHEBI_35627>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_32988> (<http://purl.obolibrary.org/obo/CHEBI_32988>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_32988> "CHEBI:32988")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_32988> <http://purl.obolibrary.org/obo/CHEBI_51143>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_33241> (<http://purl.obolibrary.org/obo/CHEBI_33241>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33241> "CHEBI:33241")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33241> <http://purl.obolibrary.org/obo/CHEBI_37577>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_33256> (<http://purl.obolibrary.org/obo/CHEBI_33256>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33256> "CHEBI:33256")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33256> <http://purl.obolibrary.org/obo/CHEBI_32988>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_33261> (<http://purl.obolibrary.org/obo/CHEBI_33261>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33261> "CHEBI:33261")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33261> <http://purl.obolibrary.org/obo/CHEBI_26835>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33261> <http://purl.obolibrary.org/obo/CHEBI_36962>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_33284> (<http://purl.obolibrary.org/obo/CHEBI_33284>)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "url:https://www.who.int/health-topics/micronutrients") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_33284> "A nutrient is a food component that an organism uses to survive and grow.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CHEBI_33284> "NCIT:C157938")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33284> "CHEBI:33284")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33284> <http://purl.obolibrary.org/obo/DISDRIV_0000003>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_33285> (<http://purl.obolibrary.org/obo/CHEBI_33285>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33285> "CHEBI:33285")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33285> <http://purl.obolibrary.org/obo/CHEBI_50860>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_33302> (<http://purl.obolibrary.org/obo/CHEBI_33302>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33302> "CHEBI:33302")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33302> <http://purl.obolibrary.org/obo/CHEBI_33675>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_33304> (<http://purl.obolibrary.org/obo/CHEBI_33304>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33304> "CHEBI:33304")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33304> <http://purl.obolibrary.org/obo/CHEBI_33675>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_33308> (<http://purl.obolibrary.org/obo/CHEBI_33308>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33308> "CHEBI:33308")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33308> <http://purl.obolibrary.org/obo/CHEBI_35701>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33308> <http://purl.obolibrary.org/obo/CHEBI_36586>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_33424> (<http://purl.obolibrary.org/obo/CHEBI_33424>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33424> "CHEBI:33424")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33424> <http://purl.obolibrary.org/obo/CHEBI_26835>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33424> <http://purl.obolibrary.org/obo/CHEBI_33241>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_33552> (<http://purl.obolibrary.org/obo/CHEBI_33552>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33552> "CHEBI:33552")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33552> <http://purl.obolibrary.org/obo/CHEBI_33424>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_33575> (<http://purl.obolibrary.org/obo/CHEBI_33575>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33575> "CHEBI:33575")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33575> <http://purl.obolibrary.org/obo/CHEBI_35605>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33575> <http://purl.obolibrary.org/obo/CHEBI_36586>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33575> <http://purl.obolibrary.org/obo/CHEBI_64709>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_33579> (<http://purl.obolibrary.org/obo/CHEBI_33579>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33579> "CHEBI:33579")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33579> <http://purl.obolibrary.org/obo/CHEBI_23367>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_33582> (<http://purl.obolibrary.org/obo/CHEBI_33582>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33582> "CHEBI:33582")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33582> <http://purl.obolibrary.org/obo/CHEBI_33675>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_33595> (<http://purl.obolibrary.org/obo/CHEBI_33595>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33595> "CHEBI:33595")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33595> <http://purl.obolibrary.org/obo/CHEBI_25367>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_33597> (<http://purl.obolibrary.org/obo/CHEBI_33597>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33597> "CHEBI:33597")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33597> <http://purl.obolibrary.org/obo/CHEBI_33595>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_33598> (<http://purl.obolibrary.org/obo/CHEBI_33598>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33598> "CHEBI:33598")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33598> <http://purl.obolibrary.org/obo/CHEBI_33597>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33598> <http://purl.obolibrary.org/obo/CHEBI_33832>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_33608> (<http://purl.obolibrary.org/obo/CHEBI_33608>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33608> "CHEBI:33608")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33608> <http://purl.obolibrary.org/obo/CHEBI_33674>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_33635> (<http://purl.obolibrary.org/obo/CHEBI_33635>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33635> "CHEBI:33635")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33635> <http://purl.obolibrary.org/obo/CHEBI_33595>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_33636> (<http://purl.obolibrary.org/obo/CHEBI_33636>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33636> "CHEBI:33636")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33636> <http://purl.obolibrary.org/obo/CHEBI_33595>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_33655> (<http://purl.obolibrary.org/obo/CHEBI_33655>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33655> "CHEBI:33655")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33655> <http://purl.obolibrary.org/obo/CHEBI_33595>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_33659> (<http://purl.obolibrary.org/obo/CHEBI_33659>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33659> "CHEBI:33659")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33659> <http://purl.obolibrary.org/obo/CHEBI_33655>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33659> <http://purl.obolibrary.org/obo/CHEBI_33832>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_33661> (<http://purl.obolibrary.org/obo/CHEBI_33661>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33661> "CHEBI:33661")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33661> <http://purl.obolibrary.org/obo/CHEBI_33595>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_33670> (<http://purl.obolibrary.org/obo/CHEBI_33670>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33670> "CHEBI:33670")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33670> <http://purl.obolibrary.org/obo/CHEBI_33661>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33670> <http://purl.obolibrary.org/obo/CHEBI_5686>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_33671> (<http://purl.obolibrary.org/obo/CHEBI_33671>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33671> "CHEBI:33671")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33671> <http://purl.obolibrary.org/obo/CHEBI_33635>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33671> <http://purl.obolibrary.org/obo/CHEBI_5686>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_33672> (<http://purl.obolibrary.org/obo/CHEBI_33672>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33672> "CHEBI:33672")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33672> <http://purl.obolibrary.org/obo/CHEBI_33636>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33672> <http://purl.obolibrary.org/obo/CHEBI_5686>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_33674> (<http://purl.obolibrary.org/obo/CHEBI_33674>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33674> "CHEBI:33674")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33674> <http://purl.obolibrary.org/obo/CHEBI_33579>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_33675> (<http://purl.obolibrary.org/obo/CHEBI_33675>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33675> "CHEBI:33675")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33675> <http://purl.obolibrary.org/obo/CHEBI_33579>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_33709> (<http://purl.obolibrary.org/obo/CHEBI_33709>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33709> "CHEBI:33709")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33709> <http://purl.obolibrary.org/obo/CHEBI_33575>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33709> <http://purl.obolibrary.org/obo/CHEBI_50047>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_33832> (<http://purl.obolibrary.org/obo/CHEBI_33832>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33832> "CHEBI:33832")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33832> <http://purl.obolibrary.org/obo/CHEBI_33595>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33832> <http://purl.obolibrary.org/obo/CHEBI_72695>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_33836> (<http://purl.obolibrary.org/obo/CHEBI_33836>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33836> "CHEBI:33836")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33836> <http://purl.obolibrary.org/obo/CHEBI_33598>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33836> <http://purl.obolibrary.org/obo/CHEBI_33659>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_33859> (<http://purl.obolibrary.org/obo/CHEBI_33859>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33859> "CHEBI:33859")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33859> <http://purl.obolibrary.org/obo/CHEBI_33575>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33859> <http://purl.obolibrary.org/obo/CHEBI_33659>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_33860> (<http://purl.obolibrary.org/obo/CHEBI_33860>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33860> "CHEBI:33860")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33860> <http://purl.obolibrary.org/obo/CHEBI_33659>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33860> <http://purl.obolibrary.org/obo/CHEBI_50047>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_35352> (<http://purl.obolibrary.org/obo/CHEBI_35352>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_35352> "CHEBI:35352")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_35352> <http://purl.obolibrary.org/obo/CHEBI_33285>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_35352> <http://purl.obolibrary.org/obo/CHEBI_51143>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_35358> (<http://purl.obolibrary.org/obo/CHEBI_35358>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_35358> "CHEBI:35358")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_35358> <http://purl.obolibrary.org/obo/CHEBI_33256>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_35358> <http://purl.obolibrary.org/obo/CHEBI_33261>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_35358> <http://purl.obolibrary.org/obo/CHEBI_33552>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_35605> (<http://purl.obolibrary.org/obo/CHEBI_35605>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_35605> "CHEBI:35605")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_35605> <http://purl.obolibrary.org/obo/CHEBI_24833>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_35605> <http://purl.obolibrary.org/obo/CHEBI_36963>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_35627> (<http://purl.obolibrary.org/obo/CHEBI_35627>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_35627> "CHEBI:35627")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_35627> <http://purl.obolibrary.org/obo/CHEBI_24995>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_35701> (<http://purl.obolibrary.org/obo/CHEBI_35701>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_35701> "CHEBI:35701")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_35701> <http://purl.obolibrary.org/obo/CHEBI_36963>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_35715> (<http://purl.obolibrary.org/obo/CHEBI_35715>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_35715> "CHEBI:35715")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_35715> <http://purl.obolibrary.org/obo/CHEBI_51143>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_35716> (<http://purl.obolibrary.org/obo/CHEBI_35716>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_35716> "CHEBI:35716")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_35716> <http://purl.obolibrary.org/obo/CHEBI_35715>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_35716> <http://purl.obolibrary.org/obo/CHEBI_72695>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_35992> (<http://purl.obolibrary.org/obo/CHEBI_35992>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_35992> "CHEBI:35992")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_35992> <http://purl.obolibrary.org/obo/CHEBI_27171>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_35992> <http://purl.obolibrary.org/obo/CHEBI_27933>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_35992> <http://purl.obolibrary.org/obo/CHEBI_38101>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_35992> <http://purl.obolibrary.org/obo/CHEBI_38106>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_36357> (<http://purl.obolibrary.org/obo/CHEBI_36357>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_36357> "CHEBI:36357")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_36357> <http://purl.obolibrary.org/obo/CHEBI_23367>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_36586> (<http://purl.obolibrary.org/obo/CHEBI_36586>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_36586> "CHEBI:36586")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_36586> <http://purl.obolibrary.org/obo/CHEBI_36587>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_36586> <http://purl.obolibrary.org/obo/CHEBI_36963>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_36587> (<http://purl.obolibrary.org/obo/CHEBI_36587>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_36587> "CHEBI:36587")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_36587> <http://purl.obolibrary.org/obo/CHEBI_72695>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_36683> (<http://purl.obolibrary.org/obo/CHEBI_36683>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_36683> "CHEBI:36683")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_36683> <http://purl.obolibrary.org/obo/CHEBI_17792>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_36683> <http://purl.obolibrary.org/obo/CHEBI_23117>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_36962> (<http://purl.obolibrary.org/obo/CHEBI_36962>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_36962> "CHEBI:36962")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_36962> <http://purl.obolibrary.org/obo/CHEBI_33285>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_36962> <http://purl.obolibrary.org/obo/CHEBI_33304>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_36963> (<http://purl.obolibrary.org/obo/CHEBI_36963>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_36963> "CHEBI:36963")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_36963> <http://purl.obolibrary.org/obo/CHEBI_25806>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_36963> <http://purl.obolibrary.org/obo/CHEBI_36962>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_37533> (<http://purl.obolibrary.org/obo/CHEBI_37533>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_37533> "CHEBI:37533")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_37533> <http://purl.obolibrary.org/obo/CHEBI_51143>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_37577> (<http://purl.obolibrary.org/obo/CHEBI_37577>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_37577> "CHEBI:37577")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_37577> <http://purl.obolibrary.org/obo/CHEBI_36357>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_37578> (<http://purl.obolibrary.org/obo/CHEBI_37578>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_37578> "CHEBI:37578")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_37578> <http://purl.obolibrary.org/obo/CHEBI_24471>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_37578> <http://purl.obolibrary.org/obo/CHEBI_37577>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_37622> (<http://purl.obolibrary.org/obo/CHEBI_37622>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_37622> "CHEBI:37622")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_37622> <http://purl.obolibrary.org/obo/CHEBI_33256>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_37622> <http://purl.obolibrary.org/obo/CHEBI_35352>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_37622> <http://purl.obolibrary.org/obo/CHEBI_36963>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_38101> (<http://purl.obolibrary.org/obo/CHEBI_38101>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_38101> "CHEBI:38101")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_38101> <http://purl.obolibrary.org/obo/CHEBI_24532>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_38101> <http://purl.obolibrary.org/obo/CHEBI_35352>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_38104> (<http://purl.obolibrary.org/obo/CHEBI_38104>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_38104> "CHEBI:38104")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_38104> <http://purl.obolibrary.org/obo/CHEBI_24532>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_38104> <http://purl.obolibrary.org/obo/CHEBI_36963>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_38106> (<http://purl.obolibrary.org/obo/CHEBI_38106>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_38106> "CHEBI:38106")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_38106> <http://purl.obolibrary.org/obo/CHEBI_24532>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_38106> <http://purl.obolibrary.org/obo/CHEBI_33261>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_38166> (<http://purl.obolibrary.org/obo/CHEBI_38166>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_38166> "CHEBI:38166")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_38166> <http://purl.obolibrary.org/obo/CHEBI_24532>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_38166> <http://purl.obolibrary.org/obo/CHEBI_33671>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_47381> (<http://purl.obolibrary.org/obo/CHEBI_47381>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_47381> "CHEBI:47381")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_47381> <http://purl.obolibrary.org/obo/CHEBI_23697>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_47381> <http://purl.obolibrary.org/obo/CHEBI_25384>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_47381> <http://purl.obolibrary.org/obo/CHEBI_33709>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_47381> <http://purl.obolibrary.org/obo/CHEBI_33860>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_47381> <http://purl.obolibrary.org/obo/CHEBI_50995>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_47622> (<http://purl.obolibrary.org/obo/CHEBI_47622>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_47622> "CHEBI:47622")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_47622> <http://purl.obolibrary.org/obo/CHEBI_33308>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_50047> (<http://purl.obolibrary.org/obo/CHEBI_50047>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_50047> "CHEBI:50047")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_50047> <http://purl.obolibrary.org/obo/CHEBI_35352>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_50047> <http://purl.obolibrary.org/obo/CHEBI_50860>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_50860> (<http://purl.obolibrary.org/obo/CHEBI_50860>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_50860> "CHEBI:50860")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_50860> <http://purl.obolibrary.org/obo/CHEBI_33582>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_50995> (<http://purl.obolibrary.org/obo/CHEBI_50995>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_50995> "CHEBI:50995")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_50995> <http://purl.obolibrary.org/obo/CHEBI_50047>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_50996> (<http://purl.obolibrary.org/obo/CHEBI_50996>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_50996> "CHEBI:50996")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_50996> <http://purl.obolibrary.org/obo/CHEBI_50047>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_51143> (<http://purl.obolibrary.org/obo/CHEBI_51143>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_51143> "CHEBI:51143")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_51143> <http://purl.obolibrary.org/obo/CHEBI_33302>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_5686> (<http://purl.obolibrary.org/obo/CHEBI_5686>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_5686> "CHEBI:5686")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_5686> <http://purl.obolibrary.org/obo/CHEBI_33595>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_64709> (<http://purl.obolibrary.org/obo/CHEBI_64709>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_64709> "CHEBI:64709")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_64709> <http://purl.obolibrary.org/obo/CHEBI_50860>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_72695> (<http://purl.obolibrary.org/obo/CHEBI_72695>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_72695> "CHEBI:72695")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_72695> <http://purl.obolibrary.org/obo/CHEBI_25367>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_72695> <http://purl.obolibrary.org/obo/CHEBI_50860>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_8776> (<http://purl.obolibrary.org/obo/CHEBI_8776>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_8776> "CHEBI:8776")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_8776> <http://purl.obolibrary.org/obo/CHEBI_16385>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_8776> <http://purl.obolibrary.org/obo/CHEBI_24129>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_8776> <http://purl.obolibrary.org/obo/CHEBI_35716>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_8776> <http://purl.obolibrary.org/obo/CHEBI_50996>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_88187> (<http://purl.obolibrary.org/obo/CHEBI_88187>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_88187> "CHEBI:88187")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_88187> <http://purl.obolibrary.org/obo/CHEBI_17334>)
-
-# Class: <http://purl.obolibrary.org/obo/CHEBI_9334> (<http://purl.obolibrary.org/obo/CHEBI_9334>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_9334> "CHEBI:9334")
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_9334> <http://purl.obolibrary.org/obo/CHEBI_22682>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_9334> <http://purl.obolibrary.org/obo/CHEBI_26421>)
-SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_9334> <http://purl.obolibrary.org/obo/CHEBI_35358>)
-
-# Class: <http://purl.obolibrary.org/obo/DISDRIV_0000000> (<http://purl.obolibrary.org/obo/DISDRIV_0000000>)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "url:https://www.ncbi.nlm.nih.gov/labs/pmc/articles/PMC4517741/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DISDRIV_0000000> "Environmental or genetic mechanisms driving the occurrance of complex diseases."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DISDRIV_0000000> "DISDRIV:0000000")
-
-# Class: <http://purl.obolibrary.org/obo/DISDRIV_0000003> (<http://purl.obolibrary.org/obo/DISDRIV_0000003>)
-
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "url:https://www.ncbi.nlm.nih.gov/books/NBK45737/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DISDRIV_0000003> "A disease driver that is of biological origin."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DISDRIV_0000003> "DISDRIV:0000003")
-SubClassOf(<http://purl.obolibrary.org/obo/DISDRIV_0000003> <http://purl.obolibrary.org/obo/DISDRIV_0000000>)
-
-# Class: <http://purl.obolibrary.org/obo/DOID_0050890> (<http://purl.obolibrary.org/obo/DOID_0050890>)
-
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/DOID_0050890> "disease_ontology")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DOID_0050890> "DOID:0050890")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DOID_0050890> "synucleinopathy"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DOID_0050890> <http://purl.obolibrary.org/obo/DOID_1289>)
 
-# Class: <http://purl.obolibrary.org/obo/DOID_0081062> (<http://purl.obolibrary.org/obo/DOID_0081062>)
+# Class: <http://purl.obolibrary.org/obo/DOID_0081062> (obsolete diabetes)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "url:https://medlineplus.gov/diabetes.html") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DOID_0081062> "A glucose metabolism disease that is characterized by high blood glucose."@en)
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/DOID_0081062> "disease_ontology")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DOID_0081062> "DOID:0081062")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DOID_0081062> "obsolete diabetes"@en)
 
-# Class: <http://purl.obolibrary.org/obo/DOID_1289> (<http://purl.obolibrary.org/obo/DOID_1289>)
+# Class: <http://purl.obolibrary.org/obo/DOID_1289> (neurodegenerative disease)
 
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_1289> "ICD10CM:G31.9")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_1289> "MESH:D019636")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_1289> "NCI:C195952")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_1289> "NCI:C27090")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_1289> "SNOMEDCT_US_2025_09_01:362975008")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_1289> "UMLS_CUI:C0524851")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_1289> "UMLS_CUI:C1285162")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/DOID_1289> "disease_ontology")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DOID_1289> "DOID:1289")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DOID_1289> "neurodegenerative disease"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DOID_1289> <http://purl.obolibrary.org/obo/DOID_331>)
 
-# Class: <http://purl.obolibrary.org/obo/DOID_14330> (<http://purl.obolibrary.org/obo/DOID_14330>)
+# Class: <http://purl.obolibrary.org/obo/DOID_14330> (Parkinson's disease)
 
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_14330> "GARD:10251")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_14330> "ICD10CM:G20")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_14330> "ICD9CM:332")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_14330> "KEGG:05012")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_14330> "MESH:D010300")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_14330> "MIM:PS168600")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_14330> "NCI:C26845")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_14330> "ORDO:2828")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_14330> "SNOMEDCT_US_2025_09_01:49049000")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_14330> "UMLS_CUI:C0030567")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/DOID_14330> "disease_ontology")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DOID_14330> "DOID:14330")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DOID_14330> "Parkinson's disease"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DOID_14330> <http://purl.obolibrary.org/obo/DOID_0050890>)
 SubClassOf(<http://purl.obolibrary.org/obo/DOID_14330> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004005> <http://purl.obolibrary.org/obo/MIM_607688>))
 SubClassOf(<http://purl.obolibrary.org/obo/DOID_14330> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004005> <http://purl.obolibrary.org/obo/MIM_610297>))
@@ -903,124 +122,110 @@ SubClassOf(<http://purl.obolibrary.org/obo/DOID_14330> ObjectSomeValuesFrom(<htt
 SubClassOf(<http://purl.obolibrary.org/obo/DOID_14330> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004005> <http://purl.obolibrary.org/obo/MIM_619491>))
 SubClassOf(<http://purl.obolibrary.org/obo/DOID_14330> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004005> <http://purl.obolibrary.org/obo/MIM_620923>))
 
-# Class: <http://purl.obolibrary.org/obo/DOID_331> (<http://purl.obolibrary.org/obo/DOID_331>)
+# Class: <http://purl.obolibrary.org/obo/DOID_331> (central nervous system disease)
 
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_331> "ICD10CM:G96.9")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_331> "MESH:D002493")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_331> "NCI:C2934")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_331> "SNOMEDCT_US_2025_09_01:267144009")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_331> "UMLS_CUI:C0007682")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/DOID_331> "disease_ontology")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DOID_331> "DOID:331")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DOID_331> "central nervous system disease"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DOID_331> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DOID_4> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004026> <http://purl.obolibrary.org/obo/UBERON_0001017>)))
 SubClassOf(<http://purl.obolibrary.org/obo/DOID_331> <http://purl.obolibrary.org/obo/DOID_863>)
 
-# Class: <http://purl.obolibrary.org/obo/DOID_4> (<http://purl.obolibrary.org/obo/DOID_4>)
+# Class: <http://purl.obolibrary.org/obo/DOID_4> (disease)
 
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_4> "MESH:D004194")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_4> "NCI:C2991")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_4> "SNOMEDCT_US_2025_09_01:64572001")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_4> "UMLS_CUI:C0012634")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/DOID_4> "disease_ontology")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DOID_4> "DOID:4")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DOID_4> "disease"@en)
 
-# Class: <http://purl.obolibrary.org/obo/DOID_7> (<http://purl.obolibrary.org/obo/DOID_7>)
+# Class: <http://purl.obolibrary.org/obo/DOID_7> (disease of anatomical entity)
 
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/DOID_7> "disease_ontology")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DOID_7> "DOID:7")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DOID_7> "disease of anatomical entity"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DOID_7> <http://purl.obolibrary.org/obo/DOID_4>)
 
-# Class: <http://purl.obolibrary.org/obo/DOID_863> (<http://purl.obolibrary.org/obo/DOID_863>)
+# Class: <http://purl.obolibrary.org/obo/DOID_863> (nervous system disease)
 
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_863> "ICD10CM:G98")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_863> "ICD9CM:349.9")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_863> "MESH:D009422")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_863> "NCI:C26835")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_863> "SNOMEDCT_US_2025_09_01:155262005")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_863> "UMLS_CUI:C0027765")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/DOID_863> "disease_ontology")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DOID_863> "DOID:863")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DOID_863> "nervous system disease"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DOID_863> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DOID_4> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004026> <http://purl.obolibrary.org/obo/UBERON_0001016>)))
 SubClassOf(<http://purl.obolibrary.org/obo/DOID_863> <http://purl.obolibrary.org/obo/DOID_7>)
 
-# Class: <http://purl.obolibrary.org/obo/MIM_607688> (<http://purl.obolibrary.org/obo/MIM_607688>)
+# Class: <http://purl.obolibrary.org/obo/MIM_000000> (omim_susceptibility)
 
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MIM_607688> "MIM:607688")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MIM_000000> "omim_susceptibility")
+
+# Class: <http://purl.obolibrary.org/obo/MIM_607688> (susceptibility to autosomal dominant parkinson disease 11)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MIM_607688> "susceptibility to autosomal dominant parkinson disease 11")
 SubClassOf(<http://purl.obolibrary.org/obo/MIM_607688> <http://purl.obolibrary.org/obo/MIM_000000>)
 SubClassOf(<http://purl.obolibrary.org/obo/MIM_607688> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0003304> <http://purl.obolibrary.org/obo/DOID_14330>))
 
-# Class: <http://purl.obolibrary.org/obo/MIM_610297> (<http://purl.obolibrary.org/obo/MIM_610297>)
+# Class: <http://purl.obolibrary.org/obo/MIM_610297> (susceptibility to autosomal dominant parkinson disease 13)
 
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MIM_610297> "susceptibility to autosomal dominant parkinson disease 13")
 SubClassOf(<http://purl.obolibrary.org/obo/MIM_610297> <http://purl.obolibrary.org/obo/MIM_000000>)
 SubClassOf(<http://purl.obolibrary.org/obo/MIM_610297> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0003304> <http://purl.obolibrary.org/obo/DOID_14330>))
 
-# Class: <http://purl.obolibrary.org/obo/MIM_613643> (<http://purl.obolibrary.org/obo/MIM_613643>)
+# Class: <http://purl.obolibrary.org/obo/MIM_613643> (susceptibility to autosomal dominant parkinson disease 5)
 
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MIM_613643> "MIM:613643")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MIM_613643> "susceptibility to autosomal dominant parkinson disease 5")
 SubClassOf(<http://purl.obolibrary.org/obo/MIM_613643> <http://purl.obolibrary.org/obo/MIM_000000>)
 SubClassOf(<http://purl.obolibrary.org/obo/MIM_613643> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0003304> <http://purl.obolibrary.org/obo/DOID_14330>))
 
-# Class: <http://purl.obolibrary.org/obo/MIM_614251> (<http://purl.obolibrary.org/obo/MIM_614251>)
+# Class: <http://purl.obolibrary.org/obo/MIM_614251> (susceptibility to autosomal dominant parkinson disease 18)
 
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MIM_614251> "MIM:614251")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MIM_614251> "susceptibility to autosomal dominant parkinson disease 18")
 SubClassOf(<http://purl.obolibrary.org/obo/MIM_614251> <http://purl.obolibrary.org/obo/MIM_000000>)
 SubClassOf(<http://purl.obolibrary.org/obo/MIM_614251> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0003304> <http://purl.obolibrary.org/obo/DOID_14330>))
 
-# Class: <http://purl.obolibrary.org/obo/MIM_619491> (<http://purl.obolibrary.org/obo/MIM_619491>)
+# Class: <http://purl.obolibrary.org/obo/MIM_619491> (susceptibility to autosomal dominant Parkinson disease 24)
 
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MIM_619491> "MIM:619491")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MIM_619491> "susceptibility to autosomal dominant Parkinson disease 24")
 SubClassOf(<http://purl.obolibrary.org/obo/MIM_619491> <http://purl.obolibrary.org/obo/MIM_000000>)
 SubClassOf(<http://purl.obolibrary.org/obo/MIM_619491> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0003304> <http://purl.obolibrary.org/obo/DOID_14330>))
 
-# Class: <http://purl.obolibrary.org/obo/MIM_620923> (<http://purl.obolibrary.org/obo/MIM_620923>)
+# Class: <http://purl.obolibrary.org/obo/MIM_620923> (susceptibility to autosomal dominant Parkinson disease 26)
 
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MIM_620923> "MIM:620923")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MIM_620923> "susceptibility to autosomal dominant Parkinson disease 26")
 SubClassOf(<http://purl.obolibrary.org/obo/MIM_620923> <http://purl.obolibrary.org/obo/MIM_000000>)
 SubClassOf(<http://purl.obolibrary.org/obo/MIM_620923> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0003304> <http://purl.obolibrary.org/obo/DOID_14330>))
 
-# Class: <http://purl.obolibrary.org/obo/UBERON_0000061> (<http://purl.obolibrary.org/obo/UBERON_0000061>)
+# Class: <http://purl.obolibrary.org/obo/UBERON_0000061> (anatomical structure)
 
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/UBERON_0000061> "UBERON:0000061")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0000061> "anatomical structure")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0000061> <http://purl.obolibrary.org/obo/UBERON_0000465>)
 
-# Class: <http://purl.obolibrary.org/obo/UBERON_0000465> (<http://purl.obolibrary.org/obo/UBERON_0000465>)
+# Class: <http://purl.obolibrary.org/obo/UBERON_0000465> (material anatomical entity)
 
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/UBERON_0000465> "UBERON:0000465")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0000465> "material anatomical entity")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0000465> <http://purl.obolibrary.org/obo/UBERON_0001062>)
 
-# Class: <http://purl.obolibrary.org/obo/UBERON_0000467> (<http://purl.obolibrary.org/obo/UBERON_0000467>)
+# Class: <http://purl.obolibrary.org/obo/UBERON_0000467> (anatomical system)
 
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/UBERON_0000467> "UBERON:0000467")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0000467> "anatomical system")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0000467> <http://purl.obolibrary.org/obo/UBERON_0000061>)
 
-# Class: <http://purl.obolibrary.org/obo/UBERON_0001016> (<http://purl.obolibrary.org/obo/UBERON_0001016>)
+# Class: <http://purl.obolibrary.org/obo/UBERON_0001016> (nervous system)
 
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/UBERON_0001016> "UBERON:0001016")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0001016> "nervous system")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001016> <http://purl.obolibrary.org/obo/UBERON_0000467>)
 
-# Class: <http://purl.obolibrary.org/obo/UBERON_0001017> (<http://purl.obolibrary.org/obo/UBERON_0001017>)
+# Class: <http://purl.obolibrary.org/obo/UBERON_0001017> (central nervous system)
 
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/UBERON_0001017> "UBERON:0001017")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0001017> "central nervous system")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001017> <http://purl.obolibrary.org/obo/UBERON_0004121>)
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001017> <http://purl.obolibrary.org/obo/UBERON_0011216>)
 
-# Class: <http://purl.obolibrary.org/obo/UBERON_0001062> (<http://purl.obolibrary.org/obo/UBERON_0001062>)
+# Class: <http://purl.obolibrary.org/obo/UBERON_0001062> (anatomy)
 
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/UBERON_0001062> "UBERON:0001062")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0001062> "anatomy")
 
-# Class: <http://purl.obolibrary.org/obo/UBERON_0004121> (<http://purl.obolibrary.org/obo/UBERON_0004121>)
+# Class: <http://purl.obolibrary.org/obo/UBERON_0004121> (ectoderm-derived structure)
 
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/UBERON_0004121> "UBERON:0004121")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0004121> "ectoderm-derived structure")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0004121> <http://purl.obolibrary.org/obo/UBERON_0000061>)
 
-# Class: <http://purl.obolibrary.org/obo/UBERON_0010000> (<http://purl.obolibrary.org/obo/UBERON_0010000>)
+# Class: <http://purl.obolibrary.org/obo/UBERON_0010000> (multicellular anatomical structure)
 
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/UBERON_0010000> "UBERON:0010000")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0010000> "multicellular anatomical structure")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0010000> <http://purl.obolibrary.org/obo/UBERON_0000061>)
 
-# Class: <http://purl.obolibrary.org/obo/UBERON_0011216> (<http://purl.obolibrary.org/obo/UBERON_0011216>)
+# Class: <http://purl.obolibrary.org/obo/UBERON_0011216> (organ system subdivision)
 
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/UBERON_0011216> "UBERON:0011216")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0011216> "organ system subdivision")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0011216> <http://purl.obolibrary.org/obo/UBERON_0010000>)
 
 

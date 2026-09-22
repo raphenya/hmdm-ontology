@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/hmdm/imports/mop_import.owl>
-<http://purl.obolibrary.org/obo/hmdm/releases/2026-09-15/imports/mop_import.owl>
+<http://purl.obolibrary.org/obo/hmdm/releases/2026-09-22/imports/mop_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/mop/releases/2022-05-11/mop.owl>)
-Annotation(owl:versionInfo "2026-09-15")
+Annotation(owl:versionInfo "2026-09-22")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000015>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MOP_0000543>))
@@ -29,28 +29,21 @@ Declaration(Class(<http://purl.obolibrary.org/obo/MOP_0001479>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/MOP_0000769>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002213>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
-Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/description>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/source>))
-Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/title>))
-Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasDbXref>))
-Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion>))
-Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace>))
-Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))
 
 ############################
 #   Object Properties
 ############################
 
-# Object Property: <http://purl.obolibrary.org/obo/MOP_0000769> (<http://purl.obolibrary.org/obo/MOP_0000769>)
+# Object Property: <http://purl.obolibrary.org/obo/MOP_0000769> (is_catalysis_of)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0001-5985-7429") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MOP_0000769> "x is_catalysis_of y if and only if x positively_regulates y and the positive regulation works by providing a more kinetically-favourable route across the energy landscape from the reactants of y to the products of y.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MOP_0000769> "MOP:0000769")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MOP_0000769> "is_catalysis_of")
 SubObjectPropertyOf(<http://purl.obolibrary.org/obo/MOP_0000769> <http://purl.obolibrary.org/obo/RO_0002213>)
 
-# Object Property: <http://purl.obolibrary.org/obo/RO_0002213> (<http://purl.obolibrary.org/obo/RO_0002213>)
+# Object Property: <http://purl.obolibrary.org/obo/RO_0002213> (positively_regulates)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002213> "x positively regulates y if and only if the progression of x increases the frequency, rate or extent of y")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/RO_0002213> "RO:0002213")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002213> "positively_regulates")
 
 
 
@@ -58,94 +51,80 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/BFO_0000015> (<http://purl.obolibrary.org/obo/BFO_0000015>)
+# Class: <http://purl.obolibrary.org/obo/BFO_0000015> (process)
 
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/BFO_0000015> "BFO:0000015")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000015> "process")
 
-# Class: <http://purl.obolibrary.org/obo/MOP_0000543> (<http://purl.obolibrary.org/obo/MOP_0000543>)
+# Class: <http://purl.obolibrary.org/obo/MOP_0000543> (molecular process)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0001-5985-7429") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MOP_0000543> "A process in which at least one of the participants is a molecule.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MOP_0000543> "MOP:0000543")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MOP_0000543> "molecular process")
 SubClassOf(<http://purl.obolibrary.org/obo/MOP_0000543> <http://purl.obolibrary.org/obo/BFO_0000015>)
 
-# Class: <http://purl.obolibrary.org/obo/MOP_0000567> (<http://purl.obolibrary.org/obo/MOP_0000567>)
+# Class: <http://purl.obolibrary.org/obo/MOP_0000567> (breaking of covalent bond with group)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0001-5985-7429") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MOP_0000567> "Breaking of a covalent bond between a substrate and a group.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MOP_0000567> "MOP:0000567")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MOP_0000567> "breaking of covalent bond with group")
 SubClassOf(<http://purl.obolibrary.org/obo/MOP_0000567> <http://purl.obolibrary.org/obo/MOP_0000780>)
 
-# Class: <http://purl.obolibrary.org/obo/MOP_0000568> (<http://purl.obolibrary.org/obo/MOP_0000568>)
+# Class: <http://purl.obolibrary.org/obo/MOP_0000568> (oxidation)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.1351/goldbook.O04362") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MOP_0000568> "The complete, net removal of one or mole electrons from a molecular entity, corresponding to an increase in the oxidation number of any atom within any substrate.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MOP_0000568> "MOP:0000568")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MOP_0000568> "oxidation")
 SubClassOf(<http://purl.obolibrary.org/obo/MOP_0000568> <http://purl.obolibrary.org/obo/MOP_0000543>)
 
-# Class: <http://purl.obolibrary.org/obo/MOP_0000569> (<http://purl.obolibrary.org/obo/MOP_0000569>)
+# Class: <http://purl.obolibrary.org/obo/MOP_0000569> (reduction)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.1351/goldbook.R05222") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MOP_0000569> "The complete transfer of one or more electrons to a molecular entity.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MOP_0000569> "MOP:0000569")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MOP_0000569> "reduction")
 SubClassOf(<http://purl.obolibrary.org/obo/MOP_0000569> <http://purl.obolibrary.org/obo/MOP_0000543>)
 
-# Class: <http://purl.obolibrary.org/obo/MOP_0000615> (<http://purl.obolibrary.org/obo/MOP_0000615>)
+# Class: <http://purl.obolibrary.org/obo/MOP_0000615> (electron transfer)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.1351/goldbook.E02011") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MOP_0000615> "A process where an electron is transferred from one molecular entity or part of a molecular entity to a different molecular entity or part of the same molecular entity.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MOP_0000615> "MOP:0000615")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MOP_0000615> "electron transfer")
 SubClassOf(<http://purl.obolibrary.org/obo/MOP_0000615> <http://purl.obolibrary.org/obo/MOP_0000543>)
 
-# Class: <http://purl.obolibrary.org/obo/MOP_0000618> (<http://purl.obolibrary.org/obo/MOP_0000618>)
+# Class: <http://purl.obolibrary.org/obo/MOP_0000618> (solvolysis)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org/10.1351/goldbook.S05762") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0001-5985-7429") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MOP_0000618> "A molecular process where a molecule is broken up by reaction with a molecule that is part of the solvent material. It may be the primary constituent molecule of the solvent material (for example water, ethanol, ammonia) or its lyonium ion or lyate ion.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MOP_0000618> "MOP:0000618")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MOP_0000618> "solvolysis")
 SubClassOf(<http://purl.obolibrary.org/obo/MOP_0000618> <http://purl.obolibrary.org/obo/MOP_0000543>)
 
-# Class: <http://purl.obolibrary.org/obo/MOP_0000619> (<http://purl.obolibrary.org/obo/MOP_0000619>)
+# Class: <http://purl.obolibrary.org/obo/MOP_0000619> (hydrolysis)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0001-5985-7429") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MOP_0000619> "A solvolysis reaction where the solvent material is water.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MOP_0000619> "MOP:0000619")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MOP_0000619> "hydrolysis")
 SubClassOf(<http://purl.obolibrary.org/obo/MOP_0000619> <http://purl.obolibrary.org/obo/MOP_0000618>)
 
-# Class: <http://purl.obolibrary.org/obo/MOP_0000780> (<http://purl.obolibrary.org/obo/MOP_0000780>)
+# Class: <http://purl.obolibrary.org/obo/MOP_0000780> (breaking of covalent bond)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0001-5985-7429") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MOP_0000780> "A molecular process in which a covalent bond is broken.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MOP_0000780> "MOP:0000780")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MOP_0000780> "breaking of covalent bond")
 SubClassOf(<http://purl.obolibrary.org/obo/MOP_0000780> <http://purl.obolibrary.org/obo/MOP_0000543>)
 
-# Class: <http://purl.obolibrary.org/obo/MOP_0000781> (<http://purl.obolibrary.org/obo/MOP_0000781>)
+# Class: <http://purl.obolibrary.org/obo/MOP_0000781> (catalysis)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://doi.org//10.1351/goldbook.C00876") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MOP_0000781> "A molecular process resulting in the rate of another molecular process being increased without modifying the other process's overall Gibbs standard energy change.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MOP_0000781> "MOP:0000781")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MOP_0000781> "catalysis")
 EquivalentClasses(<http://purl.obolibrary.org/obo/MOP_0000781> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/MOP_0000543> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/MOP_0000769> <http://purl.obolibrary.org/obo/MOP_0000543>)))
 SubClassOf(<http://purl.obolibrary.org/obo/MOP_0000781> <http://purl.obolibrary.org/obo/MOP_0000543>)
 SubClassOf(<http://purl.obolibrary.org/obo/MOP_0000781> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/MOP_0000769> <http://purl.obolibrary.org/obo/MOP_0000543>))
 
-# Class: <http://purl.obolibrary.org/obo/MOP_0001028> (<http://purl.obolibrary.org/obo/MOP_0001028>)
+# Class: <http://purl.obolibrary.org/obo/MOP_0001028> (decarboacylation)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "RSC:xp") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MOP_0001028> "Breaking of a covalent bond between a substrate and a carboacyl group.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MOP_0001028> "MOP:0001028")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MOP_0001028> "decarboacylation")
 SubClassOf(<http://purl.obolibrary.org/obo/MOP_0001028> <http://purl.obolibrary.org/obo/MOP_0001479>)
 
-# Class: <http://purl.obolibrary.org/obo/MOP_0001029> (<http://purl.obolibrary.org/obo/MOP_0001029>)
+# Class: <http://purl.obolibrary.org/obo/MOP_0001029> (deunivalent carboacylation)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "RSC:xp") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MOP_0001029> "Breaking of a covalent bond between a substrate and an univalent carboacyl group.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MOP_0001029> "MOP:0001029")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MOP_0001029> "deunivalent carboacylation")
 SubClassOf(<http://purl.obolibrary.org/obo/MOP_0001029> <http://purl.obolibrary.org/obo/MOP_0001028>)
 
-# Class: <http://purl.obolibrary.org/obo/MOP_0001030> (<http://purl.obolibrary.org/obo/MOP_0001030>)
+# Class: <http://purl.obolibrary.org/obo/MOP_0001030> (deacetylation)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "RSC:xp") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MOP_0001030> "Breaking of a covalent bond between a substrate and an acetyl group.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MOP_0001030> "MOP:0001030")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MOP_0001030> "deacetylation")
 SubClassOf(<http://purl.obolibrary.org/obo/MOP_0001030> <http://purl.obolibrary.org/obo/MOP_0001029>)
 
-# Class: <http://purl.obolibrary.org/obo/MOP_0001162> (<http://purl.obolibrary.org/obo/MOP_0001162>)
+# Class: <http://purl.obolibrary.org/obo/MOP_0001162> (deglycosylation)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "RSC:xp") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MOP_0001162> "Breaking of a covalent bond between a substrate and a glycosyl group.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MOP_0001162> "MOP:0001162")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MOP_0001162> "deglycosylation")
 SubClassOf(<http://purl.obolibrary.org/obo/MOP_0001162> <http://purl.obolibrary.org/obo/MOP_0001029>)
 
-# Class: <http://purl.obolibrary.org/obo/MOP_0001479> (<http://purl.obolibrary.org/obo/MOP_0001479>)
+# Class: <http://purl.obolibrary.org/obo/MOP_0001479> (deacylation)
 
-AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "RSC:xp") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MOP_0001479> "Breaking of a covalent bond between a substrate and an acyl group.")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MOP_0001479> "MOP:0001479")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MOP_0001479> "deacylation")
 SubClassOf(<http://purl.obolibrary.org/obo/MOP_0001479> <http://purl.obolibrary.org/obo/MOP_0000567>)
 
 
