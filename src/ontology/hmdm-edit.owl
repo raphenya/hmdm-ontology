@@ -233,11 +233,14 @@ Declaration(Class(obo:HMDM_0000933))
 Declaration(Class(obo:HMDM_0000934))
 Declaration(Class(obo:HMDM_0000937))
 Declaration(Class(obo:NCIT_C77313))
+Declaration(Class(obo:SBO_0000374))
 Declaration(ObjectProperty(obo:HMDM_0000484))
 Declaration(ObjectProperty(obo:HMDM_0000927))
 Declaration(ObjectProperty(obo:MI_1140))
+Declaration(ObjectProperty(obo:MOP_0000568))
 Declaration(ObjectProperty(obo:MOP_0000569))
 Declaration(ObjectProperty(obo:MOP_0000615))
+Declaration(ObjectProperty(obo:MOP_0000619))
 Declaration(ObjectProperty(obo:MOP_0001030))
 Declaration(ObjectProperty(obo:MOP_0001162))
 Declaration(ObjectProperty(obo:RO_0000050))
@@ -313,6 +316,15 @@ AnnotationAssertion(oboInOwl:id obo:HMDM_0000002 "HMDM:0000002")
 AnnotationAssertion(rdfs:label obo:HMDM_0000002 "drug")
 SubClassOf(obo:HMDM_0000002 obo:HMDM_0000001)
 
+# Class: obo:HMDM_0000005 (antiviral)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:33726557") obo:IAO_0000115 obo:HMDM_0000005 "An agent that kills a virus or that suppresses its ability to replicate and, hence, inhibits its capability to multiply and reproduce. For example, amantadine (Symmetrel) is a synthetic antiviral. It acts by inhibiting the multiplication of the influenza A virus.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000005 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000005 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000005 "HMDM:0000005")
+AnnotationAssertion(rdfs:label obo:HMDM_0000005 "antiviral")
+SubClassOf(obo:HMDM_0000005 obo:HMDM_0000073)
+
 # Class: obo:HMDM_0000006 (determinant of drug metabolism)
 
 AnnotationAssertion(obo:IAO_0000115 obo:HMDM_0000006 "The primary factors that determine the drug metabolism.")
@@ -339,6 +351,15 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000008 "human_microbiome_
 AnnotationAssertion(oboInOwl:id obo:HMDM_0000008 "HMDM:0000008")
 AnnotationAssertion(rdfs:label obo:HMDM_0000008 "classification")
 SubClassOf(obo:HMDM_0000008 obo:HMDM_0000001)
+
+# Class: obo:HMDM_0000009 (nucleoside antiviral)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:33924302") obo:IAO_0000115 obo:HMDM_0000009 "Among the molecules directly targeting viruses, nucleoside analogues form an essential class of broad-spectrum antiviral drugs. Many direct-acting antiviral nucleoside analogues target the viral polymerase responsible for the viral genome replication. Unlike non-nucleoside polymerase inhibitors that often bind to allosteric non-conserved and mutation-tolerant sites, nucleoside analogues directly bind to the more conserved active site of the viral polymerase after conversion to their triphosphate active form. Nucleoside analogs represent the largest class of small molecule-based antivirals, which currently form the backbone of chemotherapy of chronic infections caused by HIV, hepatitis B or C viruses, and herpes viruses.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000009 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000009 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000009 "HMDM:0000009")
+AnnotationAssertion(rdfs:label obo:HMDM_0000009 "nucleoside antiviral")
+SubClassOf(obo:HMDM_0000009 obo:HMDM_0000005)
 
 # Class: obo:HMDM_0000010 (Escherichia coli thymidine phosphorylase (deoA))
 
@@ -407,6 +428,16 @@ AnnotationAssertion(oboInOwl:id obo:HMDM_0000020 "HMDM:0000020")
 AnnotationAssertion(rdfs:label obo:HMDM_0000020 "anitineoplastic inactivation")
 SubClassOf(obo:HMDM_0000020 obo:HMDM_0000015)
 SubClassOf(obo:HMDM_0000020 obo:HMDM_0000019)
+
+# Class: obo:HMDM_0000021 (central nervous system agent)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:16489364") Annotation(oboInOwl:hasDbXref "PMID:27439371") obo:IAO_0000115 obo:HMDM_0000021 "The central nervous system agents are medicines that affect the central nervous system (CNS). There are many different types of drugs that work on the CNS, including anesthetics, anticonvulsants, antiemetics, antiparkinson agents, CNS stimulants, muscle relaxants, narcotic analgesics (pain relievers), nonnarcotic analgesics (such as acetaminophen and NSAIDs), and sedatives. Features of CNS drugs are related to their ability to penetrate the blood-brain barrier affinity and exhibit CNS activity and can be used in the management of neuro degenerative and psychiatric problems.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000021 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000021 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000021 "HMDM:0000021")
+AnnotationAssertion(rdfs:label obo:HMDM_0000021 "central nervous system agent")
+SubClassOf(obo:HMDM_0000021 obo:HMDM_0000073)
+SubClassOf(obo:HMDM_0000021 obo:HMDM_0000488)
 
 # Class: obo:HMDM_0000022 (dopamine precursor)
 
@@ -510,6 +541,15 @@ AnnotationAssertion(oboInOwl:id obo:HMDM_0000073 "HMDM:0000073")
 AnnotationAssertion(rdfs:label obo:HMDM_0000073 "drug class")
 SubClassOf(obo:HMDM_0000073 obo:HMDM_0000008)
 
+# Class: obo:HMDM_0000074 (herbal medication and supplementation)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HMDM_0000074 "Products made from botanicals, or plants, that are used to treat diseases or to maintain health are called herbal products, botanical products, or phytomedicines. A product made from plants and used solely for internal use is called an herbal supplement.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000074 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000074 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000074 "HMDM:0000074")
+AnnotationAssertion(rdfs:label obo:HMDM_0000074 "herbal medication and supplementation")
+SubClassOf(obo:HMDM_0000074 obo:HMDM_0000073)
+
 # Class: obo:HMDM_0000076 (anti-neoplastic agent)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:27110842") obo:IAO_0000115 obo:HMDM_0000076 "Antineoplastic drugs (ANDs), also known as cytostatic drugs, are a heterogeneous group of chemicals used to control the growth of neoplastic cells. Most ANDs interfere with cell proliferation through DNA destruction, RNA synthesis, or duplication process. Unfortunately, ANDs do not distinguish cancer cells from normal ones, leading to unwanted adverse effects in patients receiving chemotherapy. The International Agency for Research on Cancer (IARC) classifies some ANDs as human carcinogens.")
@@ -537,6 +577,16 @@ AnnotationAssertion(oboInOwl:id obo:HMDM_0000078 "HMDM:0000078")
 AnnotationAssertion(rdfs:label obo:HMDM_0000078 "Camptothecin Analogues")
 SubClassOf(obo:HMDM_0000078 obo:HMDM_0000077)
 
+# Class: obo:HMDM_0000081 (irinotecan)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HMDM_0000081 "A member of the class of pyranoindolizinoquinolines that is the carbamate ester obtained by formal condensation of the carboxy group of [1,4'-bipiperidine]-1'-carboxylic acid with the phenolic hydroxy group of (4S)-4,11-diethyl-4,9-dihydroxy-1H-pyrano[3',4':6,7]indolizino[1,2- hydrochloride]quinoline-3,14-dione. Used (in the form of its hydrochloride salt trihydrate) in combination with fluorouracil and leucovorin, for the treatment of patients with metastatic adenocarcinoma of the pancreas after disease progression following gemcitabine-based therapy. It is converted via hydrolysis of the carbamate linkage to its active metabolite, SN-38, which is ~1000 times more active.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000081 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000081 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000081 "HMDM:0000081")
+AnnotationAssertion(rdfs:label obo:HMDM_0000081 "irinotecan")
+SubClassOf(obo:HMDM_0000081 obo:HMDM_0000002)
+SubClassOf(obo:HMDM_0000081 obo:HMDM_0000078)
+
 # Class: obo:HMDM_0000089 (fluoropyrimidines deglycosylation enzyme)
 
 AnnotationAssertion(obo:IAO_0000115 obo:HMDM_0000089 "fluoropyrimidines deglycosylation enzyme")
@@ -556,6 +606,16 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000090 "human_microbiome_
 AnnotationAssertion(oboInOwl:id obo:HMDM_0000090 "HMDM:0000090")
 AnnotationAssertion(rdfs:label obo:HMDM_0000090 "thymidine pyrimidine-nucleoside phosphorylase family")
 SubClassOf(obo:HMDM_0000090 obo:HMDM_0000012)
+
+# Class: obo:HMDM_0000091 (Trastuzumab deruxtecan)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HMDM_0000091 "Trastuzumab deruxtecan is a monoclonal antibody medication used for the treatment of breast cancer or for the treatment of gastric or gastroesophageal adenocarcinoma. It is an antibody-drug conjugate composed of an anti-HER2 (human epidermal growth factor receptor 2) antibody, a cleavable tetrapeptide-based linker, and a cytotoxic topoisomerase I inhibitor.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000091 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000091 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000091 "HMDM:0000091")
+AnnotationAssertion(rdfs:label obo:HMDM_0000091 "Trastuzumab deruxtecan")
+SubClassOf(obo:HMDM_0000091 obo:HMDM_0000002)
+SubClassOf(obo:HMDM_0000091 obo:HMDM_0000078)
 
 # Class: obo:HMDM_0000092 (carboxyl-lyase)
 
@@ -613,6 +673,24 @@ AnnotationAssertion(oboInOwl:id obo:HMDM_0000099 "HMDM:0000099")
 AnnotationAssertion(rdfs:label obo:HMDM_0000099 "sulindac")
 SubClassOf(obo:HMDM_0000099 obo:HMDM_0000002)
 
+# Class: obo:HMDM_0000108 (raloxifene)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HMDM_0000108 "A member of the class of 1-benzothiophenes that is 1-benzothiophene in which the hydrogens at positions 2, 3, and 6 have been replaced by p-hydroxyphenyl, p-[2-(piperidin-1-yl)ethoxy]benzoyl, and hydroxy groups, respectively. Raloxifene is a medication used to prevent and treat osteoporosis in postmenopausal women and those on glucocorticoids. It is also used to reduce the risk of breast cancer in those at high risk. Raloxifene is a selective estrogen receptor modulator (SERM) and therefore a mixed agonist–antagonist of the estrogen receptor (ER). It has estrogenic effects in bone and antiestrogenic effects in the breasts and uterus.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000108 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000108 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000108 "HMDM:0000108")
+AnnotationAssertion(rdfs:label obo:HMDM_0000108 "raloxifene")
+SubClassOf(obo:HMDM_0000108 obo:HMDM_0000002)
+
+# Class: obo:HMDM_0000125 (decarboxylation of a molecule)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HMDM_0000125 "Enzymatic decarboxylation of a molecule")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000125 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000125 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000125 "HMDM:0000125")
+AnnotationAssertion(rdfs:label obo:HMDM_0000125 "decarboxylation of a molecule")
+SubClassOf(obo:HMDM_0000125 obo:HMDM_0000015)
+
 # Class: obo:HMDM_0000126 (deglycosylation of a molecule)
 
 AnnotationAssertion(obo:IAO_0000115 obo:HMDM_0000126 "Enzymatic deglycosylation of a molecule")
@@ -621,6 +699,17 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000126 "human_microbiome_
 AnnotationAssertion(oboInOwl:id obo:HMDM_0000126 "HMDM:0000126")
 AnnotationAssertion(rdfs:label obo:HMDM_0000126 "deglycosylation of a molecule")
 SubClassOf(obo:HMDM_0000126 obo:HMDM_0000015)
+
+# Class: obo:HMDM_0000128 (Escherichia coli uidA)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:29269393") obo:IAO_0000115 obo:HMDM_0000128 "A gene that produces beta-glucuronidase enzyme in Escherichia coli which is involved in hydrolysis on SN-38G to SN-38 in the intestine.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000128 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000128 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000128 "HMDM:0000128")
+AnnotationAssertion(rdfs:label obo:HMDM_0000128 "Escherichia coli uidA")
+SubClassOf(obo:HMDM_0000128 obo:HMDM_0000907)
+SubClassOf(obo:HMDM_0000128 ObjectSomeValuesFrom(obo:MOP_0000569 obo:HMDM_0000491))
+SubClassOf(obo:HMDM_0000128 ObjectSomeValuesFrom(obo:MOP_0000619 obo:CHEBI_8988))
 
 # Class: obo:HMDM_0000142 (reduction of a molecule)
 
@@ -673,6 +762,295 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000153 "human_microbiome_
 AnnotationAssertion(oboInOwl:id obo:HMDM_0000153 "HMDM:0000153")
 AnnotationAssertion(rdfs:label obo:HMDM_0000153 "deacetylation of a molecule")
 SubClassOf(obo:HMDM_0000153 obo:HMDM_0000015)
+
+# Class: obo:HMDM_0000164 (Bacteroides thetaiotaomicron purine nucleoside phosphorylase (PNP))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:30733391") obo:IAO_0000115 obo:HMDM_0000164 "Converts brivudine (BRV) to bromovinyluracil (BVU), but specific mechanism is not described. The PNP enzyme usually metabolizes nucleosides inosine into hypoxanthine and guanosine into guanine. These are not present in BRV.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000164 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000164 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000164 "HMDM:0000164")
+AnnotationAssertion(rdfs:label obo:HMDM_0000164 "Bacteroides thetaiotaomicron purine nucleoside phosphorylase (PNP)")
+SubClassOf(obo:HMDM_0000164 obo:HMDM_0000496)
+SubClassOf(obo:HMDM_0000164 ObjectSomeValuesFrom(obo:NCIT_R122 obo:HMDM_0000466))
+SubClassOf(obo:HMDM_0000164 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000495))
+
+# Class: obo:HMDM_0000168 (Bacteroides thetaiotaomicron acetyl esterase (acetylxylosidase) (BT_0152))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:31158845") obo:IAO_0000115 obo:HMDM_0000168 "The BT_0152 is an acetyl esterase from the human gut microbe B. thetaiotaomicron that metabolises the drugs Bisacodyl, Diacetamate, Famciclovir, Racecadotril , Roxatidine acetate, Sulfasalazine,")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000168 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000168 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000168 "HMDM:0000168")
+AnnotationAssertion(rdfs:label obo:HMDM_0000168 "Bacteroides thetaiotaomicron acetyl esterase (acetylxylosidase) (BT_0152)")
+SubClassOf(obo:HMDM_0000168 obo:HMDM_0000151)
+SubClassOf(obo:HMDM_0000168 ObjectSomeValuesFrom(obo:MOP_0001030 obo:CHEBI_4974))
+SubClassOf(obo:HMDM_0000168 ObjectSomeValuesFrom(obo:MOP_0001030 obo:CHEBI_9334))
+SubClassOf(obo:HMDM_0000168 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_3125))
+SubClassOf(obo:HMDM_0000168 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000153))
+
+# Class: obo:HMDM_0000210 (Bacteroides dorei Acetyl esterase (BACDOR_03937))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:31158845") obo:IAO_0000115 obo:HMDM_0000210 "The BACDOR_03937 is an acetyl esterase from the human gut microbe Bacteroides dorei that metabolises the drugs Bisacodyl, Diacetamate, Famciclovir, and Pantoprazole.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000210 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000210 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000210 "HMDM:0000210")
+AnnotationAssertion(rdfs:label obo:HMDM_0000210 "Bacteroides dorei Acetyl esterase (BACDOR_03937)")
+SubClassOf(obo:HMDM_0000210 obo:HMDM_0000151)
+SubClassOf(obo:HMDM_0000210 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_3125))
+SubClassOf(obo:HMDM_0000210 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_4974))
+SubClassOf(obo:HMDM_0000210 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_7915))
+SubClassOf(obo:HMDM_0000210 ObjectSomeValuesFrom(obo:NCIT_R122 obo:NCIT_C77313))
+SubClassOf(obo:HMDM_0000210 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000153))
+
+# Class: obo:HMDM_0000211 (Bacteroides thetaiotaomicron endoglucanase E precursor (EGE) (BT_0445))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:31158845") obo:IAO_0000115 obo:HMDM_0000211 "Bacteroides thetaiotaomicron endoglucanase E precursor (EGE) (BT_0445)")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000211 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000211 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000211 "HMDM:0000211")
+AnnotationAssertion(rdfs:label obo:HMDM_0000211 "Bacteroides thetaiotaomicron endoglucanase E precursor (EGE) (BT_0445)")
+SubClassOf(obo:HMDM_0000211 obo:HMDM_0000494)
+SubClassOf(obo:HMDM_0000211 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_3125))
+SubClassOf(obo:HMDM_0000211 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000153))
+
+# Class: obo:HMDM_0000213 (Bacteroides thetaiotaomicron NADH oxidase (BT_0217))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:31158845") obo:IAO_0000115 obo:HMDM_0000213 "Bacteroides thetaiotaomicron NADH oxidase (BT_0217)")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000213 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000213 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000213 "HMDM:0000213")
+AnnotationAssertion(rdfs:label obo:HMDM_0000213 "Bacteroides thetaiotaomicron NADH oxidase (BT_0217)")
+SubClassOf(obo:HMDM_0000213 obo:HMDM_0000240)
+SubClassOf(obo:HMDM_0000213 ObjectSomeValuesFrom(obo:MOP_0000569 obo:CHEBI_4798))
+SubClassOf(obo:HMDM_0000213 ObjectSomeValuesFrom(obo:MOP_0000569 obo:CHEBI_63627))
+SubClassOf(obo:HMDM_0000213 ObjectSomeValuesFrom(obo:MOP_0000569 obo:CHEBI_7582))
+SubClassOf(obo:HMDM_0000213 ObjectSomeValuesFrom(obo:MOP_0000569 obo:CHEBI_9334))
+SubClassOf(obo:HMDM_0000213 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000142))
+
+# Class: obo:HMDM_0000214 (Bacteroides thetaiotaomicron Putative nitroreductase (BT_1006))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:31158845") obo:IAO_0000115 obo:HMDM_0000214 "Bacteroides thetaiotaomicron Putative nitroreductase (BT_1006)")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000214 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000214 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000214 "HMDM:0000214")
+AnnotationAssertion(rdfs:label obo:HMDM_0000214 "Bacteroides thetaiotaomicron Putative nitroreductase (BT_1006)")
+SubClassOf(obo:HMDM_0000214 obo:HMDM_0000269)
+SubClassOf(obo:HMDM_0000214 obo:HMDM_0000785)
+SubClassOf(obo:HMDM_0000214 ObjectSomeValuesFrom(obo:MOP_0000569 obo:CHEBI_63627))
+SubClassOf(obo:HMDM_0000214 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000142))
+
+# Class: obo:HMDM_0000215 (Bacteroides thetaiotaomicron Lysophospholipase L1 and related esterases (BT_0569))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:31158845") obo:IAO_0000115 obo:HMDM_0000215 "This esterase codes for a SGNH-hydrolase that hydrolase a wide rage of drugs which includes antivirals, analgesics, and corticosteroids.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000215 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000215 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000215 "HMDM:0000215")
+AnnotationAssertion(rdfs:label obo:HMDM_0000215 "Bacteroides thetaiotaomicron Lysophospholipase L1 and related esterases (BT_0569)")
+SubClassOf(obo:HMDM_0000215 obo:HMDM_0000503)
+SubClassOf(obo:HMDM_0000215 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_135720))
+SubClassOf(obo:HMDM_0000215 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_3125))
+SubClassOf(obo:HMDM_0000215 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_31483))
+SubClassOf(obo:HMDM_0000215 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_4315))
+SubClassOf(obo:HMDM_0000215 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_4974))
+SubClassOf(obo:HMDM_0000215 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_9334))
+SubClassOf(obo:HMDM_0000215 ObjectSomeValuesFrom(obo:NCIT_R122 obo:HMDM_0000790))
+SubClassOf(obo:HMDM_0000215 ObjectSomeValuesFrom(obo:NCIT_R122 obo:NCIT_C77313))
+SubClassOf(obo:HMDM_0000215 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000153))
+
+# Class: obo:HMDM_0000216 (Bacteroides thetaiotaomicron Nitroreductase (BT_1148))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:31158845") obo:IAO_0000115 obo:HMDM_0000216 "Bacteroides thetaiotaomicron Nitroreductase (BT_1148)")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000216 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000216 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000216 "HMDM:0000216")
+AnnotationAssertion(rdfs:label obo:HMDM_0000216 "Bacteroides thetaiotaomicron Nitroreductase (BT_1148)")
+SubClassOf(obo:HMDM_0000216 obo:HMDM_0000269)
+SubClassOf(obo:HMDM_0000216 ObjectSomeValuesFrom(obo:MOP_0000569 obo:CHEBI_4798))
+SubClassOf(obo:HMDM_0000216 ObjectSomeValuesFrom(obo:MOP_0000569 obo:CHEBI_63627))
+SubClassOf(obo:HMDM_0000216 ObjectSomeValuesFrom(obo:MOP_0000569 obo:CHEBI_7582))
+SubClassOf(obo:HMDM_0000216 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000142))
+
+# Class: obo:HMDM_0000217 (Bacteroides thetaiotaomicron putative xylanase (BT_1192))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:31158845") obo:IAO_0000115 obo:HMDM_0000217 "Bacteroides thetaiotaomicron putative xylanase (BT_1192)")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000217 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000217 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000217 "HMDM:0000217")
+AnnotationAssertion(rdfs:label obo:HMDM_0000217 "Bacteroides thetaiotaomicron putative xylanase (BT_1192)")
+SubClassOf(obo:HMDM_0000217 obo:HMDM_0000150)
+SubClassOf(obo:HMDM_0000217 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_3125))
+SubClassOf(obo:HMDM_0000217 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000491))
+
+# Class: obo:HMDM_0000218 (Bacteroides thetaiotaomicron putative general stress protein (BT_1429))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:31158845") Annotation(oboInOwl:hasDbXref "PMID:4402374") obo:IAO_0000115 obo:HMDM_0000218 "Bacteroides thetaiotaomicron putative general stress protein (BT_1429)")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000218 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000218 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000218 "HMDM:0000218")
+AnnotationAssertion(rdfs:label obo:HMDM_0000218 "Bacteroides thetaiotaomicron putative general stress protein (BT_1429)")
+SubClassOf(obo:HMDM_0000218 obo:HMDM_0000846)
+SubClassOf(obo:HMDM_0000218 ObjectSomeValuesFrom(obo:MOP_0000568 obo:CHEBI_223316))
+SubClassOf(obo:HMDM_0000218 ObjectSomeValuesFrom(obo:MOP_0000568 obo:CHEBI_71416))
+SubClassOf(obo:HMDM_0000218 ObjectSomeValuesFrom(obo:MOP_0000568 obo:CHEBI_9334))
+SubClassOf(obo:HMDM_0000218 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000847))
+
+# Class: obo:HMDM_0000219 (Bacteroides thetaiotaomicron 3-oxo-5-alpha-steroid 4-dehydrogenase (BT_2068))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:31158845") obo:IAO_0000115 obo:HMDM_0000219 "Bacteroides thetaiotaomicron 3-oxo-5-alpha-steroid 4-dehydrogenase (BT_2068)")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000219 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000219 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000219 "HMDM:0000219")
+AnnotationAssertion(rdfs:label obo:HMDM_0000219 "Bacteroides thetaiotaomicron 3-oxo-5-alpha-steroid 4-dehydrogenase (BT_2068)")
+SubClassOf(obo:HMDM_0000219 obo:HMDM_0000843)
+SubClassOf(obo:HMDM_0000219 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_6443))
+SubClassOf(obo:HMDM_0000219 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_7628))
+SubClassOf(obo:HMDM_0000219 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000844))
+
+# Class: obo:HMDM_0000220 (Bacteroides thetaiotaomicron cAMP-binding proteins (BT_2366))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:31158845") obo:IAO_0000115 obo:HMDM_0000220 "This is a cyclic adenosine monophosphate (cAMP) receptor protein that binds to allosteric effector molecules.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000220 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000220 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000220 "HMDM:0000220")
+AnnotationAssertion(rdfs:label obo:HMDM_0000220 "Bacteroides thetaiotaomicron cAMP-binding proteins (BT_2366)")
+SubClassOf(obo:HMDM_0000220 obo:HMDM_0000887)
+SubClassOf(obo:HMDM_0000220 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_94758))
+SubClassOf(obo:HMDM_0000220 ObjectSomeValuesFrom(obo:NCIT_R122 obo:NCIT_C77313))
+
+# Class: obo:HMDM_0000221 (Bacteroides thetaiotaomicron Acyltransferase (BT_2367))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:31158845") obo:IAO_0000115 obo:HMDM_0000221 "Bacteroides thetaiotaomicron Acyltransferase (BT_2367)")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000221 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000221 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000221 "HMDM:0000221")
+AnnotationAssertion(rdfs:label obo:HMDM_0000221 "Bacteroides thetaiotaomicron Acyltransferase (BT_2367)")
+SubClassOf(obo:HMDM_0000221 obo:HMDM_0000271)
+SubClassOf(obo:HMDM_0000221 ObjectSomeValuesFrom(obo:NCIT_R122 obo:HMDM_0000787))
+
+# Class: obo:HMDM_0000222 (Bacteroides thetaiotaomicron hypothetical protein (BT_2961))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:31158845") obo:IAO_0000115 obo:HMDM_0000222 "Bacteroides thetaiotaomicron hypothetical protein (BT_2961)")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000222 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000222 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000222 "HMDM:0000222")
+AnnotationAssertion(rdfs:label obo:HMDM_0000222 "Bacteroides thetaiotaomicron hypothetical protein (BT_2961)")
+SubClassOf(obo:HMDM_0000222 obo:HMDM_0000151)
+SubClassOf(obo:HMDM_0000222 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_3125))
+
+# Class: obo:HMDM_0000223 (Bacteroides thetaiotaomicron Hydrolase, HAD superfamily (BT_3112))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:31158845") obo:IAO_0000115 obo:HMDM_0000223 "Bacteroides thetaiotaomicron Hydrolase, HAD superfamily (BT_3112)")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000223 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000223 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000223 "HMDM:0000223")
+AnnotationAssertion(rdfs:label obo:HMDM_0000223 "Bacteroides thetaiotaomicron Hydrolase, HAD superfamily (BT_3112)")
+SubClassOf(obo:HMDM_0000223 obo:HMDM_0000792)
+SubClassOf(obo:HMDM_0000223 ObjectSomeValuesFrom(obo:MOP_0000619 obo:CHEBI_7582))
+SubClassOf(obo:HMDM_0000223 ObjectSomeValuesFrom(obo:MOP_0000619 obo:HMDM_0000790))
+SubClassOf(obo:HMDM_0000223 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000491))
+
+# Class: obo:HMDM_0000224 (Bacteroides thetaiotaomicron putative sialic acid-specific acetylesterase (BT_3124))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:31158845") obo:IAO_0000115 obo:HMDM_0000224 "Bacteroides thetaiotaomicron putative sialic acid-specific acetylesterase (BT_3124)")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000224 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000224 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000224 "HMDM:0000224")
+AnnotationAssertion(rdfs:label obo:HMDM_0000224 "Bacteroides thetaiotaomicron putative sialic acid-specific acetylesterase (BT_3124)")
+SubClassOf(obo:HMDM_0000224 obo:HMDM_0000151)
+SubClassOf(obo:HMDM_0000224 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_3125))
+
+# Class: obo:HMDM_0000225 (Bacteroides thetaiotaomicron hypothetical protein (BT_4075))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:31158845") obo:IAO_0000115 obo:HMDM_0000225 "Bacteroides thetaiotaomicron hypothetical protein (BT_4075)")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000225 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000225 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000225 "HMDM:0000225")
+AnnotationAssertion(rdfs:label obo:HMDM_0000225 "Bacteroides thetaiotaomicron hypothetical protein (BT_4075)")
+SubClassOf(obo:HMDM_0000225 obo:HMDM_0000150)
+SubClassOf(obo:HMDM_0000225 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_94758))
+SubClassOf(obo:HMDM_0000225 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000491))
+
+# Class: obo:HMDM_0000226 (Bacteroides thetaiotaomicron sialic acid-specific 9-O-acetylesterase (BT_4091))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:31158845") obo:IAO_0000115 obo:HMDM_0000226 "Bacteroides thetaiotaomicron sialic acid-specific 9-O-acetylesterase (BT_4091)")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000226 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000226 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000226 "HMDM:0000226")
+AnnotationAssertion(rdfs:label obo:HMDM_0000226 "Bacteroides thetaiotaomicron sialic acid-specific 9-O-acetylesterase (BT_4091)")
+SubClassOf(obo:HMDM_0000226 obo:HMDM_0000150)
+SubClassOf(obo:HMDM_0000226 obo:HMDM_0000151)
+SubClassOf(obo:HMDM_0000226 ObjectSomeValuesFrom(obo:MOP_0000619 obo:CHEBI_3125))
+SubClassOf(obo:HMDM_0000226 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000491))
+
+# Class: obo:HMDM_0000227 (Collinsella aerofaciens hypothetical protein (COLAER_00311))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:31158845") obo:IAO_0000115 obo:HMDM_0000227 "Collinsella aerofaciens hypothetical protein (COLAER_00311)")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000227 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000227 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000227 "HMDM:0000227")
+AnnotationAssertion(rdfs:label obo:HMDM_0000227 "Collinsella aerofaciens hypothetical protein (COLAER_00311)")
+SubClassOf(obo:HMDM_0000227 obo:HMDM_0000150)
+SubClassOf(obo:HMDM_0000227 obo:HMDM_0000151)
+SubClassOf(obo:HMDM_0000227 ObjectSomeValuesFrom(obo:MOP_0000619 obo:CHEBI_3125))
+SubClassOf(obo:HMDM_0000227 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000491))
+
+# Class: obo:HMDM_0000228 (Collinsella aerofaciens Lj928 prophage protein (COLAER_00815))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:31158845") obo:IAO_0000115 obo:HMDM_0000228 "Collinsella aerofaciens Lj928 prophage protein (COLAER_00815)")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000228 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000228 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000228 "HMDM:0000228")
+AnnotationAssertion(rdfs:label obo:HMDM_0000228 "Collinsella aerofaciens Lj928 prophage protein (COLAER_00815)")
+SubClassOf(obo:HMDM_0000228 obo:HMDM_0000150)
+SubClassOf(obo:HMDM_0000228 ObjectSomeValuesFrom(obo:MOP_0000619 obo:CHEBI_3125))
+SubClassOf(obo:HMDM_0000228 ObjectSomeValuesFrom(obo:MOP_0000619 obo:CHEBI_9334))
+SubClassOf(obo:HMDM_0000228 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000491))
+
+# Class: obo:HMDM_0000229 (Collinsella aerofaciens hypothetical protein (COLAER_01707))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:31158845") obo:IAO_0000115 obo:HMDM_0000229 "Collinsella aerofaciens hypothetical protein (COLAER_01707)")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000229 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000229 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000229 "HMDM:0000229")
+AnnotationAssertion(rdfs:label obo:HMDM_0000229 "Collinsella aerofaciens hypothetical protein (COLAER_01707)")
+SubClassOf(obo:HMDM_0000229 obo:HMDM_0000266)
+SubClassOf(obo:HMDM_0000229 ObjectSomeValuesFrom(obo:MOP_0000569 obo:CHEBI_4798))
+SubClassOf(obo:HMDM_0000229 ObjectSomeValuesFrom(obo:MOP_0000569 obo:CHEBI_63627))
+SubClassOf(obo:HMDM_0000229 ObjectSomeValuesFrom(obo:MOP_0000569 obo:CHEBI_7582))
+SubClassOf(obo:HMDM_0000229 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000142))
+
+# Class: obo:HMDM_0000230 (Collinsella aerofaciens hypothetical protein (COLAER_01846))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:31158845") obo:IAO_0000115 obo:HMDM_0000230 "Collinsella aerofaciens hypothetical protein (COLAER_01846)")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000230 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000230 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000230 "HMDM:0000230")
+AnnotationAssertion(rdfs:label obo:HMDM_0000230 "Collinsella aerofaciens hypothetical protein (COLAER_01846)")
+SubClassOf(obo:HMDM_0000230 obo:HMDM_0000240)
+SubClassOf(obo:HMDM_0000230 ObjectSomeValuesFrom(obo:MOP_0000569 obo:CHEBI_63627))
+SubClassOf(obo:HMDM_0000230 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000142))
+
+# Class: obo:HMDM_0000231 (Collinsella aerofaciens hypothetical protein (COLAER_02348))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:31158845") obo:IAO_0000115 obo:HMDM_0000231 "Collinsella aerofaciens hypothetical protein (COLAER_02348)")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000231 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000231 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000231 "HMDM:0000231")
+AnnotationAssertion(rdfs:label obo:HMDM_0000231 "Collinsella aerofaciens hypothetical protein (COLAER_02348)")
+SubClassOf(obo:HMDM_0000231 obo:HMDM_0000270)
+SubClassOf(obo:HMDM_0000231 ObjectSomeValuesFrom(obo:MOP_0000569 obo:CHEBI_71416))
+SubClassOf(obo:HMDM_0000231 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000142))
+
+# Class: obo:HMDM_0000232 (Bacteroides dorei Oxygen-insensitive NADPH nitroreductase (BACDOR_00571))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:31158845") obo:IAO_0000115 obo:HMDM_0000232 "Bacteroides dorei Oxygen-insensitive NADPH nitroreductase (BACDOR_00571)")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000232 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000232 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000232 "HMDM:0000232")
+AnnotationAssertion(rdfs:label obo:HMDM_0000232 "Bacteroides dorei Oxygen-insensitive NADPH nitroreductase (BACDOR_00571)")
+SubClassOf(obo:HMDM_0000232 obo:HMDM_0000270)
+SubClassOf(obo:HMDM_0000232 ObjectSomeValuesFrom(obo:MOP_0000569 obo:CHEBI_63627))
+SubClassOf(obo:HMDM_0000232 ObjectSomeValuesFrom(obo:MOP_0000569 obo:CHEBI_7582))
+SubClassOf(obo:HMDM_0000232 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000142))
 
 # Class: obo:HMDM_0000233 (Bacteroides dorei sialate O-acetylesterase (BACDOR_00665))
 
@@ -766,6 +1144,24 @@ AnnotationAssertion(rdfs:label obo:HMDM_0000239 "Escherichia coli ATCC 8739 beta
 SubClassOf(obo:HMDM_0000239 obo:HMDM_0000907)
 SubClassOf(obo:HMDM_0000239 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000491))
 
+# Class: obo:HMDM_0000240 (NADH oxidase)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:10629192") Annotation(oboInOwl:hasDbXref "PMID:27737924") obo:IAO_0000115 obo:HMDM_0000240 "NADH oxidase (NOX) is a member of the flavoprotein disulfide reductase family that catalyses the pyridine-nucleotide-dependent reduction of various substrates, including O2, H2O2 and thioredoxin. NADH oxidases (NOXs) catalysing the oxidation of NADH to yield NAD+ and H2O, H2O2, or both play an important role in protecting organisms from oxidative stress and maintaining the balance of NAD+/NADH.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000240 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000240 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000240 "HMDM:0000240")
+AnnotationAssertion(rdfs:label obo:HMDM_0000240 "NADH oxidase")
+SubClassOf(obo:HMDM_0000240 obo:HMDM_0000264)
+
+# Class: obo:HMDM_0000261 (anti-parkinson agent)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:30661251") Annotation(oboInOwl:hasDbXref "PMID:35601911") obo:IAO_0000115 obo:HMDM_0000261 "Parkinson’s disease (PD) is characterized by prodromal symptoms, motor difficulties, and psychological or cognitive problems. As a progressive neurodegenerative disease, PD causes focal degeneration of midbrain dopamine (MesDA) neurons. Antiparkinson agents are agents used for treatment of Parkinson’s disease. Medications, include dopamine agonists, monoamine oxidase B inhibitors, levodopa plus carbidopa, etc., anticholinergics and amantadine. Also, new theraputic approaches include, based on recent advances in the understanding of the pathophysiology of Parkinson’s disease, genetic and disease-modifying approaches to reduce abnormal accumulation and aggregation of alpha-synuclein (aSYN), mitochondrial dysfunction, and dysfunction of lysosomal proteins, as well as approaches to reduce neuroinflammation and increase neurorestoration.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000261 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000261 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000261 "HMDM:0000261")
+AnnotationAssertion(rdfs:label obo:HMDM_0000261 "anti-parkinson agent")
+SubClassOf(obo:HMDM_0000261 obo:HMDM_0000073)
+
 # Class: obo:HMDM_0000264 (Flavoenzymes)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:10494549") obo:IAO_0000115 obo:HMDM_0000264 "Flavoenzymes are redox proteins that catalyze a wide diversity of biological reactions ranging from O2 activation, to aromatic hydroxylations, dehydrogenations, and reactions in which they can accept or donate one or two electrons.")
@@ -784,6 +1180,906 @@ AnnotationAssertion(oboInOwl:id obo:HMDM_0000265 "HMDM:0000265")
 AnnotationAssertion(rdfs:label obo:HMDM_0000265 "FMN-dependent NADH azoreductase")
 SubClassOf(obo:HMDM_0000265 obo:HMDM_0000264)
 
+# Class: obo:HMDM_0000266 (FMN-dependent NAD(P)H nitroreductase)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HMDM_0000266 "The FMN-dependent NAD(P)H nitroreductase catalyze the sequential reduction of nitro groups through the addition of electron pairs from NAD(P)H and flavin mononucleotide (FMN) .")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000266 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000266 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000266 "HMDM:0000266")
+AnnotationAssertion(rdfs:label obo:HMDM_0000266 "FMN-dependent NAD(P)H nitroreductase")
+SubClassOf(obo:HMDM_0000266 obo:HMDM_0000264)
+
+# Class: obo:HMDM_0000269 (FMN-dependent Nitroreductase)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:15184374") Annotation(oboInOwl:hasDbXref "PMID:34613761") obo:IAO_0000115 obo:HMDM_0000269 "Nitroreductases are a family of evolutionarily related proteins involved in reducing nitroaromatic and nitroheterocyclic compounds. FMN-dependent Nitroreductase uses flavin mononucleotide (FMN) as the cofactor in this reaction. FMN usually works as a prosthetic groups in flavoproteins to which they are tightly bound. Flavodoxins are small monomeric flavoproteins (15–22 kDa) that noncovalently bind a single FMN molecule, acting as a redox center. The flavodoxin scaffold contributes to the mechanism of electron transfer by stabilizing the FMN molecule in an environment that promotes the highly negative redox potential required for its biochemical activity.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000269 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000269 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000269 "HMDM:0000269")
+AnnotationAssertion(rdfs:label obo:HMDM_0000269 "FMN-dependent Nitroreductase")
+SubClassOf(obo:HMDM_0000269 obo:HMDM_0000264)
+
+# Class: obo:HMDM_0000270 (FMN-dependent NADPH nitroreductase)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:28545445") Annotation(oboInOwl:hasDbXref "PMID:34613761") obo:IAO_0000115 obo:HMDM_0000270 "Oxygen-insensitive nitroreductases are a group of flavoenzymes, belonging to oxido-reductases, that are able to reduce nitro compounds depending on nicotinamide adenine dinucleotide availability (NAD(P)H). Nitroreductases were separated of others reductases due to their capacity to reduce nitro compounds. FMN-dependent NADPH nitroreductase uses flavin mononucleotide (FMN) as the cofactor and NADPH as a reducing equivalent.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000270 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000270 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000270 "HMDM:0000270")
+AnnotationAssertion(rdfs:label obo:HMDM_0000270 "FMN-dependent NADPH nitroreductase")
+SubClassOf(obo:HMDM_0000270 obo:HMDM_0000264)
+
+# Class: obo:HMDM_0000271 (Acyltransferase)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HMDM_0000271 "Acyltransferase or transacylase utilize these activated acyl chains and transfer them to a variety of different substrates or polymerize them.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000271 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000271 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000271 "HMDM:0000271")
+AnnotationAssertion(rdfs:label obo:HMDM_0000271 "Acyltransferase")
+SubClassOf(obo:HMDM_0000271 obo:HMDM_0000012)
+
+# Class: obo:HMDM_0000272 (Arylamine N-acetyltransferases (NATs))
+
+AnnotationAssertion(obo:IAO_0000115 obo:HMDM_0000272 "Arylamine N-acetyltransferases (NATs) are polymorphic drug-metabolizing enzymes, acetylating arylamine carcinogens and drugs including hydralazine and sulphonamides.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000272 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000272 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000272 "HMDM:0000272")
+AnnotationAssertion(rdfs:label obo:HMDM_0000272 "Arylamine N-acetyltransferases (NATs)")
+SubClassOf(obo:HMDM_0000272 obo:HMDM_0000271)
+
+# Class: obo:HMDM_0000274 (sulfatase)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:15493058") obo:IAO_0000115 obo:HMDM_0000274 "Sulfatases, which cleave sulfate esters in biological systems, play a key role in regulating the sulfation states that determine the function of many physiological molecules.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000274 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000274 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000274 "HMDM:0000274")
+AnnotationAssertion(rdfs:label obo:HMDM_0000274 "sulfatase")
+SubClassOf(obo:HMDM_0000274 obo:HMDM_0000012)
+SubClassOf(obo:HMDM_0000274 obo:HMDM_0000900)
+
+# Class: obo:HMDM_0000279 (Arylsulfatase)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:27654655") obo:IAO_0000115 obo:HMDM_0000279 "Arylsulfatases are enzymes which catalyze the hydrolysis of arylsulfate ester bonds to release a free sulfonate.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000279 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000279 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000279 "HMDM:0000279")
+AnnotationAssertion(rdfs:label obo:HMDM_0000279 "Arylsulfatase")
+SubClassOf(obo:HMDM_0000279 obo:HMDM_0000274)
+
+# Class: obo:HMDM_0000280 (Bacteroides fragilis CAG:558 S1 sulfatases)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:32993284") obo:IAO_0000115 obo:HMDM_0000280 "The Bacteroides fragilis CAG:558 S1 sulfatase hydrolyzes estrone and thyroxine using Loops 2 and 3 that make up the active site of gut microbial sulfatases.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000280 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000280 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000280 "HMDM:0000280")
+AnnotationAssertion(rdfs:label obo:HMDM_0000280 "Bacteroides fragilis CAG:558 S1 sulfatases")
+SubClassOf(obo:HMDM_0000280 obo:HMDM_0000279)
+SubClassOf(obo:HMDM_0000280 obo:HMDM_0000707)
+SubClassOf(obo:HMDM_0000280 ObjectSomeValuesFrom(obo:MOP_0000619 obo:CHEBI_17263))
+SubClassOf(obo:HMDM_0000280 ObjectSomeValuesFrom(obo:MOP_0000619 obo:CHEBI_30660))
+SubClassOf(obo:HMDM_0000280 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000491))
+
+# Class: obo:HMDM_0000281 (hormones or endobiotics)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:32158429") obo:IAO_0000115 obo:HMDM_0000281 "Hormones are largely responsible for the integrated communication network responsible for modulating cellular signaling for protein synthesis. All aspects from production, release, transportation, and tissue uptake to intracellular signaling affect the cell signaling and communication that govern the basic activities of cells and coordinate all cellular actions.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000281 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000281 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000281 "HMDM:0000281")
+AnnotationAssertion(rdfs:label obo:HMDM_0000281 "hormones or endobiotics")
+SubClassOf(obo:HMDM_0000281 obo:HMDM_0000073)
+
+# Class: obo:HMDM_0000284 (Hungatella hathewayi S1 sulfatase)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:32993284") obo:IAO_0000115 obo:HMDM_0000284 "The Hungatella hathewayi S1 sulfatase uses Loops 2 and 3 to hydrolyze estrone and thyroxine.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000284 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000284 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000284 "HMDM:0000284")
+AnnotationAssertion(rdfs:label obo:HMDM_0000284 "Hungatella hathewayi S1 sulfatase")
+SubClassOf(obo:HMDM_0000284 obo:HMDM_0000279)
+SubClassOf(obo:HMDM_0000284 obo:HMDM_0000707)
+SubClassOf(obo:HMDM_0000284 ObjectSomeValuesFrom(obo:MOP_0000619 obo:CHEBI_17263))
+SubClassOf(obo:HMDM_0000284 ObjectSomeValuesFrom(obo:MOP_0000619 obo:CHEBI_30660))
+SubClassOf(obo:HMDM_0000284 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000491))
+
+# Class: obo:HMDM_0000289 (Molybdopterin biosynthesis protein A (moaA))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:29160065") obo:IAO_0000115 obo:HMDM_0000289 "R. planticola uses the moaA enzyme to catalyze reductive deglycosylation of doxorubicin to produce metabolites 7-deoxydoxorubicinol and 7-deoxydoxorubicinolone. The reaction is anaerobic.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000289 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000289 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000289 "HMDM:0000289")
+AnnotationAssertion(rdfs:label obo:HMDM_0000289 "Molybdopterin biosynthesis protein A (moaA)")
+SubClassOf(obo:HMDM_0000289 obo:HMDM_0000296)
+SubClassOf(obo:HMDM_0000289 ObjectSomeValuesFrom(obo:MOP_0001162 obo:CHEBI_28748))
+
+# Class: obo:HMDM_0000296 (S-adenosylmethionine-dependent enzymes)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:12504684") obo:IAO_0000115 obo:HMDM_0000296 "The S-adenosylmethionine-dependent methyltransferase enzymes share little sequence identity, but incorporate a highly conserved structural fold.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000296 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000296 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000296 "HMDM:0000296")
+AnnotationAssertion(rdfs:label obo:HMDM_0000296 "S-adenosylmethionine-dependent enzymes")
+SubClassOf(obo:HMDM_0000296 obo:HMDM_0000012)
+
+# Class: obo:HMDM_0000308 (Escherichia coli O103:H2 str. 12009 beta-glucuronidase (uidA))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:33411719") obo:IAO_0000115 obo:HMDM_0000308 "Beta-glucuronidase from Escherichia coli O103:H2 str. 12009 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000308 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000308 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000308 "HMDM:0000308")
+AnnotationAssertion(rdfs:label obo:HMDM_0000308 "Escherichia coli O103:H2 str. 12009 beta-glucuronidase (uidA)")
+SubClassOf(obo:HMDM_0000308 obo:HMDM_0000907)
+SubClassOf(obo:HMDM_0000308 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000491))
+
+# Class: obo:HMDM_0000314 (Escherichia coli O127:H6 str. E2348/69 beta-glucuronidase (uidA))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:33411719") obo:IAO_0000115 obo:HMDM_0000314 "Beta-glucuronidase from Escherichia coli O127:H6 str. E2348/69 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000314 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000314 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000314 "HMDM:0000314")
+AnnotationAssertion(rdfs:label obo:HMDM_0000314 "Escherichia coli O127:H6 str. E2348/69 beta-glucuronidase (uidA)")
+SubClassOf(obo:HMDM_0000314 obo:HMDM_0000907)
+SubClassOf(obo:HMDM_0000314 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000491))
+
+# Class: obo:HMDM_0000315 (Escherichia coli O111:H- str. 11128 beta-glucuronidase (uidA))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:33411719") obo:IAO_0000115 obo:HMDM_0000315 "Beta-glucuronidase from Escherichia coli O111:H- str. 11128 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000315 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000315 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000315 "HMDM:0000315")
+AnnotationAssertion(rdfs:label obo:HMDM_0000315 "Escherichia coli O111:H- str. 11128 beta-glucuronidase (uidA)")
+SubClassOf(obo:HMDM_0000315 obo:HMDM_0000907)
+SubClassOf(obo:HMDM_0000315 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000491))
+
+# Class: obo:HMDM_0000321 (Escherichia coli O26:H11 str. 11368 beta-glucuronidase (uidA))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:33411719") obo:IAO_0000115 obo:HMDM_0000321 "Beta-glucuronidase from Escherichia coli O26:H11 str. 11368 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000321 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000321 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000321 "HMDM:0000321")
+AnnotationAssertion(rdfs:label obo:HMDM_0000321 "Escherichia coli O26:H11 str. 11368 beta-glucuronidase (uidA)")
+SubClassOf(obo:HMDM_0000321 obo:HMDM_0000907)
+SubClassOf(obo:HMDM_0000321 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000491))
+
+# Class: obo:HMDM_0000323 (Escherichia coli O55:H7 str. CB9615 beta-glucuronidase (uidA))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:33411719") obo:IAO_0000115 obo:HMDM_0000323 "Beta-glucuronidase from Escherichia coli O55:H7 str. CB9615 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000323 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000323 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000323 "HMDM:0000323")
+AnnotationAssertion(rdfs:label obo:HMDM_0000323 "Escherichia coli O55:H7 str. CB9615 beta-glucuronidase (uidA)")
+SubClassOf(obo:HMDM_0000323 obo:HMDM_0000907)
+SubClassOf(obo:HMDM_0000323 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000491))
+
+# Class: obo:HMDM_0000326 (Escherichia coli CFT073 beta-glucuronidase (uidA))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:33411719") obo:IAO_0000115 obo:HMDM_0000326 "Beta-glucuronidase from Escherichia coli CFT073 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000326 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000326 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000326 "HMDM:0000326")
+AnnotationAssertion(rdfs:label obo:HMDM_0000326 "Escherichia coli CFT073 beta-glucuronidase (uidA)")
+SubClassOf(obo:HMDM_0000326 obo:HMDM_0000907)
+SubClassOf(obo:HMDM_0000326 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000491))
+
+# Class: obo:HMDM_0000330 (Escherichia coli O139:H28 str. E24377A beta-glucuronidase (uidA))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:33411719") obo:IAO_0000115 obo:HMDM_0000330 "Beta-glucuronidase from Escherichia coli O139:H28 str. E24377A breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000330 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000330 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000330 "HMDM:0000330")
+AnnotationAssertion(rdfs:label obo:HMDM_0000330 "Escherichia coli O139:H28 str. E24377A beta-glucuronidase (uidA)")
+SubClassOf(obo:HMDM_0000330 obo:HMDM_0000907)
+SubClassOf(obo:HMDM_0000330 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000491))
+
+# Class: obo:HMDM_0000334 (Escherichia coli HS beta-glucuronidase (uidA))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:33411719") obo:IAO_0000115 obo:HMDM_0000334 "Beta-glucuronidase from Escherichia coli HS breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000334 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000334 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000334 "HMDM:0000334")
+AnnotationAssertion(rdfs:label obo:HMDM_0000334 "Escherichia coli HS beta-glucuronidase (uidA)")
+SubClassOf(obo:HMDM_0000334 obo:HMDM_0000907)
+SubClassOf(obo:HMDM_0000334 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000491))
+
+# Class: obo:HMDM_0000337 (Escherichia coli 536 beta-glucuronidase (uidA))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:33411719") obo:IAO_0000115 obo:HMDM_0000337 "Beta-glucuronidase from Escherichia coli 536 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000337 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000337 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000337 "HMDM:0000337")
+AnnotationAssertion(rdfs:label obo:HMDM_0000337 "Escherichia coli 536 beta-glucuronidase (uidA)")
+SubClassOf(obo:HMDM_0000337 obo:HMDM_0000907)
+SubClassOf(obo:HMDM_0000337 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000491))
+
+# Class: obo:HMDM_0000340 (Escherichia coli UTI89 beta-glucuronidase (uidA))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:33411719") obo:IAO_0000115 obo:HMDM_0000340 "Beta-glucuronidase from Escherichia coli UTI89 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000340 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000340 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000340 "HMDM:0000340")
+AnnotationAssertion(rdfs:label obo:HMDM_0000340 "Escherichia coli UTI89 beta-glucuronidase (uidA)")
+SubClassOf(obo:HMDM_0000340 obo:HMDM_0000907)
+SubClassOf(obo:HMDM_0000340 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000491))
+
+# Class: obo:HMDM_0000342 (Escherichia coli SMS-3-5 beta-glucuronidase (uidA))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:33411719") obo:IAO_0000115 obo:HMDM_0000342 "Beta-glucuronidase from Escherichia coli SMS-3-5 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000342 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000342 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000342 "HMDM:0000342")
+AnnotationAssertion(rdfs:label obo:HMDM_0000342 "Escherichia coli SMS-3-5 beta-glucuronidase (uidA)")
+SubClassOf(obo:HMDM_0000342 obo:HMDM_0000907)
+SubClassOf(obo:HMDM_0000342 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000491))
+
+# Class: obo:HMDM_0000345 (Escherichia coli IAI1 beta-glucuronidase (uidA))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:33411719") obo:IAO_0000115 obo:HMDM_0000345 "Beta-glucuronidase from Escherichia coli IAI1 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000345 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000345 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000345 "HMDM:0000345")
+AnnotationAssertion(rdfs:label obo:HMDM_0000345 "Escherichia coli IAI1 beta-glucuronidase (uidA)")
+SubClassOf(obo:HMDM_0000345 obo:HMDM_0000907)
+SubClassOf(obo:HMDM_0000345 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000491))
+
+# Class: obo:HMDM_0000348 (Escherichia coli UMN026 beta-glucuronidase (uidA))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:33411719") obo:IAO_0000115 obo:HMDM_0000348 "Beta-glucuronidase from Escherichia coli UMN026 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000348 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000348 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000348 "HMDM:0000348")
+AnnotationAssertion(rdfs:label obo:HMDM_0000348 "Escherichia coli UMN026 beta-glucuronidase (uidA)")
+SubClassOf(obo:HMDM_0000348 obo:HMDM_0000907)
+SubClassOf(obo:HMDM_0000348 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000491))
+
+# Class: obo:HMDM_0000351 (Escherichia coli IAI39 beta-glucuronidase (uidA))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:33411719") obo:IAO_0000115 obo:HMDM_0000351 "Beta-glucuronidase from Escherichia coli IAI39 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000351 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000351 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000351 "HMDM:0000351")
+AnnotationAssertion(rdfs:label obo:HMDM_0000351 "Escherichia coli IAI39 beta-glucuronidase (uidA)")
+SubClassOf(obo:HMDM_0000351 obo:HMDM_0000907)
+SubClassOf(obo:HMDM_0000351 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000491))
+
+# Class: obo:HMDM_0000354 (Escherichia coli ED1a beta-glucuronidase (uidA))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:33411719") obo:IAO_0000115 obo:HMDM_0000354 "Beta-glucuronidase from Escherichia coli ED1a breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000354 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000354 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000354 "HMDM:0000354")
+AnnotationAssertion(rdfs:label obo:HMDM_0000354 "Escherichia coli ED1a beta-glucuronidase (uidA)")
+SubClassOf(obo:HMDM_0000354 obo:HMDM_0000907)
+SubClassOf(obo:HMDM_0000354 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000491))
+
+# Class: obo:HMDM_0000357 (Escherichia coli B str. REL606 beta-glucuronidase (uidA))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:33411719") obo:IAO_0000115 obo:HMDM_0000357 "Beta-glucuronidase from Escherichia coli B str. REL606 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000357 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000357 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000357 "HMDM:0000357")
+AnnotationAssertion(rdfs:label obo:HMDM_0000357 "Escherichia coli B str. REL606 beta-glucuronidase (uidA)")
+SubClassOf(obo:HMDM_0000357 obo:HMDM_0000907)
+SubClassOf(obo:HMDM_0000357 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000491))
+
+# Class: obo:HMDM_0000360 (Salmonella enterica subsp. enterica serovar Schwarzengrund str. CVM19633 beta-glucuronidase (uidA))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:33411719") obo:IAO_0000115 obo:HMDM_0000360 "Beta-glucuronidase from Salmonella enterica subsp. enterica serovar Schwarzengrund str. CVM19633 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000360 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000360 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000360 "HMDM:0000360")
+AnnotationAssertion(rdfs:label obo:HMDM_0000360 "Salmonella enterica subsp. enterica serovar Schwarzengrund str. CVM19633 beta-glucuronidase (uidA)")
+SubClassOf(obo:HMDM_0000360 obo:HMDM_0000907)
+SubClassOf(obo:HMDM_0000360 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000491))
+
+# Class: obo:HMDM_0000364 (Shigella flexneri 5 str. 8401 beta-glucuronidase (uidA))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:33411719") obo:IAO_0000115 obo:HMDM_0000364 "Beta-glucuronidase from Shigella flexneri 5 str. 8401 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000364 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000364 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000364 "HMDM:0000364")
+AnnotationAssertion(rdfs:label obo:HMDM_0000364 "Shigella flexneri 5 str. 8401 beta-glucuronidase (uidA)")
+SubClassOf(obo:HMDM_0000364 obo:HMDM_0000907)
+SubClassOf(obo:HMDM_0000364 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000491))
+
+# Class: obo:HMDM_0000368 (Shigella flexneri 2a str. 301 beta-glucuronidase (uidA))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:33411719") obo:IAO_0000115 obo:HMDM_0000368 "Beta-glucuronidase from Shigella flexneri 2a str. 301 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000368 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000368 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000368 "HMDM:0000368")
+AnnotationAssertion(rdfs:label obo:HMDM_0000368 "Shigella flexneri 2a str. 301 beta-glucuronidase (uidA)")
+SubClassOf(obo:HMDM_0000368 obo:HMDM_0000907)
+SubClassOf(obo:HMDM_0000368 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000491))
+
+# Class: obo:HMDM_0000371 (Shigella flexneri 2a str. 2457T beta-glucuronidase (uidA))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:33411719") obo:IAO_0000115 obo:HMDM_0000371 "Beta-glucuronidase from Shigella flexneri 2a str. 2457T  breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000371 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000371 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000371 "HMDM:0000371")
+AnnotationAssertion(rdfs:label obo:HMDM_0000371 "Shigella flexneri 2a str. 2457T beta-glucuronidase (uidA)")
+SubClassOf(obo:HMDM_0000371 obo:HMDM_0000907)
+SubClassOf(obo:HMDM_0000371 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000491))
+
+# Class: obo:HMDM_0000374 (Shigella boydii CDC 3083-94 beta-glucuronidase (uidA))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:33411719") obo:IAO_0000115 obo:HMDM_0000374 "Beta-glucuronidase from Shigella boydii CDC 3083-94breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000374 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000374 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000374 "HMDM:0000374")
+AnnotationAssertion(rdfs:label obo:HMDM_0000374 "Shigella boydii CDC 3083-94 beta-glucuronidase (uidA)")
+SubClassOf(obo:HMDM_0000374 obo:HMDM_0000907)
+SubClassOf(obo:HMDM_0000374 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000491))
+
+# Class: obo:HMDM_0000378 (Edwardsiella tarda EIB202 beta-glucuronidase (uidA))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:33411719") obo:IAO_0000115 obo:HMDM_0000378 "Beta-glucuronidase from Edwardsiella tarda EIB202 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000378 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000378 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000378 "HMDM:0000378")
+AnnotationAssertion(rdfs:label obo:HMDM_0000378 "Edwardsiella tarda EIB202 beta-glucuronidase (uidA)")
+SubClassOf(obo:HMDM_0000378 obo:HMDM_0000907)
+SubClassOf(obo:HMDM_0000378 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000491))
+
+# Class: obo:HMDM_0000382 (Edwardsiella ictaluri 93-146 beta-glucuronidase (uidA))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:33411719") obo:IAO_0000115 obo:HMDM_0000382 "Beta-glucuronidase from Edwardsiella ictaluri 93-146 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000382 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000382 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000382 "HMDM:0000382")
+AnnotationAssertion(rdfs:label obo:HMDM_0000382 "Edwardsiella ictaluri 93-146 beta-glucuronidase (uidA)")
+SubClassOf(obo:HMDM_0000382 obo:HMDM_0000907)
+SubClassOf(obo:HMDM_0000382 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000491))
+
+# Class: obo:HMDM_0000386 (Staphylococcus haemolyticus JCSC1435 beta-glucuronidase (uidA))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:33411719") obo:IAO_0000115 obo:HMDM_0000386 "Beta-glucuronidase from Staphylococcus haemolyticus JCSC1435 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000386 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000386 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000386 "HMDM:0000386")
+AnnotationAssertion(rdfs:label obo:HMDM_0000386 "Staphylococcus haemolyticus JCSC1435 beta-glucuronidase (uidA)")
+SubClassOf(obo:HMDM_0000386 obo:HMDM_0000907)
+SubClassOf(obo:HMDM_0000386 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000491))
+
+# Class: obo:HMDM_0000390 (Streptococcus suis P1/7 beta-glucuronidase (uidA))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:33411719") obo:IAO_0000115 obo:HMDM_0000390 "Beta-glucuronidase from Streptococcus suis P1/7 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000390 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000390 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000390 "HMDM:0000390")
+AnnotationAssertion(rdfs:label obo:HMDM_0000390 "Streptococcus suis P1/7 beta-glucuronidase (uidA)")
+SubClassOf(obo:HMDM_0000390 obo:HMDM_0000913)
+SubClassOf(obo:HMDM_0000390 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000491))
+
+# Class: obo:HMDM_0000394 (Streptococcus pneumoniae 70585 beta-glucuronidase (uidA))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:33411719") obo:IAO_0000115 obo:HMDM_0000394 "Beta-glucuronidase from Streptococcus pneumoniae 70585 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000394 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000394 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000394 "HMDM:0000394")
+AnnotationAssertion(rdfs:label obo:HMDM_0000394 "Streptococcus pneumoniae 70585 beta-glucuronidase (uidA)")
+SubClassOf(obo:HMDM_0000394 obo:HMDM_0000913)
+SubClassOf(obo:HMDM_0000394 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000491))
+
+# Class: obo:HMDM_0000398 (Streptococcus equi subsp. zooepidemicus beta-glucuronidase (uidA))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:33411719") obo:IAO_0000115 obo:HMDM_0000398 "Beta-glucuronidase from Streptococcus equi subsp. zooepidemicus breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000398 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000398 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000398 "HMDM:0000398")
+AnnotationAssertion(rdfs:label obo:HMDM_0000398 "Streptococcus equi subsp. zooepidemicus beta-glucuronidase (uidA)")
+SubClassOf(obo:HMDM_0000398 obo:HMDM_0000913)
+SubClassOf(obo:HMDM_0000398 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000491))
+
+# Class: obo:HMDM_0000402 (Streptococcus uberis 0140J beta-glucuronidase (uidA))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:33411719") obo:IAO_0000115 obo:HMDM_0000402 "Beta-glucuronidase from Streptococcus uberis 0140J breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000402 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000402 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000402 "HMDM:0000402")
+AnnotationAssertion(rdfs:label obo:HMDM_0000402 "Streptococcus uberis 0140J beta-glucuronidase (uidA)")
+SubClassOf(obo:HMDM_0000402 obo:HMDM_0000913)
+SubClassOf(obo:HMDM_0000402 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000491))
+
+# Class: obo:HMDM_0000406 (Streptococcus equi subsp. zooepidemicus MGCS10565 beta-glucuronidase (uidA))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:33411719") obo:IAO_0000115 obo:HMDM_0000406 "Beta-glucuronidase from Streptococcus equi subsp. zooepidemicus MGCS10565 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000406 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000406 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000406 "HMDM:0000406")
+AnnotationAssertion(rdfs:label obo:HMDM_0000406 "Streptococcus equi subsp. zooepidemicus MGCS10565 beta-glucuronidase (uidA)")
+SubClassOf(obo:HMDM_0000406 obo:HMDM_0000913)
+SubClassOf(obo:HMDM_0000406 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000491))
+
+# Class: obo:HMDM_0000409 (Streptococcus dysgalactiae subsp. equisimilis GGS_124 beta-glucuronidase (uidA))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:33411719") obo:IAO_0000115 obo:HMDM_0000409 "Beta-glucuronidase from Streptococcus dysgalactiae subsp. equisimilis GGS_124 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000409 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000409 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000409 "HMDM:0000409")
+AnnotationAssertion(rdfs:label obo:HMDM_0000409 "Streptococcus dysgalactiae subsp. equisimilis GGS_124 beta-glucuronidase (uidA)")
+SubClassOf(obo:HMDM_0000409 obo:HMDM_0000913)
+SubClassOf(obo:HMDM_0000409 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000491))
+
+# Class: obo:HMDM_0000413 (Streptococcus equi subsp. equi 4047 beta-glucuronidase (uidA))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:33411719") obo:IAO_0000115 obo:HMDM_0000413 "Beta-glucuronidase from Streptococcus equi subsp. equi 4047 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000413 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000413 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000413 "HMDM:0000413")
+AnnotationAssertion(rdfs:label obo:HMDM_0000413 "Streptococcus equi subsp. equi 4047 beta-glucuronidase (uidA)")
+SubClassOf(obo:HMDM_0000413 obo:HMDM_0000913)
+SubClassOf(obo:HMDM_0000413 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000491))
+
+# Class: obo:HMDM_0000416 (Streptococcus pyogenes MGAS10270 beta-glucuronidase (uidA))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:33411719") obo:IAO_0000115 obo:HMDM_0000416 "Beta-glucuronidase from Streptococcus pyogenes MGAS10270 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000416 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000416 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000416 "HMDM:0000416")
+AnnotationAssertion(rdfs:label obo:HMDM_0000416 "Streptococcus pyogenes MGAS10270 beta-glucuronidase (uidA)")
+SubClassOf(obo:HMDM_0000416 obo:HMDM_0000913)
+SubClassOf(obo:HMDM_0000416 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000491))
+
+# Class: obo:HMDM_0000420 (Streptococcus agalactiae A909 beta-glucuronidase (uidA))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:33411719") obo:IAO_0000115 obo:HMDM_0000420 "Beta-glucuronidase from Streptococcus agalactiae A909 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000420 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000420 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000420 "HMDM:0000420")
+AnnotationAssertion(rdfs:label obo:HMDM_0000420 "Streptococcus agalactiae A909 beta-glucuronidase (uidA)")
+SubClassOf(obo:HMDM_0000420 obo:HMDM_0000913)
+SubClassOf(obo:HMDM_0000420 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000491))
+
+# Class: obo:HMDM_0000424 (Streptococcus agalactiae 2603V/R beta-glucuronidase (uidA))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:33411719") obo:IAO_0000115 obo:HMDM_0000424 "Beta-glucuronidase from Streptococcus agalactiae 2603V/R breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000424 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000424 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000424 "HMDM:0000424")
+AnnotationAssertion(rdfs:label obo:HMDM_0000424 "Streptococcus agalactiae 2603V/R beta-glucuronidase (uidA)")
+SubClassOf(obo:HMDM_0000424 obo:HMDM_0000913)
+SubClassOf(obo:HMDM_0000424 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000491))
+
+# Class: obo:HMDM_0000428 (Streptococcus agalactiae NEM316 beta-glucuronidase (uidA))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:33411719") obo:IAO_0000115 obo:HMDM_0000428 "Beta-glucuronidase from Streptococcus agalactiae NEM316 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000428 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000428 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000428 "HMDM:0000428")
+AnnotationAssertion(rdfs:label obo:HMDM_0000428 "Streptococcus agalactiae NEM316 beta-glucuronidase (uidA)")
+SubClassOf(obo:HMDM_0000428 obo:HMDM_0000913)
+SubClassOf(obo:HMDM_0000428 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000491))
+
+# Class: obo:HMDM_0000431 (Clostridium perfringens str. 13 beta-glucuronidase (uidA))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:33411719") obo:IAO_0000115 obo:HMDM_0000431 "Beta-glucuronidase from Clostridium perfringens str. 13 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000431 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000431 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000431 "HMDM:0000431")
+AnnotationAssertion(rdfs:label obo:HMDM_0000431 "Clostridium perfringens str. 13 beta-glucuronidase (uidA)")
+SubClassOf(obo:HMDM_0000431 obo:HMDM_0000907)
+SubClassOf(obo:HMDM_0000431 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000491))
+
+# Class: obo:HMDM_0000435 (Levilactobacillus brevis ATCC 367 beta-glucuronidase (uidA))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:33411719") obo:IAO_0000115 obo:HMDM_0000435 "Beta-glucuronidase from Levilactobacillus brevis ATCC 367 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000435 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000435 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000435 "HMDM:0000435")
+AnnotationAssertion(rdfs:label obo:HMDM_0000435 "Levilactobacillus brevis ATCC 367 beta-glucuronidase (uidA)")
+SubClassOf(obo:HMDM_0000435 obo:HMDM_0000907)
+SubClassOf(obo:HMDM_0000435 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000491))
+
+# Class: obo:HMDM_0000439 (Propionibacterium acnes KPA171202 beta-glucuronidase (uidA))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:33411719") obo:IAO_0000115 obo:HMDM_0000439 "Beta-glucuronidase from Propionibacterium acnes KPA171202 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000439 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000439 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000439 "HMDM:0000439")
+AnnotationAssertion(rdfs:label obo:HMDM_0000439 "Propionibacterium acnes KPA171202 beta-glucuronidase (uidA)")
+SubClassOf(obo:HMDM_0000439 obo:HMDM_0000049)
+SubClassOf(obo:HMDM_0000439 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000491))
+
+# Class: obo:HMDM_0000443 (Tolumonas auensis DSM 9187 beta-glucuronidase (uidA))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:33411719") obo:IAO_0000115 obo:HMDM_0000443 "Beta-glucuronidase from Tolumonas auensis DSM 9187 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000443 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000443 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000443 "HMDM:0000443")
+AnnotationAssertion(rdfs:label obo:HMDM_0000443 "Tolumonas auensis DSM 9187 beta-glucuronidase (uidA)")
+SubClassOf(obo:HMDM_0000443 obo:HMDM_0000907)
+SubClassOf(obo:HMDM_0000443 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000491))
+
+# Class: obo:HMDM_0000447 (Haemophilus somnus 129PT beta-glucuronidase (uidA))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:33411719") obo:IAO_0000115 obo:HMDM_0000447 "Beta-glucuronidase from Haemophilus somnus 129PT breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000447 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000447 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000447 "HMDM:0000447")
+AnnotationAssertion(rdfs:label obo:HMDM_0000447 "Haemophilus somnus 129PT beta-glucuronidase (uidA)")
+SubClassOf(obo:HMDM_0000447 obo:HMDM_0000913)
+SubClassOf(obo:HMDM_0000447 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000491))
+
+# Class: obo:HMDM_0000451 (Haemophilus somnus 2336 beta-glucuronidase (uidA))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:33411719") obo:IAO_0000115 obo:HMDM_0000451 "Beta-glucuronidase from Haemophilus somnus 2336 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000451 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000451 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000451 "HMDM:0000451")
+AnnotationAssertion(rdfs:label obo:HMDM_0000451 "Haemophilus somnus 2336 beta-glucuronidase (uidA)")
+SubClassOf(obo:HMDM_0000451 obo:HMDM_0000913)
+SubClassOf(obo:HMDM_0000451 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000491))
+
+# Class: obo:HMDM_0000454 (Eggerthella sp. YY7918 daidzein reductase (dznr))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:29699942") obo:IAO_0000115 obo:HMDM_0000454 "The Eggerthella sp. YY7918 daidzein reductase (dznr), encoded by eqlA, catalyzes the reduction of daidzein to dihydrodaidzein (the first step of equol synthesis).")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000454 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000454 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000454 "HMDM:0000454")
+AnnotationAssertion(rdfs:label obo:HMDM_0000454 "Eggerthella sp. YY7918 daidzein reductase (dznr)")
+SubClassOf(obo:HMDM_0000454 obo:HMDM_0000501)
+SubClassOf(obo:HMDM_0000454 ObjectSomeValuesFrom(obo:MOP_0000569 obo:CHEBI_28197))
+SubClassOf(obo:HMDM_0000454 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000142))
+
+# Class: obo:HMDM_0000458 (Eggerthella sp. YY7918 dihydrodaidzein reductase (dhdr))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:29699942") obo:IAO_0000115 obo:HMDM_0000458 "The Eggerthella sp. YY7918 dihydrodaidzein reductase (dhdr), encoded by eqlB, performs the second step in the conversion of daidzein to equol.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000458 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000458 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000458 "HMDM:0000458")
+AnnotationAssertion(rdfs:label obo:HMDM_0000458 "Eggerthella sp. YY7918 dihydrodaidzein reductase (dhdr)")
+SubClassOf(obo:HMDM_0000458 obo:HMDM_0000501)
+SubClassOf(obo:HMDM_0000458 ObjectSomeValuesFrom(obo:MOP_0000569 obo:CHEBI_28197))
+SubClassOf(obo:HMDM_0000458 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000142))
+
+# Class: obo:HMDM_0000460 (Eggerthella sp. YY7918 tetrahydrodaidzein reductase (thdr))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:29699942") obo:IAO_0000115 obo:HMDM_0000460 "The Eggerthella sp. YY7918 tetrahydrodaidzein reductase (thdr), encoded by eqlC, performs the last step the conversion of daidzein to equol. In addition, the enzyme catalyzing the third step (THDR) uses tetrahydrodaidzein as a substrate and produces both equol and dihydrodaidzein in the absence of the reducing coenzyme, NAD(P)H.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000460 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000460 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000460 "HMDM:0000460")
+AnnotationAssertion(rdfs:label obo:HMDM_0000460 "Eggerthella sp. YY7918 tetrahydrodaidzein reductase (thdr)")
+SubClassOf(obo:HMDM_0000460 obo:HMDM_0000501)
+SubClassOf(obo:HMDM_0000460 ObjectSomeValuesFrom(obo:MOP_0000569 obo:CHEBI_28197))
+SubClassOf(obo:HMDM_0000460 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000142))
+
+# Class: obo:HMDM_0000462 (Bacteroides thetaiotaomicron VPI-5482 purine nucleoside phosphorylase II)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:34260950") obo:IAO_0000115 obo:HMDM_0000462 "Bacteroides thetaiotaomicron VPI-5482 purine nucleoside phosphorylase II cleaves the tetrahydrofuran ring of Brivudine.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000462 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000462 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000462 "HMDM:0000462")
+AnnotationAssertion(rdfs:label obo:HMDM_0000462 "Bacteroides thetaiotaomicron VPI-5482 purine nucleoside phosphorylase II")
+SubClassOf(obo:HMDM_0000462 obo:HMDM_0000496)
+SubClassOf(obo:HMDM_0000462 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000495))
+SubClassOf(obo:HMDM_0000462 ObjectSomeValuesFrom(obo:RO_0002447 obo:HMDM_0000466))
+
+# Class: obo:HMDM_0000466 (Brivudine)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HMDM_0000466 "Brivudine is an antiviral drug used to treat herpes zoster.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000466 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000466 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000466 "HMDM:0000466")
+AnnotationAssertion(rdfs:label obo:HMDM_0000466 "Brivudine")
+SubClassOf(obo:HMDM_0000466 obo:HMDM_0000002)
+SubClassOf(obo:HMDM_0000466 obo:HMDM_0000005)
+
+# Class: obo:HMDM_0000467 (Bifidobacterium adolescentis strain L2-32 20beta-Hydroxysteroid Dehydrogenase)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:31209107") Annotation(oboInOwl:hasDbXref "PMID:34260950") obo:IAO_0000115 obo:HMDM_0000467 "Bacterial 20beta-hydroxysteroid dehydrogenase (20beta-HSDH) is a NADH-dependent oxidoreductase belonging to the SDR family and is expressed by some strains of B. adolescentis and it regulates cortisol side-chain cleavage by reducing the C-20 carboxyl group on cortisol, yielding 20beta-dihydrocortisol.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000467 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000467 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000467 "HMDM:0000467")
+AnnotationAssertion(rdfs:label obo:HMDM_0000467 "Bifidobacterium adolescentis strain L2-32 20beta-Hydroxysteroid Dehydrogenase")
+SubClassOf(obo:HMDM_0000467 obo:HMDM_0000497)
+SubClassOf(obo:HMDM_0000467 ObjectSomeValuesFrom(obo:MOP_0001030 obo:CHEBI_17650))
+SubClassOf(obo:HMDM_0000467 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000153))
+
+# Class: obo:HMDM_0000473 (Streptomyces phaeochromogenes NADH dehydrogenase)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:23102220") obo:IAO_0000115 obo:HMDM_0000473 "Streptomyces phaeochromogenes NADH dehydrogenase is involved in the deglycosylation of doxorubicin, generating the aglycone 7-deoxydoxorubicinolone.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000473 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000473 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000473 "HMDM:0000473")
+AnnotationAssertion(rdfs:label obo:HMDM_0000473 "Streptomyces phaeochromogenes NADH dehydrogenase")
+SubClassOf(obo:HMDM_0000473 obo:HMDM_0000499)
+SubClassOf(obo:HMDM_0000473 ObjectSomeValuesFrom(obo:MOP_0001162 obo:CHEBI_28748))
+SubClassOf(obo:HMDM_0000473 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000126))
+
+# Class: obo:HMDM_0000482 (benzothiazepine derivative)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HMDM_0000482 "The benzothiazepine derivatives are calcium channel blockers.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000482 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000482 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000482 "HMDM:0000482")
+AnnotationAssertion(rdfs:label obo:HMDM_0000482 "benzothiazepine derivative")
+SubClassOf(obo:HMDM_0000482 obo:HMDM_0000073)
+
+# Class: obo:HMDM_0000486 (hypertension)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HMDM_0000486 "Hypertension or high blood pressure is a chronic condition when the blood flows at a very high rate.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000486 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000486 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000486 "HMDM:0000486")
+AnnotationAssertion(rdfs:label obo:HMDM_0000486 "hypertension")
+SubClassOf(obo:HMDM_0000486 obo:DOID_4)
+
+# Class: obo:HMDM_0000487 (angina pectoris)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HMDM_0000487 "Angina pectoris are chest pain due to less blood flow to the chest area.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000487 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000487 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000487 "HMDM:0000487")
+AnnotationAssertion(rdfs:label obo:HMDM_0000487 "angina pectoris")
+SubClassOf(obo:HMDM_0000487 obo:DOID_4)
+
+# Class: obo:HMDM_0000488 (clinical use)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HMDM_0000488 "This describes how the agents are used to treat disease.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000488 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000488 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000488 "HMDM:0000488")
+AnnotationAssertion(rdfs:label obo:HMDM_0000488 "clinical use")
+SubClassOf(obo:HMDM_0000488 obo:HMDM_0000008)
+
+# Class: obo:HMDM_0000489 (cardiovascular system)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HMDM_0000489 "Agents used on the cardiovascular system.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000489 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000489 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000489 "HMDM:0000489")
+AnnotationAssertion(rdfs:label obo:HMDM_0000489 "cardiovascular system")
+SubClassOf(obo:HMDM_0000489 obo:HMDM_0000488)
+
+# Class: obo:HMDM_0000490 (calcium channel blockers)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:21896151") Annotation(oboInOwl:hasDbXref "PMID:8680353") obo:IAO_0000115 obo:HMDM_0000490 "Calcium ions are essential for the chain of events that leads to myocardial contraction. Its role in the cardiac cycle has been studied extensively for years. Calcium is thought to be effective in slow channels. Calcium channel blockers (CCBs) inhibit the flow of extracellular calcium through ion‐specific channels that span the cell wall. When inward calcium flux is inhibited, vascular smooth muscle cells relax, resulting in vasodilation and a lowering of blood pressure (BP).")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000490 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000490 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000490 "HMDM:0000490")
+AnnotationAssertion(rdfs:label obo:HMDM_0000490 "calcium channel blockers")
+SubClassOf(obo:HMDM_0000490 obo:HMDM_0000073)
+SubClassOf(obo:HMDM_0000490 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000489))
+
+# Class: obo:HMDM_0000491 (hydrolysis of a molecule)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HMDM_0000491 "Hydrolysis is any chemical reaction in which a molecule of water breaks one or more chemical bonds.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000491 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000491 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000491 "HMDM:0000491")
+AnnotationAssertion(rdfs:label obo:HMDM_0000491 "hydrolysis of a molecule")
+SubClassOf(obo:HMDM_0000491 obo:HMDM_0000015)
+
+# Class: obo:HMDM_0000493 (Glycoside hydrolase family 2)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:26090361") obo:IAO_0000115 obo:HMDM_0000493 "Glycoside hydrolases (GHs) (EC 3.2.1.X) hydrolyze glycosidic bonds between carbohydrates or between carbohydrate and non-carbohydrate components, for instance alcohols or phenols. To date, enzyme classification is based on amino acid similarities rather than substrate specificity. GHs are assigned to different groups based on conserved domains, and the families are numbered from 1 to 131 that are listed in the Carbohydrate-Active Enzymes Database. Glycoside hydrolases classified as GH2 were described to function as beta-galactosidase (EC 3.2.1.23) ; beta-mannosidase (EC 3.2.1.25); beta-glucuronidase (EC 3.2.1.31); alpha-L-arabinofuranosidase (EC 3.2.1.55); mannosylglycoprotein endo-beta-mannosidase (EC 3.2.1.152); exo-beta-glucosaminidase (EC 3.2.1.165); alpha-L-arabinopyranosidase (EC 3.2.1.-); beta-galacturonidase (EC 3.2.1.-); beta-xylosidase (EC 3.2.1.37); beta-D-galactofuranosidase (EC 3.2.1.146); beta-glucosidase (EC 3.2.1.21); beta-galacturonidase RGII specific (EC 3.2.1.-); glycyrrhizin beta-glucuronidase (EC 3.2.1.128). These enzymes hydrolyze their substrates through a retaining acid/base mechanism with two glutamic acid/glutamate residues involved. One residue acts as acid and base catalyst, whereas the other residue serves as nucleophile.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000493 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000493 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000493 "HMDM:0000493")
+AnnotationAssertion(rdfs:label obo:HMDM_0000493 "Glycoside hydrolase family 2")
+SubClassOf(obo:HMDM_0000493 obo:HMDM_0000012)
+
+# Class: obo:HMDM_0000494 (Endoglucanase E precursor (EGE))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:1366808") Annotation(oboInOwl:hasDbXref "PMID:29856054") obo:IAO_0000115 obo:HMDM_0000494 "There are many subtypes of endoglucanases (e.g., endoglucanase I, II) each with its own molecular topology with some organisms capable of producing several different subtypes of endoglucanases. As a whole these endoglucanases are grouped into glycoside hydrolase families (glycoside hydrolase 5, 6, etc.). Endoglucanases vary in their substrate specificity being able to cleave differing glycosidic bonds (beta-1-4, beta-1-6, etc.).The Endoglucanase E (EGE) enzyme has a wide substrate specificity and cleaves beta1,4- and beta1,3- glycosidic linkages in addition to exhibiting activity on beta1,4- xylosidic bonds. The primary structure of EGE also has several unusual and notable features. BAL31 studies revealed that 300 C-terminal residues including those of the conserved region can be deleted from the enzyme without loss of catalytic activity. An endoglucanase E precursor would be a physiologically inactive substance that could at one point through a process be converted into endoglucanase E precursor.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000494 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000494 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000494 "HMDM:0000494")
+AnnotationAssertion(rdfs:label obo:HMDM_0000494 "Endoglucanase E precursor (EGE)")
+SubClassOf(obo:HMDM_0000494 obo:HMDM_0000012)
+
+# Class: obo:HMDM_0000495 (phosphorylation of a molecule)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HMDM_0000495 "Enzymatic phosphorylation of a molecule")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000495 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000495 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000495 "HMDM:0000495")
+AnnotationAssertion(rdfs:label obo:HMDM_0000495 "phosphorylation of a molecule")
+SubClassOf(obo:HMDM_0000495 obo:HMDM_0000015)
+
+# Class: obo:HMDM_0000496 (Purine nucleoside phosphorylase)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:15808857") Annotation(oboInOwl:hasDbXref "PMID:19248622") obo:IAO_0000115 obo:HMDM_0000496 "Purine nucleoside phosphorylases (PNPs, E. C. 2.4.2.1) use orthophosphate to cleave the N-glycosidic bond of beta-(deoxy)ribonucleosides to yield alpha-(deoxy)ribose 1-phosphate and the free purine base. Purine nucleoside phosphorylase (PNP) catalyzes a reversible phosphorolysis of purine deoxy- and ribonucleosides with formation of (d)Rib-1-P and appropriate bases. PNP plays a leading role in the cell metabolism of nucleosides and nucleotides, as well as in maintaining the immune status of an organism. The major purpose of the majority of studies on the PNP is the detection of high-performance enzyme inhibitors, derivatives of the purine nucleosides, which are used in medicine as immunosuppressors.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000496 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000496 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000496 "HMDM:0000496")
+AnnotationAssertion(rdfs:label obo:HMDM_0000496 "Purine nucleoside phosphorylase")
+SubClassOf(obo:HMDM_0000496 obo:HMDM_0000012)
+
+# Class: obo:HMDM_0000497 (20beta-Hydroxysteroid Dehydrogenase)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:31209107") obo:IAO_0000115 obo:HMDM_0000497 "The bacterial steroid-17,20-desmolase pathway cleaves the cortisol side chain, forming pro-androgens predicted to impact host physiology. Bacterial 20beta-hydroxysteroid dehydrogenase (20beta-HSDH) regulates cortisol side-chain cleavage by reducing the C-20 carboxyl group on cortisol, yielding 20beta-dihydrocortisol.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000497 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000497 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000497 "HMDM:0000497")
+AnnotationAssertion(rdfs:label obo:HMDM_0000497 "20beta-Hydroxysteroid Dehydrogenase")
+SubClassOf(obo:HMDM_0000497 obo:HMDM_0000012)
+
+# Class: obo:HMDM_0000499 (NADH dehydrogenase)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:32245760") Annotation(oboInOwl:hasDbXref "PMID:32769219") obo:IAO_0000115 obo:HMDM_0000499 "Non-proton pumping type II NADH dehydrogenase (NDH-2) plays a central role in the respiratory metabolism of bacteria, and in the mitochondria of fungi, plants and protists. The lack of NDH-2 in mammalian mitochondria and its essentiality in important bacterial pathogens suggests these enzymes may represent a potential new drug target to combat microbial pathogens. NADH dehydrogenases ensures adequate oxidation of NADH to NAD+. Most species possess one to two isozymes of the non-proton-translocating type 2 dehydrogenase (Ndh), also termed alternative NADH dehydrogenase. While complex I is deeply integrated into the inner membrane, alternative NADH dehydrogenases are not membrane-embedded, but rather associated to the membrane surface, either on the IMS side (external NADH dehydrogenases) or the matrix side (internal NADH dehydrogenases). Unlike complex I, alternative NADH dehydrogenase lack flavin mononucleotide (FMN) and iron-sulfur clusters as reactive groups. Instead, they contain a flavin adenine dinucleotide (FAD) cofactor to mediate the electron transfer from NAD(P)H to ubiquinone. Alternative NADH dehydrogenase can serve as important valves on the respiratory chain when oxygen tensions suddenly rise. NADH dehydrogenases also serve as as ‘apoptosis inducing factors’ in a poorly understood process that involves the formation of a toxic protein fragment on the outside or inside of the mitochondrial outer membrane and in animals but not in yeast, AIFM1 serves as biogenesis factor for MIA40 and thus, indirectly, for many IMS proteins.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000499 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000499 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000499 "HMDM:0000499")
+AnnotationAssertion(rdfs:label obo:HMDM_0000499 "NADH dehydrogenase")
+SubClassOf(obo:HMDM_0000499 obo:HMDM_0000012)
+
+# Class: obo:HMDM_0000501 (Dihydrodaidzein reductase)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:26801575") Annotation(oboInOwl:hasDbXref "PMID:27508112") obo:IAO_0000115 obo:HMDM_0000501 "Dihydrodaidzein reductase (DHDR), is a novel enzyme that belongs to the short-chain dehydrogenase/reductase (SDR) family, and it has a unique catalytic tetrad pattern (Asn, Ser, and HXXXK) that is somewhat different from that of general SDR enzymes (Asn, Ser, and YXXXK), while the alignment of the amino acid sequences of the NAD(P)H binding site is conserved. DHDR requires NADPH as a cofactor but not NADH, possibly explained by the presence of the arginine (R64) residue. In the case of DHDR from S. isoflavoniconvertens, the tyrosine of most of the known SDR family enzymes seems to be replaced with histidine, for which imidazole ring (de)protonation would be engaged in substrate reduction or oxidation. DHDR is involved in the reduction of (S)- and (R)-dihydrodaidzein, (S)- and (R)-DHD,  to trans- and cis-tetrahydrodaidzein (trans- and cis-THD), respectively.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000501 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000501 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000501 "HMDM:0000501")
+AnnotationAssertion(rdfs:label obo:HMDM_0000501 "Dihydrodaidzein reductase")
+SubClassOf(obo:HMDM_0000501 obo:HMDM_0000012)
+
+# Class: obo:HMDM_0000503 (Lysophospholipase L1 and related esterase)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:12842470") Annotation(oboInOwl:hasDbXref "PMID:4871199") obo:IAO_0000115 obo:HMDM_0000503 "Escherichia coli thioesterase I (TAP) is a versatile enzyme possessing activities of thioesterase, esterase, arylesterase, protease, and lysophospholipase. It has been documented with three different names, including thioesterase I, protease I and lysophospholipase L1, which are responsible for the degradation of thioester, amide, and ester bonds. E. coli thioesterase I, first identified by Barnes & Wakil, was cloned in 1993 and shown to catalyze hydrolytic cleavage of acyl-CoA thioesters. At the same time, protease I, named for its hydrolytic activity toward N-acetyl-dl-phenylalanine-2-naphthyl ester, was also cloned and characterized. Lysophospholipase L1, which catalyzes the hydrolysis of 1-acyl group of lysophospholipid was purified and its DNA sequence deduced in 1999. Recent studies showed that the gene sequences of E. coli thioesterase I (tesA), protease I (apeA) and lysophospholipase L1 (pldC) were identical and located at the same genomic position. Also, substrate competition assays showed that thioesterase I and protease I utilize the same active site, and all of them were identified as periplasmic proteins. The most plausible physiological role of TAP is that of lysophospholipase L1, since TAP shows specificity towards lysophospholipids and its activity on 1-acyl lysophosphatidylcholine follows typical Michaelis–Menten kinetics. TAP has stereoselectivity for amino acid derivative substrates, hence it is useful for the kinetic resolution of racemic mixtures of industrial chemicals.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000503 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000503 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000503 "HMDM:0000503")
+AnnotationAssertion(rdfs:label obo:HMDM_0000503 "Lysophospholipase L1 and related esterase")
+SubClassOf(obo:HMDM_0000503 obo:HMDM_0000012)
+
+# Class: obo:HMDM_0000707 (Alpha/beta hydrolase superfamily)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:1409539") Annotation(oboInOwl:hasDbXref "PMID:21506229") obo:IAO_0000115 obo:HMDM_0000707 "The core of each enzyme is similar: an alpha/beta sheet, not barrel, of eight beta-sheets connected by alpha-helices. These enzymes have diverged from a common ancestor so as to preserve the arrangement of the catalytic residues, not the binding site. They all have a catalytic triad, the elements of which are borne on loops which are the best-conserved structural features in the fold. The alpha/beta-hydrolase fold enzymes are one of the largest known protein families, including lipases, esterases, amidases, epoxide hydrolases, dehalogenases and hydroxynitrile lyases. The alpha/beta-hydrolase fold consists of eight beta-strands connected by alpha-helixes. These fold into a mostly parallel central beta-sheet surrounded by alpha-helixes. The catalytic triad consists of a nucleophile (serine, aspartate or cysteine), a histidine and a catalytic acid (aspartate or glutamate). These residues occur on conserved locations in loops and the alpha/beta-hydrolase fold brings them together to form the active site. Many alpha/beta-hydrolase fold enzymes also contain cap domains, the structures of which vary considerably between the different members. A cap domain sits on top of the active site, which is in the alpha/beta-hydrolase domain. In spite of their similar three-dimensional structures and similar active site residues, alpha/beta-hydrolase fold enzymes catalyse reactions with substrates containing a broad variety of functional groups, including carboxylic acid derivatives (esters, amides and thioesters), epoxides, alkyl halides and hydroxynitriles. The common mechanistic feature of these reactions is a nucleophilic attack.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000707 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000707 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000707 "HMDM:0000707")
+AnnotationAssertion(rdfs:label obo:HMDM_0000707 "Alpha/beta hydrolase superfamily")
+SubClassOf(obo:HMDM_0000707 obo:HMDM_0000012)
+
+# Class: obo:HMDM_0000708 (statins)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:24657242") Annotation(oboInOwl:hasDbXref "PMID:26975972") obo:IAO_0000115 obo:HMDM_0000708 "Statins, inhibitors of the hydroxymethylglutaryl-CoA (HMG-CoA) reductase enzyme, are molecules of fungal origin. Statins are powerful cholesterol lowering medications and have provided outstanding contributions to the prevention of cardiovascular disease.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000708 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000708 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000708 "HMDM:0000708")
+AnnotationAssertion(rdfs:label obo:HMDM_0000708 "statins")
+SubClassOf(obo:HMDM_0000708 obo:HMDM_0000073)
+
+# Class: obo:HMDM_0000777 (anti-parasitic agent)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HMDM_0000777 "Anti-parasitic agent is medication used to treat parasitic diseases.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000777 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000777 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000777 "HMDM:0000777")
+AnnotationAssertion(rdfs:label obo:HMDM_0000777 "anti-parasitic agent")
+SubClassOf(obo:HMDM_0000777 obo:HMDM_0000073)
+
+# Class: obo:HMDM_0000782 (anti-protozoal agent)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HMDM_0000782 "An agent used to inhibit or kill protozoa.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000782 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000782 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000782 "HMDM:0000782")
+AnnotationAssertion(rdfs:label obo:HMDM_0000782 "anti-protozoal agent")
+SubClassOf(obo:HMDM_0000782 obo:HMDM_0000777)
+
+# Class: obo:HMDM_0000783 (anti-helminthic agent)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HMDM_0000783 "An agent used to inhibit or kill parasitic worms.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000783 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000783 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000783 "HMDM:0000783")
+AnnotationAssertion(rdfs:label obo:HMDM_0000783 "anti-helminthic agent")
+SubClassOf(obo:HMDM_0000783 obo:HMDM_0000777)
+
+# Class: obo:HMDM_0000784 (Nitroimidazoles)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:28463485") obo:IAO_0000115 obo:HMDM_0000784 "Nitroimidazoles are a class of antimicrobial drugs that have remarkable broad spectrum activity against parasites, mycobacteria, and anaerobic Gram-positive and Gram-negative bacteria. While nitroimidazoles were discovered in the 1950s, there has been renewed interest in their therapeutic potential, particularly for the treatment of parasitic infections and tuberculosis.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000784 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000784 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000784 "HMDM:0000784")
+AnnotationAssertion(rdfs:label obo:HMDM_0000784 "Nitroimidazoles")
+SubClassOf(obo:HMDM_0000784 obo:HMDM_0000782)
+
+# Class: obo:HMDM_0000785 (Nitroreductases)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:16011758") Annotation(oboInOwl:hasDbXref "PMID:34613761") obo:IAO_0000115 obo:HMDM_0000785 "Nitroreductases are a family of evolutionarily related proteins involved in reducing nitroaromatic and nitroheterocyclic compounds using flavin adenine dinucleotide (FAD) or flavin mononucleotide (FMN) as the cofactor and NAD(P)H as a reducing equivalent. Nitroreductases catalyse pyridine nucleotide-dependent reduction of nitroaromatics compounds, showing significant human health and environmental implications.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000785 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000785 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000785 "HMDM:0000785")
+AnnotationAssertion(rdfs:label obo:HMDM_0000785 "Nitroreductases")
+SubClassOf(obo:HMDM_0000785 obo:HMDM_0000012)
+
+# Class: obo:HMDM_0000787 (Pericyazine)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HMDM_0000787 "It is a sedative phenothiazine with weak antipsychotic properties. It also has adrenolytic, anticholinergic, metabolic and endocrine effects, and an action on the extrapyramidal system.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000787 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000787 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000787 "HMDM:0000787")
+AnnotationAssertion(rdfs:label obo:HMDM_0000787 "Pericyazine")
+SubClassOf(obo:HMDM_0000787 obo:HMDM_0000002)
+SubClassOf(obo:HMDM_0000787 obo:HMDM_0000789)
+
+# Class: obo:HMDM_0000789 (Phenothiazine)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:22580516") obo:IAO_0000115 obo:HMDM_0000789 "Phenothiazines belong to the oldest synthetic antipsychotic drugs, which do not have their precursor in the world of natural compounds. Apart from their fundamental neuroleptic action connected with the dopaminergic receptors blockade, phenothiazine derivatives also exert diverse biological activities, which account for their cancer chemopreventive-effect, such as calmodulin- and protein kinase C inhibitory actions, anti-proliferative effect, inhibition of P-glycoprotein transport function and reversion of multidrug resistance.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000789 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000789 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000789 "HMDM:0000789")
+AnnotationAssertion(rdfs:label obo:HMDM_0000789 "Phenothiazine")
+SubClassOf(obo:HMDM_0000789 obo:HMDM_0000782)
+
+# Class: obo:HMDM_0000790 (Racecadotril)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:17028311") obo:IAO_0000115 obo:HMDM_0000790 "Racecadotril, which is rapidly metabolized to its active metabolite thiorphan, is a neutral endopeptidase (NEP) inhibitor used in clinical practice for diarrhoea with a remarkable safety profile.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000790 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000790 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000790 "HMDM:0000790")
+AnnotationAssertion(rdfs:label obo:HMDM_0000790 "Racecadotril")
+SubClassOf(obo:HMDM_0000790 obo:HMDM_0000002)
+
+# Class: obo:HMDM_0000791 (anti-diarrheal agent)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HMDM_0000791 "An anti-diarrheal agent is a drug used to slow or stop diarrhea.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000791 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000791 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000791 "HMDM:0000791")
+AnnotationAssertion(rdfs:label obo:HMDM_0000791 "anti-diarrheal agent")
+SubClassOf(obo:HMDM_0000791 obo:HMDM_0000073)
+
+# Class: obo:HMDM_0000792 (HAD superfamily)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:7966317") obo:IAO_0000115 obo:HMDM_0000792 "The haloacid dehydrogenase (HAD) superfamily includes phosphatases, phosphonatases, P-type ATPases, beta-phosphoglucomutases, phosphomannomutases, and dehalogenases, which are involved in detoxification.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000792 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000792 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000792 "HMDM:0000792")
+AnnotationAssertion(rdfs:label obo:HMDM_0000792 "HAD superfamily")
+SubClassOf(obo:HMDM_0000792 obo:HMDM_0000012)
+
+# Class: obo:HMDM_0000793 (AcbK)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:11937512") Annotation(oboInOwl:hasDbXref "PMID:34819672") obo:IAO_0000115 obo:HMDM_0000793 "A self-resistance mechanism is encoded within the biosynthetic gene cluster (BGC) for acarbose (acb) production; a specific kinase, AcbK, phosphorylates acarbose at the O6A hydroxyl and renders it inactive.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000793 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000793 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000793 "HMDM:0000793")
+AnnotationAssertion(rdfs:label obo:HMDM_0000793 "AcbK")
+SubClassOf(obo:HMDM_0000793 obo:HMDM_0000820)
+SubClassOf(obo:HMDM_0000793 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000495))
+SubClassOf(obo:HMDM_0000793 ObjectSomeValuesFrom(obo:RO_0002447 obo:CHEBI_2376))
+
+# Class: obo:HMDM_0000820 (pfkB family carbohydrate kinase)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:28441933") obo:IAO_0000115 obo:HMDM_0000820 "The pfkB family of enzymes across kingdoms includes ribokinases, phosphofructokinases, adenosine kinases (ADKs) and several others with diverse substrate specificities. Typical PfkB protein structure is a large domain consisting of a beta-sheet sandwiched between several alpha-helices, and a smaller domain, known as the lid domain, comprised of another beta-sheet attached to the larger domain by short loops that act as a hinge. Binding of substrates to pfkB proteins follows ordered bi-bi kinetics where the carbohydrate enters first, followed by ATP. PfkB proteins possess two signature motifs: a di-gly (GG) motif in the N-terminal region and a G/AXGD motif in the C-terminal region. The role of each motif has been identified through mutational and structural analyses. The GG motif provides flexibility in the hinge region that connects the lid and the large domain. The aspartate in the G/AXGD motif acts as a base during catalysis and activates the C6 fructose hydroxyl group for nucleophilic attack on the gamma-phosphate in ATP. Many pfkB proteins are active as dimers generated through interactions between the lid domains of two monomers. Aside from their regulation by ATP, pfkB family enzymes are activated by both monovalent and divalent cationic cofactors.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000820 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000820 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000820 "HMDM:0000820")
+AnnotationAssertion(rdfs:label obo:HMDM_0000820 "pfkB family carbohydrate kinase")
+SubClassOf(obo:HMDM_0000820 obo:HMDM_0000012)
+SubClassOf(obo:HMDM_0000820 obo:HMDM_0000901)
+
+# Class: obo:HMDM_0000824 (anti-diabetic agent)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HMDM_0000824 "The anti-diabetic agent are used to prevent blood glucose from rising in the treatment of diabetes mellitus.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000824 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000824 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000824 "HMDM:0000824")
+AnnotationAssertion(rdfs:label obo:HMDM_0000824 "anti-diabetic agent")
+SubClassOf(obo:HMDM_0000824 obo:HMDM_0000073)
+
+# Class: obo:HMDM_0000825 (Cyclomaltodextrinase)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:10825529") Annotation(oboInOwl:hasDbXref "PMID:29392561") obo:IAO_0000115 obo:HMDM_0000825 "Cyclomaltodextrinase (CDase) is a maltogenic amylase and neopullulanase are reported to be capable of hydrolyzing all or two of the following three types of substrates: cyclomaltodextrins (CDs); pullulan; and starch.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000825 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000825 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000825 "HMDM:0000825")
+AnnotationAssertion(rdfs:label obo:HMDM_0000825 "Cyclomaltodextrinase")
+SubClassOf(obo:HMDM_0000825 obo:HMDM_0000830)
+SubClassOf(obo:HMDM_0000825 ObjectSomeValuesFrom(obo:MOP_0000619 obo:CHEBI_2376))
+SubClassOf(obo:HMDM_0000825 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000491))
+
+# Class: obo:HMDM_0000830 (Glycoside hydrolase family 13)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:17085431") Annotation(oboInOwl:hasDbXref "PMID:26090361") obo:IAO_0000115 obo:HMDM_0000830 "Glycoside hydrolases (GHs) (EC 3.2.1.X) hydrolyze glycosidic bonds between carbohydrates or between carbohydrate and non-carbohydrate components, for instance alcohols or phenols. To date, enzyme classification is based on amino acid similarities rather than substrate specificity. GHs are assigned to different groups based on conserved domains, and the families are numbered from 1 to 131 that are listed in the Carbohydrate-Active Enzymes Database. Family GH13, also known as the alpha-amylase family, is the largest sequence-based family of glycoside hydrolases and groups together a number of different enzyme activities and substrate specificities acting on alpha-glycosidic bonds.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000830 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000830 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000830 "HMDM:0000830")
+AnnotationAssertion(rdfs:label obo:HMDM_0000830 "Glycoside hydrolase family 13")
+SubClassOf(obo:HMDM_0000830 obo:HMDM_0000012)
+SubClassOf(obo:HMDM_0000830 obo:HMDM_0000896)
+
 # Class: obo:HMDM_0000833 (Pseudomonas aeruginosa azoreductase (paAzoR3))
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:20417637") obo:IAO_0000115 obo:HMDM_0000833 "Azoreductases are important due to their ability to activate antiinflammatory azo pro-drugs and to detoxify azo dyes.")
@@ -796,6 +2092,268 @@ SubClassOf(obo:HMDM_0000833 ObjectSomeValuesFrom(obo:MOP_0000569 obo:CHEBI_26741
 SubClassOf(obo:HMDM_0000833 ObjectSomeValuesFrom(obo:MOP_0000569 obo:CHEBI_7770))
 SubClassOf(obo:HMDM_0000833 ObjectSomeValuesFrom(obo:MOP_0000569 obo:CHEBI_9334))
 SubClassOf(obo:HMDM_0000833 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000142))
+
+# Class: obo:HMDM_0000834 (Pseudomonas aeruginosa azoreductase (paAzoR1))
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:17904577") Annotation(oboInOwl:hasDbXref "PMID:20057057") Annotation(oboInOwl:hasDbXref "PMID:20417637") obo:IAO_0000115 obo:HMDM_0000834 "The paAzoR1 is an azoreductase and preferred substrates are balsalazide and methyl red.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000834 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000834 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000834 "HMDM:0000834")
+AnnotationAssertion(rdfs:label obo:HMDM_0000834 "Pseudomonas aeruginosa azoreductase (paAzoR1)")
+SubClassOf(obo:HMDM_0000834 obo:HMDM_0000265)
+SubClassOf(obo:HMDM_0000834 ObjectSomeValuesFrom(obo:MOP_0000569 obo:CHEBI_267413))
+SubClassOf(obo:HMDM_0000834 ObjectSomeValuesFrom(obo:MOP_0000569 obo:CHEBI_7770))
+SubClassOf(obo:HMDM_0000834 ObjectSomeValuesFrom(obo:MOP_0000569 obo:CHEBI_9334))
+SubClassOf(obo:HMDM_0000834 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000142))
+
+# Class: obo:HMDM_0000839 (anti-inflammatory agent)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HMDM_0000839 "An anti-inflammatory agent is a drug that helps reduce swelling or inflammation.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000839 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000839 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000839 "HMDM:0000839")
+AnnotationAssertion(rdfs:label obo:HMDM_0000839 "anti-inflammatory agent")
+SubClassOf(obo:HMDM_0000839 obo:HMDM_0000073)
+
+# Class: obo:HMDM_0000843 (PEMT (Phospholipid methyltransferase) super family)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:19366698") obo:IAO_0000115 obo:HMDM_0000843 "Phospholipid N-methyltransferase (PLMT) enzymes catalyze the S-adenosylmethionine-dependent methylation of ethanolamine-containing phospholipids to produce phosphatidylcholine. Phosphatidylcholine is the most abundant phospholipid in most non-plastid membranes of eukaryotes and functions as a structural membrane lipid, and as a precursor to important lipid-based signaling molecules. In mammals and fungi, phosphatidylcholine can be formed through two distinct pathways: (a) the “nucleotide pathway” in which free choline is incorporated in phosphatidylcholine using CDP-choline as an intermediate, and (b) the “methylation pathway” whereby phosphatidylcholine is produced directly from phosphatidylethanolamine (PtdEtn) via three sequential methylation reactions using S-adenosylmethionine (AdoMet) as the methyl donor. In plants, phosphatidylcholine biosynthesis occurs through a branched pathway that utilizes components of both the nucleotide and methylation pathways. In mammals, the 18-kDa integral membrane protein phosphatidylethanolamine N-methyltransferase (PEMT) is a PLMT that is expressed primarily in the liver. PEMT catalyzes all three of the methylation reactions needed to convert PtdEtn to phosphatidylcholine.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000843 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000843 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000843 "HMDM:0000843")
+AnnotationAssertion(rdfs:label obo:HMDM_0000843 "PEMT (Phospholipid methyltransferase) super family")
+SubClassOf(obo:HMDM_0000843 obo:HMDM_0000012)
+
+# Class: obo:HMDM_0000844 (methylation of a molecule)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HMDM_0000844 "A chemical process in which a methyl group is added to a molecule.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000844 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000844 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000844 "HMDM:0000844")
+AnnotationAssertion(rdfs:label obo:HMDM_0000844 "methylation of a molecule")
+SubClassOf(obo:HMDM_0000844 obo:HMDM_0000015)
+
+# Class: obo:HMDM_0000845 (analgesic)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:27142107") obo:IAO_0000115 obo:HMDM_0000845 "Analgesics are the drugs which bring insensibility to pain without loosing consciousness. Treatment strategy is generally based on the type of pain. Most of the analgesics are associated with serious side effects, such as NSAIDS can cause severe GI disturbance and opioids can cause addiction.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000845 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000845 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000845 "HMDM:0000845")
+AnnotationAssertion(rdfs:label obo:HMDM_0000845 "analgesic")
+SubClassOf(obo:HMDM_0000845 obo:HMDM_0000073)
+
+# Class: obo:HMDM_0000846 (Pyridoxamine phosphate oxidase family)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:26823273") obo:IAO_0000115 obo:HMDM_0000846 "Pyridoxal 5′-phosphate (PLP) is a cofactor for about 4% of all biochemical reactions. PLP and five other ‘vitamers’, are collectively known as vitamin B6. In general, there are two independent de novo pathways that generate PLP: the deoxyxylulose 5′-phosphate (DXP)-dependent pathway, which is present in most eubacteria (e.g. Escherichia coli), and the ‘DXP-independent’ route, which is widespread (e.g. some eubacteria, Archaea, fungi and plants) and consists of a single enzyme complex, PLP synthase. In the PLP salvage pathway, however, different vitamers are interconverted using various kinase, phosphatase and pyridoxine/pyridoxamine 5′-phosphate oxidase (PNPOx) enzymes. The reaction catalysed by members of the PNPOx family (so-called PdxH proteins) is equivalent to the last step of the DXP-dependent PLP biosynthesis pathway, oxidizing either PNP or PMP to produce PLP. Members of the family utilize flavin mononucleotide (FMN) as a prosthetic group, oxidizing the C4′ alcohol (PNP) or amine (PMP) group to an aldehyde (PLP). During catalysis, FMN is used as the immediate electron acceptor and molecular oxygen as the final electron acceptor, forming hydrogen peroxide under aerobic conditions. Pyridoxal 5′-phosphate biosynthesis is essential for the survival and virulence of Mycobacterium tuberculosis (Mtb), the organism that causes tuberculosis (TB) and is, for this reason, an important drug target at a time when resistance is rising and new drugs are urgently needed.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000846 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000846 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000846 "HMDM:0000846")
+AnnotationAssertion(rdfs:label obo:HMDM_0000846 "Pyridoxamine phosphate oxidase family")
+SubClassOf(obo:HMDM_0000846 obo:HMDM_0000012)
+
+# Class: obo:HMDM_0000847 (oxidation of a molecule)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HMDM_0000847 "A chemical process that involves the removal of one or mole electrons from a molecular entity.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000847 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000847 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000847 "HMDM:0000847")
+AnnotationAssertion(rdfs:label obo:HMDM_0000847 "oxidation of a molecule")
+SubClassOf(obo:HMDM_0000847 obo:HMDM_0000015)
+
+# Class: obo:HMDM_0000848 (catechol-O-methyltransferase (COMT) inhibitor)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:23713800") obo:IAO_0000115 obo:HMDM_0000848 "Catechol O-methyltransferase catalyzes the methylation reaction whereby a methyl group from the cofactor S-adenosyl-L-methionine (SAM) is transferred to one of the catecholic hydroxyls. Membrane-bound form COMT (MB-COMT) may be more relevant in inactivation of catecholaminergic neurotransmitters, whereas the soluble form (S-COMT) plays a more important role in inactivation of endogenous and xenobiotic catechols in other tissues. COMT is the primary enzyme that inactivates the catechol neurotransmitter dopamine and the drug L-dopa. L-dopa is used in the clinical treatment of central nervous system (CNS) disorders such as Parkinson's disease and possibly others (e.g. schizophrenia and depression). Its efficacy is associated with the level of dopamine converted from the drug. Studies have shown that inhibition of COMT activity results in marked reduction of the body clearance of L-dopa and dopamine, leading to a sustained level of dopamine in the brain and improved efficacy. The important role of COMT in treatment of Parkinson's disease has promoted an area wherein the aims are to design potent and selective COMT inhibitors. Several of these inhibitors have been used as adjuncts to L-dopa therapy.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000848 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000848 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000848 "HMDM:0000848")
+AnnotationAssertion(rdfs:label obo:HMDM_0000848 "catechol-O-methyltransferase (COMT) inhibitor")
+SubClassOf(obo:HMDM_0000848 obo:HMDM_0000073)
+
+# Class: obo:HMDM_0000881 (histamine (H2-receptor) antagonist)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:33206207") obo:IAO_0000115 obo:HMDM_0000881 "Histamine is primarily found in mast cells and basophils, where it is stored in cytoplasmic granules and released along with other inflammatory mediators upon activation in response to diverse immune and non-immune stimuli, including viruses and other pathogens. Histamine exerts multiple (patho)physiological actions by activating four known types of histamine receptors that are designated as H1–H4 and have been associated with allergic inflammation, stimulation of gastric acid secretion, neurotransmission and immune responses, respectively. This led to drugs, such as H1 antihistamines for the management of allergies, H2 receptor antagonists for the treatment of gastrointestinal disorders, a first-in-class H3 receptor antagonist for treating narcolepsy, as well as H4 receptor-targeting compounds that are being evaluated in clinical trials for their potential exploitation in managing inflammatory disorders.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000881 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000881 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000881 "HMDM:0000881")
+AnnotationAssertion(rdfs:label obo:HMDM_0000881 "histamine (H2-receptor) antagonist")
+SubClassOf(obo:HMDM_0000881 obo:HMDM_0000073)
+
+# Class: obo:HMDM_0000887 (Crp/Fnr family transcriptional regulator)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:34636676") obo:IAO_0000115 obo:HMDM_0000887 "One particular transcription factors (TF), the fumarate and nitrate reductase regulatory protein (FNR), is among the most widely studied global regulators, activating and repressing transcription of a wide variety of functional genes. FNR is widely conserved across bacteria and is often required for the shift between aerobic and anaerobic metabolism. FNR belongs to the catabolite repressor protein (CRP; also known as cAMP receptor protein)/FNR family of TFs, which plays an important role across bacteria and generally shares a conserved DNA binding site. Like FNR, CRP is well studied and widely conserved across bacteria and responds to variations in glucose availability via changes in the concentration of cyclic AMP. Besides CRP and FNR, the CRP/FNR family of proteins contains other well-studied TFs that respond to a variety of environmental stimuli.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000887 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000887 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000887 "HMDM:0000887")
+AnnotationAssertion(rdfs:label obo:HMDM_0000887 "Crp/Fnr family transcriptional regulator")
+SubClassOf(obo:HMDM_0000887 obo:HMDM_0000012)
+
+# Class: obo:HMDM_0000896 (Drug inactivation enzyme)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HMDM_0000896 "Enzyme that modify drugs rendering them inactive.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000896 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000896 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000896 "HMDM:0000896")
+AnnotationAssertion(rdfs:label obo:HMDM_0000896 "Drug inactivation enzyme")
+SubClassOf(obo:HMDM_0000896 obo:HMDM_0000006)
+
+# Class: obo:HMDM_0000900 (Drug activation enzyme)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HMDM_0000900 "Enzyme that modify drugs making them active.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000900 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000900 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000900 "HMDM:0000900")
+AnnotationAssertion(rdfs:label obo:HMDM_0000900 "Drug activation enzyme")
+SubClassOf(obo:HMDM_0000900 obo:HMDM_0000006)
+
+# Class: obo:HMDM_0000901 (Drug self-resistant enzyme)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HMDM_0000901 "Enzyme that protects primary producer of a drug by inactivating it.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000901 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000901 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000901 "HMDM:0000901")
+AnnotationAssertion(rdfs:label obo:HMDM_0000901 "Drug self-resistant enzyme")
+SubClassOf(obo:HMDM_0000901 obo:HMDM_0000006)
+
+# Class: obo:HMDM_0000902 (apg)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:37157031") obo:IAO_0000115 obo:HMDM_0000902 "The apg is an acarbose-preferred glucosidase that was discovered in intestinal bacteria from patients with Type 2 diabetes mellitus (T2DM) chronic metabolic disease. The Apg hydrolyses acarbose into small molecules (acarviosine-glucose and acarviosine) with loss of inhibitor function to porcine pancreatic amylase and is widely distributed in human intestinal microorganisms, especially in Klebsiella.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000902 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000902 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000902 "HMDM:0000902")
+AnnotationAssertion(rdfs:label obo:HMDM_0000902 "apg")
+SubClassOf(obo:HMDM_0000902 obo:HMDM_0000830)
+SubClassOf(obo:HMDM_0000902 ObjectSomeValuesFrom(obo:MOP_0000619 obo:CHEBI_2376))
+SubClassOf(obo:HMDM_0000902 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000491))
+
+# Class: obo:HMDM_0000907 (Loop 1)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:28578872") Annotation(oboInOwl:hasDbXref "PMID:38754417") obo:IAO_0000115 obo:HMDM_0000907 "These enzymes perform reactivation of endobiotic glucuronides of small molecules xenobiotics (e.g., cancer drugs, NASAIDSs and consumer products toxins). Examples includes C. perfringens GUS, E. coli GUS, S. agalactiae GUS, and E. eligens GUS.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000907 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000907 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000907 "HMDM:0000907")
+AnnotationAssertion(rdfs:label obo:HMDM_0000907 "Loop 1")
+SubClassOf(obo:HMDM_0000907 obo:HMDM_0000049)
+
+# Class: obo:HMDM_0000909 (Loop 2)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:28578872") Annotation(oboInOwl:hasDbXref "PMID:38754417") obo:IAO_0000115 obo:HMDM_0000909 "These enzymes perform reactivation of endobiotic glucuronides of large polysaccharides (e.g., heparan and chondroitin sulfates). Examples includes  Bacteroides uniformis GUS.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000909 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000909 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000909 "HMDM:0000909")
+AnnotationAssertion(rdfs:label obo:HMDM_0000909 "Loop 2")
+SubClassOf(obo:HMDM_0000909 obo:HMDM_0000049)
+
+# Class: obo:HMDM_0000910 (Mini-Loop 1)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:28578872") Annotation(oboInOwl:hasDbXref "PMID:38754417") obo:IAO_0000115 obo:HMDM_0000910 "These enzymes perform reactivation of endobiotic glucuronides of small molecules xenobiotics (e.g., cancer drugs, NASAIDSs and consumer products toxins). Examples includes B. fragilis GUS.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000910 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000910 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000910 "HMDM:0000910")
+AnnotationAssertion(rdfs:label obo:HMDM_0000910 "Mini-Loop 1")
+SubClassOf(obo:HMDM_0000910 obo:HMDM_0000049)
+
+# Class: obo:HMDM_0000911 (Mini-Loop 2)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:28578872") Annotation(oboInOwl:hasDbXref "PMID:38754417") obo:IAO_0000115 obo:HMDM_0000911 "These enzymes perform reactivation of endobiotic glucuronides of small molecules xenobiotics (e.g., cancer drugs, NASAIDSs and consumer products toxins). Examples includes Parabacteroides merdae GUS.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000911 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000911 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000911 "HMDM:0000911")
+AnnotationAssertion(rdfs:label obo:HMDM_0000911 "Mini-Loop 2")
+SubClassOf(obo:HMDM_0000911 obo:HMDM_0000049)
+
+# Class: obo:HMDM_0000912 (Mini-Loop 1,2)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:28578872") Annotation(oboInOwl:hasDbXref "PMID:38754417") obo:IAO_0000115 obo:HMDM_0000912 "These enzymes perform reactivation of endobiotic glucuronides of small molecules xenobiotics (e.g., cancer drugs, NASAIDSs and consumer products toxins). Examples includes Bacteroides ovatus GUS.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000912 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000912 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000912 "HMDM:0000912")
+AnnotationAssertion(rdfs:label obo:HMDM_0000912 "Mini-Loop 1,2")
+SubClassOf(obo:HMDM_0000912 obo:HMDM_0000049)
+
+# Class: obo:HMDM_0000913 (N-Terminal Loop)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:28578872") Annotation(oboInOwl:hasDbXref "PMID:38754417") obo:IAO_0000115 obo:HMDM_0000913 "These enzymes perform reactivation of endobiotic glucuronides of small molecules xenobiotics (e.g., cancer drugs, NASAIDSs and consumer products toxins). Examples includes Bacteroides uniformis GUS.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000913 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000913 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000913 "HMDM:0000913")
+AnnotationAssertion(rdfs:label obo:HMDM_0000913 "N-Terminal Loop")
+SubClassOf(obo:HMDM_0000913 obo:HMDM_0000049)
+
+# Class: obo:HMDM_0000914 (FMN-binding)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:38754417") obo:IAO_0000115 obo:HMDM_0000914 "These enzymes perform reactivation of endobiotic glucuronides of small molecules xenobiotics (e.g., cancer drugs, NASAIDSs and consumer products toxins). Examples includes Ruminococcus gnavus GUS.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000914 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000914 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000914 "HMDM:0000914")
+AnnotationAssertion(rdfs:label obo:HMDM_0000914 "FMN-binding")
+SubClassOf(obo:HMDM_0000914 obo:HMDM_0000049)
+
+# Class: obo:HMDM_0000915 (No Loop)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:28578872") Annotation(oboInOwl:hasDbXref "PMID:38754417") obo:IAO_0000115 obo:HMDM_0000915 "These enzymes perform reactivation of endobiotic glucuronides of large polysaccharides (e.g., heparan and chondroitin sulfates). Examples includes Fusicatenibacter saccharivorans GUS.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000915 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000915 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000915 "HMDM:0000915")
+AnnotationAssertion(rdfs:label obo:HMDM_0000915 "No Loop")
+SubClassOf(obo:HMDM_0000915 obo:HMDM_0000049)
+
+# Class: obo:HMDM_0000916 (dadh)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:31196984") obo:IAO_0000115 obo:HMDM_0000916 "A molybdenum cofactor–dependent dopamine dehydroxylase (Dadh) enzyme that dehydroxylate dopamine to m-tyramine from Eggerthella lenta.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000916 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000916 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000916 "HMDM:0000916")
+AnnotationAssertion(rdfs:label obo:HMDM_0000916 "dadh")
+SubClassOf(obo:HMDM_0000916 obo:HMDM_0000937)
+SubClassOf(obo:HMDM_0000916 ObjectSomeValuesFrom(obo:HMDM_0000927 obo:CHEBI_18243))
+SubClassOf(obo:HMDM_0000916 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000926))
+
+# Class: obo:HMDM_0000926 (dehydroxylation of a molecule)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HMDM_0000926 "Dehydroxylation involves the heating process through which the hydroxyl group (OH) is released by forming a water molecule.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000926 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000926 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000926 "HMDM:0000926")
+AnnotationAssertion(rdfs:label obo:HMDM_0000926 "dehydroxylation of a molecule")
+SubClassOf(obo:HMDM_0000926 obo:HMDM_0000015)
+
+# Class: obo:HMDM_0000929 (bacterial cytochrome P450 (CYP) family 107 subfamily)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HMDM_0000929 "The bacterial cytochrome P450 (CYP) family 107 subfamily is a cytochrome P450 monooxygenase family in bacteria, found to be conserved and highly populated in Streptomyces and Bacillus species.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000929 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000929 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000929 "HMDM:0000929")
+AnnotationAssertion(rdfs:label obo:HMDM_0000929 "bacterial cytochrome P450 (CYP) family 107 subfamily")
+SubClassOf(obo:HMDM_0000929 obo:HMDM_0000097)
+
+# Class: obo:HMDM_0000933 (Pseudomonas aeruginosa CYP107S1)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:39032655") obo:IAO_0000115 obo:HMDM_0000933 "CYP107S1 is a cytochrome P450 (CYP) enzyme found in the bacterium Pseudomonas aeruginosa. It can metabolize fluoroquinolone antibiotics (ciprofloxacin and fleroxacin), a cystic fibrosis transmembrane conductance regulator potentiator (ivacaftor), and a selective estrogen receptor modulator antimicrobial adjuvant (raloxifene).")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000933 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000933 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000933 "HMDM:0000933")
+AnnotationAssertion(rdfs:label obo:HMDM_0000933 "Pseudomonas aeruginosa CYP107S1")
+SubClassOf(obo:HMDM_0000933 obo:HMDM_0000929)
+SubClassOf(obo:HMDM_0000933 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_66901))
+SubClassOf(obo:HMDM_0000933 ObjectSomeValuesFrom(obo:NCIT_R122 obo:HMDM_0000108))
+
+# Class: obo:HMDM_0000934 (cystic fibrosis transmembrane conductance regulator (CFTR) potentiators)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:25811419") Annotation(oboInOwl:hasDbXref "PMID:30616300") obo:IAO_0000115 obo:HMDM_0000934 "The CFTR potentiators increase channel activity of the CFRT protein located at the cell surface and enhance ion transport. Ivacaftor is the first intervention that corrects the underlying molecular defect in CF. It has demonstrated effectiveness in people with a class III mutation (G551D) and some effectiveness with class IV mutations (R117H) and has the potential to be used for other class III and IV mutations.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000934 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000934 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000934 "HMDM:0000934")
+AnnotationAssertion(rdfs:label obo:HMDM_0000934 "cystic fibrosis transmembrane conductance regulator (CFTR) potentiators")
+SubClassOf(obo:HMDM_0000934 obo:HMDM_0000073)
+
+# Class: obo:HMDM_0000937 (molybdopterin-containing oxidoreductase family)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HMDM_0000937 "This family of enzymes use molybdopterin as a cofactor to catalyze various redox reactions.")
+AnnotationAssertion(dcterms:contributor obo:HMDM_0000937 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000937 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:HMDM_0000937 "HMDM:0000937")
+AnnotationAssertion(rdfs:label obo:HMDM_0000937 "molybdopterin-containing oxidoreductase family")
+SubClassOf(obo:HMDM_0000937 obo:HMDM_0000012)
 
 
 )
