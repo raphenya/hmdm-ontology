@@ -588,7 +588,7 @@ SubClassOf(obo:HMDM_0000081 obo:HMDM_0000078)
 
 # Class: obo:HMDM_0000089 (fluoropyrimidines deglycosylation enzyme)
 
-AnnotationAssertion(obo:IAO_0000115 obo:HMDM_0000089 "fluoropyrimidines deglycosylation enzyme")
+AnnotationAssertion(obo:IAO_0000115 obo:HMDM_0000089 "These are enzymes responsible for the breakdown and utilization of nucleosides.")
 AnnotationAssertion(dcterms:contributor obo:HMDM_0000089 <https://orcid.org/0000-0001-9259-5280>)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000089 "human_microbiome_drug_metabolism_ontology")
 AnnotationAssertion(oboInOwl:id obo:HMDM_0000089 "HMDM:0000089")
@@ -728,12 +728,12 @@ AnnotationAssertion(oboInOwl:id obo:HMDM_0000147 "HMDM:0000147")
 AnnotationAssertion(rdfs:label obo:HMDM_0000147 "Bacteroides thetaiotaomicron acetyl esterase (BT_4096)")
 SubClassOf(obo:HMDM_0000147 obo:HMDM_0000151)
 SubClassOf(obo:HMDM_0000147 ObjectSomeValuesFrom(obo:MOP_0001030 obo:CHEBI_101278))
-SubClassOf(obo:HMDM_0000147 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_135720))
-SubClassOf(obo:HMDM_0000147 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_3125))
-SubClassOf(obo:HMDM_0000147 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_31483))
-SubClassOf(obo:HMDM_0000147 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_4974))
-SubClassOf(obo:HMDM_0000147 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_9334))
 SubClassOf(obo:HMDM_0000147 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000153))
+SubClassOf(obo:HMDM_0000147 ObjectSomeValuesFrom(ObjectInverseOf(obo:NCIT_R122) obo:CHEBI_135720))
+SubClassOf(obo:HMDM_0000147 ObjectSomeValuesFrom(ObjectInverseOf(obo:NCIT_R122) obo:CHEBI_3125))
+SubClassOf(obo:HMDM_0000147 ObjectSomeValuesFrom(ObjectInverseOf(obo:NCIT_R122) obo:CHEBI_31483))
+SubClassOf(obo:HMDM_0000147 ObjectSomeValuesFrom(ObjectInverseOf(obo:NCIT_R122) obo:CHEBI_4974))
+SubClassOf(obo:HMDM_0000147 ObjectSomeValuesFrom(ObjectInverseOf(obo:NCIT_R122) obo:CHEBI_9334))
 
 # Class: obo:HMDM_0000150 (GDSL/SGNH-family hydrolase)
 
@@ -770,8 +770,8 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000164 "human_microbiome_
 AnnotationAssertion(oboInOwl:id obo:HMDM_0000164 "HMDM:0000164")
 AnnotationAssertion(rdfs:label obo:HMDM_0000164 "Bacteroides thetaiotaomicron purine nucleoside phosphorylase (PNP)")
 SubClassOf(obo:HMDM_0000164 obo:HMDM_0000496)
-SubClassOf(obo:HMDM_0000164 ObjectSomeValuesFrom(obo:NCIT_R122 obo:HMDM_0000466))
 SubClassOf(obo:HMDM_0000164 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000495))
+SubClassOf(obo:HMDM_0000164 ObjectSomeValuesFrom(ObjectInverseOf(obo:NCIT_R122) obo:HMDM_0000466))
 
 # Class: obo:HMDM_0000168 (Bacteroides thetaiotaomicron acetyl esterase (acetylxylosidase) (BT_0152))
 
@@ -783,8 +783,8 @@ AnnotationAssertion(rdfs:label obo:HMDM_0000168 "Bacteroides thetaiotaomicron ac
 SubClassOf(obo:HMDM_0000168 obo:HMDM_0000151)
 SubClassOf(obo:HMDM_0000168 ObjectSomeValuesFrom(obo:MOP_0001030 obo:CHEBI_4974))
 SubClassOf(obo:HMDM_0000168 ObjectSomeValuesFrom(obo:MOP_0001030 obo:CHEBI_9334))
-SubClassOf(obo:HMDM_0000168 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_3125))
 SubClassOf(obo:HMDM_0000168 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000153))
+SubClassOf(obo:HMDM_0000168 ObjectSomeValuesFrom(ObjectInverseOf(obo:NCIT_R122) obo:CHEBI_3125))
 
 # Class: obo:HMDM_0000210 (Bacteroides dorei Acetyl esterase (BACDOR_03937))
 
@@ -794,11 +794,11 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000210 "human_microbiome_
 AnnotationAssertion(oboInOwl:id obo:HMDM_0000210 "HMDM:0000210")
 AnnotationAssertion(rdfs:label obo:HMDM_0000210 "Bacteroides dorei Acetyl esterase (BACDOR_03937)")
 SubClassOf(obo:HMDM_0000210 obo:HMDM_0000151)
-SubClassOf(obo:HMDM_0000210 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_3125))
-SubClassOf(obo:HMDM_0000210 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_4974))
-SubClassOf(obo:HMDM_0000210 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_7915))
-SubClassOf(obo:HMDM_0000210 ObjectSomeValuesFrom(obo:NCIT_R122 obo:NCIT_C77313))
 SubClassOf(obo:HMDM_0000210 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000153))
+SubClassOf(obo:HMDM_0000210 ObjectSomeValuesFrom(ObjectInverseOf(obo:NCIT_R122) obo:CHEBI_3125))
+SubClassOf(obo:HMDM_0000210 ObjectSomeValuesFrom(ObjectInverseOf(obo:NCIT_R122) obo:CHEBI_4974))
+SubClassOf(obo:HMDM_0000210 ObjectSomeValuesFrom(ObjectInverseOf(obo:NCIT_R122) obo:CHEBI_7915))
+SubClassOf(obo:HMDM_0000210 ObjectSomeValuesFrom(ObjectInverseOf(obo:NCIT_R122) obo:NCIT_C77313))
 
 # Class: obo:HMDM_0000211 (Bacteroides thetaiotaomicron endoglucanase E precursor (EGE) (BT_0445))
 
@@ -808,8 +808,8 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000211 "human_microbiome_
 AnnotationAssertion(oboInOwl:id obo:HMDM_0000211 "HMDM:0000211")
 AnnotationAssertion(rdfs:label obo:HMDM_0000211 "Bacteroides thetaiotaomicron endoglucanase E precursor (EGE) (BT_0445)")
 SubClassOf(obo:HMDM_0000211 obo:HMDM_0000494)
-SubClassOf(obo:HMDM_0000211 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_3125))
 SubClassOf(obo:HMDM_0000211 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000153))
+SubClassOf(obo:HMDM_0000211 ObjectSomeValuesFrom(ObjectInverseOf(obo:NCIT_R122) obo:CHEBI_3125))
 
 # Class: obo:HMDM_0000213 (Bacteroides thetaiotaomicron NADH oxidase (BT_0217))
 
@@ -845,15 +845,15 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000215 "human_microbiome_
 AnnotationAssertion(oboInOwl:id obo:HMDM_0000215 "HMDM:0000215")
 AnnotationAssertion(rdfs:label obo:HMDM_0000215 "Bacteroides thetaiotaomicron Lysophospholipase L1 and related esterases (BT_0569)")
 SubClassOf(obo:HMDM_0000215 obo:HMDM_0000503)
-SubClassOf(obo:HMDM_0000215 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_135720))
-SubClassOf(obo:HMDM_0000215 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_3125))
-SubClassOf(obo:HMDM_0000215 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_31483))
-SubClassOf(obo:HMDM_0000215 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_4315))
-SubClassOf(obo:HMDM_0000215 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_4974))
-SubClassOf(obo:HMDM_0000215 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_9334))
-SubClassOf(obo:HMDM_0000215 ObjectSomeValuesFrom(obo:NCIT_R122 obo:HMDM_0000790))
-SubClassOf(obo:HMDM_0000215 ObjectSomeValuesFrom(obo:NCIT_R122 obo:NCIT_C77313))
 SubClassOf(obo:HMDM_0000215 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000153))
+SubClassOf(obo:HMDM_0000215 ObjectSomeValuesFrom(ObjectInverseOf(obo:NCIT_R122) obo:CHEBI_135720))
+SubClassOf(obo:HMDM_0000215 ObjectSomeValuesFrom(ObjectInverseOf(obo:NCIT_R122) obo:CHEBI_3125))
+SubClassOf(obo:HMDM_0000215 ObjectSomeValuesFrom(ObjectInverseOf(obo:NCIT_R122) obo:CHEBI_31483))
+SubClassOf(obo:HMDM_0000215 ObjectSomeValuesFrom(ObjectInverseOf(obo:NCIT_R122) obo:CHEBI_4315))
+SubClassOf(obo:HMDM_0000215 ObjectSomeValuesFrom(ObjectInverseOf(obo:NCIT_R122) obo:CHEBI_4974))
+SubClassOf(obo:HMDM_0000215 ObjectSomeValuesFrom(ObjectInverseOf(obo:NCIT_R122) obo:CHEBI_9334))
+SubClassOf(obo:HMDM_0000215 ObjectSomeValuesFrom(ObjectInverseOf(obo:NCIT_R122) obo:HMDM_0000790))
+SubClassOf(obo:HMDM_0000215 ObjectSomeValuesFrom(ObjectInverseOf(obo:NCIT_R122) obo:NCIT_C77313))
 
 # Class: obo:HMDM_0000216 (Bacteroides thetaiotaomicron Nitroreductase (BT_1148))
 
@@ -876,8 +876,8 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000217 "human_microbiome_
 AnnotationAssertion(oboInOwl:id obo:HMDM_0000217 "HMDM:0000217")
 AnnotationAssertion(rdfs:label obo:HMDM_0000217 "Bacteroides thetaiotaomicron putative xylanase (BT_1192)")
 SubClassOf(obo:HMDM_0000217 obo:HMDM_0000150)
-SubClassOf(obo:HMDM_0000217 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_3125))
 SubClassOf(obo:HMDM_0000217 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000491))
+SubClassOf(obo:HMDM_0000217 ObjectSomeValuesFrom(ObjectInverseOf(obo:NCIT_R122) obo:CHEBI_3125))
 
 # Class: obo:HMDM_0000218 (Bacteroides thetaiotaomicron putative general stress protein (BT_1429))
 
@@ -900,9 +900,9 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000219 "human_microbiome_
 AnnotationAssertion(oboInOwl:id obo:HMDM_0000219 "HMDM:0000219")
 AnnotationAssertion(rdfs:label obo:HMDM_0000219 "Bacteroides thetaiotaomicron 3-oxo-5-alpha-steroid 4-dehydrogenase (BT_2068)")
 SubClassOf(obo:HMDM_0000219 obo:HMDM_0000843)
-SubClassOf(obo:HMDM_0000219 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_6443))
-SubClassOf(obo:HMDM_0000219 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_7628))
 SubClassOf(obo:HMDM_0000219 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000844))
+SubClassOf(obo:HMDM_0000219 ObjectSomeValuesFrom(ObjectInverseOf(obo:NCIT_R122) obo:CHEBI_6443))
+SubClassOf(obo:HMDM_0000219 ObjectSomeValuesFrom(ObjectInverseOf(obo:NCIT_R122) obo:CHEBI_7628))
 
 # Class: obo:HMDM_0000220 (Bacteroides thetaiotaomicron cAMP-binding proteins (BT_2366))
 
@@ -912,8 +912,8 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000220 "human_microbiome_
 AnnotationAssertion(oboInOwl:id obo:HMDM_0000220 "HMDM:0000220")
 AnnotationAssertion(rdfs:label obo:HMDM_0000220 "Bacteroides thetaiotaomicron cAMP-binding proteins (BT_2366)")
 SubClassOf(obo:HMDM_0000220 obo:HMDM_0000887)
-SubClassOf(obo:HMDM_0000220 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_94758))
-SubClassOf(obo:HMDM_0000220 ObjectSomeValuesFrom(obo:NCIT_R122 obo:NCIT_C77313))
+SubClassOf(obo:HMDM_0000220 ObjectSomeValuesFrom(ObjectInverseOf(obo:NCIT_R122) obo:CHEBI_94758))
+SubClassOf(obo:HMDM_0000220 ObjectSomeValuesFrom(ObjectInverseOf(obo:NCIT_R122) obo:NCIT_C77313))
 
 # Class: obo:HMDM_0000221 (Bacteroides thetaiotaomicron Acyltransferase (BT_2367))
 
@@ -923,7 +923,7 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000221 "human_microbiome_
 AnnotationAssertion(oboInOwl:id obo:HMDM_0000221 "HMDM:0000221")
 AnnotationAssertion(rdfs:label obo:HMDM_0000221 "Bacteroides thetaiotaomicron Acyltransferase (BT_2367)")
 SubClassOf(obo:HMDM_0000221 obo:HMDM_0000271)
-SubClassOf(obo:HMDM_0000221 ObjectSomeValuesFrom(obo:NCIT_R122 obo:HMDM_0000787))
+SubClassOf(obo:HMDM_0000221 ObjectSomeValuesFrom(ObjectInverseOf(obo:NCIT_R122) obo:HMDM_0000787))
 
 # Class: obo:HMDM_0000222 (Bacteroides thetaiotaomicron hypothetical protein (BT_2961))
 
@@ -933,7 +933,7 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000222 "human_microbiome_
 AnnotationAssertion(oboInOwl:id obo:HMDM_0000222 "HMDM:0000222")
 AnnotationAssertion(rdfs:label obo:HMDM_0000222 "Bacteroides thetaiotaomicron hypothetical protein (BT_2961)")
 SubClassOf(obo:HMDM_0000222 obo:HMDM_0000151)
-SubClassOf(obo:HMDM_0000222 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_3125))
+SubClassOf(obo:HMDM_0000222 ObjectSomeValuesFrom(ObjectInverseOf(obo:NCIT_R122) obo:CHEBI_3125))
 
 # Class: obo:HMDM_0000223 (Bacteroides thetaiotaomicron Hydrolase, HAD superfamily (BT_3112))
 
@@ -955,7 +955,7 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000224 "human_microbiome_
 AnnotationAssertion(oboInOwl:id obo:HMDM_0000224 "HMDM:0000224")
 AnnotationAssertion(rdfs:label obo:HMDM_0000224 "Bacteroides thetaiotaomicron putative sialic acid-specific acetylesterase (BT_3124)")
 SubClassOf(obo:HMDM_0000224 obo:HMDM_0000151)
-SubClassOf(obo:HMDM_0000224 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_3125))
+SubClassOf(obo:HMDM_0000224 ObjectSomeValuesFrom(ObjectInverseOf(obo:NCIT_R122) obo:CHEBI_3125))
 
 # Class: obo:HMDM_0000225 (Bacteroides thetaiotaomicron hypothetical protein (BT_4075))
 
@@ -965,8 +965,8 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000225 "human_microbiome_
 AnnotationAssertion(oboInOwl:id obo:HMDM_0000225 "HMDM:0000225")
 AnnotationAssertion(rdfs:label obo:HMDM_0000225 "Bacteroides thetaiotaomicron hypothetical protein (BT_4075)")
 SubClassOf(obo:HMDM_0000225 obo:HMDM_0000150)
-SubClassOf(obo:HMDM_0000225 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_94758))
 SubClassOf(obo:HMDM_0000225 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000491))
+SubClassOf(obo:HMDM_0000225 ObjectSomeValuesFrom(ObjectInverseOf(obo:NCIT_R122) obo:CHEBI_94758))
 
 # Class: obo:HMDM_0000226 (Bacteroides thetaiotaomicron sialic acid-specific 9-O-acetylesterase (BT_4091))
 
@@ -1059,13 +1059,13 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000233 "human_microbiome_
 AnnotationAssertion(oboInOwl:id obo:HMDM_0000233 "HMDM:0000233")
 AnnotationAssertion(rdfs:label obo:HMDM_0000233 "Bacteroides dorei sialate O-acetylesterase (BACDOR_00665)")
 SubClassOf(obo:HMDM_0000233 obo:HMDM_0000151)
-SubClassOf(obo:HMDM_0000233 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_135720))
-SubClassOf(obo:HMDM_0000233 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_3125))
-SubClassOf(obo:HMDM_0000233 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_31483))
-SubClassOf(obo:HMDM_0000233 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_4974))
-SubClassOf(obo:HMDM_0000233 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_7915))
-SubClassOf(obo:HMDM_0000233 ObjectSomeValuesFrom(obo:NCIT_R122 obo:NCIT_C77313))
 SubClassOf(obo:HMDM_0000233 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000153))
+SubClassOf(obo:HMDM_0000233 ObjectSomeValuesFrom(ObjectInverseOf(obo:NCIT_R122) obo:CHEBI_135720))
+SubClassOf(obo:HMDM_0000233 ObjectSomeValuesFrom(ObjectInverseOf(obo:NCIT_R122) obo:CHEBI_3125))
+SubClassOf(obo:HMDM_0000233 ObjectSomeValuesFrom(ObjectInverseOf(obo:NCIT_R122) obo:CHEBI_31483))
+SubClassOf(obo:HMDM_0000233 ObjectSomeValuesFrom(ObjectInverseOf(obo:NCIT_R122) obo:CHEBI_4974))
+SubClassOf(obo:HMDM_0000233 ObjectSomeValuesFrom(ObjectInverseOf(obo:NCIT_R122) obo:CHEBI_7915))
+SubClassOf(obo:HMDM_0000233 ObjectSomeValuesFrom(ObjectInverseOf(obo:NCIT_R122) obo:NCIT_C77313))
 
 # Class: obo:HMDM_0000234 (Bacteroides dorei 3-oxo-5-alpha-steroid 4-dehydrogenase (BACDOR_03091))
 
@@ -1075,10 +1075,10 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000234 "human_microbiome_
 AnnotationAssertion(oboInOwl:id obo:HMDM_0000234 "HMDM:0000234")
 AnnotationAssertion(rdfs:label obo:HMDM_0000234 "Bacteroides dorei 3-oxo-5-alpha-steroid 4-dehydrogenase (BACDOR_03091)")
 SubClassOf(obo:HMDM_0000234 obo:HMDM_0000843)
-SubClassOf(obo:HMDM_0000234 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_50838))
-SubClassOf(obo:HMDM_0000234 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_6443))
-SubClassOf(obo:HMDM_0000234 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_7628))
 SubClassOf(obo:HMDM_0000234 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000844))
+SubClassOf(obo:HMDM_0000234 ObjectSomeValuesFrom(ObjectInverseOf(obo:NCIT_R122) obo:CHEBI_50838))
+SubClassOf(obo:HMDM_0000234 ObjectSomeValuesFrom(ObjectInverseOf(obo:NCIT_R122) obo:CHEBI_6443))
+SubClassOf(obo:HMDM_0000234 ObjectSomeValuesFrom(ObjectInverseOf(obo:NCIT_R122) obo:CHEBI_7628))
 
 # Class: obo:HMDM_0000235 (Bacteroides dorei Lipase/acylhydrolase domain protein (BACDOR_03379))
 
@@ -1088,13 +1088,13 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000235 "human_microbiome_
 AnnotationAssertion(oboInOwl:id obo:HMDM_0000235 "HMDM:0000235")
 AnnotationAssertion(rdfs:label obo:HMDM_0000235 "Bacteroides dorei Lipase/acylhydrolase domain protein (BACDOR_03379)")
 SubClassOf(obo:HMDM_0000235 obo:HMDM_0000151)
-SubClassOf(obo:HMDM_0000235 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_135720))
-SubClassOf(obo:HMDM_0000235 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_3125))
-SubClassOf(obo:HMDM_0000235 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_31483))
-SubClassOf(obo:HMDM_0000235 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_4974))
-SubClassOf(obo:HMDM_0000235 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_7915))
-SubClassOf(obo:HMDM_0000235 ObjectSomeValuesFrom(obo:NCIT_R122 obo:NCIT_C77313))
 SubClassOf(obo:HMDM_0000235 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000153))
+SubClassOf(obo:HMDM_0000235 ObjectSomeValuesFrom(ObjectInverseOf(obo:NCIT_R122) obo:CHEBI_135720))
+SubClassOf(obo:HMDM_0000235 ObjectSomeValuesFrom(ObjectInverseOf(obo:NCIT_R122) obo:CHEBI_3125))
+SubClassOf(obo:HMDM_0000235 ObjectSomeValuesFrom(ObjectInverseOf(obo:NCIT_R122) obo:CHEBI_31483))
+SubClassOf(obo:HMDM_0000235 ObjectSomeValuesFrom(ObjectInverseOf(obo:NCIT_R122) obo:CHEBI_4974))
+SubClassOf(obo:HMDM_0000235 ObjectSomeValuesFrom(ObjectInverseOf(obo:NCIT_R122) obo:CHEBI_7915))
+SubClassOf(obo:HMDM_0000235 ObjectSomeValuesFrom(ObjectInverseOf(obo:NCIT_R122) obo:NCIT_C77313))
 
 # Class: obo:HMDM_0000236 (Bacteroides dorei hypothetical protein (BACDOR_03642))
 
@@ -1104,12 +1104,12 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000236 "human_microbiome_
 AnnotationAssertion(oboInOwl:id obo:HMDM_0000236 "HMDM:0000236")
 AnnotationAssertion(rdfs:label obo:HMDM_0000236 "Bacteroides dorei hypothetical protein (BACDOR_03642)")
 SubClassOf(obo:HMDM_0000236 obo:HMDM_0000151)
-SubClassOf(obo:HMDM_0000236 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_135720))
-SubClassOf(obo:HMDM_0000236 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_3125))
-SubClassOf(obo:HMDM_0000236 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_31483))
-SubClassOf(obo:HMDM_0000236 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_4974))
-SubClassOf(obo:HMDM_0000236 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_7915))
 SubClassOf(obo:HMDM_0000236 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000153))
+SubClassOf(obo:HMDM_0000236 ObjectSomeValuesFrom(ObjectInverseOf(obo:NCIT_R122) obo:CHEBI_135720))
+SubClassOf(obo:HMDM_0000236 ObjectSomeValuesFrom(ObjectInverseOf(obo:NCIT_R122) obo:CHEBI_3125))
+SubClassOf(obo:HMDM_0000236 ObjectSomeValuesFrom(ObjectInverseOf(obo:NCIT_R122) obo:CHEBI_31483))
+SubClassOf(obo:HMDM_0000236 ObjectSomeValuesFrom(ObjectInverseOf(obo:NCIT_R122) obo:CHEBI_4974))
+SubClassOf(obo:HMDM_0000236 ObjectSomeValuesFrom(ObjectInverseOf(obo:NCIT_R122) obo:CHEBI_7915))
 
 # Class: obo:HMDM_0000237 (Bacteroides dorei Acyltransferase (BACDOR_03934))
 
@@ -1119,7 +1119,7 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000237 "human_microbiome_
 AnnotationAssertion(oboInOwl:id obo:HMDM_0000237 "HMDM:0000237")
 AnnotationAssertion(rdfs:label obo:HMDM_0000237 "Bacteroides dorei Acyltransferase (BACDOR_03934)")
 SubClassOf(obo:HMDM_0000237 obo:HMDM_0000271)
-SubClassOf(obo:HMDM_0000237 ObjectSomeValuesFrom(obo:NCIT_R122 obo:HMDM_0000787))
+SubClassOf(obo:HMDM_0000237 ObjectSomeValuesFrom(ObjectInverseOf(obo:NCIT_R122) obo:HMDM_0000787))
 
 # Class: obo:HMDM_0000238 (Bacteroides dorei NADPH nitroreductase (BACDOR_03988))
 
@@ -2333,8 +2333,8 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000933 "human_microbiome_
 AnnotationAssertion(oboInOwl:id obo:HMDM_0000933 "HMDM:0000933")
 AnnotationAssertion(rdfs:label obo:HMDM_0000933 "Pseudomonas aeruginosa CYP107S1")
 SubClassOf(obo:HMDM_0000933 obo:HMDM_0000929)
-SubClassOf(obo:HMDM_0000933 ObjectSomeValuesFrom(obo:NCIT_R122 obo:CHEBI_66901))
-SubClassOf(obo:HMDM_0000933 ObjectSomeValuesFrom(obo:NCIT_R122 obo:HMDM_0000108))
+SubClassOf(obo:HMDM_0000933 ObjectSomeValuesFrom(ObjectInverseOf(obo:NCIT_R122) obo:CHEBI_66901))
+SubClassOf(obo:HMDM_0000933 ObjectSomeValuesFrom(ObjectInverseOf(obo:NCIT_R122) obo:HMDM_0000108))
 
 # Class: obo:HMDM_0000934 (cystic fibrosis transmembrane conductance regulator (CFTR) potentiators)
 
