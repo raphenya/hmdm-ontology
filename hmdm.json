@@ -33,6 +33,9 @@
         "pred" : "http://www.geneontology.org/formats/oboInOwl#saved-by",
         "val" : "HMDM"
       }, {
+        "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+        "val" : "The Human Microbiome Drug Metabolism (HMDM) Ontology is a resource for the scientific community to understand how the human gut microbiome metabolizes drugs. It provides a structured vocabulary for describing the genes, enzymes, and mechanisms involved in drug metabolism by gut bacteria. It is available under the Attribution 4.0 International (CC BY 4.0) license, allowing for sharing and adaptation with proper attribution."
+      }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
         "val" : "2026-09-25"
       } ],
@@ -25802,22 +25805,42 @@
       "id" : "http://purl.org/dc/terms/accessRights",
       "lbl" : "access rights",
       "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION"
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "definition" : {
+          "val" : "Information about who can access the resource or an indication of its security status."
+        }
+      }
     }, {
       "id" : "http://purl.org/dc/terms/contributor",
       "lbl" : "contributor",
       "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION"
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "definition" : {
+          "val" : "An entity responsible for making contributions to the resource."
+        }
+      }
     }, {
       "id" : "http://purl.org/dc/terms/created",
       "lbl" : "created",
       "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION"
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "definition" : {
+          "val" : "Date of creation of the resource."
+        }
+      }
     }, {
       "id" : "http://purl.org/dc/terms/description",
       "lbl" : "description",
       "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION"
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "definition" : {
+          "val" : "An account of the resource."
+        }
+      }
     }, {
       "id" : "http://purl.org/dc/terms/license",
       "lbl" : "license",
@@ -25833,7 +25856,12 @@
       "id" : "http://purl.org/dc/terms/title",
       "lbl" : "title",
       "type" : "PROPERTY",
-      "propertyType" : "ANNOTATION"
+      "propertyType" : "ANNOTATION",
+      "meta" : {
+        "definition" : {
+          "val" : "A name given to the resource."
+        }
+      }
     }, {
       "id" : "http://www.geneontology.org/formats/oboInOwl#auto-generated-by",
       "lbl" : "auto-generated-by",

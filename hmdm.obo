@@ -8,6 +8,7 @@ idspace: dcterms http://purl.org/dc/terms/
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
 idspace: swrl http://www.w3.org/2003/11/swrl# 
 idspace: swrlb http://www.w3.org/2003/11/swrlb# 
+remark: The Human Microbiome Drug Metabolism (HMDM) Ontology is a resource for the scientific community to understand how the human gut microbiome metabolizes drugs. It provides a structured vocabulary for describing the genes, enzymes, and mechanisms involved in drug metabolism by gut bacteria. It is available under the Attribution 4.0 International (CC BY 4.0) license, allowing for sharing and adaptation with proper attribution.
 ontology: hmdm
 property_value: dcterms:accessRights "The Human Microbiome Drug Metabolism (HMDM) Ontology is available under Attribution 4.0 International (CC BY 4.0) (https://creativecommons.org/licenses/by/4.0/)." xsd:string
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280

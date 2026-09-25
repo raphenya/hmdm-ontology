@@ -26,6 +26,7 @@ Annotation(oboInOwl:auto-generated-by "cv2obo")
 Annotation(oboInOwl:default-namespace "human_microbiome_drug_metabolism")
 Annotation(oboInOwl:hasOBOFormatVersion "1.2")
 Annotation(oboInOwl:saved-by "HMDM")
+Annotation(rdfs:comment "The Human Microbiome Drug Metabolism (HMDM) Ontology is a resource for the scientific community to understand how the human gut microbiome metabolizes drugs. It provides a structured vocabulary for describing the genes, enzymes, and mechanisms involved in drug metabolism by gut bacteria. It is available under the Attribution 4.0 International (CC BY 4.0) license, allowing for sharing and adaptation with proper attribution.")
 
 Declaration(Class(obo:HMDM_0000001))
 Declaration(Class(obo:HMDM_0000002))
@@ -266,30 +267,37 @@ Declaration(AnnotationProperty(oboInOwl:shorthand))
 
 # Annotation Property: obo:IAO_0000115 (definition)
 
+AnnotationAssertion(obo:IAO_0000115 obo:IAO_0000115 "The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.")
 AnnotationAssertion(rdfs:label obo:IAO_0000115 "definition")
 
 # Annotation Property: dcterms:accessRights (access rights)
 
+AnnotationAssertion(obo:IAO_0000115 dcterms:accessRights "Information about who can access the resource or an indication of its security status.")
 AnnotationAssertion(rdfs:label dcterms:accessRights "access rights")
 
 # Annotation Property: dcterms:contributor (contributor)
 
+AnnotationAssertion(obo:IAO_0000115 dcterms:contributor "An entity responsible for making contributions to the resource.")
 AnnotationAssertion(rdfs:label dcterms:contributor "contributor")
 
 # Annotation Property: dcterms:created (created)
 
+AnnotationAssertion(obo:IAO_0000115 dcterms:created "Date of creation of the resource.")
 AnnotationAssertion(rdfs:label dcterms:created "created")
 
 # Annotation Property: dcterms:description (description)
 
+AnnotationAssertion(obo:IAO_0000115 dcterms:description "An account of the resource.")
 AnnotationAssertion(rdfs:label dcterms:description "description")
 
 # Annotation Property: dcterms:license (license)
 
+AnnotationAssertion(obo:IAO_0000115 dcterms:license "A legal document giving official permission to do something with the resource.")
 AnnotationAssertion(rdfs:label dcterms:license "license")
 
 # Annotation Property: dcterms:title (title)
 
+AnnotationAssertion(obo:IAO_0000115 dcterms:title "A name given to the resource.")
 AnnotationAssertion(rdfs:label dcterms:title "title")
 
 
