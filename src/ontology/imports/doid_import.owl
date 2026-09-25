@@ -7,10 +7,52 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/hmdm/imports/doid_import.owl>
-<http://purl.obolibrary.org/obo/hmdm/releases/2026-09-22/imports/doid_import.owl>
+<http://purl.obolibrary.org/obo/hmdm/releases/2026-09-25/imports/doid_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/doid/releases/2026-08-31/doid.owl>)
-Annotation(owl:versionInfo "2026-09-22")
+Annotation(owl:versionInfo "2026-09-25")
 
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_22682>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_22712>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_23367>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_24431>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_24532>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_25367>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_25693>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_26421>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_26835>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_32988>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33241>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33256>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33261>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33285>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33302>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33304>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33424>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33552>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33579>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33582>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33595>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33597>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33598>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33655>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33659>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33661>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33670>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33675>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33832>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33836>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_35352>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_35358>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_36357>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_36962>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_37533>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_37577>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_38101>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_50860>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_51143>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_5686>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_72695>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_9334>))
 Declaration(Class(<http://purl.obolibrary.org/obo/DOID_0050890>))
 Declaration(Class(<http://purl.obolibrary.org/obo/DOID_0081062>))
 Declaration(Class(<http://purl.obolibrary.org/obo/DOID_1289>))
@@ -35,6 +77,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001062>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0004121>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0010000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0011216>))
+Declaration(Class(<http://purl.obolibrary.org/obo/doid#chebi>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002410>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0003302>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0003304>))
@@ -44,7 +87,73 @@ Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0004017>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0004026>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0040035>))
 Declaration(ObjectProperty(owl:topObjectProperty))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/source>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/license>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#auto-generated-by>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#date>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#default-namespace>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasDbXref>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#saved-by>))
+############################
+#   Annotation Properties
+############################
+
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000115> (definition)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000115> "The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "url:http://purl.obolibrary.org/obo/iao.owl") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000115> "The official definition.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "definition")
+
+# Annotation Property: <http://purl.org/dc/terms/license> (license)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "url:http://purl.org/dc/terms/license") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/dc/terms/license> "License of the ontology.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "url:http://purl.org/dc/terms/license") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.org/dc/terms/license> "License.")
+AnnotationAssertion(rdfs:label <http://purl.org/dc/terms/license> "license")
+
+# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#auto-generated-by> (auto-generated-by)
+
+AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#auto-generated-by> "auto-generated-by")
+
+# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#date> (date)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "url:http://purl.org/dc/elements/1.1/date") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.geneontology.org/formats/oboInOwl#date> "Date.")
+AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#date> "date")
+
+# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#default-namespace> (default-namespace)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "url:http://www.geneontology.org/formats/oboInOwl#default-namespace") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.geneontology.org/formats/oboInOwl#default-namespace> "Default namespace.")
+AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#default-namespace> "default-namespace")
+
+# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasDbXref> (database_cross_reference)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "url:http://www.geneontology.org/formats/oboInOwl#hasDbXref") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "Reference database or publication source.")
+AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "database_cross_reference")
+
+# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion> (has_obo_format_version)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "url:http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion> "Has OBO format version.")
+AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion> "has_obo_format_version")
+
+# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> (has_obo_namespace)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "url:http://www.geneontology.org/formats/oboInOwl#hasOBONamespace") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "Name space of the ontology.")
+AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> "has_obo_namespace")
+
+# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#id> (id)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "url:http://purl.obolibrary.org/obo/IAO_0020000") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.geneontology.org/formats/oboInOwl#id> "An identifier for an individual entity.")
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "url:http://purl.obolibrary.org/obo/IAO_0020000") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.geneontology.org/formats/oboInOwl#id> "An identifier is an information content entity that is the outcome of a dubbing process and is used to refer to one instance of entity shared by a group of people to refer to that individual entity.")
+AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#id> "id")
+
+# Annotation Property: <http://www.geneontology.org/formats/oboInOwl#saved-by> (saved-by)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "url:http://www.geneontology.org/formats/oboInOwl#saved-by") <http://purl.obolibrary.org/obo/IAO_0000115> <http://www.geneontology.org/formats/oboInOwl#saved-by> "Saved by.")
+AnnotationAssertion(rdfs:label <http://www.geneontology.org/formats/oboInOwl#saved-by> "saved-by")
+
 
 ############################
 #   Object Properties
@@ -97,22 +206,320 @@ SubObjectPropertyOf(<http://purl.obolibrary.org/obo/RO_0040035> owl:topObjectPro
 #   Classes
 ############################
 
+# Class: <http://purl.obolibrary.org/obo/CHEBI_22682> (azobenzenes)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_22682> "CHEBI:22682")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_22682> "azobenzenes")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_22682> <http://purl.obolibrary.org/obo/CHEBI_22712>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_22682> <http://purl.obolibrary.org/obo/CHEBI_37533>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_22712> (benzenes)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_22712> "CHEBI:22712")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_22712> "benzenes")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_22712> <http://purl.obolibrary.org/obo/CHEBI_33836>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_23367> (molecular entity)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_23367> "CHEBI:23367")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_23367> "molecular entity")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_23367> <http://purl.obolibrary.org/obo/CHEBI_24431>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_24431> (chemical entity)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_24431> "CHEBI:24431")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_24431> "chemical entity")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_24431> <http://purl.obolibrary.org/obo/doid#chebi>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_24532> (organic heterocyclic compound)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_24532> "CHEBI:24532")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_24532> "organic heterocyclic compound")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_24532> <http://purl.obolibrary.org/obo/CHEBI_33285>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_24532> <http://purl.obolibrary.org/obo/CHEBI_33832>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_24532> <http://purl.obolibrary.org/obo/CHEBI_5686>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_25367> (molecule)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_25367> "CHEBI:25367")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_25367> "molecule")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_25367> <http://purl.obolibrary.org/obo/CHEBI_36357>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_25693> (organic heteromonocyclic compound)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_25693> "CHEBI:25693")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_25693> "organic heteromonocyclic compound")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_25693> <http://purl.obolibrary.org/obo/CHEBI_24532>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_25693> <http://purl.obolibrary.org/obo/CHEBI_33670>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_26421> (pyridines)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_26421> "CHEBI:26421")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_26421> "pyridines")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_26421> <http://purl.obolibrary.org/obo/CHEBI_25693>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_26421> <http://purl.obolibrary.org/obo/CHEBI_38101>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_26835> (sulfur molecular entity)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_26835> "CHEBI:26835")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_26835> "sulfur molecular entity")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_26835> <http://purl.obolibrary.org/obo/CHEBI_33304>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_32988> (amide)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_32988> "CHEBI:32988")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_32988> "amide")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_32988> <http://purl.obolibrary.org/obo/CHEBI_51143>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_33241> (oxoacid derivative)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33241> "CHEBI:33241")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33241> "oxoacid derivative")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33241> <http://purl.obolibrary.org/obo/CHEBI_37577>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_33256> (primary amide)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33256> "CHEBI:33256")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33256> "primary amide")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33256> <http://purl.obolibrary.org/obo/CHEBI_32988>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_33261> (organosulfur compound)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33261> "CHEBI:33261")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33261> "organosulfur compound")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33261> <http://purl.obolibrary.org/obo/CHEBI_26835>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33261> <http://purl.obolibrary.org/obo/CHEBI_36962>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_33285> (heteroorganic entity)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33285> "CHEBI:33285")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33285> "heteroorganic entity")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33285> <http://purl.obolibrary.org/obo/CHEBI_50860>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_33302> (pnictogen molecular entity)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33302> "CHEBI:33302")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33302> "pnictogen molecular entity")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33302> <http://purl.obolibrary.org/obo/CHEBI_33675>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_33304> (chalcogen molecular entity)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33304> "CHEBI:33304")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33304> "chalcogen molecular entity")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33304> <http://purl.obolibrary.org/obo/CHEBI_33675>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_33424> (sulfur oxoacid derivative)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33424> "CHEBI:33424")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33424> "sulfur oxoacid derivative")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33424> <http://purl.obolibrary.org/obo/CHEBI_26835>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33424> <http://purl.obolibrary.org/obo/CHEBI_33241>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_33552> (sulfonic acid derivative)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33552> "CHEBI:33552")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33552> "sulfonic acid derivative")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33552> <http://purl.obolibrary.org/obo/CHEBI_33424>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_33579> (main group molecular entity)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33579> "CHEBI:33579")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33579> "main group molecular entity")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33579> <http://purl.obolibrary.org/obo/CHEBI_23367>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_33582> (carbon group molecular entity)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33582> "CHEBI:33582")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33582> "carbon group molecular entity")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33582> <http://purl.obolibrary.org/obo/CHEBI_33675>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_33595> (cyclic compound)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33595> "CHEBI:33595")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33595> "cyclic compound")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33595> <http://purl.obolibrary.org/obo/CHEBI_25367>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_33597> (homocyclic compound)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33597> "CHEBI:33597")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33597> "homocyclic compound")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33597> <http://purl.obolibrary.org/obo/CHEBI_33595>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_33598> (carbocyclic compound)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33598> "CHEBI:33598")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33598> "carbocyclic compound")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33598> <http://purl.obolibrary.org/obo/CHEBI_33597>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33598> <http://purl.obolibrary.org/obo/CHEBI_33832>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_33655> (aromatic compound)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33655> "CHEBI:33655")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33655> "aromatic compound")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33655> <http://purl.obolibrary.org/obo/CHEBI_33595>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_33659> (organic aromatic compound)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33659> "CHEBI:33659")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33659> "organic aromatic compound")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33659> <http://purl.obolibrary.org/obo/CHEBI_33655>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33659> <http://purl.obolibrary.org/obo/CHEBI_33832>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_33661> (monocyclic compound)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33661> "CHEBI:33661")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33661> "monocyclic compound")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33661> <http://purl.obolibrary.org/obo/CHEBI_33595>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_33670> (heteromonocyclic compound)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33670> "CHEBI:33670")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33670> "heteromonocyclic compound")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33670> <http://purl.obolibrary.org/obo/CHEBI_33661>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33670> <http://purl.obolibrary.org/obo/CHEBI_5686>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_33675> (p-block molecular entity)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33675> "CHEBI:33675")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33675> "p-block molecular entity")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33675> <http://purl.obolibrary.org/obo/CHEBI_33579>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_33832> (organic cyclic compound)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33832> "CHEBI:33832")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33832> "organic cyclic compound")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33832> <http://purl.obolibrary.org/obo/CHEBI_33595>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33832> <http://purl.obolibrary.org/obo/CHEBI_72695>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_33836> (benzenoid aromatic compound)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_33836> "CHEBI:33836")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33836> "benzenoid aromatic compound")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33836> <http://purl.obolibrary.org/obo/CHEBI_33598>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33836> <http://purl.obolibrary.org/obo/CHEBI_33659>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_35352> (organonitrogen compound)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_35352> "CHEBI:35352")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_35352> "organonitrogen compound")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_35352> <http://purl.obolibrary.org/obo/CHEBI_33285>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_35352> <http://purl.obolibrary.org/obo/CHEBI_51143>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_35358> (sulfonamide)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_35358> "CHEBI:35358")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_35358> "sulfonamide")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_35358> <http://purl.obolibrary.org/obo/CHEBI_33256>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_35358> <http://purl.obolibrary.org/obo/CHEBI_33261>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_35358> <http://purl.obolibrary.org/obo/CHEBI_33552>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_36357> (polyatomic entity)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_36357> "CHEBI:36357")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_36357> "polyatomic entity")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_36357> <http://purl.obolibrary.org/obo/CHEBI_23367>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_36962> (organochalcogen compound)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_36962> "CHEBI:36962")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_36962> "organochalcogen compound")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_36962> <http://purl.obolibrary.org/obo/CHEBI_33285>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_36962> <http://purl.obolibrary.org/obo/CHEBI_33304>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_37533> (azo compound)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_37533> "CHEBI:37533")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_37533> "azo compound")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_37533> <http://purl.obolibrary.org/obo/CHEBI_51143>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_37577> (heteroatomic molecular entity)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_37577> "CHEBI:37577")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_37577> "heteroatomic molecular entity")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_37577> <http://purl.obolibrary.org/obo/CHEBI_36357>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_38101> (organonitrogen heterocyclic compound)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_38101> "CHEBI:38101")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_38101> "organonitrogen heterocyclic compound")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_38101> <http://purl.obolibrary.org/obo/CHEBI_24532>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_38101> <http://purl.obolibrary.org/obo/CHEBI_35352>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_50860> (organic molecular entity)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_50860> "CHEBI:50860")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_50860> "organic molecular entity")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_50860> <http://purl.obolibrary.org/obo/CHEBI_33582>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_51143> (nitrogen molecular entity)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_51143> "CHEBI:51143")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_51143> "nitrogen molecular entity")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_51143> <http://purl.obolibrary.org/obo/CHEBI_33302>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_5686> (heterocyclic compound)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_5686> "CHEBI:5686")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_5686> "heterocyclic compound")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_5686> <http://purl.obolibrary.org/obo/CHEBI_33595>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_72695> (organic molecule)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_72695> "CHEBI:72695")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_72695> "organic molecule")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_72695> <http://purl.obolibrary.org/obo/CHEBI_25367>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_72695> <http://purl.obolibrary.org/obo/CHEBI_50860>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_9334> (sulfasalazine)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_9334> "CHEBI:9334")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_9334> "sulfasalazine")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_9334> <http://purl.obolibrary.org/obo/CHEBI_22682>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_9334> <http://purl.obolibrary.org/obo/CHEBI_26421>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_9334> <http://purl.obolibrary.org/obo/CHEBI_35358>)
+
 # Class: <http://purl.obolibrary.org/obo/DOID_0050890> (synucleinopathy)
 
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/DOID_0050890> "disease_ontology")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DOID_0050890> "DOID:0050890")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DOID_0050890> "synucleinopathy"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DOID_0050890> <http://purl.obolibrary.org/obo/DOID_1289>)
 
 # Class: <http://purl.obolibrary.org/obo/DOID_0081062> (obsolete diabetes)
 
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "url:https://medlineplus.gov/diabetes.html") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DOID_0081062> "A glucose metabolism disease that is characterized by high blood glucose."@en)
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/DOID_0081062> "disease_ontology")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DOID_0081062> "DOID:0081062")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DOID_0081062> "obsolete diabetes"@en)
 
 # Class: <http://purl.obolibrary.org/obo/DOID_1289> (neurodegenerative disease)
 
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_1289> "ICD10CM:G31.9")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_1289> "MESH:D019636")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_1289> "NCI:C195952")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_1289> "NCI:C27090")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_1289> "SNOMEDCT_US_2025_09_01:362975008")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_1289> "UMLS_CUI:C0524851")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_1289> "UMLS_CUI:C1285162")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/DOID_1289> "disease_ontology")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DOID_1289> "DOID:1289")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DOID_1289> "neurodegenerative disease"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DOID_1289> <http://purl.obolibrary.org/obo/DOID_331>)
 
 # Class: <http://purl.obolibrary.org/obo/DOID_14330> (Parkinson's disease)
 
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_14330> "GARD:10251")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_14330> "ICD10CM:G20")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_14330> "ICD9CM:332")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_14330> "KEGG:05012")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_14330> "MESH:D010300")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_14330> "MIM:PS168600")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_14330> "NCI:C26845")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_14330> "ORDO:2828")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_14330> "SNOMEDCT_US_2025_09_01:49049000")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_14330> "UMLS_CUI:C0030567")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/DOID_14330> "disease_ontology")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DOID_14330> "DOID:14330")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DOID_14330> "Parkinson's disease"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DOID_14330> <http://purl.obolibrary.org/obo/DOID_0050890>)
 SubClassOf(<http://purl.obolibrary.org/obo/DOID_14330> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004005> <http://purl.obolibrary.org/obo/MIM_607688>))
@@ -124,21 +531,44 @@ SubClassOf(<http://purl.obolibrary.org/obo/DOID_14330> ObjectSomeValuesFrom(<htt
 
 # Class: <http://purl.obolibrary.org/obo/DOID_331> (central nervous system disease)
 
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_331> "ICD10CM:G96.9")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_331> "MESH:D002493")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_331> "NCI:C2934")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_331> "SNOMEDCT_US_2025_09_01:267144009")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_331> "UMLS_CUI:C0007682")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/DOID_331> "disease_ontology")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DOID_331> "DOID:331")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DOID_331> "central nervous system disease"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DOID_331> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DOID_4> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004026> <http://purl.obolibrary.org/obo/UBERON_0001017>)))
 SubClassOf(<http://purl.obolibrary.org/obo/DOID_331> <http://purl.obolibrary.org/obo/DOID_863>)
 
 # Class: <http://purl.obolibrary.org/obo/DOID_4> (disease)
 
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_4> "MESH:D004194")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_4> "NCI:C2991")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_4> "SNOMEDCT_US_2025_09_01:64572001")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_4> "UMLS_CUI:C0012634")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/DOID_4> "disease_ontology")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DOID_4> "DOID:4")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DOID_4> "disease"@en)
 
 # Class: <http://purl.obolibrary.org/obo/DOID_7> (disease of anatomical entity)
 
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/DOID_7> "disease_ontology")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DOID_7> "DOID:7")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DOID_7> "disease of anatomical entity"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/DOID_7> <http://purl.obolibrary.org/obo/DOID_4>)
 
 # Class: <http://purl.obolibrary.org/obo/DOID_863> (nervous system disease)
 
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_863> "ICD10CM:G98")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_863> "ICD9CM:349.9")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_863> "MESH:D009422")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_863> "NCI:C26835")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_863> "SNOMEDCT_US_2025_09_01:155262005")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/DOID_863> "UMLS_CUI:C0027765")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/DOID_863> "disease_ontology")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/DOID_863> "DOID:863")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DOID_863> "nervous system disease"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/DOID_863> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/DOID_4> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0004026> <http://purl.obolibrary.org/obo/UBERON_0001016>)))
 SubClassOf(<http://purl.obolibrary.org/obo/DOID_863> <http://purl.obolibrary.org/obo/DOID_7>)
@@ -149,6 +579,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MIM_000000> "omim
 
 # Class: <http://purl.obolibrary.org/obo/MIM_607688> (susceptibility to autosomal dominant parkinson disease 11)
 
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MIM_607688> "MIM:607688")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MIM_607688> "susceptibility to autosomal dominant parkinson disease 11")
 SubClassOf(<http://purl.obolibrary.org/obo/MIM_607688> <http://purl.obolibrary.org/obo/MIM_000000>)
 SubClassOf(<http://purl.obolibrary.org/obo/MIM_607688> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0003304> <http://purl.obolibrary.org/obo/DOID_14330>))
@@ -161,72 +592,89 @@ SubClassOf(<http://purl.obolibrary.org/obo/MIM_610297> ObjectSomeValuesFrom(<htt
 
 # Class: <http://purl.obolibrary.org/obo/MIM_613643> (susceptibility to autosomal dominant parkinson disease 5)
 
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MIM_613643> "MIM:613643")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MIM_613643> "susceptibility to autosomal dominant parkinson disease 5")
 SubClassOf(<http://purl.obolibrary.org/obo/MIM_613643> <http://purl.obolibrary.org/obo/MIM_000000>)
 SubClassOf(<http://purl.obolibrary.org/obo/MIM_613643> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0003304> <http://purl.obolibrary.org/obo/DOID_14330>))
 
 # Class: <http://purl.obolibrary.org/obo/MIM_614251> (susceptibility to autosomal dominant parkinson disease 18)
 
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MIM_614251> "MIM:614251")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MIM_614251> "susceptibility to autosomal dominant parkinson disease 18")
 SubClassOf(<http://purl.obolibrary.org/obo/MIM_614251> <http://purl.obolibrary.org/obo/MIM_000000>)
 SubClassOf(<http://purl.obolibrary.org/obo/MIM_614251> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0003304> <http://purl.obolibrary.org/obo/DOID_14330>))
 
 # Class: <http://purl.obolibrary.org/obo/MIM_619491> (susceptibility to autosomal dominant Parkinson disease 24)
 
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MIM_619491> "MIM:619491")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MIM_619491> "susceptibility to autosomal dominant Parkinson disease 24")
 SubClassOf(<http://purl.obolibrary.org/obo/MIM_619491> <http://purl.obolibrary.org/obo/MIM_000000>)
 SubClassOf(<http://purl.obolibrary.org/obo/MIM_619491> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0003304> <http://purl.obolibrary.org/obo/DOID_14330>))
 
 # Class: <http://purl.obolibrary.org/obo/MIM_620923> (susceptibility to autosomal dominant Parkinson disease 26)
 
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/MIM_620923> "MIM:620923")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MIM_620923> "susceptibility to autosomal dominant Parkinson disease 26")
 SubClassOf(<http://purl.obolibrary.org/obo/MIM_620923> <http://purl.obolibrary.org/obo/MIM_000000>)
 SubClassOf(<http://purl.obolibrary.org/obo/MIM_620923> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0003304> <http://purl.obolibrary.org/obo/DOID_14330>))
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0000061> (anatomical structure)
 
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/UBERON_0000061> "UBERON:0000061")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0000061> "anatomical structure")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0000061> <http://purl.obolibrary.org/obo/UBERON_0000465>)
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0000465> (material anatomical entity)
 
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/UBERON_0000465> "UBERON:0000465")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0000465> "material anatomical entity")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0000465> <http://purl.obolibrary.org/obo/UBERON_0001062>)
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0000467> (anatomical system)
 
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/UBERON_0000467> "UBERON:0000467")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0000467> "anatomical system")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0000467> <http://purl.obolibrary.org/obo/UBERON_0000061>)
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0001016> (nervous system)
 
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/UBERON_0001016> "UBERON:0001016")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0001016> "nervous system")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001016> <http://purl.obolibrary.org/obo/UBERON_0000467>)
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0001017> (central nervous system)
 
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/UBERON_0001017> "UBERON:0001017")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0001017> "central nervous system")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001017> <http://purl.obolibrary.org/obo/UBERON_0004121>)
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001017> <http://purl.obolibrary.org/obo/UBERON_0011216>)
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0001062> (anatomy)
 
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/UBERON_0001062> "UBERON:0001062")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0001062> "anatomy")
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0004121> (ectoderm-derived structure)
 
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/UBERON_0004121> "UBERON:0004121")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0004121> "ectoderm-derived structure")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0004121> <http://purl.obolibrary.org/obo/UBERON_0000061>)
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0010000> (multicellular anatomical structure)
 
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/UBERON_0010000> "UBERON:0010000")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0010000> "multicellular anatomical structure")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0010000> <http://purl.obolibrary.org/obo/UBERON_0000061>)
 
 # Class: <http://purl.obolibrary.org/obo/UBERON_0011216> (organ system subdivision)
 
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/UBERON_0011216> "UBERON:0011216")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0011216> "organ system subdivision")
 SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0011216> <http://purl.obolibrary.org/obo/UBERON_0010000>)
+
+# Class: <http://purl.obolibrary.org/obo/doid#chebi> (chebi)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/doid#chebi> "chebi")
 
 
 )
