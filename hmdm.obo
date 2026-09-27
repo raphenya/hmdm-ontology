@@ -1,8 +1,8 @@
 format-version: 1.2
-data-version: releases/2026-09-25
+data-version: releases/2026-09-27
 saved-by: HMDM
 auto-generated-by: cv2obo
-default-namespace: human_microbiome_drug_metabolism
+default-namespace: human_microbiome_drug_metabolism_ontology
 idspace: dc http://purl.org/dc/elements/1.1/ 
 idspace: dcterms http://purl.org/dc/terms/ 
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
@@ -16,7 +16,7 @@ property_value: dcterms:created "2026-08-13T14:31:00" xsd:dateTime
 property_value: dcterms:description "The Human Microbiome Drug Metabolism (HMDM) Ontology describes bacterial genes that encode enzymes that transform therapeutic drugs other than antibiotics." xsd:string
 property_value: dcterms:license https://creativecommons.org/licenses/by/4.0/
 property_value: dcterms:title "The Human Microbiome Drug Metabolism" xsd:string
-property_value: owl:versionInfo "2026-09-25" xsd:string
+property_value: owl:versionInfo "2026-09-27" xsd:string
 
 [Term]
 id: BFO:0000002
@@ -14291,14 +14291,12 @@ is_a: GO:0009987 ! cellular process
 [Term]
 id: HMDM:0000001
 name: root of drug metabolism
-namespace: human_microbiome_drug_metabolism_ontology
 def: "The human gut microbiome transforms and degrade drugs using enzymes." []
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 
 [Term]
 id: HMDM:0000002
 name: drug
-namespace: human_microbiome_drug_metabolism_ontology
 def: "A drug is any substance that causes a change in an organism's physiology or psychology when consumed or introduced." []
 is_a: HMDM:0000001 ! root of drug metabolism
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -14306,7 +14304,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000005
 name: antiviral
-namespace: human_microbiome_drug_metabolism_ontology
 def: "An agent that kills a virus or that suppresses its ability to replicate and, hence, inhibits its capability to multiply and reproduce. For example, amantadine (Symmetrel) is a synthetic antiviral. It acts by inhibiting the multiplication of the influenza A virus." [PMID:33726557]
 is_a: HMDM:0000073 ! drug class
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -14314,7 +14311,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000006
 name: determinant of drug metabolism
-namespace: human_microbiome_drug_metabolism_ontology
 def: "The primary factors that determine the drug metabolism." []
 is_a: HMDM:0000001 ! root of drug metabolism
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -14322,7 +14318,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000007
 name: mechanism of drug metabolism
-namespace: human_microbiome_drug_metabolism_ontology
 def: "The main mechanisms of drug modification, inactivation of a drug, and drug degradation." []
 is_a: HMDM:0000001 ! root of drug metabolism
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -14330,7 +14325,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000008
 name: classification
-namespace: human_microbiome_drug_metabolism_ontology
 def: "The categories to group enzymes into gene families, mechanisms, and drug classes." []
 is_a: HMDM:0000001 ! root of drug metabolism
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -14338,7 +14332,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000009
 name: nucleoside antiviral
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Among the molecules directly targeting viruses, nucleoside analogues form an essential class of broad-spectrum antiviral drugs. Many direct-acting antiviral nucleoside analogues target the viral polymerase responsible for the viral genome replication. Unlike non-nucleoside polymerase inhibitors that often bind to allosteric non-conserved and mutation-tolerant sites, nucleoside analogues directly bind to the more conserved active site of the viral polymerase after conversion to their triphosphate active form. Nucleoside analogs represent the largest class of small molecule-based antivirals, which currently form the backbone of chemotherapy of chronic infections caused by HIV, hepatitis B or C viruses, and herpes viruses." [PMID:33924302]
 is_a: HMDM:0000005 ! antiviral
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -14346,7 +14339,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000010
 name: Escherichia coli thymidine phosphorylase (deoA)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "The enzymes which catalyze the reversible phosphorolysis of pyrimidine nucleosides are involved in the degradation of these compounds and in their utilization as carbon and energy sources, or in the rescue of pyrimidine bases for nucleotide synthesis." [PMID:32526207, PMID:34260950]
 is_a: HMDM:0000089 ! fluoropyrimidines deglycosylation enzyme
 relationship: MOP:0001162 CHEBI:31521 ! deglycosylation doxifluridine
@@ -14357,7 +14349,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000012
 name: gene family
-namespace: human_microbiome_drug_metabolism_ontology
 def: "A gene family is a set of several similar genes with respect to structure, function, and origin." []
 is_a: HMDM:0000008 ! classification
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -14365,7 +14356,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000015
 name: mechanism
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Any chemical reaction or series of reactions, often enzyme-mediated, which result in a physiologic effect." []
 is_a: HMDM:0000008 ! classification
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -14373,7 +14363,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000016
 name: antiviral inactivation
-namespace: human_microbiome_drug_metabolism_ontology
 def: "The process of rendering antiviral medication ineffective. This can be done through various mechanisms." []
 is_a: HMDM:0000015 ! mechanism
 is_a: HMDM:0000018 ! antiviral metabolism
@@ -14382,7 +14371,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000018
 name: antiviral metabolism
-namespace: human_microbiome_drug_metabolism_ontology
 def: "The process of breaking down antiviral agents." []
 is_a: HMDM:0000007 ! mechanism of drug metabolism
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -14390,7 +14378,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000019
 name: antineoplastics metabolism
-namespace: human_microbiome_drug_metabolism_ontology
 def: "The process of breaking down antineoplastics agents." []
 is_a: HMDM:0000007 ! mechanism of drug metabolism
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -14398,7 +14385,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000020
 name: anitineoplastic inactivation
-namespace: human_microbiome_drug_metabolism_ontology
 def: "The process of rendering anitineoplastic medication ineffective. This can be done through various mechanisms." []
 is_a: HMDM:0000015 ! mechanism
 is_a: HMDM:0000019 ! antineoplastics metabolism
@@ -14407,7 +14393,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000021
 name: central nervous system agent
-namespace: human_microbiome_drug_metabolism_ontology
 def: "The central nervous system agents are medicines that affect the central nervous system (CNS). There are many different types of drugs that work on the CNS, including anesthetics, anticonvulsants, antiemetics, antiparkinson agents, CNS stimulants, muscle relaxants, narcotic analgesics (pain relievers), nonnarcotic analgesics (such as acetaminophen and NSAIDs), and sedatives. Features of CNS drugs are related to their ability to penetrate the blood-brain barrier affinity and exhibit CNS activity and can be used in the management of neuro degenerative and psychiatric problems." [PMID:16489364, PMID:27439371]
 is_a: HMDM:0000073 ! drug class
 is_a: HMDM:0000488 ! clinical use
@@ -14416,7 +14401,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000022
 name: dopamine precursor
-namespace: human_microbiome_drug_metabolism_ontology
 def: "A chemical compound that participates in a chemical reaction that produces dopamine." []
 is_a: HMDM:0000021 ! central nervous system agent
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -14424,7 +14408,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000023
 name: Enterococcus faecalis tyrosine decarboxylase (TDC)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Tyrosine decarboxylase (TDC) is an enzyme with the ability to decarboxylate L-tyrosine into tyramine. Due to the structural similarities between tyrosine and levodopa, TDC found in small intestinal bacteria can convert levodopa to dopamine. Moreover, commonly used decarboxylase inhibitors, carbidopa, benserazide, and methyldopa, do not inhibit TDC. This reduces the efficacy of the drug since the conversion of levodopa to dopamine occurs outside the brain." [PMID:25529314, PMID:30659181, PMID:31196984]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000092 ! carboxyl-lyase
@@ -14435,7 +14418,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000025
 name: cardiac therapeutic
-namespace: human_microbiome_drug_metabolism_ontology
 def: "A group of therapeutics targeting the heart." []
 is_a: HMDM:0000073 ! drug class
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -14443,7 +14425,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000032
 name: cardiac glycoside reductase (cgr) operon
-namespace: human_microbiome_drug_metabolism_ontology
 def: "A specific bacterial enzyme that allows E. lenta bacteria to metabolize and deactivate digoxin." [PMID:23869020]
 is_a: HMDM:0000095 ! Cytochrome c-type protein
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -14451,7 +14432,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000035
 name: Eggerthella lenta cgr1
-namespace: human_microbiome_drug_metabolism_ontology
 def: "This gene is responsible for encoding proteins which are homologous to bacterial cytochromes, this allows the bacteria to use digoxin as an alternate electron acceptor.  Cgr1 is not directly involved in digoxin reduction, instead, it has a more general function such as electron transfer, or membrane docking. The function of cgr1 is thought to be completing the electron transfer from a membrane-associated electron donor (e.g. the membrane quinone pool) to the [4Fe-4S] cluster of the Cgr2 reductase via its covalently bound heme groups. It is highly up-regulated by digoxin and other cardiac glycosides containing unsaturated butyrolactone rings, such as digitoxin, digoxigenin, and, to a lesser extent, ouabain. It is repressed by arginine but not by ornithine. It is a part of an operon that consists of cgr1 and cgr2." [PMID:21304654, PMID:23869020]
 is_a: HMDM:0000095 ! Cytochrome c-type protein
 relationship: MOP:0000615 HMDM:0000037 ! electron transfer Eggerthella lenta cgr2
@@ -14461,7 +14441,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000037
 name: Eggerthella lenta cgr2
-namespace: human_microbiome_drug_metabolism_ontology
 def: "This gene is involved in the inactivation of the cardiac medication and plant natural product digoxin, thus decreasing drug efficacy and toxicity. It catalyzes the reduction of the alpha,beta-unsaturated butyrolactone ring of digoxin to the inactive metabolite dihydrodigoxin. It likely uses the cytochrome Cgr1 as the physiological electron donor, encoded by the adjacent gene in the locus. cgr2 only reduces digoxin and other cardenolide toxins, such as digitoxin, digoxigenin, ouabain and ouabagenin. Therefore, it is a specialized enzyme present in some gut bacteria E. lenta that protects their human host against ingested plant toxins." [PMID:21304654, PMID:23869020, PMID:29761785]
 is_a: HMDM:0000095 ! Cytochrome c-type protein
 relationship: MOP:0000569 CHEBI:28544 ! reduction digitoxin
@@ -14474,7 +14453,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000049
 name: Beta-glucuronidase
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Beta-glucuronidases are members of the glycosidase family of enzymes that catalyze breakdown of complex carbohydrates. Bacterial beta-glucuronidase can metabolize to 18-beta-glycyrrhetinic acid (GA) as a main product and to 18-beta-glycyrrhetinic acid-3-O-beta-D-glucuronide (GAMG) as a minor product." [PMID:28578872]
 is_a: HMDM:0000493 ! Glycoside hydrolase family 2
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -14482,7 +14460,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000050
 name: Escherichia coli  uridine phosphorylase (udp)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "The uridine phosphorylase catalyzes the reversible conversion of uridine to uracil and ribose-1-phosphate in bacteria. This enzyme efficiently deglycosylates capecitabine, deoxyuridine, and doxifluridine." [PMID:32526207, PMID:34260950]
 is_a: HMDM:0000089 ! fluoropyrimidines deglycosylation enzyme
 relationship: MOP:0001162 CHEBI:16450 ! deglycosylation 2'-deoxyuridine
@@ -14493,7 +14470,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000068
 name: pyrimidine 5'-deoxyribonucleoside
-namespace: human_microbiome_drug_metabolism_ontology
 def: "A pyrimidine deoxyribonucleoside that is a pyrimidine ribonucleoside in which the hydroxy group at the 5' position is replaced by a hydrogen." []
 is_a: HMDM:0000009 ! nucleoside antiviral
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -14501,7 +14477,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000073
 name: drug class
-namespace: human_microbiome_drug_metabolism_ontology
 def: "A drug class is a set of medications and other compounds that have similar chemical structures, the same mechanism of action, a related mode of action, and/or are used to treat the same disease." []
 is_a: HMDM:0000008 ! classification
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -14509,7 +14484,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000074
 name: herbal medication and supplementation
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Products made from botanicals, or plants, that are used to treat diseases or to maintain health are called herbal products, botanical products, or phytomedicines. A product made from plants and used solely for internal use is called an herbal supplement." []
 is_a: HMDM:0000073 ! drug class
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -14517,7 +14491,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000076
 name: anti-neoplastic agent
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Antineoplastic drugs (ANDs), also known as cytostatic drugs, are a heterogeneous group of chemicals used to control the growth of neoplastic cells. Most ANDs interfere with cell proliferation through DNA destruction, RNA synthesis, or duplication process. Unfortunately, ANDs do not distinguish cancer cells from normal ones, leading to unwanted adverse effects in patients receiving chemotherapy. The International Agency for Research on Cancer (IARC) classifies some ANDs as human carcinogens." [PMID:27110842]
 is_a: HMDM:0000073 ! drug class
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -14525,7 +14498,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000077
 name: topoisomerase inhibitor
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Topoisomerase inhibitors are chemical compounds that block the action of topoisomerases. Topoisomerase plays key roles in cellular reproduction and DNA organization, as they facilitate the cleavage of single and double stranded DNA to relax supercoils, untangle catenanes, and condense chromosomes in eukaryotic cells. Topoisomerase inhibitors affect these essential cellular processes by preventing topoisomerases from performing DNA strand breaks or prevent the re-ligation step of the topoisomerase mechanism by interacting with topoisomerase-DNA complexes. These topoisomerase-DNA-inhibitor complexes are cytotoxic agents because the un-repaired single and double stranded DNA breaks that they cause can lead to apoptosis and cell death. Due to this ability to induce apoptosis, topoisomerase inhibitors have gained interest as therapeutics against infectious and cancerous cells." [PMID:22108601, PMID:29363591]
 is_a: HMDM:0000076 ! anti-neoplastic agent
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -14533,7 +14505,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000078
 name: Camptothecin Analogues
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Camptothecin (CPT) is a topoisomerase inhibitor. It was discovered in 1966 during a systematic screening of natural products for anticancer drugs. It was isolated from the bark and stem of Camptotheca acuminata (Camptotheca, Happy tree), a tree native to China used in traditional Chinese medicine. CPT has showed anticancer activity in clinical trials, especially against breast, ovarian, colon, lung, and stomach cancers. To maximize the therapeutic effects, four CPT analogues have been approved and are used as antineoplastic agents." [PMID:21051639]
 is_a: HMDM:0000077 ! topoisomerase inhibitor
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -14541,7 +14512,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000081
 name: irinotecan
-namespace: human_microbiome_drug_metabolism_ontology
 def: "A member of the class of pyranoindolizinoquinolines that is the carbamate ester obtained by formal condensation of the carboxy group of [1,4'-bipiperidine]-1'-carboxylic acid with the phenolic hydroxy group of (4S)-4,11-diethyl-4,9-dihydroxy-1H-pyrano[3',4':6,7]indolizino[1,2- hydrochloride]quinoline-3,14-dione. Used (in the form of its hydrochloride salt trihydrate) in combination with fluorouracil and leucovorin, for the treatment of patients with metastatic adenocarcinoma of the pancreas after disease progression following gemcitabine-based therapy. It is converted via hydrolysis of the carbamate linkage to its active metabolite, SN-38, which is ~1000 times more active." []
 is_a: HMDM:0000002 ! drug
 is_a: HMDM:0000078 ! Camptothecin Analogues
@@ -14550,7 +14520,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000089
 name: fluoropyrimidines deglycosylation enzyme
-namespace: human_microbiome_drug_metabolism_ontology
 def: "These are enzymes responsible for the breakdown and utilization of nucleosides." []
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000090 ! thymidine pyrimidine-nucleoside phosphorylase family
@@ -14560,7 +14529,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000090
 name: thymidine pyrimidine-nucleoside phosphorylase family
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Thymidine phosphorylase (TP) enzyme catalyzes the phosphorolysis of the nucleosides thymidine (dThd) and deoxyuridine (dUrd) to the corresponding bases thymine and uracil, and deoxyribose-1-phosphate. Thymidine phosphorylase (TP), is also related to Pyrimidine nucleoside phosphorylase (PYNP), which catalyzes the reversible phosphorolysis of pyrimidines in the nucleotide synthesis salvage pathway. In lower organisms (e.g. Bacillus stearothermophilus) PYNP accepts both thymidine and uridine, whereas in mammalian and other higher organisms it is specific for thymidine (designated thymidine phosphorylase, TP). PYNP shares 40% sequence similarity (and presumably significant structural similarity) with human TP." [PMID:27004974, PMID:9817849]
 is_a: HMDM:0000012 ! gene family
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -14568,7 +14536,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000091
 name: Trastuzumab deruxtecan
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Trastuzumab deruxtecan is a monoclonal antibody medication used for the treatment of breast cancer or for the treatment of gastric or gastroesophageal adenocarcinoma. It is an antibody-drug conjugate composed of an anti-HER2 (human epidermal growth factor receptor 2) antibody, a cleavable tetrapeptide-based linker, and a cytotoxic topoisomerase I inhibitor." []
 is_a: HMDM:0000002 ! drug
 is_a: HMDM:0000078 ! Camptothecin Analogues
@@ -14577,7 +14544,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000092
 name: carboxyl-lyase
-namespace: human_microbiome_drug_metabolism_ontology
 def: "An enzyme that participates in a chemical reaction that removes a carboxyl group, decarboxylation, from a compound." []
 is_a: HMDM:0000094 ! lyases family
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -14585,7 +14551,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000094
 name: lyases family
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Lyases are enzymes that catalyze the bond construction and breaking by means other than hydrolysis or redox reactions. Such enzymes are particular in the sense that they only require one substrate for the reaction in one direction, but two substrates for the reverse reaction." [PMID:21417217]
 is_a: HMDM:0000012 ! gene family
 is_a: HMDM:0000896 ! Drug inactivation enzyme
@@ -14594,7 +14559,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000095
 name: Cytochrome c-type protein
-namespace: human_microbiome_drug_metabolism_ontology
 def: "These proteins are part of cardiac glycoside reductase (CGR) pathway. The CGR is responsible for reductive metabolism of cardiac glycoside. The expression of these enzymes can be inhibited by dietary arginine." [PMID:24637603]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000097 ! cytochrome protein family
@@ -14604,7 +14568,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000097
 name: cytochrome protein family
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Cytochrome (CYP) enzymes catalyze the metabolic reactions of endogenous and exogenous compounds. The superfamily of enzymes is found across many organisms, regardless of type, except for plants. Differences in cytochrome subunits are expected to be critical in deciding the unique substrates that allow this functional diversity." []
 is_a: HMDM:0000012 ! gene family
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -14612,7 +14575,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000098
 name: cardiac therapy metabolism
-namespace: human_microbiome_drug_metabolism_ontology
 def: "The process of breaking down of a cardiac therapy drug which improve the heart's energy production and efficiency." []
 is_a: HMDM:0000007 ! mechanism of drug metabolism
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -14620,7 +14582,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000099
 name: sulindac
-namespace: human_microbiome_drug_metabolism_ontology
 def: "A monocarboxylic acid that is 1-benzylidene-1H-indene which is substituted at positions 2, 3, and 5 by methyl, carboxymethyl, and fluorine respectively, and in which the phenyl group of the benzylidene moiety is substituted at the para position by a methylsulfinyl group. It is a prodrug for the corresponding sulfide, a non-steroidal anti-inflammatory drug, used particularly in the treatment of acute and chronic inflammatory conditions. Sulindac is used to relieve pain, tenderness, swelling, and stiffness caused by osteoarthritis (arthritis caused by a breakdown of the lining of the joints), rheumatoid arthritis (arthritis caused by swelling of the lining of the joints), and ankylosing spondylitis (arthritis that mainly affects the spine)." []
 is_a: HMDM:0000002 ! drug
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -14628,7 +14589,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000108
 name: raloxifene
-namespace: human_microbiome_drug_metabolism_ontology
 def: "A member of the class of 1-benzothiophenes that is 1-benzothiophene in which the hydrogens at positions 2, 3, and 6 have been replaced by p-hydroxyphenyl, p-[2-(piperidin-1-yl)ethoxy]benzoyl, and hydroxy groups, respectively. Raloxifene is a medication used to prevent and treat osteoporosis in postmenopausal women and those on glucocorticoids. It is also used to reduce the risk of breast cancer in those at high risk. Raloxifene is a selective estrogen receptor modulator (SERM) and therefore a mixed agonist–antagonist of the estrogen receptor (ER). It has estrogenic effects in bone and antiestrogenic effects in the breasts and uterus." []
 is_a: HMDM:0000002 ! drug
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -14636,7 +14596,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000125
 name: decarboxylation of a molecule
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Enzymatic decarboxylation of a molecule" []
 is_a: HMDM:0000015 ! mechanism
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -14644,7 +14603,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000126
 name: deglycosylation of a molecule
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Enzymatic deglycosylation of a molecule" []
 is_a: HMDM:0000015 ! mechanism
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -14652,7 +14610,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000128
 name: Escherichia coli uidA
-namespace: human_microbiome_drug_metabolism_ontology
 def: "A gene that produces beta-glucuronidase enzyme in Escherichia coli which is involved in hydrolysis on SN-38G to SN-38 in the intestine." [PMID:29269393]
 is_a: HMDM:0000907 ! Loop 1
 relationship: MOP:0000569 HMDM:0000491 ! reduction hydrolysis of a molecule
@@ -14662,7 +14619,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000142
 name: reduction of a molecule
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Enzymatic reduction of a molecule" []
 is_a: HMDM:0000015 ! mechanism
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -14670,7 +14626,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000147
 name: Bacteroides thetaiotaomicron acetyl esterase (BT_4096)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "The BT_4096 is an acetyl esterase from the human gut microbe B. thetaiotaomicron that converts the drug diltiazem to its deacetyl metabolite." [PMID:31158845, PMID:32423809]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000151 ! acetyl esterase
@@ -14686,7 +14641,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000150
 name: GDSL/SGNH-family hydrolase
-namespace: human_microbiome_drug_metabolism_ontology
 def: "The GDSL esterases and lipases are hydrolytic enzymes with multifunctional properties such as broad substrate specificity and regiospecificity." [PMID:15522763]
 is_a: HMDM:0000012 ! gene family
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -14694,7 +14648,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000151
 name: acetyl esterase
-namespace: human_microbiome_drug_metabolism_ontology
 def: "An enzyme that participates in a chemical reaction that removes a acetyl group, deacetylation, from a compound." []
 is_a: HMDM:0000150 ! GDSL/SGNH-family hydrolase
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -14702,7 +14655,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000153
 name: deacetylation of a molecule
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Enzymatic removal of acetyl group from a molecule." []
 is_a: HMDM:0000015 ! mechanism
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -14710,7 +14662,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000164
 name: Bacteroides thetaiotaomicron purine nucleoside phosphorylase (PNP)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Converts brivudine (BRV) to bromovinyluracil (BVU), but specific mechanism is not described. The PNP enzyme usually metabolizes nucleosides inosine into hypoxanthine and guanosine into guanine. These are not present in BRV." [PMID:30733391]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000496 ! Purine nucleoside phosphorylase
@@ -14721,7 +14672,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000168
 name: Bacteroides thetaiotaomicron acetyl esterase (acetylxylosidase) (BT_0152)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "The BT_0152 is an acetyl esterase from the human gut microbe B. thetaiotaomicron that metabolises the drugs Bisacodyl, Diacetamate, Famciclovir, Racecadotril , Roxatidine acetate, Sulfasalazine," [PMID:31158845]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000151 ! acetyl esterase
@@ -14734,7 +14684,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000210
 name: Bacteroides dorei Acetyl esterase (BACDOR_03937)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "The BACDOR_03937 is an acetyl esterase from the human gut microbe Bacteroides dorei that metabolises the drugs Bisacodyl, Diacetamate, Famciclovir, and Pantoprazole." [PMID:31158845]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000151 ! acetyl esterase
@@ -14748,7 +14697,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000211
 name: Bacteroides thetaiotaomicron endoglucanase E precursor (EGE) (BT_0445)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Bacteroides thetaiotaomicron endoglucanase E precursor (EGE) (BT_0445)" [PMID:31158845]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000494 ! Endoglucanase E precursor (EGE)
@@ -14759,7 +14707,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000213
 name: Bacteroides thetaiotaomicron NADH oxidase (BT_0217)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Bacteroides thetaiotaomicron NADH oxidase (BT_0217)" [PMID:31158845]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000240 ! NADH oxidase
@@ -14773,7 +14720,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000214
 name: Bacteroides thetaiotaomicron Putative nitroreductase (BT_1006)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Bacteroides thetaiotaomicron Putative nitroreductase (BT_1006)" [PMID:31158845]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000269 ! FMN-dependent Nitroreductase
@@ -14785,7 +14731,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000215
 name: Bacteroides thetaiotaomicron Lysophospholipase L1 and related esterases (BT_0569)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "This esterase codes for a SGNH-hydrolase that hydrolase a wide rage of drugs which includes antivirals, analgesics, and corticosteroids." [PMID:31158845]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000503 ! Lysophospholipase L1 and related esterase
@@ -14803,7 +14748,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000216
 name: Bacteroides thetaiotaomicron Nitroreductase (BT_1148)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Bacteroides thetaiotaomicron Nitroreductase (BT_1148)" [PMID:31158845]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000269 ! FMN-dependent Nitroreductase
@@ -14816,7 +14760,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000217
 name: Bacteroides thetaiotaomicron putative xylanase (BT_1192)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Bacteroides thetaiotaomicron putative xylanase (BT_1192)" [PMID:31158845]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000150 ! GDSL/SGNH-family hydrolase
@@ -14827,7 +14770,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000218
 name: Bacteroides thetaiotaomicron putative general stress protein (BT_1429)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Bacteroides thetaiotaomicron putative general stress protein (BT_1429)" [PMID:31158845, PMID:4402374]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000846 ! Pyridoxamine phosphate oxidase family
@@ -14840,7 +14782,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000219
 name: Bacteroides thetaiotaomicron 3-oxo-5-alpha-steroid 4-dehydrogenase (BT_2068)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Bacteroides thetaiotaomicron 3-oxo-5-alpha-steroid 4-dehydrogenase (BT_2068)" [PMID:31158845]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000843 ! PEMT (Phospholipid methyltransferase) super family
@@ -14852,7 +14793,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000220
 name: Bacteroides thetaiotaomicron cAMP-binding proteins (BT_2366)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "This is a cyclic adenosine monophosphate (cAMP) receptor protein that binds to allosteric effector molecules." [PMID:31158845]
 is_a: HMDM:0000887 ! Crp/Fnr family transcriptional regulator
 relationship: HMDM:0000938 CHEBI:94758 ! metabolizes drug Roxane
@@ -14862,7 +14802,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000221
 name: Bacteroides thetaiotaomicron Acyltransferase (BT_2367)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Bacteroides thetaiotaomicron Acyltransferase (BT_2367)" [PMID:31158845]
 is_a: HMDM:0000271 ! Acyltransferase
 relationship: HMDM:0000938 HMDM:0000787 ! metabolizes drug Pericyazine
@@ -14871,7 +14810,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000222
 name: Bacteroides thetaiotaomicron hypothetical protein (BT_2961)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Bacteroides thetaiotaomicron hypothetical protein (BT_2961)" [PMID:31158845]
 is_a: HMDM:0000151 ! acetyl esterase
 relationship: HMDM:0000938 CHEBI:3125 ! metabolizes drug Bisacodyl
@@ -14880,7 +14818,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000223
 name: Bacteroides thetaiotaomicron Hydrolase, HAD superfamily (BT_3112)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Bacteroides thetaiotaomicron Hydrolase, HAD superfamily (BT_3112)" [PMID:31158845]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000792 ! HAD superfamily
@@ -14892,7 +14829,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000224
 name: Bacteroides thetaiotaomicron putative sialic acid-specific acetylesterase (BT_3124)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Bacteroides thetaiotaomicron putative sialic acid-specific acetylesterase (BT_3124)" [PMID:31158845]
 is_a: HMDM:0000151 ! acetyl esterase
 relationship: HMDM:0000938 CHEBI:3125 ! metabolizes drug Bisacodyl
@@ -14901,7 +14837,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000225
 name: Bacteroides thetaiotaomicron hypothetical protein (BT_4075)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Bacteroides thetaiotaomicron hypothetical protein (BT_4075)" [PMID:31158845]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000150 ! GDSL/SGNH-family hydrolase
@@ -14912,7 +14847,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000226
 name: Bacteroides thetaiotaomicron sialic acid-specific 9-O-acetylesterase (BT_4091)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Bacteroides thetaiotaomicron sialic acid-specific 9-O-acetylesterase (BT_4091)" [PMID:31158845]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000151 ! acetyl esterase
@@ -14923,7 +14857,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000227
 name: Collinsella aerofaciens hypothetical protein (COLAER_00311)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Collinsella aerofaciens hypothetical protein (COLAER_00311)" [PMID:31158845]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000151 ! acetyl esterase
@@ -14934,7 +14867,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000228
 name: Collinsella aerofaciens Lj928 prophage protein (COLAER_00815)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Collinsella aerofaciens Lj928 prophage protein (COLAER_00815)" [PMID:31158845]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000150 ! GDSL/SGNH-family hydrolase
@@ -14946,7 +14878,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000229
 name: Collinsella aerofaciens hypothetical protein (COLAER_01707)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Collinsella aerofaciens hypothetical protein (COLAER_01707)" [PMID:31158845]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000266 ! FMN-dependent NAD(P)H nitroreductase
@@ -14959,7 +14890,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000230
 name: Collinsella aerofaciens hypothetical protein (COLAER_01846)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Collinsella aerofaciens hypothetical protein (COLAER_01846)" [PMID:31158845]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000240 ! NADH oxidase
@@ -14970,7 +14900,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000231
 name: Collinsella aerofaciens hypothetical protein (COLAER_02348)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Collinsella aerofaciens hypothetical protein (COLAER_02348)" [PMID:31158845]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000270 ! FMN-dependent NADPH nitroreductase
@@ -14981,7 +14910,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000232
 name: Bacteroides dorei Oxygen-insensitive NADPH nitroreductase (BACDOR_00571)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Bacteroides dorei Oxygen-insensitive NADPH nitroreductase (BACDOR_00571)" [PMID:31158845]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000270 ! FMN-dependent NADPH nitroreductase
@@ -14993,7 +14921,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000233
 name: Bacteroides dorei sialate O-acetylesterase (BACDOR_00665)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "A sialate O-acetylesterase (BACDOR_00665) metabolizes antivirals, anti-inflammatory drugs, corticosteroids, and laxatives, including famciclovir, diflorasone diacetate, deflazacort, and Bisacodyl." [PMID:31158845]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000151 ! acetyl esterase
@@ -15009,7 +14936,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000234
 name: Bacteroides dorei 3-oxo-5-alpha-steroid 4-dehydrogenase (BACDOR_03091)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "The Bacteroides dorei 3-oxo-5-alpha-steroid 4-dehydrogenase (BACDOR_03091) product metabolize Levonorgestrel, drospirenone, and Norethindrone acetate. This enzyme (5-alpha-reductase) is also associated with three gene cluster (5-alpha-reductase, 5-beta-reductase, 3-beta-HSDH) in conversion of secondary bile acids acid 3-oxoLCA to isoalloLCA." [PMID:31158845, PMID:34416161]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000843 ! PEMT (Phospholipid methyltransferase) super family
@@ -15022,7 +14948,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000235
 name: Bacteroides dorei Lipase/acylhydrolase domain protein (BACDOR_03379)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Bacteroides dorei Lipase/acylhydrolase domain protein (BACDOR_03379) metabolizes antivirals, anti-inflammatory drugs, corticosteroids, and laxatives, including famciclovir, diflorasone diacetate, deflazacort, and Bisacodyl." [PMID:31158845]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000151 ! acetyl esterase
@@ -15038,7 +14963,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000236
 name: Bacteroides dorei hypothetical protein (BACDOR_03642)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "This SGNH/GDSL hydrolase family protein metabolizes multiple drugs such as laxative Bisacodyl and corticosteroid deflazacort." [PMID:31158845]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000151 ! acetyl esterase
@@ -15053,7 +14977,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000237
 name: Bacteroides dorei Acyltransferase (BACDOR_03934)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "This acyltransferase from Phocaeicola dorei metabolize sedative phenothiazine." [PMID:31158845]
 is_a: HMDM:0000271 ! Acyltransferase
 relationship: HMDM:0000938 HMDM:0000787 ! metabolizes drug Pericyazine
@@ -15062,7 +14985,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000238
 name: Bacteroides dorei NADPH nitroreductase (BACDOR_03988)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "NADPH nitroreductase (BACDOR_03988) is responsible for metabolizing the calcium channel blocker nitrendipine as well as the anti-protozoal agent tinidazole." [PMID:31158845]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000270 ! FMN-dependent NADPH nitroreductase
@@ -15074,7 +14996,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000239
 name: Escherichia coli ATCC 8739 beta-glucuronidase (uidA)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Beta-glucuronidase from Escherichia coli ATCC 8739 367 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity." [PMID:33411719]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000907 ! Loop 1
@@ -15084,7 +15005,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000240
 name: NADH oxidase
-namespace: human_microbiome_drug_metabolism_ontology
 def: "NADH oxidase (NOX) is a member of the flavoprotein disulfide reductase family that catalyses the pyridine-nucleotide-dependent reduction of various substrates, including O2, H2O2 and thioredoxin. NADH oxidases (NOXs) catalysing the oxidation of NADH to yield NAD+ and H2O, H2O2, or both play an important role in protecting organisms from oxidative stress and maintaining the balance of NAD+/NADH." [PMID:10629192, PMID:27737924]
 is_a: HMDM:0000264 ! Flavoenzymes
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -15092,7 +15012,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000261
 name: anti-parkinson agent
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Parkinson’s disease (PD) is characterized by prodromal symptoms, motor difficulties, and psychological or cognitive problems. As a progressive neurodegenerative disease, PD causes focal degeneration of midbrain dopamine (MesDA) neurons. Antiparkinson agents are agents used for treatment of Parkinson’s disease. Medications, include dopamine agonists, monoamine oxidase B inhibitors, levodopa plus carbidopa, etc., anticholinergics and amantadine. Also, new theraputic approaches include, based on recent advances in the understanding of the pathophysiology of Parkinson’s disease, genetic and disease-modifying approaches to reduce abnormal accumulation and aggregation of alpha-synuclein (aSYN), mitochondrial dysfunction, and dysfunction of lysosomal proteins, as well as approaches to reduce neuroinflammation and increase neurorestoration." [PMID:30661251, PMID:35601911]
 is_a: HMDM:0000073 ! drug class
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -15100,7 +15019,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000264
 name: Flavoenzymes
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Flavoenzymes are redox proteins that catalyze a wide diversity of biological reactions ranging from O2 activation, to aromatic hydroxylations, dehydrogenations, and reactions in which they can accept or donate one or two electrons." [PMID:10494549]
 is_a: HMDM:0000012 ! gene family
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -15108,7 +15026,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000265
 name: FMN-dependent NADH azoreductase
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Azoreductases reduce the azo bond (N=N) in azo dyes to produce colorless amine products. FMN-dependent NADH azoreductase are flavin-dependent, specifically flavin mononucleotide (FMN) enzymes, that are able to reductively cleave compounds containing an azo bond and where NADH is used as an electron donor for the reduction of substrates by azoreductases." [PMID:18791262, PMID:27487252]
 is_a: HMDM:0000264 ! Flavoenzymes
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -15116,7 +15033,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000266
 name: FMN-dependent NAD(P)H nitroreductase
-namespace: human_microbiome_drug_metabolism_ontology
 def: "The FMN-dependent NAD(P)H nitroreductase catalyze the sequential reduction of nitro groups through the addition of electron pairs from NAD(P)H and flavin mononucleotide (FMN) ." []
 is_a: HMDM:0000264 ! Flavoenzymes
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -15124,7 +15040,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000269
 name: FMN-dependent Nitroreductase
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Nitroreductases are a family of evolutionarily related proteins involved in reducing nitroaromatic and nitroheterocyclic compounds. FMN-dependent Nitroreductase uses flavin mononucleotide (FMN) as the cofactor in this reaction. FMN usually works as a prosthetic groups in flavoproteins to which they are tightly bound. Flavodoxins are small monomeric flavoproteins (15–22 kDa) that noncovalently bind a single FMN molecule, acting as a redox center. The flavodoxin scaffold contributes to the mechanism of electron transfer by stabilizing the FMN molecule in an environment that promotes the highly negative redox potential required for its biochemical activity." [PMID:15184374, PMID:34613761]
 is_a: HMDM:0000264 ! Flavoenzymes
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -15132,7 +15047,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000270
 name: FMN-dependent NADPH nitroreductase
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Oxygen-insensitive nitroreductases are a group of flavoenzymes, belonging to oxido-reductases, that are able to reduce nitro compounds depending on nicotinamide adenine dinucleotide availability (NAD(P)H). Nitroreductases were separated of others reductases due to their capacity to reduce nitro compounds. FMN-dependent NADPH nitroreductase uses flavin mononucleotide (FMN) as the cofactor and NADPH as a reducing equivalent." [PMID:28545445, PMID:34613761]
 is_a: HMDM:0000264 ! Flavoenzymes
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -15140,7 +15054,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000271
 name: Acyltransferase
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Acyltransferase or transacylase utilize these activated acyl chains and transfer them to a variety of different substrates or polymerize them." []
 is_a: HMDM:0000012 ! gene family
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -15148,7 +15061,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000272
 name: Arylamine N-acetyltransferases (NATs)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Arylamine N-acetyltransferases (NATs) are polymorphic drug-metabolizing enzymes, acetylating arylamine carcinogens and drugs including hydralazine and sulphonamides." []
 is_a: HMDM:0000271 ! Acyltransferase
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -15156,7 +15068,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000274
 name: sulfatase
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Sulfatases, which cleave sulfate esters in biological systems, play a key role in regulating the sulfation states that determine the function of many physiological molecules." [PMID:15493058]
 is_a: HMDM:0000012 ! gene family
 is_a: HMDM:0000900 ! Drug activation enzyme
@@ -15165,7 +15076,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000279
 name: Arylsulfatase
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Arylsulfatases are enzymes which catalyze the hydrolysis of arylsulfate ester bonds to release a free sulfonate." [PMID:27654655]
 is_a: HMDM:0000274 ! sulfatase
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -15173,7 +15083,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000280
 name: Bacteroides fragilis CAG:558 S1 sulfatases
-namespace: human_microbiome_drug_metabolism_ontology
 def: "The Bacteroides fragilis CAG:558 S1 sulfatase hydrolyzes estrone and thyroxine using Loops 2 and 3 that make up the active site of gut microbial sulfatases." [PMID:32993284]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000279 ! Arylsulfatase
@@ -15186,7 +15095,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000281
 name: hormones or endobiotics
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Hormones are largely responsible for the integrated communication network responsible for modulating cellular signaling for protein synthesis. All aspects from production, release, transportation, and tissue uptake to intracellular signaling affect the cell signaling and communication that govern the basic activities of cells and coordinate all cellular actions." [PMID:32158429]
 is_a: HMDM:0000073 ! drug class
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -15194,7 +15102,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000284
 name: Hungatella hathewayi S1 sulfatase
-namespace: human_microbiome_drug_metabolism_ontology
 def: "The Hungatella hathewayi S1 sulfatase uses Loops 2 and 3 to hydrolyze estrone and thyroxine." [PMID:32993284]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000279 ! Arylsulfatase
@@ -15207,7 +15114,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000289
 name: Molybdopterin biosynthesis protein A (moaA)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "R. planticola uses the moaA enzyme to catalyze reductive deglycosylation of doxorubicin to produce metabolites 7-deoxydoxorubicinol and 7-deoxydoxorubicinolone. The reaction is anaerobic." [PMID:29160065]
 is_a: HMDM:0000296 ! S-adenosylmethionine-dependent enzymes
 relationship: MOP:0001162 CHEBI:28748 ! deglycosylation doxorubicin
@@ -15216,7 +15122,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000296
 name: S-adenosylmethionine-dependent enzymes
-namespace: human_microbiome_drug_metabolism_ontology
 def: "The S-adenosylmethionine-dependent methyltransferase enzymes share little sequence identity, but incorporate a highly conserved structural fold." [PMID:12504684]
 is_a: HMDM:0000012 ! gene family
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -15224,7 +15129,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000308
 name: Escherichia coli O103:H2 str. 12009 beta-glucuronidase (uidA)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Beta-glucuronidase from Escherichia coli O103:H2 str. 12009 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity." [PMID:33411719]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000907 ! Loop 1
@@ -15234,7 +15138,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000314
 name: Escherichia coli O127:H6 str. E2348/69 beta-glucuronidase (uidA)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Beta-glucuronidase from Escherichia coli O127:H6 str. E2348/69 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity." [PMID:33411719]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000907 ! Loop 1
@@ -15244,7 +15147,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000315
 name: Escherichia coli O111:H- str. 11128 beta-glucuronidase (uidA)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Beta-glucuronidase from Escherichia coli O111:H- str. 11128 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity." [PMID:33411719]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000907 ! Loop 1
@@ -15254,7 +15156,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000321
 name: Escherichia coli O26:H11 str. 11368 beta-glucuronidase (uidA)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Beta-glucuronidase from Escherichia coli O26:H11 str. 11368 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity." [PMID:33411719]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000907 ! Loop 1
@@ -15264,7 +15165,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000323
 name: Escherichia coli O55:H7 str. CB9615 beta-glucuronidase (uidA)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Beta-glucuronidase from Escherichia coli O55:H7 str. CB9615 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity." [PMID:33411719]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000907 ! Loop 1
@@ -15274,7 +15174,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000326
 name: Escherichia coli CFT073 beta-glucuronidase (uidA)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Beta-glucuronidase from Escherichia coli CFT073 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity." [PMID:33411719]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000907 ! Loop 1
@@ -15284,7 +15183,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000330
 name: Escherichia coli O139:H28 str. E24377A beta-glucuronidase (uidA)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Beta-glucuronidase from Escherichia coli O139:H28 str. E24377A breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity." [PMID:33411719]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000907 ! Loop 1
@@ -15294,7 +15192,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000334
 name: Escherichia coli HS beta-glucuronidase (uidA)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Beta-glucuronidase from Escherichia coli HS breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity." [PMID:33411719]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000907 ! Loop 1
@@ -15304,7 +15201,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000337
 name: Escherichia coli 536 beta-glucuronidase (uidA)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Beta-glucuronidase from Escherichia coli 536 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity." [PMID:33411719]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000907 ! Loop 1
@@ -15314,7 +15210,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000340
 name: Escherichia coli UTI89 beta-glucuronidase (uidA)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Beta-glucuronidase from Escherichia coli UTI89 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity." [PMID:33411719]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000907 ! Loop 1
@@ -15324,7 +15219,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000342
 name: Escherichia coli SMS-3-5 beta-glucuronidase (uidA)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Beta-glucuronidase from Escherichia coli SMS-3-5 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity." [PMID:33411719]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000907 ! Loop 1
@@ -15334,7 +15228,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000345
 name: Escherichia coli IAI1 beta-glucuronidase (uidA)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Beta-glucuronidase from Escherichia coli IAI1 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity." [PMID:33411719]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000907 ! Loop 1
@@ -15344,7 +15237,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000348
 name: Escherichia coli UMN026 beta-glucuronidase (uidA)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Beta-glucuronidase from Escherichia coli UMN026 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity." [PMID:33411719]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000907 ! Loop 1
@@ -15354,7 +15246,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000351
 name: Escherichia coli IAI39 beta-glucuronidase (uidA)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Beta-glucuronidase from Escherichia coli IAI39 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity." [PMID:33411719]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000907 ! Loop 1
@@ -15364,7 +15255,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000354
 name: Escherichia coli ED1a beta-glucuronidase (uidA)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Beta-glucuronidase from Escherichia coli ED1a breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity." [PMID:33411719]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000907 ! Loop 1
@@ -15374,7 +15264,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000357
 name: Escherichia coli B str. REL606 beta-glucuronidase (uidA)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Beta-glucuronidase from Escherichia coli B str. REL606 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity." [PMID:33411719]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000907 ! Loop 1
@@ -15384,7 +15273,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000360
 name: Salmonella enterica subsp. enterica serovar Schwarzengrund str. CVM19633 beta-glucuronidase (uidA)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Beta-glucuronidase from Salmonella enterica subsp. enterica serovar Schwarzengrund str. CVM19633 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity." [PMID:33411719]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000907 ! Loop 1
@@ -15394,7 +15282,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000364
 name: Shigella flexneri 5 str. 8401 beta-glucuronidase (uidA)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Beta-glucuronidase from Shigella flexneri 5 str. 8401 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity." [PMID:33411719]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000907 ! Loop 1
@@ -15404,7 +15291,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000368
 name: Shigella flexneri 2a str. 301 beta-glucuronidase (uidA)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Beta-glucuronidase from Shigella flexneri 2a str. 301 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity." [PMID:33411719]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000907 ! Loop 1
@@ -15414,7 +15300,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000371
 name: Shigella flexneri 2a str. 2457T beta-glucuronidase (uidA)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Beta-glucuronidase from Shigella flexneri 2a str. 2457T  breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity." [PMID:33411719]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000907 ! Loop 1
@@ -15424,7 +15309,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000374
 name: Shigella boydii CDC 3083-94 beta-glucuronidase (uidA)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Beta-glucuronidase from Shigella boydii CDC 3083-94breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity." [PMID:33411719]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000907 ! Loop 1
@@ -15434,7 +15318,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000378
 name: Edwardsiella tarda EIB202 beta-glucuronidase (uidA)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Beta-glucuronidase from Edwardsiella tarda EIB202 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity." [PMID:33411719]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000907 ! Loop 1
@@ -15444,7 +15327,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000382
 name: Edwardsiella ictaluri 93-146 beta-glucuronidase (uidA)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Beta-glucuronidase from Edwardsiella ictaluri 93-146 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity." [PMID:33411719]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000907 ! Loop 1
@@ -15454,7 +15336,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000386
 name: Staphylococcus haemolyticus JCSC1435 beta-glucuronidase (uidA)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Beta-glucuronidase from Staphylococcus haemolyticus JCSC1435 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity." [PMID:33411719]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000907 ! Loop 1
@@ -15464,7 +15345,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000390
 name: Streptococcus suis P1/7 beta-glucuronidase (uidA)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Beta-glucuronidase from Streptococcus suis P1/7 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity." [PMID:33411719]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000913 ! N-Terminal Loop
@@ -15474,7 +15354,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000394
 name: Streptococcus pneumoniae 70585 beta-glucuronidase (uidA)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Beta-glucuronidase from Streptococcus pneumoniae 70585 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity." [PMID:33411719]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000913 ! N-Terminal Loop
@@ -15484,7 +15363,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000398
 name: Streptococcus equi subsp. zooepidemicus beta-glucuronidase (uidA)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Beta-glucuronidase from Streptococcus equi subsp. zooepidemicus breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity." [PMID:33411719]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000913 ! N-Terminal Loop
@@ -15494,7 +15372,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000402
 name: Streptococcus uberis 0140J beta-glucuronidase (uidA)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Beta-glucuronidase from Streptococcus uberis 0140J breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity." [PMID:33411719]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000913 ! N-Terminal Loop
@@ -15504,7 +15381,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000406
 name: Streptococcus equi subsp. zooepidemicus MGCS10565 beta-glucuronidase (uidA)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Beta-glucuronidase from Streptococcus equi subsp. zooepidemicus MGCS10565 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity." [PMID:33411719]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000913 ! N-Terminal Loop
@@ -15514,7 +15390,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000409
 name: Streptococcus dysgalactiae subsp. equisimilis GGS_124 beta-glucuronidase (uidA)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Beta-glucuronidase from Streptococcus dysgalactiae subsp. equisimilis GGS_124 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity." [PMID:33411719]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000913 ! N-Terminal Loop
@@ -15524,7 +15399,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000413
 name: Streptococcus equi subsp. equi 4047 beta-glucuronidase (uidA)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Beta-glucuronidase from Streptococcus equi subsp. equi 4047 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity." [PMID:33411719]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000913 ! N-Terminal Loop
@@ -15534,7 +15408,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000416
 name: Streptococcus pyogenes MGAS10270 beta-glucuronidase (uidA)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Beta-glucuronidase from Streptococcus pyogenes MGAS10270 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity." [PMID:33411719]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000913 ! N-Terminal Loop
@@ -15544,7 +15417,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000420
 name: Streptococcus agalactiae A909 beta-glucuronidase (uidA)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Beta-glucuronidase from Streptococcus agalactiae A909 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity." [PMID:33411719]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000913 ! N-Terminal Loop
@@ -15554,7 +15426,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000424
 name: Streptococcus agalactiae 2603V/R beta-glucuronidase (uidA)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Beta-glucuronidase from Streptococcus agalactiae 2603V/R breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity." [PMID:33411719]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000913 ! N-Terminal Loop
@@ -15564,7 +15435,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000428
 name: Streptococcus agalactiae NEM316 beta-glucuronidase (uidA)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Beta-glucuronidase from Streptococcus agalactiae NEM316 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity." [PMID:33411719]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000913 ! N-Terminal Loop
@@ -15574,7 +15444,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000431
 name: Clostridium perfringens str. 13 beta-glucuronidase (uidA)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Beta-glucuronidase from Clostridium perfringens str. 13 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity." [PMID:33411719]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000907 ! Loop 1
@@ -15584,7 +15453,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000435
 name: Levilactobacillus brevis ATCC 367 beta-glucuronidase (uidA)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Beta-glucuronidase from Levilactobacillus brevis ATCC 367 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity." [PMID:33411719]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000907 ! Loop 1
@@ -15594,7 +15462,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000439
 name: Propionibacterium acnes KPA171202 beta-glucuronidase (uidA)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Beta-glucuronidase from Propionibacterium acnes KPA171202 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity." [PMID:33411719]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000049 ! Beta-glucuronidase
@@ -15604,7 +15471,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000443
 name: Tolumonas auensis DSM 9187 beta-glucuronidase (uidA)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Beta-glucuronidase from Tolumonas auensis DSM 9187 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity." [PMID:33411719]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000907 ! Loop 1
@@ -15614,7 +15480,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000447
 name: Haemophilus somnus 129PT beta-glucuronidase (uidA)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Beta-glucuronidase from Haemophilus somnus 129PT breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity." [PMID:33411719]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000913 ! N-Terminal Loop
@@ -15624,7 +15489,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000451
 name: Haemophilus somnus 2336 beta-glucuronidase (uidA)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Beta-glucuronidase from Haemophilus somnus 2336 breaks the drug-glucuronide conjugates and re-forms to original drug, which can lead to toxicity." [PMID:33411719]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000913 ! N-Terminal Loop
@@ -15634,7 +15498,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000454
 name: Eggerthella sp. YY7918 daidzein reductase (dznr)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "The Eggerthella sp. YY7918 daidzein reductase (dznr), encoded by eqlA, catalyzes the reduction of daidzein to dihydrodaidzein (the first step of equol synthesis)." [PMID:29699942]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000501 ! Dihydrodaidzein reductase
@@ -15645,7 +15508,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000458
 name: Eggerthella sp. YY7918 dihydrodaidzein reductase (dhdr)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "The Eggerthella sp. YY7918 dihydrodaidzein reductase (dhdr), encoded by eqlB, performs the second step in the conversion of daidzein to equol." [PMID:29699942]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000501 ! Dihydrodaidzein reductase
@@ -15656,7 +15518,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000460
 name: Eggerthella sp. YY7918 tetrahydrodaidzein reductase (thdr)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "The Eggerthella sp. YY7918 tetrahydrodaidzein reductase (thdr), encoded by eqlC, performs the last step the conversion of daidzein to equol. In addition, the enzyme catalyzing the third step (THDR) uses tetrahydrodaidzein as a substrate and produces both equol and dihydrodaidzein in the absence of the reducing coenzyme, NAD(P)H." [PMID:29699942]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000501 ! Dihydrodaidzein reductase
@@ -15667,7 +15528,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000462
 name: Bacteroides thetaiotaomicron VPI-5482 purine nucleoside phosphorylase II
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Bacteroides thetaiotaomicron VPI-5482 purine nucleoside phosphorylase II cleaves the tetrahydrofuran ring of Brivudine." [PMID:34260950]
 is_a: BFO:0000040 ! material entity
 is_a: HMDM:0000496 ! Purine nucleoside phosphorylase
@@ -15678,7 +15538,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000466
 name: Brivudine
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Brivudine is an antiviral drug used to treat herpes zoster." []
 is_a: HMDM:0000002 ! drug
 is_a: HMDM:0000005 ! antiviral
@@ -15687,7 +15546,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000467
 name: Bifidobacterium adolescentis strain L2-32 20beta-Hydroxysteroid Dehydrogenase
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Bacterial 20beta-hydroxysteroid dehydrogenase (20beta-HSDH) is a NADH-dependent oxidoreductase belonging to the SDR family and is expressed by some strains of B. adolescentis and it regulates cortisol side-chain cleavage by reducing the C-20 carboxyl group on cortisol, yielding 20beta-dihydrocortisol." [PMID:31209107, PMID:34260950]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000497 ! 20beta-Hydroxysteroid Dehydrogenase
@@ -15698,7 +15556,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000473
 name: Streptomyces phaeochromogenes NADH dehydrogenase
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Streptomyces phaeochromogenes NADH dehydrogenase is involved in the deglycosylation of doxorubicin, generating the aglycone 7-deoxydoxorubicinolone." [PMID:23102220]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000499 ! NADH dehydrogenase
@@ -15709,7 +15566,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000482
 name: benzothiazepine derivative
-namespace: human_microbiome_drug_metabolism_ontology
 def: "The benzothiazepine derivatives are calcium channel blockers." []
 is_a: HMDM:0000073 ! drug class
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -15717,7 +15573,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000486
 name: hypertension
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Hypertension or high blood pressure is a chronic condition when the blood flows at a very high rate." []
 is_a: DOID:4 ! disease
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -15725,7 +15580,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000487
 name: angina pectoris
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Angina pectoris are chest pain due to less blood flow to the chest area." []
 is_a: DOID:4 ! disease
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -15733,7 +15587,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000488
 name: clinical use
-namespace: human_microbiome_drug_metabolism_ontology
 def: "This describes how the agents are used to treat disease." []
 is_a: HMDM:0000008 ! classification
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -15741,7 +15594,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000489
 name: cardiovascular system
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Agents used on the cardiovascular system." []
 is_a: HMDM:0000488 ! clinical use
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -15749,7 +15601,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000490
 name: calcium channel blockers
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Calcium ions are essential for the chain of events that leads to myocardial contraction. Its role in the cardiac cycle has been studied extensively for years. Calcium is thought to be effective in slow channels. Calcium channel blockers (CCBs) inhibit the flow of extracellular calcium through ion‐specific channels that span the cell wall. When inward calcium flux is inhibited, vascular smooth muscle cells relax, resulting in vasodilation and a lowering of blood pressure (BP)." [PMID:21896151, PMID:8680353]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000073 ! drug class
@@ -15759,7 +15610,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000491
 name: hydrolysis of a molecule
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Hydrolysis is any chemical reaction in which a molecule of water breaks one or more chemical bonds." []
 is_a: HMDM:0000015 ! mechanism
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -15767,7 +15617,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000493
 name: Glycoside hydrolase family 2
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Glycoside hydrolases (GHs) (EC 3.2.1.X) hydrolyze glycosidic bonds between carbohydrates or between carbohydrate and non-carbohydrate components, for instance alcohols or phenols. To date, enzyme classification is based on amino acid similarities rather than substrate specificity. GHs are assigned to different groups based on conserved domains, and the families are numbered from 1 to 131 that are listed in the Carbohydrate-Active Enzymes Database. Glycoside hydrolases classified as GH2 were described to function as beta-galactosidase (EC 3.2.1.23) ; beta-mannosidase (EC 3.2.1.25); beta-glucuronidase (EC 3.2.1.31); alpha-L-arabinofuranosidase (EC 3.2.1.55); mannosylglycoprotein endo-beta-mannosidase (EC 3.2.1.152); exo-beta-glucosaminidase (EC 3.2.1.165); alpha-L-arabinopyranosidase (EC 3.2.1.-); beta-galacturonidase (EC 3.2.1.-); beta-xylosidase (EC 3.2.1.37); beta-D-galactofuranosidase (EC 3.2.1.146); beta-glucosidase (EC 3.2.1.21); beta-galacturonidase RGII specific (EC 3.2.1.-); glycyrrhizin beta-glucuronidase (EC 3.2.1.128). These enzymes hydrolyze their substrates through a retaining acid/base mechanism with two glutamic acid/glutamate residues involved. One residue acts as acid and base catalyst, whereas the other residue serves as nucleophile." [PMID:26090361]
 is_a: HMDM:0000012 ! gene family
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -15775,7 +15624,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000494
 name: Endoglucanase E precursor (EGE)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "There are many subtypes of endoglucanases (e.g., endoglucanase I, II) each with its own molecular topology with some organisms capable of producing several different subtypes of endoglucanases. As a whole these endoglucanases are grouped into glycoside hydrolase families (glycoside hydrolase 5, 6, etc.). Endoglucanases vary in their substrate specificity being able to cleave differing glycosidic bonds (beta-1-4, beta-1-6, etc.).The Endoglucanase E (EGE) enzyme has a wide substrate specificity and cleaves beta1,4- and beta1,3- glycosidic linkages in addition to exhibiting activity on beta1,4- xylosidic bonds. The primary structure of EGE also has several unusual and notable features. BAL31 studies revealed that 300 C-terminal residues including those of the conserved region can be deleted from the enzyme without loss of catalytic activity. An endoglucanase E precursor would be a physiologically inactive substance that could at one point through a process be converted into endoglucanase E precursor." [PMID:1366808, PMID:29856054]
 is_a: HMDM:0000012 ! gene family
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -15783,7 +15631,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000495
 name: phosphorylation of a molecule
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Enzymatic phosphorylation of a molecule" []
 is_a: HMDM:0000015 ! mechanism
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -15791,7 +15638,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000496
 name: Purine nucleoside phosphorylase
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Purine nucleoside phosphorylases (PNPs, E. C. 2.4.2.1) use orthophosphate to cleave the N-glycosidic bond of beta-(deoxy)ribonucleosides to yield alpha-(deoxy)ribose 1-phosphate and the free purine base. Purine nucleoside phosphorylase (PNP) catalyzes a reversible phosphorolysis of purine deoxy- and ribonucleosides with formation of (d)Rib-1-P and appropriate bases. PNP plays a leading role in the cell metabolism of nucleosides and nucleotides, as well as in maintaining the immune status of an organism. The major purpose of the majority of studies on the PNP is the detection of high-performance enzyme inhibitors, derivatives of the purine nucleosides, which are used in medicine as immunosuppressors." [PMID:15808857, PMID:19248622]
 is_a: HMDM:0000012 ! gene family
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -15799,7 +15645,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000497
 name: 20beta-Hydroxysteroid Dehydrogenase
-namespace: human_microbiome_drug_metabolism_ontology
 def: "The bacterial steroid-17,20-desmolase pathway cleaves the cortisol side chain, forming pro-androgens predicted to impact host physiology. Bacterial 20beta-hydroxysteroid dehydrogenase (20beta-HSDH) regulates cortisol side-chain cleavage by reducing the C-20 carboxyl group on cortisol, yielding 20beta-dihydrocortisol." [PMID:31209107]
 is_a: HMDM:0000012 ! gene family
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -15807,7 +15652,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000499
 name: NADH dehydrogenase
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Non-proton pumping type II NADH dehydrogenase (NDH-2) plays a central role in the respiratory metabolism of bacteria, and in the mitochondria of fungi, plants and protists. The lack of NDH-2 in mammalian mitochondria and its essentiality in important bacterial pathogens suggests these enzymes may represent a potential new drug target to combat microbial pathogens. NADH dehydrogenases ensures adequate oxidation of NADH to NAD+. Most species possess one to two isozymes of the non-proton-translocating type 2 dehydrogenase (Ndh), also termed alternative NADH dehydrogenase. While complex I is deeply integrated into the inner membrane, alternative NADH dehydrogenases are not membrane-embedded, but rather associated to the membrane surface, either on the IMS side (external NADH dehydrogenases) or the matrix side (internal NADH dehydrogenases). Unlike complex I, alternative NADH dehydrogenase lack flavin mononucleotide (FMN) and iron-sulfur clusters as reactive groups. Instead, they contain a flavin adenine dinucleotide (FAD) cofactor to mediate the electron transfer from NAD(P)H to ubiquinone. Alternative NADH dehydrogenase can serve as important valves on the respiratory chain when oxygen tensions suddenly rise. NADH dehydrogenases also serve as as ‘apoptosis inducing factors’ in a poorly understood process that involves the formation of a toxic protein fragment on the outside or inside of the mitochondrial outer membrane and in animals but not in yeast, AIFM1 serves as biogenesis factor for MIA40 and thus, indirectly, for many IMS proteins." [PMID:32245760, PMID:32769219]
 is_a: HMDM:0000012 ! gene family
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -15815,7 +15659,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000501
 name: Dihydrodaidzein reductase
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Dihydrodaidzein reductase (DHDR), is a novel enzyme that belongs to the short-chain dehydrogenase/reductase (SDR) family, and it has a unique catalytic tetrad pattern (Asn, Ser, and HXXXK) that is somewhat different from that of general SDR enzymes (Asn, Ser, and YXXXK), while the alignment of the amino acid sequences of the NAD(P)H binding site is conserved. DHDR requires NADPH as a cofactor but not NADH, possibly explained by the presence of the arginine (R64) residue. In the case of DHDR from S. isoflavoniconvertens, the tyrosine of most of the known SDR family enzymes seems to be replaced with histidine, for which imidazole ring (de)protonation would be engaged in substrate reduction or oxidation. DHDR is involved in the reduction of (S)- and (R)-dihydrodaidzein, (S)- and (R)-DHD,  to trans- and cis-tetrahydrodaidzein (trans- and cis-THD), respectively." [PMID:26801575, PMID:27508112]
 is_a: HMDM:0000012 ! gene family
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -15823,7 +15666,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000503
 name: Lysophospholipase L1 and related esterase
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Escherichia coli thioesterase I (TAP) is a versatile enzyme possessing activities of thioesterase, esterase, arylesterase, protease, and lysophospholipase. It has been documented with three different names, including thioesterase I, protease I and lysophospholipase L1, which are responsible for the degradation of thioester, amide, and ester bonds. E. coli thioesterase I, first identified by Barnes & Wakil, was cloned in 1993 and shown to catalyze hydrolytic cleavage of acyl-CoA thioesters. At the same time, protease I, named for its hydrolytic activity toward N-acetyl-dl-phenylalanine-2-naphthyl ester, was also cloned and characterized. Lysophospholipase L1, which catalyzes the hydrolysis of 1-acyl group of lysophospholipid was purified and its DNA sequence deduced in 1999. Recent studies showed that the gene sequences of E. coli thioesterase I (tesA), protease I (apeA) and lysophospholipase L1 (pldC) were identical and located at the same genomic position. Also, substrate competition assays showed that thioesterase I and protease I utilize the same active site, and all of them were identified as periplasmic proteins. The most plausible physiological role of TAP is that of lysophospholipase L1, since TAP shows specificity towards lysophospholipids and its activity on 1-acyl lysophosphatidylcholine follows typical Michaelis–Menten kinetics. TAP has stereoselectivity for amino acid derivative substrates, hence it is useful for the kinetic resolution of racemic mixtures of industrial chemicals." [PMID:12842470, PMID:4871199]
 is_a: HMDM:0000012 ! gene family
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -15831,7 +15673,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000707
 name: Alpha/beta hydrolase superfamily
-namespace: human_microbiome_drug_metabolism_ontology
 def: "The core of each enzyme is similar: an alpha/beta sheet, not barrel, of eight beta-sheets connected by alpha-helices. These enzymes have diverged from a common ancestor so as to preserve the arrangement of the catalytic residues, not the binding site. They all have a catalytic triad, the elements of which are borne on loops which are the best-conserved structural features in the fold. The alpha/beta-hydrolase fold enzymes are one of the largest known protein families, including lipases, esterases, amidases, epoxide hydrolases, dehalogenases and hydroxynitrile lyases. The alpha/beta-hydrolase fold consists of eight beta-strands connected by alpha-helixes. These fold into a mostly parallel central beta-sheet surrounded by alpha-helixes. The catalytic triad consists of a nucleophile (serine, aspartate or cysteine), a histidine and a catalytic acid (aspartate or glutamate). These residues occur on conserved locations in loops and the alpha/beta-hydrolase fold brings them together to form the active site. Many alpha/beta-hydrolase fold enzymes also contain cap domains, the structures of which vary considerably between the different members. A cap domain sits on top of the active site, which is in the alpha/beta-hydrolase domain. In spite of their similar three-dimensional structures and similar active site residues, alpha/beta-hydrolase fold enzymes catalyse reactions with substrates containing a broad variety of functional groups, including carboxylic acid derivatives (esters, amides and thioesters), epoxides, alkyl halides and hydroxynitriles. The common mechanistic feature of these reactions is a nucleophilic attack." [PMID:1409539, PMID:21506229]
 is_a: HMDM:0000012 ! gene family
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -15839,7 +15680,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000708
 name: statins
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Statins, inhibitors of the hydroxymethylglutaryl-CoA (HMG-CoA) reductase enzyme, are molecules of fungal origin. Statins are powerful cholesterol lowering medications and have provided outstanding contributions to the prevention of cardiovascular disease." [PMID:24657242, PMID:26975972]
 is_a: HMDM:0000073 ! drug class
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -15847,7 +15687,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000777
 name: anti-parasitic agent
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Anti-parasitic agent is medication used to treat parasitic diseases." []
 is_a: HMDM:0000073 ! drug class
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -15855,7 +15694,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000782
 name: anti-protozoal agent
-namespace: human_microbiome_drug_metabolism_ontology
 def: "An agent used to inhibit or kill protozoa." []
 is_a: HMDM:0000777 ! anti-parasitic agent
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -15863,7 +15701,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000783
 name: anti-helminthic agent
-namespace: human_microbiome_drug_metabolism_ontology
 def: "An agent used to inhibit or kill parasitic worms." []
 is_a: HMDM:0000777 ! anti-parasitic agent
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -15871,7 +15708,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000784
 name: Nitroimidazoles
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Nitroimidazoles are a class of antimicrobial drugs that have remarkable broad spectrum activity against parasites, mycobacteria, and anaerobic Gram-positive and Gram-negative bacteria. While nitroimidazoles were discovered in the 1950s, there has been renewed interest in their therapeutic potential, particularly for the treatment of parasitic infections and tuberculosis." [PMID:28463485]
 is_a: HMDM:0000782 ! anti-protozoal agent
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -15879,7 +15715,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000785
 name: Nitroreductases
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Nitroreductases are a family of evolutionarily related proteins involved in reducing nitroaromatic and nitroheterocyclic compounds using flavin adenine dinucleotide (FAD) or flavin mononucleotide (FMN) as the cofactor and NAD(P)H as a reducing equivalent. Nitroreductases catalyse pyridine nucleotide-dependent reduction of nitroaromatics compounds, showing significant human health and environmental implications." [PMID:16011758, PMID:34613761]
 is_a: HMDM:0000012 ! gene family
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -15887,7 +15722,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000787
 name: Pericyazine
-namespace: human_microbiome_drug_metabolism_ontology
 def: "It is a sedative phenothiazine with weak antipsychotic properties. It also has adrenolytic, anticholinergic, metabolic and endocrine effects, and an action on the extrapyramidal system." []
 is_a: HMDM:0000002 ! drug
 is_a: HMDM:0000789 ! Phenothiazine
@@ -15896,7 +15730,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000789
 name: Phenothiazine
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Phenothiazines belong to the oldest synthetic antipsychotic drugs, which do not have their precursor in the world of natural compounds. Apart from their fundamental neuroleptic action connected with the dopaminergic receptors blockade, phenothiazine derivatives also exert diverse biological activities, which account for their cancer chemopreventive-effect, such as calmodulin- and protein kinase C inhibitory actions, anti-proliferative effect, inhibition of P-glycoprotein transport function and reversion of multidrug resistance." [PMID:22580516]
 is_a: HMDM:0000782 ! anti-protozoal agent
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -15904,7 +15737,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000790
 name: Racecadotril
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Racecadotril, which is rapidly metabolized to its active metabolite thiorphan, is a neutral endopeptidase (NEP) inhibitor used in clinical practice for diarrhoea with a remarkable safety profile." [PMID:17028311]
 is_a: HMDM:0000002 ! drug
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -15912,7 +15744,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000791
 name: anti-diarrheal agent
-namespace: human_microbiome_drug_metabolism_ontology
 def: "An anti-diarrheal agent is a drug used to slow or stop diarrhea." []
 is_a: HMDM:0000073 ! drug class
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -15920,7 +15751,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000792
 name: HAD superfamily
-namespace: human_microbiome_drug_metabolism_ontology
 def: "The haloacid dehydrogenase (HAD) superfamily includes phosphatases, phosphonatases, P-type ATPases, beta-phosphoglucomutases, phosphomannomutases, and dehalogenases, which are involved in detoxification." [PMID:7966317]
 is_a: HMDM:0000012 ! gene family
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -15928,7 +15758,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000793
 name: AcbK
-namespace: human_microbiome_drug_metabolism_ontology
 def: "A self-resistance mechanism is encoded within the biosynthetic gene cluster (BGC) for acarbose (acb) production; a specific kinase, AcbK, phosphorylates acarbose at the O6A hydroxyl and renders it inactive." [PMID:11937512, PMID:34819672]
 is_a: BFO:0000040 ! material entity
 is_a: HMDM:0000820 ! pfkB family carbohydrate kinase
@@ -15939,7 +15768,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000820
 name: pfkB family carbohydrate kinase
-namespace: human_microbiome_drug_metabolism_ontology
 def: "The pfkB family of enzymes across kingdoms includes ribokinases, phosphofructokinases, adenosine kinases (ADKs) and several others with diverse substrate specificities. Typical PfkB protein structure is a large domain consisting of a beta-sheet sandwiched between several alpha-helices, and a smaller domain, known as the lid domain, comprised of another beta-sheet attached to the larger domain by short loops that act as a hinge. Binding of substrates to pfkB proteins follows ordered bi-bi kinetics where the carbohydrate enters first, followed by ATP. PfkB proteins possess two signature motifs: a di-gly (GG) motif in the N-terminal region and a G/AXGD motif in the C-terminal region. The role of each motif has been identified through mutational and structural analyses. The GG motif provides flexibility in the hinge region that connects the lid and the large domain. The aspartate in the G/AXGD motif acts as a base during catalysis and activates the C6 fructose hydroxyl group for nucleophilic attack on the gamma-phosphate in ATP. Many pfkB proteins are active as dimers generated through interactions between the lid domains of two monomers. Aside from their regulation by ATP, pfkB family enzymes are activated by both monovalent and divalent cationic cofactors." [PMID:28441933]
 is_a: HMDM:0000012 ! gene family
 is_a: HMDM:0000901 ! Drug self-resistant enzyme
@@ -15948,7 +15776,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000824
 name: anti-diabetic agent
-namespace: human_microbiome_drug_metabolism_ontology
 def: "The anti-diabetic agent are used to prevent blood glucose from rising in the treatment of diabetes mellitus." []
 is_a: HMDM:0000073 ! drug class
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -15956,7 +15783,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000825
 name: Cyclomaltodextrinase
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Cyclomaltodextrinase (CDase) is a maltogenic amylase and neopullulanase are reported to be capable of hydrolyzing all or two of the following three types of substrates: cyclomaltodextrins (CDs); pullulan; and starch." [PMID:10825529, PMID:29392561]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000830 ! Glycoside hydrolase family 13
@@ -15967,7 +15793,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000830
 name: Glycoside hydrolase family 13
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Glycoside hydrolases (GHs) (EC 3.2.1.X) hydrolyze glycosidic bonds between carbohydrates or between carbohydrate and non-carbohydrate components, for instance alcohols or phenols. To date, enzyme classification is based on amino acid similarities rather than substrate specificity. GHs are assigned to different groups based on conserved domains, and the families are numbered from 1 to 131 that are listed in the Carbohydrate-Active Enzymes Database. Family GH13, also known as the alpha-amylase family, is the largest sequence-based family of glycoside hydrolases and groups together a number of different enzyme activities and substrate specificities acting on alpha-glycosidic bonds." [PMID:17085431, PMID:26090361]
 is_a: HMDM:0000012 ! gene family
 is_a: HMDM:0000896 ! Drug inactivation enzyme
@@ -15976,7 +15801,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000833
 name: Pseudomonas aeruginosa azoreductase (paAzoR3)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Azoreductases are important due to their ability to activate antiinflammatory azo pro-drugs and to detoxify azo dyes." [PMID:20417637]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000265 ! FMN-dependent NADH azoreductase
@@ -15989,7 +15813,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000834
 name: Pseudomonas aeruginosa azoreductase (paAzoR1)
-namespace: human_microbiome_drug_metabolism_ontology
 def: "The paAzoR1 is an azoreductase and preferred substrates are balsalazide and methyl red." [PMID:17904577, PMID:20057057, PMID:20417637]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000265 ! FMN-dependent NADH azoreductase
@@ -16002,7 +15825,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000839
 name: anti-inflammatory agent
-namespace: human_microbiome_drug_metabolism_ontology
 def: "An anti-inflammatory agent is a drug that helps reduce swelling or inflammation." []
 is_a: HMDM:0000073 ! drug class
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -16010,7 +15832,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000843
 name: PEMT (Phospholipid methyltransferase) super family
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Phospholipid N-methyltransferase (PLMT) enzymes catalyze the S-adenosylmethionine-dependent methylation of ethanolamine-containing phospholipids to produce phosphatidylcholine. Phosphatidylcholine is the most abundant phospholipid in most non-plastid membranes of eukaryotes and functions as a structural membrane lipid, and as a precursor to important lipid-based signaling molecules. In mammals and fungi, phosphatidylcholine can be formed through two distinct pathways: (a) the “nucleotide pathway” in which free choline is incorporated in phosphatidylcholine using CDP-choline as an intermediate, and (b) the “methylation pathway” whereby phosphatidylcholine is produced directly from phosphatidylethanolamine (PtdEtn) via three sequential methylation reactions using S-adenosylmethionine (AdoMet) as the methyl donor. In plants, phosphatidylcholine biosynthesis occurs through a branched pathway that utilizes components of both the nucleotide and methylation pathways. In mammals, the 18-kDa integral membrane protein phosphatidylethanolamine N-methyltransferase (PEMT) is a PLMT that is expressed primarily in the liver. PEMT catalyzes all three of the methylation reactions needed to convert PtdEtn to phosphatidylcholine." [PMID:19366698]
 is_a: HMDM:0000012 ! gene family
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -16018,7 +15839,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000844
 name: methylation of a molecule
-namespace: human_microbiome_drug_metabolism_ontology
 def: "A chemical process in which a methyl group is added to a molecule." []
 is_a: HMDM:0000015 ! mechanism
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -16026,7 +15846,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000845
 name: analgesic
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Analgesics are the drugs which bring insensibility to pain without loosing consciousness. Treatment strategy is generally based on the type of pain. Most of the analgesics are associated with serious side effects, such as NSAIDS can cause severe GI disturbance and opioids can cause addiction." [PMID:27142107]
 is_a: HMDM:0000073 ! drug class
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -16034,7 +15853,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000846
 name: Pyridoxamine phosphate oxidase family
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Pyridoxal 5′-phosphate (PLP) is a cofactor for about 4% of all biochemical reactions. PLP and five other ‘vitamers’, are collectively known as vitamin B6. In general, there are two independent de novo pathways that generate PLP: the deoxyxylulose 5′-phosphate (DXP)-dependent pathway, which is present in most eubacteria (e.g. Escherichia coli), and the ‘DXP-independent’ route, which is widespread (e.g. some eubacteria, Archaea, fungi and plants) and consists of a single enzyme complex, PLP synthase. In the PLP salvage pathway, however, different vitamers are interconverted using various kinase, phosphatase and pyridoxine/pyridoxamine 5′-phosphate oxidase (PNPOx) enzymes. The reaction catalysed by members of the PNPOx family (so-called PdxH proteins) is equivalent to the last step of the DXP-dependent PLP biosynthesis pathway, oxidizing either PNP or PMP to produce PLP. Members of the family utilize flavin mononucleotide (FMN) as a prosthetic group, oxidizing the C4′ alcohol (PNP) or amine (PMP) group to an aldehyde (PLP). During catalysis, FMN is used as the immediate electron acceptor and molecular oxygen as the final electron acceptor, forming hydrogen peroxide under aerobic conditions. Pyridoxal 5′-phosphate biosynthesis is essential for the survival and virulence of Mycobacterium tuberculosis (Mtb), the organism that causes tuberculosis (TB) and is, for this reason, an important drug target at a time when resistance is rising and new drugs are urgently needed." [PMID:26823273]
 is_a: HMDM:0000012 ! gene family
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -16042,7 +15860,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000847
 name: oxidation of a molecule
-namespace: human_microbiome_drug_metabolism_ontology
 def: "A chemical process that involves the removal of one or mole electrons from a molecular entity." []
 is_a: HMDM:0000015 ! mechanism
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -16050,7 +15867,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000848
 name: catechol-O-methyltransferase (COMT) inhibitor
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Catechol O-methyltransferase catalyzes the methylation reaction whereby a methyl group from the cofactor S-adenosyl-L-methionine (SAM) is transferred to one of the catecholic hydroxyls. Membrane-bound form COMT (MB-COMT) may be more relevant in inactivation of catecholaminergic neurotransmitters, whereas the soluble form (S-COMT) plays a more important role in inactivation of endogenous and xenobiotic catechols in other tissues. COMT is the primary enzyme that inactivates the catechol neurotransmitter dopamine and the drug L-dopa. L-dopa is used in the clinical treatment of central nervous system (CNS) disorders such as Parkinson's disease and possibly others (e.g. schizophrenia and depression). Its efficacy is associated with the level of dopamine converted from the drug. Studies have shown that inhibition of COMT activity results in marked reduction of the body clearance of L-dopa and dopamine, leading to a sustained level of dopamine in the brain and improved efficacy. The important role of COMT in treatment of Parkinson's disease has promoted an area wherein the aims are to design potent and selective COMT inhibitors. Several of these inhibitors have been used as adjuncts to L-dopa therapy." [PMID:23713800]
 is_a: HMDM:0000073 ! drug class
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -16058,7 +15874,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000881
 name: histamine (H2-receptor) antagonist
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Histamine is primarily found in mast cells and basophils, where it is stored in cytoplasmic granules and released along with other inflammatory mediators upon activation in response to diverse immune and non-immune stimuli, including viruses and other pathogens. Histamine exerts multiple (patho)physiological actions by activating four known types of histamine receptors that are designated as H1–H4 and have been associated with allergic inflammation, stimulation of gastric acid secretion, neurotransmission and immune responses, respectively. This led to drugs, such as H1 antihistamines for the management of allergies, H2 receptor antagonists for the treatment of gastrointestinal disorders, a first-in-class H3 receptor antagonist for treating narcolepsy, as well as H4 receptor-targeting compounds that are being evaluated in clinical trials for their potential exploitation in managing inflammatory disorders." [PMID:33206207]
 is_a: HMDM:0000073 ! drug class
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -16066,7 +15881,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000887
 name: Crp/Fnr family transcriptional regulator
-namespace: human_microbiome_drug_metabolism_ontology
 def: "One particular transcription factors (TF), the fumarate and nitrate reductase regulatory protein (FNR), is among the most widely studied global regulators, activating and repressing transcription of a wide variety of functional genes. FNR is widely conserved across bacteria and is often required for the shift between aerobic and anaerobic metabolism. FNR belongs to the catabolite repressor protein (CRP; also known as cAMP receptor protein)/FNR family of TFs, which plays an important role across bacteria and generally shares a conserved DNA binding site. Like FNR, CRP is well studied and widely conserved across bacteria and responds to variations in glucose availability via changes in the concentration of cyclic AMP. Besides CRP and FNR, the CRP/FNR family of proteins contains other well-studied TFs that respond to a variety of environmental stimuli." [PMID:34636676]
 is_a: HMDM:0000012 ! gene family
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -16074,7 +15888,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000896
 name: Drug inactivation enzyme
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Enzyme that modify drugs rendering them inactive." []
 is_a: HMDM:0000006 ! determinant of drug metabolism
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -16082,7 +15895,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000900
 name: Drug activation enzyme
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Enzyme that modify drugs making them active." []
 is_a: HMDM:0000006 ! determinant of drug metabolism
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -16090,7 +15902,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000901
 name: Drug self-resistant enzyme
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Enzyme that protects primary producer of a drug by inactivating it." []
 is_a: HMDM:0000006 ! determinant of drug metabolism
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -16098,7 +15909,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000902
 name: apg
-namespace: human_microbiome_drug_metabolism_ontology
 def: "The apg is an acarbose-preferred glucosidase that was discovered in intestinal bacteria from patients with Type 2 diabetes mellitus (T2DM) chronic metabolic disease. The Apg hydrolyses acarbose into small molecules (acarviosine-glucose and acarviosine) with loss of inhibitor function to porcine pancreatic amylase and is widely distributed in human intestinal microorganisms, especially in Klebsiella." [PMID:37157031]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000830 ! Glycoside hydrolase family 13
@@ -16109,7 +15919,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000907
 name: Loop 1
-namespace: human_microbiome_drug_metabolism_ontology
 def: "These enzymes perform reactivation of endobiotic glucuronides of small molecules xenobiotics (e.g., cancer drugs, NASAIDSs and consumer products toxins). Examples includes C. perfringens GUS, E. coli GUS, S. agalactiae GUS, and E. eligens GUS." [PMID:28578872, PMID:38754417]
 is_a: HMDM:0000049 ! Beta-glucuronidase
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -16117,7 +15926,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000909
 name: Loop 2
-namespace: human_microbiome_drug_metabolism_ontology
 def: "These enzymes perform reactivation of endobiotic glucuronides of large polysaccharides (e.g., heparan and chondroitin sulfates). Examples includes  Bacteroides uniformis GUS." [PMID:28578872, PMID:38754417]
 is_a: HMDM:0000049 ! Beta-glucuronidase
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -16125,7 +15933,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000910
 name: Mini-Loop 1
-namespace: human_microbiome_drug_metabolism_ontology
 def: "These enzymes perform reactivation of endobiotic glucuronides of small molecules xenobiotics (e.g., cancer drugs, NASAIDSs and consumer products toxins). Examples includes B. fragilis GUS." [PMID:28578872, PMID:38754417]
 is_a: HMDM:0000049 ! Beta-glucuronidase
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -16133,7 +15940,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000911
 name: Mini-Loop 2
-namespace: human_microbiome_drug_metabolism_ontology
 def: "These enzymes perform reactivation of endobiotic glucuronides of small molecules xenobiotics (e.g., cancer drugs, NASAIDSs and consumer products toxins). Examples includes Parabacteroides merdae GUS." [PMID:28578872, PMID:38754417]
 is_a: HMDM:0000049 ! Beta-glucuronidase
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -16141,7 +15947,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000912
 name: Mini-Loop 1,2
-namespace: human_microbiome_drug_metabolism_ontology
 def: "These enzymes perform reactivation of endobiotic glucuronides of small molecules xenobiotics (e.g., cancer drugs, NASAIDSs and consumer products toxins). Examples includes Bacteroides ovatus GUS." [PMID:28578872, PMID:38754417]
 is_a: HMDM:0000049 ! Beta-glucuronidase
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -16149,7 +15954,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000913
 name: N-Terminal Loop
-namespace: human_microbiome_drug_metabolism_ontology
 def: "These enzymes perform reactivation of endobiotic glucuronides of small molecules xenobiotics (e.g., cancer drugs, NASAIDSs and consumer products toxins). Examples includes Bacteroides uniformis GUS." [PMID:28578872, PMID:38754417]
 is_a: HMDM:0000049 ! Beta-glucuronidase
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -16157,7 +15961,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000914
 name: FMN-binding
-namespace: human_microbiome_drug_metabolism_ontology
 def: "These enzymes perform reactivation of endobiotic glucuronides of small molecules xenobiotics (e.g., cancer drugs, NASAIDSs and consumer products toxins). Examples includes Ruminococcus gnavus GUS." [PMID:38754417]
 is_a: HMDM:0000049 ! Beta-glucuronidase
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -16165,7 +15968,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000915
 name: No Loop
-namespace: human_microbiome_drug_metabolism_ontology
 def: "These enzymes perform reactivation of endobiotic glucuronides of large polysaccharides (e.g., heparan and chondroitin sulfates). Examples includes Fusicatenibacter saccharivorans GUS." [PMID:28578872, PMID:38754417]
 is_a: HMDM:0000049 ! Beta-glucuronidase
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -16173,7 +15975,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000916
 name: dadh
-namespace: human_microbiome_drug_metabolism_ontology
 def: "A molybdenum cofactor–dependent dopamine dehydroxylase (Dadh) enzyme that dehydroxylate dopamine to m-tyramine from Eggerthella lenta." [PMID:31196984]
 is_a: BFO:0000002 ! continuant
 is_a: HMDM:0000937 ! molybdopterin-containing oxidoreductase family
@@ -16184,7 +15985,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000926
 name: dehydroxylation of a molecule
-namespace: human_microbiome_drug_metabolism_ontology
 def: "Dehydroxylation involves the heating process through which the hydroxyl group (OH) is released by forming a water molecule." []
 is_a: HMDM:0000015 ! mechanism
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -16192,7 +15992,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000929
 name: bacterial cytochrome P450 (CYP) family 107 subfamily
-namespace: human_microbiome_drug_metabolism_ontology
 def: "The bacterial cytochrome P450 (CYP) family 107 subfamily is a cytochrome P450 monooxygenase family in bacteria, found to be conserved and highly populated in Streptomyces and Bacillus species." []
 is_a: HMDM:0000097 ! cytochrome protein family
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -16200,7 +15999,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000933
 name: Pseudomonas aeruginosa CYP107S1
-namespace: human_microbiome_drug_metabolism_ontology
 def: "CYP107S1 is a cytochrome P450 (CYP) enzyme found in the bacterium Pseudomonas aeruginosa. It can metabolize fluoroquinolone antibiotics (ciprofloxacin and fleroxacin), a cystic fibrosis transmembrane conductance regulator potentiator (ivacaftor), and a selective estrogen receptor modulator antimicrobial adjuvant (raloxifene)." [PMID:39032655]
 is_a: HMDM:0000929 ! bacterial cytochrome P450 (CYP) family 107 subfamily
 relationship: HMDM:0000938 CHEBI:66901 ! metabolizes drug ivacaftor
@@ -16210,7 +16008,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000934
 name: cystic fibrosis transmembrane conductance regulator (CFTR) potentiators
-namespace: human_microbiome_drug_metabolism_ontology
 def: "The CFTR potentiators increase channel activity of the CFRT protein located at the cell surface and enhance ion transport. Ivacaftor is the first intervention that corrects the underlying molecular defect in CF. It has demonstrated effectiveness in people with a class III mutation (G551D) and some effectiveness with class IV mutations (R117H) and has the potential to be used for other class III and IV mutations." [PMID:25811419, PMID:30616300]
 is_a: HMDM:0000073 ! drug class
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
@@ -16218,7 +16015,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 [Term]
 id: HMDM:0000937
 name: molybdopterin-containing oxidoreductase family
-namespace: human_microbiome_drug_metabolism_ontology
 def: "This family of enzymes use molybdopterin as a cofactor to catalyze various redox reactions." []
 is_a: HMDM:0000012 ! gene family
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280

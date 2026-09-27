@@ -25,7 +25,7 @@
         "val" : "cv2obo"
       }, {
         "pred" : "http://www.geneontology.org/formats/oboInOwl#default-namespace",
-        "val" : "human_microbiome_drug_metabolism"
+        "val" : "human_microbiome_drug_metabolism_ontology"
       }, {
         "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion",
         "val" : "1.2"
@@ -37,9 +37,9 @@
         "val" : "The Human Microbiome Drug Metabolism (HMDM) Ontology is a resource for the scientific community to understand how the human gut microbiome metabolizes drugs. It provides a structured vocabulary for describing the genes, enzymes, and mechanisms involved in drug metabolism by gut bacteria. It is available under the Attribution 4.0 International (CC BY 4.0) license, allowing for sharing and adaptation with proper attribution."
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2026-09-25"
+        "val" : "2026-09-27"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/hmdm/releases/2026-09-25/hmdm.json"
+      "version" : "http://purl.obolibrary.org/obo/hmdm/releases/2026-09-27/hmdm.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000002",
