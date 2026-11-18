@@ -13,7 +13,7 @@
      xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/hmdm.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/hmdm/releases/2026-09-27/hmdm.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/hmdm/releases/2026-11-18/hmdm.owl"/>
         <dcterms:accessRights>The Human Microbiome Drug Metabolism (HMDM) Ontology is available under Attribution 4.0 International (CC BY 4.0) (https://creativecommons.org/licenses/by/4.0/).</dcterms:accessRights>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9259-5280"/>
         <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-08-13T14:31:00</dcterms:created>
@@ -25,7 +25,7 @@
         <oboInOwl:hasOBOFormatVersion>1.2</oboInOwl:hasOBOFormatVersion>
         <oboInOwl:saved-by>HMDM</oboInOwl:saved-by>
         <rdfs:comment>The Human Microbiome Drug Metabolism (HMDM) Ontology is a resource for the scientific community to understand how the human gut microbiome metabolizes drugs. It provides a structured vocabulary for describing the genes, enzymes, and mechanisms involved in drug metabolism by gut bacteria. It is available under the Attribution 4.0 International (CC BY 4.0) license, allowing for sharing and adaptation with proper attribution.</rdfs:comment>
-        <owl:versionInfo>2026-09-27</owl:versionInfo>
+        <owl:versionInfo>2026-11-18</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -35218,24 +35218,17 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/HMDM_0000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HMDM_0000001">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23888"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The human gut microbiome transforms and degrade drugs using enzymes.</obo:IAO_0000115>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9259-5280"/>
         <oboInOwl:hasOBONamespace>human_microbiome_drug_metabolism_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>HMDM:0000001</oboInOwl:id>
         <rdfs:label>root of drug metabolism</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HMDM_0000002 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HMDM_0000002">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000001"/>
-        <obo:IAO_0000115>A drug is any substance that causes a change in an organism&apos;s physiology or psychology when consumed or introduced.</obo:IAO_0000115>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9259-5280"/>
-        <oboInOwl:hasOBONamespace>human_microbiome_drug_metabolism_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>HMDM:0000002</oboInOwl:id>
-        <rdfs:label>drug</rdfs:label>
     </owl:Class>
     
 
@@ -35775,7 +35768,7 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/HMDM_0000081 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HMDM_0000081">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23888"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000078"/>
         <obo:IAO_0000115>A member of the class of pyranoindolizinoquinolines that is the carbamate ester obtained by formal condensation of the carboxy group of [1,4&apos;-bipiperidine]-1&apos;-carboxylic acid with the phenolic hydroxy group of (4S)-4,11-diethyl-4,9-dihydroxy-1H-pyrano[3&apos;,4&apos;:6,7]indolizino[1,2- hydrochloride]quinoline-3,14-dione. Used (in the form of its hydrochloride salt trihydrate) in combination with fluorouracil and leucovorin, for the treatment of patients with metastatic adenocarcinoma of the pancreas after disease progression following gemcitabine-based therapy. It is converted via hydrolysis of the carbamate linkage to its active metabolite, SN-38, which is ~1000 times more active.</obo:IAO_0000115>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9259-5280"/>
@@ -35829,7 +35822,7 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/HMDM_0000091 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HMDM_0000091">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23888"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000078"/>
         <obo:IAO_0000115>Trastuzumab deruxtecan is a monoclonal antibody medication used for the treatment of breast cancer or for the treatment of gastric or gastroesophageal adenocarcinoma. It is an antibody-drug conjugate composed of an anti-HER2 (human epidermal growth factor receptor 2) antibody, a cleavable tetrapeptide-based linker, and a cytotoxic topoisomerase I inhibitor.</obo:IAO_0000115>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9259-5280"/>
@@ -35928,7 +35921,7 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/HMDM_0000099 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HMDM_0000099">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23888"/>
         <obo:IAO_0000115>A monocarboxylic acid that is 1-benzylidene-1H-indene which is substituted at positions 2, 3, and 5 by methyl, carboxymethyl, and fluorine respectively, and in which the phenyl group of the benzylidene moiety is substituted at the para position by a methylsulfinyl group. It is a prodrug for the corresponding sulfide, a non-steroidal anti-inflammatory drug, used particularly in the treatment of acute and chronic inflammatory conditions. Sulindac is used to relieve pain, tenderness, swelling, and stiffness caused by osteoarthritis (arthritis caused by a breakdown of the lining of the joints), rheumatoid arthritis (arthritis caused by swelling of the lining of the joints), and ankylosing spondylitis (arthritis that mainly affects the spine).</obo:IAO_0000115>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9259-5280"/>
         <oboInOwl:hasOBONamespace>human_microbiome_drug_metabolism_ontology</oboInOwl:hasOBONamespace>
@@ -35941,7 +35934,7 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/HMDM_0000108 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HMDM_0000108">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23888"/>
         <obo:IAO_0000115>A member of the class of 1-benzothiophenes that is 1-benzothiophene in which the hydrogens at positions 2, 3, and 6 have been replaced by p-hydroxyphenyl, p-[2-(piperidin-1-yl)ethoxy]benzoyl, and hydroxy groups, respectively. Raloxifene is a medication used to prevent and treat osteoporosis in postmenopausal women and those on glucocorticoids. It is also used to reduce the risk of breast cancer in those at high risk. Raloxifene is a selective estrogen receptor modulator (SERM) and therefore a mixed agonist–antagonist of the estrogen receptor (ER). It has estrogenic effects in bone and antiestrogenic effects in the breasts and uterus.</obo:IAO_0000115>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9259-5280"/>
         <oboInOwl:hasOBONamespace>human_microbiome_drug_metabolism_ontology</oboInOwl:hasOBONamespace>
@@ -38876,7 +38869,7 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/HMDM_0000466 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HMDM_0000466">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23888"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000005"/>
         <obo:IAO_0000115>Brivudine is an antiviral drug used to treat herpes zoster.</obo:IAO_0000115>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9259-5280"/>
@@ -39329,7 +39322,7 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/HMDM_0000787 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HMDM_0000787">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23888"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000789"/>
         <obo:IAO_0000115>It is a sedative phenothiazine with weak antipsychotic properties. It also has adrenolytic, anticholinergic, metabolic and endocrine effects, and an action on the extrapyramidal system.</obo:IAO_0000115>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9259-5280"/>
@@ -39362,7 +39355,7 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/HMDM_0000790 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HMDM_0000790">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23888"/>
         <obo:IAO_0000115>Racecadotril, which is rapidly metabolized to its active metabolite thiorphan, is a neutral endopeptidase (NEP) inhibitor used in clinical practice for diarrhoea with a remarkable safety profile.</obo:IAO_0000115>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9259-5280"/>
         <oboInOwl:hasOBONamespace>human_microbiome_drug_metabolism_ontology</oboInOwl:hasOBONamespace>

@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: releases/2026-09-27
+data-version: releases/2026-11-18
 saved-by: HMDM
 auto-generated-by: cv2obo
 default-namespace: human_microbiome_drug_metabolism_ontology
@@ -16,7 +16,7 @@ property_value: dcterms:created "2026-08-13T14:31:00" xsd:dateTime
 property_value: dcterms:description "The Human Microbiome Drug Metabolism (HMDM) Ontology describes bacterial genes that encode enzymes that transform therapeutic drugs other than antibiotics." xsd:string
 property_value: dcterms:license https://creativecommons.org/licenses/by/4.0/
 property_value: dcterms:title "The Human Microbiome Drug Metabolism" xsd:string
-property_value: owl:versionInfo "2026-09-27" xsd:string
+property_value: owl:versionInfo "2026-11-18" xsd:string
 
 [Term]
 id: BFO:0000002
@@ -14292,13 +14292,7 @@ is_a: GO:0009987 ! cellular process
 id: HMDM:0000001
 name: root of drug metabolism
 def: "The human gut microbiome transforms and degrade drugs using enzymes." []
-property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
-
-[Term]
-id: HMDM:0000002
-name: drug
-def: "A drug is any substance that causes a change in an organism's physiology or psychology when consumed or introduced." []
-is_a: HMDM:0000001 ! root of drug metabolism
+relationship: BFO:0000050 CHEBI:23888 ! part of drug
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 
 [Term]
@@ -14513,7 +14507,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 id: HMDM:0000081
 name: irinotecan
 def: "A member of the class of pyranoindolizinoquinolines that is the carbamate ester obtained by formal condensation of the carboxy group of [1,4'-bipiperidine]-1'-carboxylic acid with the phenolic hydroxy group of (4S)-4,11-diethyl-4,9-dihydroxy-1H-pyrano[3',4':6,7]indolizino[1,2- hydrochloride]quinoline-3,14-dione. Used (in the form of its hydrochloride salt trihydrate) in combination with fluorouracil and leucovorin, for the treatment of patients with metastatic adenocarcinoma of the pancreas after disease progression following gemcitabine-based therapy. It is converted via hydrolysis of the carbamate linkage to its active metabolite, SN-38, which is ~1000 times more active." []
-is_a: HMDM:0000002 ! drug
+is_a: CHEBI:23888 ! drug
 is_a: HMDM:0000078 ! Camptothecin Analogues
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 
@@ -14537,7 +14531,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 id: HMDM:0000091
 name: Trastuzumab deruxtecan
 def: "Trastuzumab deruxtecan is a monoclonal antibody medication used for the treatment of breast cancer or for the treatment of gastric or gastroesophageal adenocarcinoma. It is an antibody-drug conjugate composed of an anti-HER2 (human epidermal growth factor receptor 2) antibody, a cleavable tetrapeptide-based linker, and a cytotoxic topoisomerase I inhibitor." []
-is_a: HMDM:0000002 ! drug
+is_a: CHEBI:23888 ! drug
 is_a: HMDM:0000078 ! Camptothecin Analogues
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 
@@ -14583,14 +14577,14 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 id: HMDM:0000099
 name: sulindac
 def: "A monocarboxylic acid that is 1-benzylidene-1H-indene which is substituted at positions 2, 3, and 5 by methyl, carboxymethyl, and fluorine respectively, and in which the phenyl group of the benzylidene moiety is substituted at the para position by a methylsulfinyl group. It is a prodrug for the corresponding sulfide, a non-steroidal anti-inflammatory drug, used particularly in the treatment of acute and chronic inflammatory conditions. Sulindac is used to relieve pain, tenderness, swelling, and stiffness caused by osteoarthritis (arthritis caused by a breakdown of the lining of the joints), rheumatoid arthritis (arthritis caused by swelling of the lining of the joints), and ankylosing spondylitis (arthritis that mainly affects the spine)." []
-is_a: HMDM:0000002 ! drug
+is_a: CHEBI:23888 ! drug
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 
 [Term]
 id: HMDM:0000108
 name: raloxifene
 def: "A member of the class of 1-benzothiophenes that is 1-benzothiophene in which the hydrogens at positions 2, 3, and 6 have been replaced by p-hydroxyphenyl, p-[2-(piperidin-1-yl)ethoxy]benzoyl, and hydroxy groups, respectively. Raloxifene is a medication used to prevent and treat osteoporosis in postmenopausal women and those on glucocorticoids. It is also used to reduce the risk of breast cancer in those at high risk. Raloxifene is a selective estrogen receptor modulator (SERM) and therefore a mixed agonist–antagonist of the estrogen receptor (ER). It has estrogenic effects in bone and antiestrogenic effects in the breasts and uterus." []
-is_a: HMDM:0000002 ! drug
+is_a: CHEBI:23888 ! drug
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 
 [Term]
@@ -15539,7 +15533,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 id: HMDM:0000466
 name: Brivudine
 def: "Brivudine is an antiviral drug used to treat herpes zoster." []
-is_a: HMDM:0000002 ! drug
+is_a: CHEBI:23888 ! drug
 is_a: HMDM:0000005 ! antiviral
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 
@@ -15723,7 +15717,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 id: HMDM:0000787
 name: Pericyazine
 def: "It is a sedative phenothiazine with weak antipsychotic properties. It also has adrenolytic, anticholinergic, metabolic and endocrine effects, and an action on the extrapyramidal system." []
-is_a: HMDM:0000002 ! drug
+is_a: CHEBI:23888 ! drug
 is_a: HMDM:0000789 ! Phenothiazine
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 
@@ -15738,7 +15732,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 id: HMDM:0000790
 name: Racecadotril
 def: "Racecadotril, which is rapidly metabolized to its active metabolite thiorphan, is a neutral endopeptidase (NEP) inhibitor used in clinical practice for diarrhoea with a remarkable safety profile." [PMID:17028311]
-is_a: HMDM:0000002 ! drug
+is_a: CHEBI:23888 ! drug
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 
 [Term]

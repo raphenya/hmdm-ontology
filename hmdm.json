@@ -37,9 +37,9 @@
         "val" : "The Human Microbiome Drug Metabolism (HMDM) Ontology is a resource for the scientific community to understand how the human gut microbiome metabolizes drugs. It provides a structured vocabulary for describing the genes, enzymes, and mechanisms involved in drug metabolism by gut bacteria. It is available under the Attribution 4.0 International (CC BY 4.0) license, allowing for sharing and adaptation with proper attribution."
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2026-09-27"
+        "val" : "2026-11-18"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/hmdm/releases/2026-09-27/hmdm.json"
+      "version" : "http://purl.obolibrary.org/obo/hmdm/releases/2026-11-18/hmdm.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000002",
@@ -20481,22 +20481,6 @@
       "meta" : {
         "definition" : {
           "val" : "The human gut microbiome transforms and degrade drugs using enzymes."
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.org/dc/terms/contributor",
-          "val" : "https://orcid.org/0000-0001-9259-5280"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "human_microbiome_drug_metabolism_ontology"
-        } ]
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/HMDM_0000002",
-      "lbl" : "drug",
-      "type" : "CLASS",
-      "meta" : {
-        "definition" : {
-          "val" : "A drug is any substance that causes a change in an organism's physiology or psychology when consumed or introduced."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/terms/contributor",
@@ -44770,9 +44754,9 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/GO_0009987"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/HMDM_0000002",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HMDM_0000001"
+      "sub" : "http://purl.obolibrary.org/obo/HMDM_0000001",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_23888"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HMDM_0000005",
       "pred" : "is_a",
@@ -44960,7 +44944,7 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HMDM_0000081",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HMDM_0000002"
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_23888"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HMDM_0000081",
       "pred" : "is_a",
@@ -44984,7 +44968,7 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HMDM_0000091",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HMDM_0000002"
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_23888"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HMDM_0000091",
       "pred" : "is_a",
@@ -45024,11 +45008,11 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HMDM_0000099",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HMDM_0000002"
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_23888"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HMDM_0000108",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HMDM_0000002"
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_23888"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HMDM_0000125",
       "pred" : "is_a",
@@ -46400,7 +46384,7 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HMDM_0000466",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HMDM_0000002"
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_23888"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HMDM_0000466",
       "pred" : "is_a",
@@ -46536,7 +46520,7 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HMDM_0000787",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HMDM_0000002"
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_23888"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HMDM_0000787",
       "pred" : "is_a",
@@ -46548,7 +46532,7 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HMDM_0000790",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HMDM_0000002"
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_23888"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HMDM_0000791",
       "pred" : "is_a",
