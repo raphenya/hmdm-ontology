@@ -101,8 +101,7 @@ is_a: CHEBI:46848 ! N-arylpiperazine
 is_a: CHEBI:51454 ! cyclopropanes
 is_a: CHEBI:86324 ! quinolone antibiotic
 is_a: CHEBI:87211 ! fluoroquinolone antibiotic
-relationship: RO:0000087 CHEBI:22587 ! has role antiviral agent
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:22587 ! has role antiviral
 relationship: RO:0000087 CHEBI:35620 ! has role vasodilator agent
 relationship: RO:0000087 CHEBI:35703 ! has role xenobiotic
 relationship: RO:0000087 CHEBI:35842 ! has role antirheumatic drug
@@ -110,7 +109,7 @@ relationship: RO:0000087 CHEBI:36047 ! has role antibacterial drug
 relationship: RO:0000087 CHEBI:49201 ! has role anti-ulcer drug
 relationship: RO:0000087 CHEBI:50750 ! has role EC 5.99.1.3 [DNA topoisomerase (ATP-hydrolysing)] inhibitor
 relationship: RO:0000087 CHEBI:53559 ! has role topoisomerase IV inhibitor
-relationship: RO:0000087 CHEBI:55323 ! has role antidiarrhoeal drug
+relationship: RO:0000087 CHEBI:55323 ! has role anti-diarrheal agent
 relationship: RO:0000087 CHEBI:59517 ! has role DNA synthesis inhibitor
 relationship: RO:0000087 CHEBI:66981 ! has role ophthalmology drug
 relationship: RO:0000087 CHEBI:78298 ! has role environmental contaminant
@@ -131,13 +130,13 @@ relationship: RO:0000087 CHEBI:233423 ! has role antifibrotic agent
 relationship: RO:0000087 CHEBI:33288 ! has role rodenticide
 relationship: RO:0000087 CHEBI:35469 ! has role antidepressant
 relationship: RO:0000087 CHEBI:35526 ! has role hypoglycemic agent
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:35623 ! has role anticonvulsant
 relationship: RO:0000087 CHEBI:35674 ! has role antihypertensive agent
 relationship: RO:0000087 CHEBI:35705 ! has role immunosuppressive agent
 relationship: RO:0000087 CHEBI:35842 ! has role antirheumatic drug
 relationship: RO:0000087 CHEBI:38070 ! has role anti-arrhythmia drug
-relationship: RO:0000087 CHEBI:48407 ! has role antiparkinson drug
+relationship: RO:0000087 CHEBI:48407 ! has role anti-parkinson agent
 relationship: RO:0000087 CHEBI:50249 ! has role anticoagulant
 relationship: RO:0000087 CHEBI:50390 ! has role EC 1.6.5.2 [NAD(P)H dehydrogenase (quinone)] inhibitor
 relationship: RO:0000087 CHEBI:50748 ! has role antipsoriatic
@@ -160,7 +159,7 @@ relationship: RO:0000087 CHEBI:194338 ! has role T-type calcium channel blocker
 relationship: RO:0000087 CHEBI:22586 ! has role antioxidant
 relationship: RO:0000087 CHEBI:35476 ! has role antipsychotic agent
 relationship: RO:0000087 CHEBI:35623 ! has role anticonvulsant
-relationship: RO:0000087 CHEBI:48407 ! has role antiparkinson drug
+relationship: RO:0000087 CHEBI:48407 ! has role anti-parkinson agent
 relationship: RO:0000087 CHEBI:50267 ! has role protective agent
 relationship: RO:0000087 CHEBI:74518 ! has role anti-obesity agent
 
@@ -171,9 +170,9 @@ namespace: chebi_ontology
 def: "A 5-[2-(dimethylamino)ethyl]-2-(4-methoxyphenyl)-4-oxo-2,3,4,5-tetrahydro-1,5-benzothiazepin-3-yl acetate in which both stereocentres have <i>S</i> configuration. A calcium-channel blocker and vasodilator, it is used as the hydrochloride in the management of angina pectoris and hypertension." []
 is_a: CHEBI:82814 ! 5-[2-(dimethylamino)ethyl]-2-(4-methoxyphenyl)-4-oxo-2,3,4,5-tetrahydro-1,5-benzothiazepin-3-yl acetate
 relationship: RO:0000087 CHEBI:145947 ! has role antiatherosclerotic agent
-relationship: RO:0000087 CHEBI:22587 ! has role antiviral agent
+relationship: RO:0000087 CHEBI:22587 ! has role antiviral
 relationship: RO:0000087 CHEBI:35526 ! has role hypoglycemic agent
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:35620 ! has role vasodilator agent
 relationship: RO:0000087 CHEBI:35674 ! has role antihypertensive agent
 relationship: RO:0000087 CHEBI:38070 ! has role anti-arrhythmia drug
@@ -500,6 +499,13 @@ relationship: RO:0018033 CHEBI:18237 ! is conjugate base of glutamic acid
 relationship: RO:0018034 CHEBI:29987 ! is conjugate acid of glutamate(2-)
 
 [Term]
+id: CHEBI:14434
+name: imidazole
+namespace: chebi_ontology
+is_a: CHEBI:24780 ! imidazoles
+is_a: CHEBI:35555 ! mancude organic heteromonocyclic parent
+
+[Term]
 id: CHEBI:145498
 name: donepezil (1+)
 namespace: chebi_ontology
@@ -604,7 +610,7 @@ id: CHEBI:149553
 name: anticoronaviral agent
 namespace: chebi_ontology
 def: "Any antiviral agent which inhibits the activity of coronaviruses." []
-is_a: CHEBI:22587 ! antiviral agent
+is_a: CHEBI:22587 ! antiviral
 
 [Term]
 id: CHEBI:149689
@@ -650,7 +656,7 @@ relationship: RO:0000087 CHEBI:35476 ! has role antipsychotic agent
 relationship: RO:0000087 CHEBI:35481 ! has role non-narcotic analgesic
 relationship: RO:0000087 CHEBI:35493 ! has role antipyretic
 relationship: RO:0000087 CHEBI:35526 ! has role hypoglycemic agent
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:35674 ! has role antihypertensive agent
 relationship: RO:0000087 CHEBI:35705 ! has role immunosuppressive agent
 relationship: RO:0000087 CHEBI:38070 ! has role anti-arrhythmia drug
@@ -734,7 +740,7 @@ relationship: RO:0000087 CHEBI:35219 ! has role plant growth retardant
 relationship: RO:0000087 CHEBI:35469 ! has role antidepressant
 relationship: RO:0000087 CHEBI:35476 ! has role antipsychotic agent
 relationship: RO:0000087 CHEBI:35480 ! has role analgesic
-relationship: RO:0000087 CHEBI:48407 ! has role antiparkinson drug
+relationship: RO:0000087 CHEBI:48407 ! has role anti-parkinson agent
 relationship: RO:0000087 CHEBI:48560 ! has role dopaminergic agent
 relationship: RO:0000087 CHEBI:50266 ! has role prodrug
 relationship: RO:0000087 CHEBI:50514 ! has role vasoconstrictor agent
@@ -821,6 +827,16 @@ is_a: CHEBI:33429 ! monoatomic monoanion
 is_a: CHEBI:79389 ! monovalent inorganic anion
 
 [Term]
+id: CHEBI:16069
+name: 1H-imidazole
+namespace: chebi_ontology
+def: "An imidazole tautomer which has the migrating hydrogen at position 1." []
+is_a: CHEBI:14434 ! imidazole
+relationship: RO:0018033 CHEBI:50059 ! is conjugate base of imidazolium cation
+relationship: RO:0018034 CHEBI:30366 ! is conjugate acid of imidazolide
+relationship: RO:0018036 CHEBI:51802 ! is tautomer of 4H-imidazole
+
+[Term]
 id: CHEBI:16134
 name: ammonia
 namespace: chebi_ontology
@@ -874,7 +890,7 @@ is_a: CHEBI:64708 ! one-carbon compound
 relationship: RO:0000087 CHEBI:33287 ! has role fertilizer
 relationship: RO:0000087 CHEBI:35480 ! has role analgesic
 relationship: RO:0000087 CHEBI:35526 ! has role hypoglycemic agent
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:50748 ! has role antipsoriatic
 relationship: RO:0000087 CHEBI:64577 ! has role flour treatment agent
 relationship: RO:0000087 CHEBI:75771 ! has role mouse metabolite
@@ -894,7 +910,7 @@ is_a: BFO:0000004 ! independent continuant
 is_a: CHEBI:20702 ! 2-aminopurines
 is_a: CHEBI:25810 ! oxopurine
 is_a: CHEBI:26386 ! purine nucleobase
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:75771 ! has role mouse metabolite
 relationship: RO:0000087 CHEBI:75772 ! has role Saccharomyces cerevisiae metabolite
 relationship: RO:0000087 CHEBI:76971 ! has role Escherichia coli metabolite
@@ -1085,7 +1101,7 @@ is_a: CHEBI:25389 ! monohydroxybenzoic acid
 relationship: RO:0000087 CHEBI:35441 ! has role antiinfective agent
 relationship: RO:0000087 CHEBI:35480 ! has role analgesic
 relationship: RO:0000087 CHEBI:35554 ! has role cardiovascular drug
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:35718 ! has role antifungal agent
 relationship: RO:0000087 CHEBI:37848 ! has role plant hormone
 relationship: RO:0000087 CHEBI:50176 ! has role keratolytic drug
@@ -1135,7 +1151,7 @@ id: CHEBI:171664
 name: antiamoebic agent
 namespace: chebi_ontology
 def: "An antiparasitic agent which is effective against amoeba, a genus of single-celled amoeboids in the family Amoebidae." []
-is_a: CHEBI:35442 ! antiparasitic agent
+is_a: CHEBI:35442 ! anti-parasitic agent
 
 [Term]
 id: CHEBI:17234
@@ -1164,7 +1180,7 @@ def: "A 17-oxo steroid that is estra-1,3,5(10)-triene substituted by an hydroxy 
 is_a: BFO:0000004 ! independent continuant
 is_a: CHEBI:177917 ! phenolic steroid
 is_a: CHEBI:19168 ! 17-oxo steroid
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:50114 ! has role estrogen
 relationship: RO:0000087 CHEBI:50646 ! has role bone density conservation agent
 relationship: RO:0000087 CHEBI:74518 ! has role anti-obesity agent
@@ -1318,7 +1334,7 @@ def: "A common and naturally occurring pyrimidine nucleobase in which the pyrimi
 is_a: BFO:0000004 ! independent continuant
 is_a: CHEBI:26432 ! pyrimidine nucleobase
 is_a: CHEBI:38337 ! pyrimidone
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:50266 ! has role prodrug
 relationship: RO:0000087 CHEBI:50904 ! has role allergen
 relationship: RO:0000087 CHEBI:75771 ! has role mouse metabolite
@@ -1409,7 +1425,7 @@ relationship: RO:0000087 CHEBI:233423 ! has role antifibrotic agent
 relationship: RO:0000087 CHEBI:35441 ! has role antiinfective agent
 relationship: RO:0000087 CHEBI:35472 ! has role anti-inflammatory drug
 relationship: RO:0000087 CHEBI:35480 ! has role analgesic
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:35705 ! has role immunosuppressive agent
 relationship: RO:0000087 CHEBI:35842 ! has role antirheumatic drug
 relationship: RO:0000087 CHEBI:38070 ! has role anti-arrhythmia drug
@@ -1449,7 +1465,7 @@ relationship: RO:0000087 CHEBI:176497 ! has role geroprotector
 relationship: RO:0000087 CHEBI:25728 ! has role osmolyte
 relationship: RO:0000087 CHEBI:27780 ! has role detergent
 relationship: RO:0000087 CHEBI:33282 ! has role antibacterial agent
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:46787 ! has role solvent
 relationship: RO:0000087 CHEBI:49201 ! has role anti-ulcer drug
 relationship: RO:0000087 CHEBI:50503 ! has role laxative
@@ -1502,7 +1518,7 @@ def: "A secondary alcohol that is propane in which one of the hydrogens attached
 is_a: BFO:0000004 ! independent continuant
 is_a: CHEBI:167095 ! secondary fatty alcohol
 relationship: RO:0000087 CHEBI:35441 ! has role antiinfective agent
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:35842 ! has role antirheumatic drug
 relationship: RO:0000087 CHEBI:48356 ! has role protic solvent
 relationship: RO:0000087 CHEBI:50748 ! has role antipsoriatic
@@ -1602,7 +1618,7 @@ relationship: RO:0000087 CHEBI:35522 ! has role beta-adrenergic agonist
 relationship: RO:0000087 CHEBI:35524 ! has role sympathomimetic agent
 relationship: RO:0000087 CHEBI:35526 ! has role hypoglycemic agent
 relationship: RO:0000087 CHEBI:38147 ! has role cardiotonic drug
-relationship: RO:0000087 CHEBI:48407 ! has role antiparkinson drug
+relationship: RO:0000087 CHEBI:48407 ! has role anti-parkinson agent
 relationship: RO:0000087 CHEBI:48560 ! has role dopaminergic agent
 relationship: RO:0000087 CHEBI:75771 ! has role mouse metabolite
 relationship: RO:0000087 CHEBI:76971 ! has role Escherichia coli metabolite
@@ -1823,7 +1839,7 @@ namespace: chebi_ontology
 def: "A sesquiterpene lactone obtained from sweet wormwood, <em>Artemisia annua</em>, which is used as an antimalarial for the treatment of multi-drug resistant strains of <em>falciparum</em> malaria." []
 is_a: CHEBI:25702 ! organic peroxide
 is_a: CHEBI:37667 ! sesquiterpene lactone
-relationship: RO:0000087 CHEBI:22587 ! has role antiviral agent
+relationship: RO:0000087 CHEBI:22587 ! has role antiviral
 relationship: RO:0000087 CHEBI:35476 ! has role antipsychotic agent
 relationship: RO:0000087 CHEBI:38068 ! has role antimalarial
 relationship: RO:0000087 CHEBI:76924 ! has role plant metabolite
@@ -1889,10 +1905,12 @@ is_a: CHEBI:51086 ! chemical role
 
 [Term]
 id: CHEBI:22587
-name: antiviral agent
+name: antiviral
 namespace: chebi_ontology
 def: "A substance that destroys or inhibits replication of viruses." []
 is_a: CHEBI:33281 ! antimicrobial agent
+is_a: HMDM:0000073 ! drug class
+property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 
 [Term]
 id: CHEBI:22676
@@ -2034,6 +2052,14 @@ name: bromine molecular entity
 namespace: chebi_ontology
 is_a: CHEBI:24471 ! halogen molecular entity
 relationship: BFO:0000051 CHEBI:22927 ! has part bromine atom
+
+[Term]
+id: CHEBI:23003
+name: carbamate ester
+namespace: chebi_ontology
+def: "Any ester of carbamic acid or its <em>N</em>-substituted derivatives." []
+is_a: CHEBI:33308 ! carboxylic ester
+relationship: RO:0018038 CHEBI:28616 ! has functional parent carbamic acid
 
 [Term]
 id: CHEBI:23004
@@ -2916,7 +2942,7 @@ def: "A 1,1-bis(phosphonic acid) that is methanebis(phosphonic acid) in which th
 is_a: CHEBI:50994 ! primary amino compound
 is_a: CHEBI:77383 ! 1,1-bis(phosphonic acid)
 relationship: RO:0000087 CHEBI:33282 ! has role antibacterial agent
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:50643 ! has role EC 2.5.1.1 (dimethylallyltranstransferase) inhibitor
 relationship: RO:0000087 CHEBI:50646 ! has role bone density conservation agent
 relationship: RO:0000087 CHEBI:64946 ! has role anti-HIV agent
@@ -3361,7 +3387,7 @@ relationship: RO:0000087 CHEBI:35474 ! has role anxiolytic drug
 relationship: RO:0000087 CHEBI:35476 ! has role antipsychotic agent
 relationship: RO:0000087 CHEBI:35480 ! has role analgesic
 relationship: RO:0000087 CHEBI:35526 ! has role hypoglycemic agent
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:35640 ! has role adrenergic uptake inhibitor
 relationship: RO:0000087 CHEBI:35703 ! has role xenobiotic
 relationship: RO:0000087 CHEBI:67079 ! has role anti-inflammatory agent
@@ -3390,7 +3416,7 @@ relationship: RO:0000087 CHEBI:145947 ! has role antiatherosclerotic agent
 relationship: RO:0000087 CHEBI:231911 ! has role renoprotective agent
 relationship: RO:0000087 CHEBI:35469 ! has role antidepressant
 relationship: RO:0000087 CHEBI:35526 ! has role hypoglycemic agent
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:35620 ! has role vasodilator agent
 relationship: RO:0000087 CHEBI:35674 ! has role antihypertensive agent
 relationship: RO:0000087 CHEBI:35821 ! has role anticholesteremic drug
@@ -3440,10 +3466,10 @@ name: amoxicillin
 namespace: chebi_ontology
 def: "A penicillin in which the substituent at position 6 of the penam ring is a 2-amino-2-(4-hydroxyphenyl)acetamido group." []
 is_a: CHEBI:88187 ! penicillin allergen
-relationship: RO:0000087 CHEBI:22587 ! has role antiviral agent
+relationship: RO:0000087 CHEBI:22587 ! has role antiviral
 relationship: RO:0000087 CHEBI:33231 ! has role antitubercular agent
 relationship: RO:0000087 CHEBI:35480 ! has role analgesic
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:38068 ! has role antimalarial
 relationship: RO:0000087 CHEBI:49201 ! has role anti-ulcer drug
 relationship: RO:0000087 CHEBI:65023 ! has role anti-asthmatic agent
@@ -3671,12 +3697,12 @@ relationship: RO:0000087 CHEBI:33231 ! has role antitubercular agent
 relationship: RO:0000087 CHEBI:35469 ! has role antidepressant
 relationship: RO:0000087 CHEBI:35476 ! has role antipsychotic agent
 relationship: RO:0000087 CHEBI:35526 ! has role hypoglycemic agent
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:35623 ! has role anticonvulsant
 relationship: RO:0000087 CHEBI:35674 ! has role antihypertensive agent
 relationship: RO:0000087 CHEBI:35842 ! has role antirheumatic drug
 relationship: RO:0000087 CHEBI:38068 ! has role antimalarial
-relationship: RO:0000087 CHEBI:48407 ! has role antiparkinson drug
+relationship: RO:0000087 CHEBI:48407 ! has role anti-parkinson agent
 relationship: RO:0000087 CHEBI:49201 ! has role anti-ulcer drug
 relationship: RO:0000087 CHEBI:50247 ! has role antidote
 relationship: RO:0000087 CHEBI:50646 ! has role bone density conservation agent
@@ -3698,7 +3724,7 @@ is_a: CHEBI:33306 ! carbon group element atom
 relationship: RO:0000087 CHEBI:33937 ! has role macronutrient
 relationship: RO:0000087 CHEBI:35469 ! has role antidepressant
 relationship: RO:0000087 CHEBI:35526 ! has role hypoglycemic agent
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:35705 ! has role immunosuppressive agent
 relationship: RO:0000087 CHEBI:53784 ! has role antispasmodic drug
 relationship: RO:0000087 CHEBI:65023 ! has role anti-asthmatic agent
@@ -3713,7 +3739,6 @@ is_a: CHEBI:18946 ! delta-lactone
 is_a: CHEBI:26509 ! quinoline alkaloid
 is_a: CHEBI:26878 ! tertiary alcohol
 is_a: CHEBI:48626 ! pyranoindolizinoquinoline
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
 relationship: RO:0000087 CHEBI:50276 ! has role EC 5.99.1.2 (DNA topoisomerase) inhibitor
 relationship: RO:0000087 CHEBI:50902 ! has role genotoxin
 relationship: RO:0000087 CHEBI:76924 ! has role plant metabolite
@@ -3731,12 +3756,12 @@ relationship: RO:0000087 CHEBI:35471 ! has role psychotropic drug
 relationship: RO:0000087 CHEBI:35480 ! has role analgesic
 relationship: RO:0000087 CHEBI:35498 ! has role diuretic
 relationship: RO:0000087 CHEBI:35526 ! has role hypoglycemic agent
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:35703 ! has role xenobiotic
 relationship: RO:0000087 CHEBI:35705 ! has role immunosuppressive agent
 relationship: RO:0000087 CHEBI:35842 ! has role antirheumatic drug
 relationship: RO:0000087 CHEBI:38070 ! has role anti-arrhythmia drug
-relationship: RO:0000087 CHEBI:48407 ! has role antiparkinson drug
+relationship: RO:0000087 CHEBI:48407 ! has role anti-parkinson agent
 relationship: RO:0000087 CHEBI:50218 ! has role EC 3.1.4.* (phosphoric diester hydrolase) inhibitor
 relationship: RO:0000087 CHEBI:50514 ! has role vasoconstrictor agent
 relationship: RO:0000087 CHEBI:50748 ! has role antipsoriatic
@@ -3797,7 +3822,7 @@ def: "A member of the class of 7-hydroxyisoflavones that is 7-hydroxyisoflavone 
 is_a: BFO:0000004 ! independent continuant
 is_a: CHEBI:55465 ! 7-hydroxyisoflavones
 relationship: RO:0000087 CHEBI:131699 ! has role EC 2.7.7.7 (DNA-directed DNA polymerase) inhibitor
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:50646 ! has role bone density conservation agent
 relationship: RO:0000087 CHEBI:67239 ! has role EC 3.2.1.20 (alpha-glucosidase) inhibitor
 relationship: RO:0000087 CHEBI:76924 ! has role plant metabolite
@@ -3872,7 +3897,7 @@ is_a: BFO:0000004 ! independent continuant
 is_a: CHEBI:25560 ! nitroglycerol
 relationship: RO:0000087 CHEBI:35441 ! has role antiinfective agent
 relationship: RO:0000087 CHEBI:35480 ! has role analgesic
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:35620 ! has role vasodilator agent
 relationship: RO:0000087 CHEBI:35674 ! has role antihypertensive agent
 relationship: RO:0000087 CHEBI:35703 ! has role xenobiotic
@@ -3915,7 +3940,7 @@ relationship: RO:0000087 CHEBI:33288 ! has role rodenticide
 relationship: RO:0000087 CHEBI:35476 ! has role antipsychotic agent
 relationship: RO:0000087 CHEBI:35480 ! has role analgesic
 relationship: RO:0000087 CHEBI:35554 ! has role cardiovascular drug
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:35705 ! has role immunosuppressive agent
 relationship: RO:0000087 CHEBI:50646 ! has role bone density conservation agent
 relationship: RO:0000087 CHEBI:50733 ! has role nutraceutical
@@ -3957,11 +3982,11 @@ relationship: RO:0000087 CHEBI:35469 ! has role antidepressant
 relationship: RO:0000087 CHEBI:35476 ! has role antipsychotic agent
 relationship: RO:0000087 CHEBI:35526 ! has role hypoglycemic agent
 relationship: RO:0000087 CHEBI:35554 ! has role cardiovascular drug
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:35623 ! has role anticonvulsant
 relationship: RO:0000087 CHEBI:35705 ! has role immunosuppressive agent
 relationship: RO:0000087 CHEBI:35821 ! has role anticholesteremic drug
-relationship: RO:0000087 CHEBI:48407 ! has role antiparkinson drug
+relationship: RO:0000087 CHEBI:48407 ! has role anti-parkinson agent
 relationship: RO:0000087 CHEBI:50646 ! has role bone density conservation agent
 relationship: RO:0000087 CHEBI:50748 ! has role antipsoriatic
 relationship: RO:0000087 CHEBI:53784 ! has role antispasmodic drug
@@ -3989,7 +4014,7 @@ namespace: chebi_ontology
 is_a: CHEBI:35605 ! carbon oxoacid
 is_a: CHEBI:36961 ! chalcocarbonic acid
 relationship: RO:0000087 CHEBI:35480 ! has role analgesic
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:75771 ! has role mouse metabolite
 relationship: RO:0018034 CHEBI:17544 ! is conjugate acid of hydrogencarbonate
 
@@ -4004,7 +4029,7 @@ is_a: CHEBI:35533 ! propanolamine
 relationship: RO:0000087 CHEBI:35469 ! has role antidepressant
 relationship: RO:0000087 CHEBI:35526 ! has role hypoglycemic agent
 relationship: RO:0000087 CHEBI:35530 ! has role beta-adrenergic antagonist
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:35674 ! has role antihypertensive agent
 relationship: RO:0000087 CHEBI:35703 ! has role xenobiotic
 relationship: RO:0000087 CHEBI:38070 ! has role anti-arrhythmia drug
@@ -4089,7 +4114,7 @@ is_a: CHEBI:25105 ! macrolide antibiotic
 relationship: RO:0000087 CHEBI:33231 ! has role antitubercular agent
 relationship: RO:0000087 CHEBI:35480 ! has role analgesic
 relationship: RO:0000087 CHEBI:35554 ! has role cardiovascular drug
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:35703 ! has role xenobiotic
 relationship: RO:0000087 CHEBI:35705 ! has role immunosuppressive agent
 relationship: RO:0000087 CHEBI:35718 ! has role antifungal agent
@@ -4195,6 +4220,14 @@ name: azo group
 namespace: chebi_ontology
 is_a: CHEBI:33246 ! inorganic group
 relationship: RO:0018037 CHEBI:30096 ! is substituent group from diazene
+
+[Term]
+id: CHEBI:30366
+name: imidazolide
+namespace: chebi_ontology
+def: "An organic nitrogen anion that is the conjugate base of 1<em>H</em>-imidazole." []
+is_a: CHEBI:50335 ! organic nitrogen anion
+relationship: RO:0018033 CHEBI:16069 ! is conjugate base of 1H-imidazole
 
 [Term]
 id: CHEBI:30566
@@ -4408,10 +4441,10 @@ is_a: BFO:0000004 ! independent continuant
 is_a: CHEBI:22715 ! benzimidazoles
 is_a: CHEBI:48585 ! heteroarylpiperidine
 relationship: RO:0000087 CHEBI:35705 ! has role immunosuppressive agent
-relationship: RO:0000087 CHEBI:48407 ! has role antiparkinson drug
+relationship: RO:0000087 CHEBI:48407 ! has role anti-parkinson agent
 relationship: RO:0000087 CHEBI:48561 ! has role dopaminergic antagonist
 relationship: RO:0000087 CHEBI:50919 ! has role antiemetic
-relationship: RO:0000087 CHEBI:55323 ! has role antidiarrhoeal drug
+relationship: RO:0000087 CHEBI:55323 ! has role anti-diarrheal agent
 
 [Term]
 id: CHEBI:31521
@@ -4422,7 +4455,7 @@ is_a: BFO:0000004 ! independent continuant
 is_a: CHEBI:37143 ! organofluorine compound
 is_a: CHEBI:74494 ! pyrimidine 5'-deoxyribonucleoside
 relationship: RO:0000087 CHEBI:35221 ! has role antimetabolite
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:50266 ! has role prodrug
 
 [Term]
@@ -4437,10 +4470,10 @@ is_a: CHEBI:35346 ! 11beta-hydroxy steroid
 is_a: CHEBI:36885 ! 20-oxo steroid
 is_a: CHEBI:59770 ! cyclic acetal
 is_a: CHEBI:77166 ! 3-oxo-Delta(1),Delta(4)-steroid
-relationship: RO:0000087 CHEBI:22587 ! has role antiviral agent
+relationship: RO:0000087 CHEBI:22587 ! has role antiviral
 relationship: RO:0000087 CHEBI:35472 ! has role anti-inflammatory drug
 relationship: RO:0000087 CHEBI:35523 ! has role bronchodilator agent
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:50857 ! has role anti-allergic agent
 relationship: RO:0000087 CHEBI:65023 ! has role anti-asthmatic agent
 relationship: RO:0000087 CHEBI:77715 ! has role nasal decongestant
@@ -4465,7 +4498,7 @@ relationship: RO:0000087 CHEBI:35469 ! has role antidepressant
 relationship: RO:0000087 CHEBI:35474 ! has role anxiolytic drug
 relationship: RO:0000087 CHEBI:35476 ! has role antipsychotic agent
 relationship: RO:0000087 CHEBI:35526 ! has role hypoglycemic agent
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:35703 ! has role xenobiotic
 relationship: RO:0000087 CHEBI:74518 ! has role anti-obesity agent
 relationship: RO:0000087 CHEBI:75835 ! has role anti-anaemic agent
@@ -5059,7 +5092,7 @@ namespace: chebi_ontology
 def: "A benzimidazolecarboxylic acid that is 1<em>H</em>-benzimidazole-7-carboxylic acid substituted by an ethoxy group at position 2 and a ({2'-(1<em>H</em>-tetrazol-5-yl)[1,1'-biphenyl]-4-yl}methyl) group at position 1. It is a angiotensin receptor antagonist used for the treatment of hypertension." []
 is_a: CHEBI:35688 ! benzimidazolecarboxylic acid
 is_a: CHEBI:48420 ! biphenylyltetrazole
-relationship: RO:0000087 CHEBI:22587 ! has role antiviral agent
+relationship: RO:0000087 CHEBI:22587 ! has role antiviral
 relationship: RO:0000087 CHEBI:35476 ! has role antipsychotic agent
 relationship: RO:0000087 CHEBI:35526 ! has role hypoglycemic agent
 relationship: RO:0000087 CHEBI:35674 ! has role antihypertensive agent
@@ -5919,10 +5952,12 @@ is_a: CHEBI:23888 ! drug
 
 [Term]
 id: CHEBI:35442
-name: antiparasitic agent
+name: anti-parasitic agent
 namespace: chebi_ontology
 def: "A substance used to treat or prevent parasitic infections." []
 is_a: CHEBI:35441 ! antiinfective agent
+is_a: HMDM:0000073 ! drug class
+property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 
 [Term]
 id: CHEBI:35457
@@ -6012,6 +6047,8 @@ namespace: chebi_ontology
 def: "An agent capable of relieving pain without the loss of consciousness or without producing anaesthesia. In addition, analgesic is a role played by a compound which is exhibited by a capability to cause a reduction of pain symptoms." []
 is_a: CHEBI:23888 ! drug
 is_a: CHEBI:52210 ! pharmacological role
+is_a: HMDM:0000073 ! drug class
+property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 
 [Term]
 id: CHEBI:35481
@@ -6171,6 +6208,13 @@ def: "A drug that affects the rate or intensity of cardiac contraction, blood ve
 is_a: CHEBI:23888 ! drug
 
 [Term]
+id: CHEBI:35555
+name: mancude organic heteromonocyclic parent
+namespace: chebi_ontology
+is_a: CHEBI:25693 ! organic heteromonocyclic compound
+is_a: CHEBI:35571 ! mancude organic heterocyclic parent
+
+[Term]
 id: CHEBI:35568
 name: mancude ring
 namespace: chebi_ontology
@@ -6256,10 +6300,12 @@ is_a: CHEBI:36963 ! organooxygen compound
 
 [Term]
 id: CHEBI:35610
-name: antineoplastic agent
+name: anti-neoplastic agent
 namespace: chebi_ontology
 def: "A substance that inhibits or prevents the proliferation of neoplasms." []
 is_a: CHEBI:23888 ! drug
+is_a: HMDM:0000073 ! drug class
+property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 
 [Term]
 id: CHEBI:35618
@@ -6509,11 +6555,12 @@ relationship: RO:0018034 CHEBI:58955 ! is conjugate acid of branched-chain fatty
 
 [Term]
 id: CHEBI:35820
-name: antiprotozoal drug
+name: anti-protozoal agent
 namespace: chebi_ontology
-def: "Any antimicrobial drug which is used to treat or prevent protozoal infections." []
-is_a: CHEBI:35442 ! antiparasitic agent
+def: "An agent used to inhibit or kill protozoa." []
+is_a: CHEBI:35442 ! anti-parasitic agent
 is_a: CHEBI:36043 ! antimicrobial drug
+property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 
 [Term]
 id: CHEBI:35821
@@ -6627,7 +6674,7 @@ id: CHEBI:36044
 name: antiviral drug
 namespace: chebi_ontology
 def: "A substance used in the prophylaxis or therapy of virus diseases." []
-is_a: CHEBI:22587 ! antiviral agent
+is_a: CHEBI:22587 ! antiviral
 is_a: CHEBI:36043 ! antimicrobial drug
 
 [Term]
@@ -6724,7 +6771,7 @@ id: CHEBI:36335
 name: trypanocidal drug
 namespace: chebi_ontology
 def: "A drug used to treat or prevent infections caused by protozoal organisms belonging to the suborder Trypanosomatida." []
-is_a: CHEBI:35820 ! antiprotozoal drug
+is_a: CHEBI:35820 ! anti-protozoal agent
 
 [Term]
 id: CHEBI:36338
@@ -6897,11 +6944,11 @@ name: escitalopram
 namespace: chebi_ontology
 def: "A 1-[3-(dimethylamino)propyl]-1-(4-fluorophenyl)-1,3-dihydro-2-benzofuran-5-carbonitrile that has <i>S</i>-configuration at the chiral centre. It is the active enantiomer of citalopram." []
 is_a: CHEBI:77397 ! 1-[3-(dimethylamino)propyl]-1-(4-fluorophenyl)-1,3-dihydro-2-benzofuran-5-carbonitrile
-relationship: RO:0000087 CHEBI:22587 ! has role antiviral agent
+relationship: RO:0000087 CHEBI:22587 ! has role antiviral
 relationship: RO:0000087 CHEBI:35469 ! has role antidepressant
 relationship: RO:0000087 CHEBI:35474 ! has role anxiolytic drug
 relationship: RO:0000087 CHEBI:35476 ! has role antipsychotic agent
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:35674 ! has role antihypertensive agent
 relationship: RO:0000087 CHEBI:35842 ! has role antirheumatic drug
 relationship: RO:0000087 CHEBI:76779 ! has role EC 3.4.21.26 (prolyl oligopeptidase) inhibitor
@@ -7163,7 +7210,7 @@ relationship: RO:0000087 CHEBI:35474 ! has role anxiolytic drug
 relationship: RO:0000087 CHEBI:35476 ! has role antipsychotic agent
 relationship: RO:0000087 CHEBI:35554 ! has role cardiovascular drug
 relationship: RO:0000087 CHEBI:35703 ! has role xenobiotic
-relationship: RO:0000087 CHEBI:48407 ! has role antiparkinson drug
+relationship: RO:0000087 CHEBI:48407 ! has role anti-parkinson agent
 relationship: RO:0000087 CHEBI:50949 ! has role serotonin uptake inhibitor
 relationship: RO:0000087 CHEBI:53784 ! has role antispasmodic drug
 relationship: RO:0000087 CHEBI:76779 ! has role EC 3.4.21.26 (prolyl oligopeptidase) inhibitor
@@ -7398,6 +7445,16 @@ is_a: CHEBI:26819 ! sulfuric ester
 relationship: RO:0018033 CHEBI:139371 ! is conjugate base of aryl sulfate oxoanion
 
 [Term]
+id: CHEBI:37932
+name: Phenothiazine
+namespace: chebi_ontology
+def: "Phenothiazines belong to the oldest synthetic antipsychotic drugs, which do not have their precursor in the world of natural compounds. Apart from their fundamental neuroleptic action connected with the dopaminergic receptors blockade, phenothiazine derivatives also exert diverse biological activities, which account for their cancer chemopreventive-effect, such as calmodulin- and protein kinase C inhibitory actions, anti-proliferative effect, inhibition of P-glycoprotein transport function and reversion of multidrug resistance." [PMID:22580516]
+is_a: CHEBI:35820 ! anti-protozoal agent
+is_a: CHEBI:36416 ! mancude organic heterotricyclic parent
+is_a: CHEBI:38093 ! phenothiazines
+property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
+
+[Term]
 id: CHEBI:37941
 name: clopidogrel
 namespace: chebi_ontology
@@ -7410,7 +7467,7 @@ relationship: RO:0000087 CHEBI:145947 ! has role antiatherosclerotic agent
 relationship: RO:0000087 CHEBI:231911 ! has role renoprotective agent
 relationship: RO:0000087 CHEBI:35469 ! has role antidepressant
 relationship: RO:0000087 CHEBI:35526 ! has role hypoglycemic agent
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:35674 ! has role antihypertensive agent
 relationship: RO:0000087 CHEBI:38070 ! has role anti-arrhythmia drug
 relationship: RO:0000087 CHEBI:50249 ! has role anticoagulant
@@ -7504,6 +7561,12 @@ is_a: CHEBI:74634 ! cardenolides
 is_a: CHEBI:83970 ! cardiac glycoside
 
 [Term]
+id: CHEBI:38093
+name: phenothiazines
+namespace: chebi_ontology
+is_a: CHEBI:26979 ! organic heterotricyclic compound
+
+[Term]
 id: CHEBI:38101
 name: organonitrogen heterocyclic compound
 namespace: chebi_ontology
@@ -7577,9 +7640,13 @@ is_a: CHEBI:33860 ! aromatic amine
 id: CHEBI:38215
 name: calcium channel blocker
 namespace: chebi_ontology
-def: "One of a class of drugs that acts by selective inhibition of calcium influx through cell membranes or on the release and binding of calcium in intracellular pools." []
+def: "Calcium ions are essential for the chain of events that leads to myocardial contraction. Its role in the cardiac cycle has been studied extensively for years. Calcium is thought to be effective in slow channels. Calcium channel blockers (CCBs) inhibit the flow of extracellular calcium through ion‐specific channels that span the cell wall. When inward calcium flux is inhibited, vascular smooth muscle cells relax, resulting in vasodilation and a lowering of blood pressure (BP)." [PMID:21896151, PMID:8680353]
+is_a: BFO:0000002 ! continuant
 is_a: CHEBI:38808 ! calcium channel modulator
 is_a: CHEBI:48706 ! antagonist
+is_a: HMDM:0000073 ! drug class
+relationship: RO:0000056 HMDM:0000489 ! participates in cardiovascular system
+property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 
 [Term]
 id: CHEBI:38234
@@ -7724,12 +7791,12 @@ relationship: RO:0000087 CHEBI:145947 ! has role antiatherosclerotic agent
 relationship: RO:0000087 CHEBI:33231 ! has role antitubercular agent
 relationship: RO:0000087 CHEBI:35469 ! has role antidepressant
 relationship: RO:0000087 CHEBI:35526 ! has role hypoglycemic agent
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:35674 ! has role antihypertensive agent
 relationship: RO:0000087 CHEBI:35703 ! has role xenobiotic
 relationship: RO:0000087 CHEBI:35842 ! has role antirheumatic drug
 relationship: RO:0000087 CHEBI:38068 ! has role antimalarial
-relationship: RO:0000087 CHEBI:48407 ! has role antiparkinson drug
+relationship: RO:0000087 CHEBI:48407 ! has role anti-parkinson agent
 relationship: RO:0000087 CHEBI:49205 ! has role CETP inhibitor
 relationship: RO:0000087 CHEBI:64946 ! has role anti-HIV agent
 relationship: RO:0000087 CHEBI:65023 ! has role anti-asthmatic agent
@@ -7805,6 +7872,13 @@ is_a: CHEBI:3992 ! cyclic ketone
 is_a: CHEBI:50753 ! isoflavonoid
 
 [Term]
+id: CHEBI:38767
+name: benzothiophenes
+namespace: chebi_ontology
+is_a: CHEBI:27171 ! organic heterobicyclic compound
+is_a: CHEBI:38106 ! organosulfur heterocyclic compound
+
+[Term]
 id: CHEBI:38769
 name: indazoles
 namespace: chebi_ontology
@@ -7871,6 +7945,12 @@ id: CHEBI:38831
 name: 2-benzofurans
 namespace: chebi_ontology
 is_a: CHEBI:35259 ! benzofurans
+
+[Term]
+id: CHEBI:38836
+name: 1-benzothiophenes
+namespace: chebi_ontology
+is_a: CHEBI:38767 ! benzothiophenes
 
 [Term]
 id: CHEBI:38856
@@ -8009,7 +8089,7 @@ relationship: RO:0000087 CHEBI:231911 ! has role renoprotective agent
 relationship: RO:0000087 CHEBI:33231 ! has role antitubercular agent
 relationship: RO:0000087 CHEBI:35469 ! has role antidepressant
 relationship: RO:0000087 CHEBI:35526 ! has role hypoglycemic agent
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:35623 ! has role anticonvulsant
 relationship: RO:0000087 CHEBI:35674 ! has role antihypertensive agent
 relationship: RO:0000087 CHEBI:35703 ! has role xenobiotic
@@ -8039,7 +8119,7 @@ relationship: RO:0000087 CHEBI:35469 ! has role antidepressant
 relationship: RO:0000087 CHEBI:35474 ! has role anxiolytic drug
 relationship: RO:0000087 CHEBI:35476 ! has role antipsychotic agent
 relationship: RO:0000087 CHEBI:35477 ! has role antimanic drug
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:35623 ! has role anticonvulsant
 relationship: RO:0000087 CHEBI:50905 ! has role teratogenic agent
 relationship: RO:0000087 CHEBI:51374 ! has role GABA agent
@@ -8082,7 +8162,7 @@ relationship: RO:0000087 CHEBI:33231 ! has role antitubercular agent
 relationship: RO:0000087 CHEBI:35221 ! has role antimetabolite
 relationship: RO:0000087 CHEBI:35476 ! has role antipsychotic agent
 relationship: RO:0000087 CHEBI:35526 ! has role hypoglycemic agent
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:35634 ! has role EC 1.17.3.2 (xanthine oxidase) inhibitor
 relationship: RO:0000087 CHEBI:35674 ! has role antihypertensive agent
 relationship: RO:0000087 CHEBI:35845 ! has role gout suppressant
@@ -8105,9 +8185,9 @@ is_a: CHEBI:26188 ! polyketide
 is_a: CHEBI:35748 ! fatty acid ester
 is_a: CHEBI:87632 ! statin (naturally occurring)
 relationship: RO:0000087 CHEBI:145947 ! has role antiatherosclerotic agent
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:35842 ! has role antirheumatic drug
-relationship: RO:0000087 CHEBI:48407 ! has role antiparkinson drug
+relationship: RO:0000087 CHEBI:48407 ! has role anti-parkinson agent
 relationship: RO:0000087 CHEBI:50266 ! has role prodrug
 relationship: RO:0000087 CHEBI:64946 ! has role anti-HIV agent
 relationship: RO:0000087 CHEBI:65023 ! has role anti-asthmatic agent
@@ -8155,7 +8235,7 @@ relationship: RO:0000087 CHEBI:35469 ! has role antidepressant
 relationship: RO:0000087 CHEBI:35475 ! has role non-steroidal anti-inflammatory drug
 relationship: RO:0000087 CHEBI:35476 ! has role antipsychotic agent
 relationship: RO:0000087 CHEBI:35481 ! has role non-narcotic analgesic
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:35674 ! has role antihypertensive agent
 relationship: RO:0000087 CHEBI:35705 ! has role immunosuppressive agent
 relationship: RO:0000087 CHEBI:35845 ! has role gout suppressant
@@ -8187,7 +8267,7 @@ relationship: RO:0000087 CHEBI:35441 ! has role antiinfective agent
 relationship: RO:0000087 CHEBI:35476 ! has role antipsychotic agent
 relationship: RO:0000087 CHEBI:35480 ! has role analgesic
 relationship: RO:0000087 CHEBI:35526 ! has role hypoglycemic agent
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:35623 ! has role anticonvulsant
 relationship: RO:0000087 CHEBI:35674 ! has role antihypertensive agent
 relationship: RO:0000087 CHEBI:35705 ! has role immunosuppressive agent
@@ -8251,7 +8331,7 @@ relationship: RO:0000087 CHEBI:35469 ! has role antidepressant
 relationship: RO:0000087 CHEBI:35474 ! has role anxiolytic drug
 relationship: RO:0000087 CHEBI:35476 ! has role antipsychotic agent
 relationship: RO:0000087 CHEBI:35480 ! has role analgesic
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:35623 ! has role anticonvulsant
 relationship: RO:0000087 CHEBI:35703 ! has role xenobiotic
 relationship: RO:0000087 CHEBI:35705 ! has role immunosuppressive agent
@@ -8272,7 +8352,7 @@ is_a: BFO:0000004 ! independent continuant
 is_a: CHEBI:35343 ! 17beta-hydroxy steroid
 is_a: CHEBI:73477 ! terminal acetylenic compound
 relationship: RO:0000087 CHEBI:176497 ! has role geroprotector
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:50751 ! has role anti-estrogen
 relationship: RO:0000087 CHEBI:50837 ! has role estrogen antagonist
 relationship: RO:0000087 CHEBI:75835 ! has role anti-anaemic agent
@@ -8313,7 +8393,7 @@ relationship: RO:0000087 CHEBI:35441 ! has role antiinfective agent
 relationship: RO:0000087 CHEBI:35469 ! has role antidepressant
 relationship: RO:0000087 CHEBI:35480 ! has role analgesic
 relationship: RO:0000087 CHEBI:35526 ! has role hypoglycemic agent
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:35623 ! has role anticonvulsant
 relationship: RO:0000087 CHEBI:35674 ! has role antihypertensive agent
 relationship: RO:0000087 CHEBI:35842 ! has role antirheumatic drug
@@ -8371,14 +8451,14 @@ relationship: RO:0000087 CHEBI:35475 ! has role non-steroidal anti-inflammatory 
 relationship: RO:0000087 CHEBI:35481 ! has role non-narcotic analgesic
 relationship: RO:0000087 CHEBI:35493 ! has role antipyretic
 relationship: RO:0000087 CHEBI:35526 ! has role hypoglycemic agent
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:35674 ! has role antihypertensive agent
 relationship: RO:0000087 CHEBI:35703 ! has role xenobiotic
 relationship: RO:0000087 CHEBI:35705 ! has role immunosuppressive agent
 relationship: RO:0000087 CHEBI:38068 ! has role antimalarial
 relationship: RO:0000087 CHEBI:38070 ! has role anti-arrhythmia drug
 relationship: RO:0000087 CHEBI:39456 ! has role antiglaucoma drug
-relationship: RO:0000087 CHEBI:48407 ! has role antiparkinson drug
+relationship: RO:0000087 CHEBI:48407 ! has role anti-parkinson agent
 relationship: RO:0000087 CHEBI:50629 ! has role cyclooxygenase 2 inhibitor
 relationship: RO:0000087 CHEBI:50630 ! has role cyclooxygenase 1 inhibitor
 relationship: RO:0000087 CHEBI:50908 ! has role hepatotoxic agent
@@ -8443,7 +8523,7 @@ relationship: BFO:0000051 CHEBI:9925 ! has part sodium valproate
 relationship: RO:0000087 CHEBI:35469 ! has role antidepressant
 relationship: RO:0000087 CHEBI:35476 ! has role antipsychotic agent
 relationship: RO:0000087 CHEBI:35477 ! has role antimanic drug
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:35623 ! has role anticonvulsant
 relationship: RO:0000087 CHEBI:51374 ! has role GABA agent
 
@@ -8604,7 +8684,7 @@ relationship: RO:0000087 CHEBI:35475 ! has role non-steroidal anti-inflammatory 
 relationship: RO:0000087 CHEBI:35481 ! has role non-narcotic analgesic
 relationship: RO:0000087 CHEBI:35493 ! has role antipyretic
 relationship: RO:0000087 CHEBI:35544 ! has role EC 1.14.99.1 (prostaglandin-endoperoxide synthase) inhibitor
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:35703 ! has role xenobiotic
 relationship: RO:0000087 CHEBI:49201 ! has role anti-ulcer drug
 relationship: RO:0000087 CHEBI:66981 ! has role ophthalmology drug
@@ -8628,7 +8708,7 @@ relationship: RO:0000087 CHEBI:231911 ! has role renoprotective agent
 relationship: RO:0000087 CHEBI:233423 ! has role antifibrotic agent
 relationship: RO:0000087 CHEBI:35476 ! has role antipsychotic agent
 relationship: RO:0000087 CHEBI:35526 ! has role hypoglycemic agent
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:35674 ! has role antihypertensive agent
 relationship: RO:0000087 CHEBI:35703 ! has role xenobiotic
 relationship: RO:0000087 CHEBI:62868 ! has role hepatoprotective agent
@@ -8648,7 +8728,7 @@ relationship: RO:0000087 CHEBI:35474 ! has role anxiolytic drug
 relationship: RO:0000087 CHEBI:35476 ! has role antipsychotic agent
 relationship: RO:0000087 CHEBI:35480 ! has role analgesic
 relationship: RO:0000087 CHEBI:35554 ! has role cardiovascular drug
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:35640 ! has role adrenergic uptake inhibitor
 relationship: RO:0000087 CHEBI:76779 ! has role EC 3.4.21.26 (prolyl oligopeptidase) inhibitor
 relationship: RO:0018040 CHEBI:47802 ! has parent hydride 5H-dibenzo[b,f]azepine
@@ -8748,10 +8828,10 @@ is_a: CHEBI:18379 ! nitrile
 is_a: CHEBI:29347 ! monocarboxylic acid amide
 is_a: CHEBI:33566 ! catechols
 is_a: CHEBI:86421 ! 2-nitrophenols
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:35623 ! has role anticonvulsant
 relationship: RO:0000087 CHEBI:48406 ! has role EC 2.1.1.6 (catechol O-methyltransferase) inhibitor
-relationship: RO:0000087 CHEBI:48407 ! has role antiparkinson drug
+relationship: RO:0000087 CHEBI:48407 ! has role anti-parkinson agent
 relationship: RO:0000087 CHEBI:74518 ! has role anti-obesity agent
 
 [Term]
@@ -8769,7 +8849,7 @@ def: "A nitrogen oxoacid of formula HNO<small><sub>3</sub></small> in which the 
 is_a: CHEBI:33455 ! nitrogen oxoacid
 relationship: RO:0000087 CHEBI:33893 ! has role reagent
 relationship: RO:0000087 CHEBI:35554 ! has role cardiovascular drug
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:48356 ! has role protic solvent
 relationship: RO:0018034 CHEBI:17632 ! is conjugate acid of nitrate
 
@@ -8915,10 +8995,12 @@ is_a: CHEBI:76871 ! EC 2.1.1.* (methyltransferases) inhibitor
 
 [Term]
 id: CHEBI:48407
-name: antiparkinson drug
+name: anti-parkinson agent
 namespace: chebi_ontology
 def: "A drug used in the treatment of Parkinson's disease." []
 is_a: CHEBI:66956 ! antidyskinesia agent
+is_a: HMDM:0000073 ! drug class
+property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 
 [Term]
 id: CHEBI:48420
@@ -8971,6 +9053,13 @@ namespace: chebi_ontology
 is_a: CHEBI:26151 ! piperidines
 
 [Term]
+id: CHEBI:48591
+name: N-acylpiperidine
+namespace: chebi_ontology
+is_a: CHEBI:26151 ! piperidines
+is_a: CHEBI:32988 ! amide
+
+[Term]
 id: CHEBI:48626
 name: pyranoindolizinoquinoline
 namespace: chebi_ontology
@@ -9013,6 +9102,13 @@ name: antagonist
 namespace: chebi_ontology
 def: "Substance that attaches to and blocks cell receptors that normally bind naturally occurring substances." []
 is_a: CHEBI:52210 ! pharmacological role
+
+[Term]
+id: CHEBI:48737
+name: N-oxyethylpiperidine
+namespace: chebi_ontology
+is_a: CHEBI:26151 ! piperidines
+is_a: CHEBI:50996 ! tertiary amino compound
 
 [Term]
 id: CHEBI:48819
@@ -9122,7 +9218,7 @@ is_a: CHEBI:36838 ! 17-hydroxy steroid
 is_a: CHEBI:73477 ! terminal acetylenic compound
 relationship: RO:0000087 CHEBI:35469 ! has role antidepressant
 relationship: RO:0000087 CHEBI:35526 ! has role hypoglycemic agent
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:50646 ! has role bone density conservation agent
 relationship: RO:0000087 CHEBI:50779 ! has role appetite enhancer
 relationship: RO:0000087 CHEBI:64946 ! has role anti-HIV agent
@@ -9253,11 +9349,11 @@ is_a: CHEBI:24803 ! indole-3-acetic acids
 is_a: CHEBI:35618 ! aromatic ether
 is_a: CHEBI:75884 ! N-acylindole
 is_a: CHEBI:83403 ! monochlorobenzenes
-relationship: RO:0000087 CHEBI:22587 ! has role antiviral agent
+relationship: RO:0000087 CHEBI:22587 ! has role antiviral
 relationship: RO:0000087 CHEBI:35475 ! has role non-steroidal anti-inflammatory drug
 relationship: RO:0000087 CHEBI:35480 ! has role analgesic
 relationship: RO:0000087 CHEBI:35544 ! has role EC 1.14.99.1 (prostaglandin-endoperoxide synthase) inhibitor
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:35703 ! has role xenobiotic
 relationship: RO:0000087 CHEBI:35845 ! has role gout suppressant
 relationship: RO:0000087 CHEBI:49103 ! has role drug metabolite
@@ -9293,7 +9389,7 @@ is_a: CHEBI:83403 ! monochlorobenzenes
 relationship: RO:0000087 CHEBI:145947 ! has role antiatherosclerotic agent
 relationship: RO:0000087 CHEBI:176497 ! has role geroprotector
 relationship: RO:0000087 CHEBI:35526 ! has role hypoglycemic agent
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:35674 ! has role antihypertensive agent
 relationship: RO:0000087 CHEBI:35703 ! has role xenobiotic
 relationship: RO:0000087 CHEBI:35821 ! has role anticholesteremic drug
@@ -9312,6 +9408,14 @@ is_a: BFO:0000004 ! independent continuant
 is_a: CHEBI:35352 ! organonitrogen compound
 relationship: RO:0000087 CHEBI:39142 ! has role Bronsted base
 relationship: RO:0018040 CHEBI:16134 ! has parent hydride ammonia
+
+[Term]
+id: CHEBI:50059
+name: imidazolium cation
+namespace: chebi_ontology
+def: "An imidazolium ion that is the cation resulting from protonation at the 3-position of 1<em>H</em>-imidazole." []
+is_a: CHEBI:59964 ! imidazolium ion
+relationship: RO:0018034 CHEBI:16069 ! is conjugate acid of 1H-imidazole
 
 [Term]
 id: CHEBI:50075
@@ -9502,6 +9606,13 @@ namespace: chebi_ontology
 is_a: CHEBI:50325 ! proteinogenic amino-acid side-chain group
 
 [Term]
+id: CHEBI:50335
+name: organic nitrogen anion
+namespace: chebi_ontology
+is_a: CHEBI:25696 ! organic anion
+is_a: CHEBI:35352 ! organonitrogen compound
+
+[Term]
 id: CHEBI:50336
 name: 4-hydroxybenzyl group
 namespace: chebi_ontology
@@ -9647,7 +9758,7 @@ id: CHEBI:50685
 name: antitrichomonal drug
 namespace: chebi_ontology
 def: "A drug used to treat trichomonas infections." []
-is_a: CHEBI:35820 ! antiprotozoal drug
+is_a: CHEBI:35820 ! anti-protozoal agent
 
 [Term]
 id: CHEBI:50689
@@ -9676,6 +9787,13 @@ id: CHEBI:50733
 name: nutraceutical
 namespace: chebi_ontology
 def: "A product in capsule, tablet or liquid form that provide essential nutrients, such as a vitamin, an essential mineral, a protein, an herb, or similar nutritional substance." []
+is_a: CHEBI:23888 ! drug
+
+[Term]
+id: CHEBI:50739
+name: estrogen receptor modulator
+namespace: chebi_ontology
+def: "A substance that possess antiestrogenic actions but can also produce estrogenic effects as well. It acts as complete or partial agonist or as antagonist. It can be either steroidal or nonsteroidal in structure." []
 is_a: CHEBI:23888 ! drug
 
 [Term]
@@ -10120,7 +10238,7 @@ is_a: BFO:0000004 ! independent continuant
 is_a: CHEBI:60911 ! racemate
 relationship: BFO:0000051 CHEBI:408174 ! has part arformoterol
 relationship: BFO:0000051 CHEBI:63081 ! has part (S,S)-formoterol
-relationship: RO:0000087 CHEBI:22587 ! has role antiviral agent
+relationship: RO:0000087 CHEBI:22587 ! has role antiviral
 relationship: RO:0000087 CHEBI:35522 ! has role beta-adrenergic agonist
 relationship: RO:0000087 CHEBI:35523 ! has role bronchodilator agent
 relationship: RO:0000087 CHEBI:49167 ! has role anti-asthmatic drug
@@ -10186,6 +10304,14 @@ name: alpha,beta-unsaturated ketone
 namespace: chebi_ontology
 def: "A ketone of general formula R<small><sup>1</small></sup>R<small><sup>2</small></sup>C=CR<small><sup>3</small></sup>‒C(=O)R<small><sup>4</small></sup> (R<small><sup>4</small></sup> ≠ H) or R<small><sup>1</small></sup>C≡C‒C(=O)R<small><sup>2</small></sup> (R<small><sup>2</small></sup> ≠ H) in which the ketonic C=O function is conjugated to an unsaturated C-C bond at the α,β position." []
 is_a: CHEBI:17087 ! ketone
+
+[Term]
+id: CHEBI:51802
+name: 4H-imidazole
+namespace: chebi_ontology
+def: "Imidazole tautomer which has the migrating hydrogen at position 4." []
+is_a: CHEBI:14434 ! imidazole
+relationship: RO:0018036 CHEBI:16069 ! is tautomer of 1H-imidazole
 
 [Term]
 id: CHEBI:51856
@@ -10341,11 +10467,11 @@ relationship: RO:0000087 CHEBI:35469 ! has role antidepressant
 relationship: RO:0000087 CHEBI:35474 ! has role anxiolytic drug
 relationship: RO:0000087 CHEBI:35476 ! has role antipsychotic agent
 relationship: RO:0000087 CHEBI:35526 ! has role hypoglycemic agent
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:35705 ! has role immunosuppressive agent
 relationship: RO:0000087 CHEBI:37733 ! has role EC 3.1.1.8 (cholinesterase) inhibitor
 relationship: RO:0000087 CHEBI:38462 ! has role EC 3.1.1.7 (acetylcholinesterase) inhibitor
-relationship: RO:0000087 CHEBI:48407 ! has role antiparkinson drug
+relationship: RO:0000087 CHEBI:48407 ! has role anti-parkinson agent
 relationship: RO:0000087 CHEBI:66980 ! has role nootropic agent
 relationship: RO:0000087 CHEBI:73336 ! has role vulnerary
 relationship: RO:0018033 CHEBI:145498 ! is conjugate base of donepezil (1+)
@@ -10413,10 +10539,12 @@ is_a: CHEBI:60606 ! opioid receptor agonist
 
 [Term]
 id: CHEBI:55323
-name: antidiarrhoeal drug
+name: anti-diarrheal agent
 namespace: chebi_ontology
-def: "Any drug found useful in the symptomatic treatment of diarrhoea." []
+def: "An anti-diarrheal agent is a drug used to slow or stop diarrhea." []
 is_a: CHEBI:55324 ! gastrointestinal drug
+is_a: HMDM:0000073 ! drug class
+property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 
 [Term]
 id: CHEBI:55324
@@ -10704,7 +10832,7 @@ def: "A  biphenylyltetrazole that is an angiotensin II receptor antagonist used 
 is_a: BFO:0000004 ! independent continuant
 is_a: CHEBI:35624 ! azaspiro compound
 is_a: CHEBI:48420 ! biphenylyltetrazole
-relationship: RO:0000087 CHEBI:22587 ! has role antiviral agent
+relationship: RO:0000087 CHEBI:22587 ! has role antiviral
 relationship: RO:0000087 CHEBI:231911 ! has role renoprotective agent
 relationship: RO:0000087 CHEBI:35526 ! has role hypoglycemic agent
 relationship: RO:0000087 CHEBI:35674 ! has role antihypertensive agent
@@ -10833,6 +10961,13 @@ namespace: chebi_ontology
 def: "The trialkylammonium ion resulting from the protonation of the amino group of thebaine." []
 is_a: CHEBI:35274 ! ammonium ion derivative
 relationship: RO:0018034 CHEBI:9519 ! is conjugate acid of thebaine
+
+[Term]
+id: CHEBI:59964
+name: imidazolium ion
+namespace: chebi_ontology
+def: "The cation resulting from protonation or quaternisation at the 3-position of any 1<em>H</em>-imidazole." []
+is_a: CHEBI:25697 ! organic cation
 
 [Term]
 id: CHEBI:59999
@@ -11291,7 +11426,7 @@ def: "1<em>H</em>-imidazole substituted at C-1 by a (2-ethylsulfonyl)ethyl group
 is_a: BFO:0000004 ! independent continuant
 is_a: CHEBI:24780 ! imidazoles
 relationship: RO:0000087 CHEBI:171664 ! has role antiamoebic agent
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:36047 ! has role antibacterial drug
 relationship: RO:0000087 CHEBI:38068 ! has role antimalarial
 relationship: RO:0000087 CHEBI:86327 ! has role antifungal drug
@@ -11303,8 +11438,7 @@ namespace: chebi_ontology
 def: "A pyranoindolizinoquinoline used as an antineoplastic agent. It is a derivative of camptothecin and works by binding to the topoisomerase I-DNA complex and preventing religation of these 328 single strand breaks." []
 is_a: BFO:0000004 ! independent continuant
 is_a: CHEBI:48626 ! pyranoindolizinoquinoline
-relationship: RO:0000087 CHEBI:22587 ! has role antiviral agent
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:22587 ! has role antiviral
 relationship: RO:0000087 CHEBI:50276 ! has role EC 5.99.1.2 (DNA topoisomerase) inhibitor
 
 [Term]
@@ -11395,7 +11529,7 @@ relationship: RO:0000087 CHEBI:35474 ! has role anxiolytic drug
 relationship: RO:0000087 CHEBI:35476 ! has role antipsychotic agent
 relationship: RO:0000087 CHEBI:35480 ! has role analgesic
 relationship: RO:0000087 CHEBI:35526 ! has role hypoglycemic agent
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:35623 ! has role anticonvulsant
 relationship: RO:0000087 CHEBI:38215 ! has role calcium channel blocker
 relationship: RO:0000087 CHEBI:50919 ! has role antiemetic
@@ -11428,7 +11562,7 @@ is_a: CHEBI:231594 ! 17-ethynyl-17-hydroxy-18a-homoestr-4-en-3-one
 is_a: CHEBI:35343 ! 17beta-hydroxy steroid
 relationship: RO:0000087 CHEBI:35480 ! has role analgesic
 relationship: RO:0000087 CHEBI:35526 ! has role hypoglycemic agent
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:49326 ! has role synthetic oral contraceptive
 relationship: RO:0000087 CHEBI:50779 ! has role appetite enhancer
 relationship: RO:0000087 CHEBI:59826 ! has role progestin
@@ -11546,28 +11680,28 @@ id: CHEBI:64915
 name: antiplasmodial drug
 namespace: chebi_ontology
 def: "An antiparasitic drug which is effective against Apicomplexan parasites in the genus <em>Plasmodium</em>. The genus contains over 200 species and includes those responsible for malaria." []
-is_a: CHEBI:35820 ! antiprotozoal drug
+is_a: CHEBI:35820 ! anti-protozoal agent
 
 [Term]
 id: CHEBI:64946
 name: anti-HIV agent
 namespace: chebi_ontology
 def: "An antiviral agent that destroys or inhibits the replication of the human immunodeficiency virus." []
-is_a: CHEBI:22587 ! antiviral agent
+is_a: CHEBI:22587 ! antiviral
 
 [Term]
 id: CHEBI:64951
 name: anti-HBV agent
 namespace: chebi_ontology
 def: "An antiviral agent that destroys or inhibits the replication of the hepatitis B virus." []
-is_a: CHEBI:22587 ! antiviral agent
+is_a: CHEBI:22587 ! antiviral
 
 [Term]
 id: CHEBI:64952
 name: anti-HSV agent
 namespace: chebi_ontology
 def: "An antiviral agent that destroys or inhibits the replication of the herpes simplex virus (also known as the human herpes virus)." []
-is_a: CHEBI:22587 ! antiviral agent
+is_a: CHEBI:22587 ! antiviral
 
 [Term]
 id: CHEBI:64996
@@ -11718,8 +11852,10 @@ relationship: RO:0018033 CHEBI:62499 ! is conjugate base of methyl-branched fatt
 id: CHEBI:67079
 name: anti-inflammatory agent
 namespace: chebi_ontology
-def: "Any compound that has anti-inflammatory effects." []
+def: "An anti-inflammatory agent is a drug that helps reduce swelling or inflammation." []
 is_a: CHEBI:33232 ! application
+is_a: HMDM:0000073 ! drug class
+property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 
 [Term]
 id: CHEBI:67114
@@ -11727,6 +11863,19 @@ name: ryanodine receptor agonist
 namespace: chebi_ontology
 def: "A ryanodine receptor modulator which activates the receptor. Ryanodine receptors (RyRs) act as selective ion channels, modulating the release of calcium. Activating the receptors causes the release of calcium, so depleting internal calcium and ultimately preventing further muscle contraction." []
 is_a: CHEBI:38809 ! ryanodine receptor modulator
+
+[Term]
+id: CHEBI:67135
+name: 2-nitroimidazole
+namespace: chebi_ontology
+def: "An imidazole that is 1<em>H</em>-imidazole substituted at position 2 by a nitro group." []
+is_a: BFO:0000004 ! independent continuant
+is_a: CHEBI:24780 ! imidazoles
+is_a: CHEBI:35716 ! C-nitro compound
+is_a: CHEBI:35820 ! anti-protozoal agent
+relationship: RO:0000087 CHEBI:33231 ! has role antitubercular agent
+relationship: RO:0018038 CHEBI:16069 ! has functional parent 1H-imidazole
+property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 
 [Term]
 id: CHEBI:67142
@@ -11752,7 +11901,7 @@ is_a: CHEBI:25389 ! monohydroxybenzoic acid
 is_a: CHEBI:33709 ! amino acid
 is_a: CHEBI:33860 ! aromatic amine
 relationship: RO:0000087 CHEBI:35475 ! has role non-steroidal anti-inflammatory drug
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:53784 ! has role antispasmodic drug
 relationship: RO:0000087 CHEBI:64946 ! has role anti-HIV agent
 relationship: RO:0018034 CHEBI:20551 ! is conjugate acid of mesalaminate(1-)
@@ -11773,7 +11922,7 @@ relationship: RO:0000087 CHEBI:35469 ! has role antidepressant
 relationship: RO:0000087 CHEBI:35474 ! has role anxiolytic drug
 relationship: RO:0000087 CHEBI:35476 ! has role antipsychotic agent
 relationship: RO:0000087 CHEBI:35480 ! has role analgesic
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:35623 ! has role anticonvulsant
 relationship: RO:0000087 CHEBI:35674 ! has role antihypertensive agent
 relationship: RO:0000087 CHEBI:35703 ! has role xenobiotic
@@ -11783,7 +11932,7 @@ relationship: RO:0000087 CHEBI:35842 ! has role antirheumatic drug
 relationship: RO:0000087 CHEBI:38068 ! has role antimalarial
 relationship: RO:0000087 CHEBI:38070 ! has role anti-arrhythmia drug
 relationship: RO:0000087 CHEBI:39456 ! has role antiglaucoma drug
-relationship: RO:0000087 CHEBI:48407 ! has role antiparkinson drug
+relationship: RO:0000087 CHEBI:48407 ! has role anti-parkinson agent
 relationship: RO:0000087 CHEBI:50748 ! has role antipsoriatic
 relationship: RO:0000087 CHEBI:50864 ! has role insulin-sensitizing drug
 relationship: RO:0000087 CHEBI:64946 ! has role anti-HIV agent
@@ -11846,10 +11995,10 @@ relationship: RO:0000087 CHEBI:35469 ! has role antidepressant
 relationship: RO:0000087 CHEBI:35476 ! has role antipsychotic agent
 relationship: RO:0000087 CHEBI:35480 ! has role analgesic
 relationship: RO:0000087 CHEBI:35524 ! has role sympathomimetic agent
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:35640 ! has role adrenergic uptake inhibitor
 relationship: RO:0000087 CHEBI:35705 ! has role immunosuppressive agent
-relationship: RO:0000087 CHEBI:48407 ! has role antiparkinson drug
+relationship: RO:0000087 CHEBI:48407 ! has role anti-parkinson agent
 relationship: RO:0000087 CHEBI:50514 ! has role vasoconstrictor agent
 relationship: RO:0000087 CHEBI:51039 ! has role dopamine uptake inhibitor
 relationship: RO:0000087 CHEBI:63726 ! has role neuroprotective agent
@@ -11869,7 +12018,7 @@ relationship: RO:0000087 CHEBI:145947 ! has role antiatherosclerotic agent
 relationship: RO:0000087 CHEBI:176497 ! has role geroprotector
 relationship: RO:0000087 CHEBI:35526 ! has role hypoglycemic agent
 relationship: RO:0000087 CHEBI:35530 ! has role beta-adrenergic antagonist
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:35674 ! has role antihypertensive agent
 relationship: RO:0000087 CHEBI:35703 ! has role xenobiotic
 relationship: RO:0000087 CHEBI:38070 ! has role anti-arrhythmia drug
@@ -11891,7 +12040,7 @@ relationship: RO:0000087 CHEBI:132992 ! has role radiosensitizing agent
 relationship: RO:0000087 CHEBI:171664 ! has role antiamoebic agent
 relationship: RO:0000087 CHEBI:33231 ! has role antitubercular agent
 relationship: RO:0000087 CHEBI:35480 ! has role analgesic
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:35703 ! has role xenobiotic
 relationship: RO:0000087 CHEBI:49201 ! has role anti-ulcer drug
 relationship: RO:0000087 CHEBI:50266 ! has role prodrug
@@ -11907,7 +12056,9 @@ id: CHEBI:70727
 name: topoisomerase inhibitor
 namespace: chebi_ontology
 def: "An EC 5.99.1.* (miscellaneous isomerase) inhibitor that interferes with the action of any of the topoisomerases (enzymes that regulate the overwinding or underwinding of DNA)." []
+is_a: CHEBI:35610 ! anti-neoplastic agent
 is_a: CHEBI:76830 ! EC 5.99.1.* (miscellaneous isomerase) inhibitor
+property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 
 [Term]
 id: CHEBI:70781
@@ -11921,7 +12072,7 @@ id: CHEBI:70868
 name: antileishmanial agent
 namespace: chebi_ontology
 def: "An antiprotozoal drug used to treat or prevent infections caused by protozoan parasites that belong to the genus <em>Leishmania</em>." []
-is_a: CHEBI:35820 ! antiprotozoal drug
+is_a: CHEBI:35820 ! anti-protozoal agent
 
 [Term]
 id: CHEBI:71016
@@ -12104,6 +12255,8 @@ name: pyrimidine 5'-deoxyribonucleoside
 namespace: chebi_ontology
 def: "A pyrimidine deoxyribonucleoside that is a pyrimidine ribonucleoside in which the hydroxy group at the 5' position is replaced by a hydrogen." []
 is_a: CHEBI:68472 ! pyrimidine deoxyribonucleoside
+is_a: HMDM:0000009 ! nucleoside antiviral
+property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 
 [Term]
 id: CHEBI:74518
@@ -12143,11 +12296,11 @@ namespace: chebi_ontology
 def: "A methoxynaphthalene that is 2-methoxynaphthalene substituted by a carboxy ethyl group at position 6. Naproxen is a non-steroidal anti-inflammatory drug commonly used for the reduction of pain, fever, inflammation  and stiffness caused by conditions such as osteoarthritis, kidney stones, rheumatoid arthritis, psoriatic arthritis, gout, ankylosing spondylitis, menstrual cramps, tendinitis, bursitis, and for the treatment of primary dysmenorrhea. It works by inhibiting both the COX-1 and COX-2 enzymes." []
 is_a: CHEBI:25384 ! monocarboxylic acid
 is_a: CHEBI:48851 ! methoxynaphthalene
-relationship: RO:0000087 CHEBI:22587 ! has role antiviral agent
+relationship: RO:0000087 CHEBI:22587 ! has role antiviral
 relationship: RO:0000087 CHEBI:35475 ! has role non-steroidal anti-inflammatory drug
 relationship: RO:0000087 CHEBI:35481 ! has role non-narcotic analgesic
 relationship: RO:0000087 CHEBI:35493 ! has role antipyretic
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:35703 ! has role xenobiotic
 relationship: RO:0000087 CHEBI:35705 ! has role immunosuppressive agent
 relationship: RO:0000087 CHEBI:35845 ! has role gout suppressant
@@ -12176,7 +12329,7 @@ is_a: CHEBI:19255 ! pyrimidine 2'-deoxyribonucleoside
 is_a: CHEBI:37143 ! organofluorine compound
 is_a: CHEBI:60783 ! nucleoside analogue
 relationship: RO:0000087 CHEBI:35221 ! has role antimetabolite
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:36044 ! has role antiviral drug
 relationship: RO:0000087 CHEBI:63720 ! has role EC 2.1.1.45 (thymidylate synthase) inhibitor
 relationship: RO:0000087 CHEBI:66981 ! has role ophthalmology drug
@@ -12385,9 +12538,9 @@ is_a: CHEBI:26878 ! tertiary alcohol
 is_a: CHEBI:35343 ! 17beta-hydroxy steroid
 is_a: CHEBI:47909 ! 3-oxo-Delta(4) steroid
 is_a: CHEBI:73477 ! terminal acetylenic compound
-relationship: RO:0000087 CHEBI:22587 ! has role antiviral agent
+relationship: RO:0000087 CHEBI:22587 ! has role antiviral
 relationship: RO:0000087 CHEBI:35480 ! has role analgesic
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:35705 ! has role immunosuppressive agent
 relationship: RO:0000087 CHEBI:49326 ! has role synthetic oral contraceptive
 relationship: RO:0000087 CHEBI:59826 ! has role progestin
@@ -12403,7 +12556,7 @@ is_a: CHEBI:47622 ! acetate ester
 is_a: CHEBI:47909 ! 3-oxo-Delta(4) steroid
 is_a: CHEBI:73477 ! terminal acetylenic compound
 relationship: RO:0000087 CHEBI:35480 ! has role analgesic
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:49326 ! has role synthetic oral contraceptive
 relationship: RO:0000087 CHEBI:59826 ! has role progestin
 relationship: RO:0018038 CHEBI:7627 ! has functional parent norethisterone
@@ -12975,7 +13128,7 @@ is_a: CHEBI:46848 ! N-arylpiperazine
 is_a: CHEBI:46920 ! N-methylpiperazine
 relationship: RO:0000087 CHEBI:35469 ! has role antidepressant
 relationship: RO:0000087 CHEBI:35474 ! has role anxiolytic drug
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:37956 ! has role histamine antagonist
 relationship: RO:0000087 CHEBI:48279 ! has role serotonergic antagonist
 relationship: RO:0000087 CHEBI:48561 ! has role dopaminergic antagonist
@@ -13099,7 +13252,7 @@ relationship: RO:0000087 CHEBI:33282 ! has role antibacterial agent
 relationship: RO:0000087 CHEBI:35441 ! has role antiinfective agent
 relationship: RO:0000087 CHEBI:35480 ! has role analgesic
 relationship: RO:0000087 CHEBI:35526 ! has role hypoglycemic agent
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:35620 ! has role vasodilator agent
 relationship: RO:0000087 CHEBI:35623 ! has role anticonvulsant
 relationship: RO:0000087 CHEBI:35705 ! has role immunosuppressive agent
@@ -13132,7 +13285,7 @@ def: "A flavonoid oxoanion obtained by deprotonation of the 7-hydroxy group of d
 is_a: BFO:0000004 ! independent continuant
 is_a: CHEBI:60038 ! flavonoid oxoanion
 relationship: RO:0000087 CHEBI:131699 ! has role EC 2.7.7.7 (DNA-directed DNA polymerase) inhibitor
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:76924 ! has role plant metabolite
 relationship: RO:0000087 CHEBI:76989 ! has role phytoestrogen
 relationship: RO:0018033 CHEBI:28197 ! is conjugate base of daidzein
@@ -13277,7 +13430,7 @@ relationship: RO:0000087 CHEBI:33282 ! has role antibacterial agent
 relationship: RO:0000087 CHEBI:35476 ! has role antipsychotic agent
 relationship: RO:0000087 CHEBI:35526 ! has role hypoglycemic agent
 relationship: RO:0000087 CHEBI:35554 ! has role cardiovascular drug
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:35703 ! has role xenobiotic
 relationship: RO:0000087 CHEBI:35705 ! has role immunosuppressive agent
 relationship: RO:0000087 CHEBI:35718 ! has role antifungal agent
@@ -13329,8 +13482,28 @@ is_a: CHEBI:46874 ! alpha-amino acid ester
 relationship: RO:0000087 CHEBI:35457 ! has role EC 3.4.15.1 (peptidyl-dipeptidase A) inhibitor
 relationship: RO:0000087 CHEBI:35469 ! has role antidepressant
 relationship: RO:0000087 CHEBI:35526 ! has role hypoglycemic agent
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0018034 CHEBI:78000 ! is conjugate acid of perindopril(1-)
+
+[Term]
+id: CHEBI:80630
+name: irinotecan
+namespace: chebi_ontology
+def: "A member of the class of pyranoindolizinoquinolines that is the carbamate ester obtained by formal condensation of the carboxy group of [1,4'-bipiperidine]-1'-carboxylic acid with the phenolic hydroxy group of (4<i>S</i>)-4,11-diethyl-4,9-dihydroxy-1<em>H</em>-pyrano[3',4':6,7]indolizino[1,2- hydrochloride]quinoline-3,14-dione. Used (in the form of its hydrochloride salt trihydrate) in combination with fluorouracil and leucovorin, for the treatment of patients with metastatic adenocarcinoma of the pancreas after disease progression following gemcitabine-based therapy. It is converted via hydrolysis of the carbamate linkage to its active metabolite, SN-38, which is ~1000 times more active." []
+is_a: CHEBI:18946 ! delta-lactone
+is_a: CHEBI:23003 ! carbamate ester
+is_a: CHEBI:26878 ! tertiary alcohol
+is_a: CHEBI:36820 ! ring assembly
+is_a: CHEBI:48591 ! N-acylpiperidine
+is_a: CHEBI:48626 ! pyranoindolizinoquinoline
+is_a: CHEBI:50996 ! tertiary amino compound
+is_a: HMDM:0000078 ! Camptothecin Analogues
+relationship: RO:0000087 CHEBI:50266 ! has role prodrug
+relationship: RO:0000087 CHEBI:50276 ! has role EC 5.99.1.2 (DNA topoisomerase) inhibitor
+relationship: RO:0000087 CHEBI:68495 ! has role apoptosis inducer
+relationship: RO:0018033 CHEBI:90895 ! is conjugate base of irinotecan(1+)
+relationship: RO:0018038 CHEBI:8988 ! has functional parent SN-38
+property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 
 [Term]
 id: CHEBI:82680
@@ -13479,7 +13652,7 @@ relationship: RO:0000087 CHEBI:35472 ! has role anti-inflammatory drug
 relationship: RO:0000087 CHEBI:35480 ! has role analgesic
 relationship: RO:0000087 CHEBI:35526 ! has role hypoglycemic agent
 relationship: RO:0000087 CHEBI:35554 ! has role cardiovascular drug
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:35705 ! has role immunosuppressive agent
 relationship: RO:0000087 CHEBI:35842 ! has role antirheumatic drug
 relationship: RO:0000087 CHEBI:37962 ! has role adrenergic agent
@@ -13600,7 +13773,7 @@ is_a: CHEBI:26188 ! polyketide
 is_a: CHEBI:33853 ! phenols
 is_a: CHEBI:46955 ! anthracenes
 is_a: CHEBI:76224 ! aromatic ketone
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:50503 ! has role laxative
 relationship: RO:0000087 CHEBI:75325 ! has role cathartic
 relationship: RO:0000087 CHEBI:76924 ! has role plant metabolite
@@ -13708,8 +13881,10 @@ namespace: chebi_ontology
 def: "Any organooxygen compound whose structure is related to compactin (mevastatin) and which may be used as an anticholesteremic drug due its EC 1.1.1.34/EC 1.1.1.88 (hydroxymethylglutaryl-CoA reductase) inhibitory properties." []
 is_a: BFO:0000004 ! independent continuant
 is_a: CHEBI:36963 ! organooxygen compound
+is_a: HMDM:0000073 ! drug class
 relationship: RO:0000087 CHEBI:35664 ! has role EC 1.1.1.34/EC 1.1.1.88 (hydroxymethylglutaryl-CoA reductase) inhibitor
 relationship: RO:0000087 CHEBI:35821 ! has role anticholesteremic drug
+property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 
 [Term]
 id: CHEBI:87632
@@ -13733,6 +13908,25 @@ name: statin (synthetic)
 namespace: chebi_ontology
 def: "A statin which does not occur naturally and which is not obtained by chemical transformation of a naturally occurring statin." []
 is_a: CHEBI:87631 ! statin
+
+[Term]
+id: CHEBI:8772
+name: raloxifene
+namespace: chebi_ontology
+def: "A member of the class of 1-benzothiophenes that is 1-benzothiophene in which the hydrogens at positions 2, 3, and 6 have been replaced by <em>p</em>-hydroxyphenyl, <em>p</em>-[2-(piperidin-1-yl)ethoxy]benzoyl, and hydroxy groups, respectively." []
+is_a: CHEBI:23888 ! drug
+is_a: CHEBI:33853 ! phenols
+is_a: CHEBI:38836 ! 1-benzothiophenes
+is_a: CHEBI:48737 ! N-oxyethylpiperidine
+is_a: CHEBI:76224 ! aromatic ketone
+relationship: RO:0000087 CHEBI:22587 ! has role antiviral
+relationship: RO:0000087 CHEBI:35476 ! has role antipsychotic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
+relationship: RO:0000087 CHEBI:50646 ! has role bone density conservation agent
+relationship: RO:0000087 CHEBI:50739 ! has role estrogen receptor modulator
+relationship: RO:0000087 CHEBI:50837 ! has role estrogen antagonist
+relationship: RO:0018033 CHEBI:90191 ! is conjugate base of raloxifene(1+)
+property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 
 [Term]
 id: CHEBI:87732
@@ -13772,7 +13966,7 @@ is_a: CHEBI:38295 ! azabicycloalkane
 is_a: CHEBI:38296 ! cyclopentapyrrole
 is_a: CHEBI:46761 ! dipeptide
 relationship: RO:0000087 CHEBI:145947 ! has role antiatherosclerotic agent
-relationship: RO:0000087 CHEBI:22587 ! has role antiviral agent
+relationship: RO:0000087 CHEBI:22587 ! has role antiviral
 relationship: RO:0000087 CHEBI:231911 ! has role renoprotective agent
 relationship: RO:0000087 CHEBI:35457 ! has role EC 3.4.15.1 (peptidyl-dipeptidase A) inhibitor
 relationship: RO:0000087 CHEBI:35526 ! has role hypoglycemic agent
@@ -13869,10 +14063,17 @@ is_a: CHEBI:18946 ! delta-lactone
 is_a: CHEBI:26878 ! tertiary alcohol
 is_a: CHEBI:33853 ! phenols
 is_a: CHEBI:48626 ! pyranoindolizinoquinoline
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
 relationship: RO:0000087 CHEBI:49103 ! has role drug metabolite
 relationship: RO:0000087 CHEBI:50276 ! has role EC 5.99.1.2 (DNA topoisomerase) inhibitor
 relationship: RO:0000087 CHEBI:68495 ! has role apoptosis inducer
+
+[Term]
+id: CHEBI:90191
+name: raloxifene(1+)
+namespace: chebi_ontology
+def: "An ammonium ion resulting from the protonation of the piperidine nitrogen of raloxifene. The major species at pH 7.3." []
+is_a: CHEBI:35274 ! ammonium ion derivative
+relationship: RO:0018034 CHEBI:8772 ! is conjugate acid of raloxifene
 
 [Term]
 id: CHEBI:90318
@@ -13910,6 +14111,15 @@ namespace: chebi_ontology
 def: "Any peptide zwitterion comprising two amino acid residues. Major structure at pH 7.3." []
 is_a: CHEBI:60466 ! peptide zwitterion
 relationship: RO:0018036 CHEBI:46761 ! is tautomer of dipeptide
+
+[Term]
+id: CHEBI:90895
+name: irinotecan(1+)
+namespace: chebi_ontology
+def: "An organic cation obtained by protonation of the tertiary amino group of irinotecan." []
+is_a: CHEBI:25697 ! organic cation
+is_a: CHEBI:35274 ! ammonium ion derivative
+relationship: RO:0018034 CHEBI:80630 ! is conjugate acid of irinotecan
 
 [Term]
 id: CHEBI:90959
@@ -13975,13 +14185,13 @@ relationship: RO:0000087 CHEBI:35469 ! has role antidepressant
 relationship: RO:0000087 CHEBI:35476 ! has role antipsychotic agent
 relationship: RO:0000087 CHEBI:35480 ! has role analgesic
 relationship: RO:0000087 CHEBI:35526 ! has role hypoglycemic agent
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:35623 ! has role anticonvulsant
 relationship: RO:0000087 CHEBI:35674 ! has role antihypertensive agent
 relationship: RO:0000087 CHEBI:35705 ! has role immunosuppressive agent
 relationship: RO:0000087 CHEBI:35842 ! has role antirheumatic drug
 relationship: RO:0000087 CHEBI:38070 ! has role anti-arrhythmia drug
-relationship: RO:0000087 CHEBI:48407 ! has role antiparkinson drug
+relationship: RO:0000087 CHEBI:48407 ! has role anti-parkinson agent
 relationship: RO:0000087 CHEBI:50266 ! has role prodrug
 relationship: RO:0000087 CHEBI:62868 ! has role hepatoprotective agent
 relationship: RO:0000087 CHEBI:64946 ! has role anti-HIV agent
@@ -14006,7 +14216,7 @@ is_a: CHEBI:35358 ! sulfonamide
 relationship: RO:0000087 CHEBI:173085 ! has role ferroptosis inducer
 relationship: RO:0000087 CHEBI:35441 ! has role antiinfective agent
 relationship: RO:0000087 CHEBI:35475 ! has role non-steroidal anti-inflammatory drug
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:35674 ! has role antihypertensive agent
 relationship: RO:0000087 CHEBI:50919 ! has role antiemetic
 relationship: RO:0000087 CHEBI:55324 ! has role gastrointestinal drug
@@ -14024,13 +14234,31 @@ is_a: CHEBI:38312 ! pyrazolidines
 relationship: RO:0000087 CHEBI:35841 ! has role uricosuric drug
 
 [Term]
+id: CHEBI:9352
+name: sulindac
+namespace: chebi_ontology
+def: "A monocarboxylic acid that is 1-benzylidene-1<em>H</em>-indene which is substituted at positions 2, 3, and 5 by methyl, carboxymethyl, and fluorine respectively, and in which the phenyl group of the benzylidene moiety is substituted at the <em>para</em> position by a methylsulfinyl group. It is a prodrug for the corresponding sulfide, a non-steroidal anti-inflammatory drug, used particularly in the treatment of acute and chronic inflammatory conditions." []
+is_a: CHEBI:22063 ! sulfoxide
+is_a: CHEBI:25384 ! monocarboxylic acid
+is_a: CHEBI:37143 ! organofluorine compound
+relationship: RO:0000087 CHEBI:35475 ! has role non-steroidal anti-inflammatory drug
+relationship: RO:0000087 CHEBI:35481 ! has role non-narcotic analgesic
+relationship: RO:0000087 CHEBI:35493 ! has role antipyretic
+relationship: RO:0000087 CHEBI:35544 ! has role EC 1.14.99.1 (prostaglandin-endoperoxide synthase) inhibitor
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
+relationship: RO:0000087 CHEBI:50266 ! has role prodrug
+relationship: RO:0000087 CHEBI:66993 ! has role tocolytic agent
+relationship: RO:0000087 CHEBI:68495 ! has role apoptosis inducer
+relationship: RO:0018038 CHEBI:15366 ! has functional parent acetic acid
+
+[Term]
 id: CHEBI:9398
 name: tamsulosin
 namespace: chebi_ontology
 def: "A 5-(2-{[2-(2-ethoxyphenoxy)ethyl]amino}propyl)-2-methoxybenzenesulfonamide that has (<i>R</i>)-configuration. A specific α<small><sub>1</sub></small> adrenoceptor antagonist used (generally as its hydrochloride salt, tamsulosin hydrochloride) in the treatment of prostatic hyperplasia, chronic prostatitis, urinary retention, and help with the passage of kidney stones." []
 is_a: CHEBI:142546 ! 5-(2-{[2-(2-ethoxyphenoxy)ethyl]amino}propyl)-2-methoxybenzenesulfonamide
 relationship: RO:0000087 CHEBI:35441 ! has role antiinfective agent
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:35620 ! has role vasodilator agent
 relationship: RO:0000087 CHEBI:37890 ! has role alpha-adrenergic antagonist
 relationship: RO:0018033 CHEBI:142544 ! is conjugate base of tamsulosin(1+)
@@ -14046,7 +14274,7 @@ is_a: CHEBI:22715 ! benzimidazoles
 relationship: RO:0000087 CHEBI:231911 ! has role renoprotective agent
 relationship: RO:0000087 CHEBI:35457 ! has role EC 3.4.15.1 (peptidyl-dipeptidase A) inhibitor
 relationship: RO:0000087 CHEBI:35526 ! has role hypoglycemic agent
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:35703 ! has role xenobiotic
 relationship: RO:0000087 CHEBI:61016 ! has role angiotensin receptor antagonist
 relationship: RO:0000087 CHEBI:64946 ! has role anti-HIV agent
@@ -14122,7 +14350,7 @@ is_a: CHEBI:38700 ! organic sodium salt
 relationship: BFO:0000051 CHEBI:60654 ! has part valproate
 relationship: RO:0000087 CHEBI:176497 ! has role geroprotector
 relationship: RO:0000087 CHEBI:35476 ! has role antipsychotic agent
-relationship: RO:0000087 CHEBI:35610 ! has role antineoplastic agent
+relationship: RO:0000087 CHEBI:35610 ! has role anti-neoplastic agent
 relationship: RO:0000087 CHEBI:35623 ! has role anticonvulsant
 relationship: RO:0000087 CHEBI:61115 ! has role EC 3.5.1.98 (histone deacetylase) inhibitor
 
@@ -14135,7 +14363,7 @@ is_a: CHEBI:25384 ! monocarboxylic acid
 is_a: CHEBI:29347 ! monocarboxylic acid amide
 is_a: CHEBI:48420 ! biphenylyltetrazole
 relationship: RO:0000087 CHEBI:145947 ! has role antiatherosclerotic agent
-relationship: RO:0000087 CHEBI:22587 ! has role antiviral agent
+relationship: RO:0000087 CHEBI:22587 ! has role antiviral
 relationship: RO:0000087 CHEBI:231911 ! has role renoprotective agent
 relationship: RO:0000087 CHEBI:35526 ! has role hypoglycemic agent
 relationship: RO:0000087 CHEBI:35674 ! has role antihypertensive agent
@@ -14296,13 +14524,6 @@ relationship: BFO:0000050 CHEBI:23888 ! part of drug
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 
 [Term]
-id: HMDM:0000005
-name: antiviral
-def: "An agent that kills a virus or that suppresses its ability to replicate and, hence, inhibits its capability to multiply and reproduce. For example, amantadine (Symmetrel) is a synthetic antiviral. It acts by inhibiting the multiplication of the influenza A virus." [PMID:33726557]
-is_a: HMDM:0000073 ! drug class
-property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
-
-[Term]
 id: HMDM:0000006
 name: determinant of drug metabolism
 def: "The primary factors that determine the drug metabolism." []
@@ -14327,7 +14548,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 id: HMDM:0000009
 name: nucleoside antiviral
 def: "Among the molecules directly targeting viruses, nucleoside analogues form an essential class of broad-spectrum antiviral drugs. Many direct-acting antiviral nucleoside analogues target the viral polymerase responsible for the viral genome replication. Unlike non-nucleoside polymerase inhibitors that often bind to allosteric non-conserved and mutation-tolerant sites, nucleoside analogues directly bind to the more conserved active site of the viral polymerase after conversion to their triphosphate active form. Nucleoside analogs represent the largest class of small molecule-based antivirals, which currently form the backbone of chemotherapy of chronic infections caused by HIV, hepatitis B or C viruses, and herpes viruses." [PMID:33924302]
-is_a: HMDM:0000005 ! antiviral
+is_a: CHEBI:22587 ! antiviral
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 
 [Term]
@@ -14462,13 +14683,6 @@ relationship: RO:0000056 HMDM:0000126 ! participates in deglycosylation of a mol
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 
 [Term]
-id: HMDM:0000068
-name: pyrimidine 5'-deoxyribonucleoside
-def: "A pyrimidine deoxyribonucleoside that is a pyrimidine ribonucleoside in which the hydroxy group at the 5' position is replaced by a hydrogen." []
-is_a: HMDM:0000009 ! nucleoside antiviral
-property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
-
-[Term]
 id: HMDM:0000073
 name: drug class
 def: "A drug class is a set of medications and other compounds that have similar chemical structures, the same mechanism of action, a related mode of action, and/or are used to treat the same disease." []
@@ -14483,32 +14697,10 @@ is_a: HMDM:0000073 ! drug class
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 
 [Term]
-id: HMDM:0000076
-name: anti-neoplastic agent
-def: "Antineoplastic drugs (ANDs), also known as cytostatic drugs, are a heterogeneous group of chemicals used to control the growth of neoplastic cells. Most ANDs interfere with cell proliferation through DNA destruction, RNA synthesis, or duplication process. Unfortunately, ANDs do not distinguish cancer cells from normal ones, leading to unwanted adverse effects in patients receiving chemotherapy. The International Agency for Research on Cancer (IARC) classifies some ANDs as human carcinogens." [PMID:27110842]
-is_a: HMDM:0000073 ! drug class
-property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
-
-[Term]
-id: HMDM:0000077
-name: topoisomerase inhibitor
-def: "Topoisomerase inhibitors are chemical compounds that block the action of topoisomerases. Topoisomerase plays key roles in cellular reproduction and DNA organization, as they facilitate the cleavage of single and double stranded DNA to relax supercoils, untangle catenanes, and condense chromosomes in eukaryotic cells. Topoisomerase inhibitors affect these essential cellular processes by preventing topoisomerases from performing DNA strand breaks or prevent the re-ligation step of the topoisomerase mechanism by interacting with topoisomerase-DNA complexes. These topoisomerase-DNA-inhibitor complexes are cytotoxic agents because the un-repaired single and double stranded DNA breaks that they cause can lead to apoptosis and cell death. Due to this ability to induce apoptosis, topoisomerase inhibitors have gained interest as therapeutics against infectious and cancerous cells." [PMID:22108601, PMID:29363591]
-is_a: HMDM:0000076 ! anti-neoplastic agent
-property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
-
-[Term]
 id: HMDM:0000078
 name: Camptothecin Analogues
 def: "Camptothecin (CPT) is a topoisomerase inhibitor. It was discovered in 1966 during a systematic screening of natural products for anticancer drugs. It was isolated from the bark and stem of Camptotheca acuminata (Camptotheca, Happy tree), a tree native to China used in traditional Chinese medicine. CPT has showed anticancer activity in clinical trials, especially against breast, ovarian, colon, lung, and stomach cancers. To maximize the therapeutic effects, four CPT analogues have been approved and are used as antineoplastic agents." [PMID:21051639]
-is_a: HMDM:0000077 ! topoisomerase inhibitor
-property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
-
-[Term]
-id: HMDM:0000081
-name: irinotecan
-def: "A member of the class of pyranoindolizinoquinolines that is the carbamate ester obtained by formal condensation of the carboxy group of [1,4'-bipiperidine]-1'-carboxylic acid with the phenolic hydroxy group of (4S)-4,11-diethyl-4,9-dihydroxy-1H-pyrano[3',4':6,7]indolizino[1,2- hydrochloride]quinoline-3,14-dione. Used (in the form of its hydrochloride salt trihydrate) in combination with fluorouracil and leucovorin, for the treatment of patients with metastatic adenocarcinoma of the pancreas after disease progression following gemcitabine-based therapy. It is converted via hydrolysis of the carbamate linkage to its active metabolite, SN-38, which is ~1000 times more active." []
-is_a: CHEBI:23888 ! drug
-is_a: HMDM:0000078 ! Camptothecin Analogues
+is_a: CHEBI:70727 ! topoisomerase inhibitor
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 
 [Term]
@@ -14531,7 +14723,6 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 id: HMDM:0000091
 name: Trastuzumab deruxtecan
 def: "Trastuzumab deruxtecan is a monoclonal antibody medication used for the treatment of breast cancer or for the treatment of gastric or gastroesophageal adenocarcinoma. It is an antibody-drug conjugate composed of an anti-HER2 (human epidermal growth factor receptor 2) antibody, a cleavable tetrapeptide-based linker, and a cytotoxic topoisomerase I inhibitor." []
-is_a: CHEBI:23888 ! drug
 is_a: HMDM:0000078 ! Camptothecin Analogues
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 
@@ -14571,20 +14762,6 @@ id: HMDM:0000098
 name: cardiac therapy metabolism
 def: "The process of breaking down of a cardiac therapy drug which improve the heart's energy production and efficiency." []
 is_a: HMDM:0000007 ! mechanism of drug metabolism
-property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
-
-[Term]
-id: HMDM:0000099
-name: sulindac
-def: "A monocarboxylic acid that is 1-benzylidene-1H-indene which is substituted at positions 2, 3, and 5 by methyl, carboxymethyl, and fluorine respectively, and in which the phenyl group of the benzylidene moiety is substituted at the para position by a methylsulfinyl group. It is a prodrug for the corresponding sulfide, a non-steroidal anti-inflammatory drug, used particularly in the treatment of acute and chronic inflammatory conditions. Sulindac is used to relieve pain, tenderness, swelling, and stiffness caused by osteoarthritis (arthritis caused by a breakdown of the lining of the joints), rheumatoid arthritis (arthritis caused by swelling of the lining of the joints), and ankylosing spondylitis (arthritis that mainly affects the spine)." []
-is_a: CHEBI:23888 ! drug
-property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
-
-[Term]
-id: HMDM:0000108
-name: raloxifene
-def: "A member of the class of 1-benzothiophenes that is 1-benzothiophene in which the hydrogens at positions 2, 3, and 6 have been replaced by p-hydroxyphenyl, p-[2-(piperidin-1-yl)ethoxy]benzoyl, and hydroxy groups, respectively. Raloxifene is a medication used to prevent and treat osteoporosis in postmenopausal women and those on glucocorticoids. It is also used to reduce the risk of breast cancer in those at high risk. Raloxifene is a selective estrogen receptor modulator (SERM) and therefore a mixed agonist–antagonist of the estrogen receptor (ER). It has estrogenic effects in bone and antiestrogenic effects in the breasts and uterus." []
-is_a: CHEBI:23888 ! drug
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 
 [Term]
@@ -15001,13 +15178,6 @@ id: HMDM:0000240
 name: NADH oxidase
 def: "NADH oxidase (NOX) is a member of the flavoprotein disulfide reductase family that catalyses the pyridine-nucleotide-dependent reduction of various substrates, including O2, H2O2 and thioredoxin. NADH oxidases (NOXs) catalysing the oxidation of NADH to yield NAD+ and H2O, H2O2, or both play an important role in protecting organisms from oxidative stress and maintaining the balance of NAD+/NADH." [PMID:10629192, PMID:27737924]
 is_a: HMDM:0000264 ! Flavoenzymes
-property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
-
-[Term]
-id: HMDM:0000261
-name: anti-parkinson agent
-def: "Parkinson’s disease (PD) is characterized by prodromal symptoms, motor difficulties, and psychological or cognitive problems. As a progressive neurodegenerative disease, PD causes focal degeneration of midbrain dopamine (MesDA) neurons. Antiparkinson agents are agents used for treatment of Parkinson’s disease. Medications, include dopamine agonists, monoamine oxidase B inhibitors, levodopa plus carbidopa, etc., anticholinergics and amantadine. Also, new theraputic approaches include, based on recent advances in the understanding of the pathophysiology of Parkinson’s disease, genetic and disease-modifying approaches to reduce abnormal accumulation and aggregation of alpha-synuclein (aSYN), mitochondrial dysfunction, and dysfunction of lysosomal proteins, as well as approaches to reduce neuroinflammation and increase neurorestoration." [PMID:30661251, PMID:35601911]
-is_a: HMDM:0000073 ! drug class
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 
 [Term]
@@ -15533,8 +15703,8 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 id: HMDM:0000466
 name: Brivudine
 def: "Brivudine is an antiviral drug used to treat herpes zoster." []
+is_a: CHEBI:22587 ! antiviral
 is_a: CHEBI:23888 ! drug
-is_a: HMDM:0000005 ! antiviral
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 
 [Term]
@@ -15590,15 +15760,6 @@ id: HMDM:0000489
 name: cardiovascular system
 def: "Agents used on the cardiovascular system." []
 is_a: HMDM:0000488 ! clinical use
-property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
-
-[Term]
-id: HMDM:0000490
-name: calcium channel blockers
-def: "Calcium ions are essential for the chain of events that leads to myocardial contraction. Its role in the cardiac cycle has been studied extensively for years. Calcium is thought to be effective in slow channels. Calcium channel blockers (CCBs) inhibit the flow of extracellular calcium through ion‐specific channels that span the cell wall. When inward calcium flux is inhibited, vascular smooth muscle cells relax, resulting in vasodilation and a lowering of blood pressure (BP)." [PMID:21896151, PMID:8680353]
-is_a: BFO:0000002 ! continuant
-is_a: HMDM:0000073 ! drug class
-relationship: RO:0000056 HMDM:0000489 ! participates in cardiovascular system
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 
 [Term]
@@ -15672,38 +15833,10 @@ is_a: HMDM:0000012 ! gene family
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 
 [Term]
-id: HMDM:0000708
-name: statins
-def: "Statins, inhibitors of the hydroxymethylglutaryl-CoA (HMG-CoA) reductase enzyme, are molecules of fungal origin. Statins are powerful cholesterol lowering medications and have provided outstanding contributions to the prevention of cardiovascular disease." [PMID:24657242, PMID:26975972]
-is_a: HMDM:0000073 ! drug class
-property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
-
-[Term]
-id: HMDM:0000777
-name: anti-parasitic agent
-def: "Anti-parasitic agent is medication used to treat parasitic diseases." []
-is_a: HMDM:0000073 ! drug class
-property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
-
-[Term]
-id: HMDM:0000782
-name: anti-protozoal agent
-def: "An agent used to inhibit or kill protozoa." []
-is_a: HMDM:0000777 ! anti-parasitic agent
-property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
-
-[Term]
 id: HMDM:0000783
 name: anti-helminthic agent
 def: "An agent used to inhibit or kill parasitic worms." []
-is_a: HMDM:0000777 ! anti-parasitic agent
-property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
-
-[Term]
-id: HMDM:0000784
-name: Nitroimidazoles
-def: "Nitroimidazoles are a class of antimicrobial drugs that have remarkable broad spectrum activity against parasites, mycobacteria, and anaerobic Gram-positive and Gram-negative bacteria. While nitroimidazoles were discovered in the 1950s, there has been renewed interest in their therapeutic potential, particularly for the treatment of parasitic infections and tuberculosis." [PMID:28463485]
-is_a: HMDM:0000782 ! anti-protozoal agent
+is_a: CHEBI:35442 ! anti-parasitic agent
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 
 [Term]
@@ -15717,15 +15850,7 @@ property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 id: HMDM:0000787
 name: Pericyazine
 def: "It is a sedative phenothiazine with weak antipsychotic properties. It also has adrenolytic, anticholinergic, metabolic and endocrine effects, and an action on the extrapyramidal system." []
-is_a: CHEBI:23888 ! drug
-is_a: HMDM:0000789 ! Phenothiazine
-property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
-
-[Term]
-id: HMDM:0000789
-name: Phenothiazine
-def: "Phenothiazines belong to the oldest synthetic antipsychotic drugs, which do not have their precursor in the world of natural compounds. Apart from their fundamental neuroleptic action connected with the dopaminergic receptors blockade, phenothiazine derivatives also exert diverse biological activities, which account for their cancer chemopreventive-effect, such as calmodulin- and protein kinase C inhibitory actions, anti-proliferative effect, inhibition of P-glycoprotein transport function and reversion of multidrug resistance." [PMID:22580516]
-is_a: HMDM:0000782 ! anti-protozoal agent
+is_a: CHEBI:37932 ! Phenothiazine
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 
 [Term]
@@ -15733,13 +15858,6 @@ id: HMDM:0000790
 name: Racecadotril
 def: "Racecadotril, which is rapidly metabolized to its active metabolite thiorphan, is a neutral endopeptidase (NEP) inhibitor used in clinical practice for diarrhoea with a remarkable safety profile." [PMID:17028311]
 is_a: CHEBI:23888 ! drug
-property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
-
-[Term]
-id: HMDM:0000791
-name: anti-diarrheal agent
-def: "An anti-diarrheal agent is a drug used to slow or stop diarrhea." []
-is_a: HMDM:0000073 ! drug class
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 
 [Term]
@@ -15817,13 +15935,6 @@ relationship: RO:0000056 HMDM:0000142 ! participates in reduction of a molecule
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 
 [Term]
-id: HMDM:0000839
-name: anti-inflammatory agent
-def: "An anti-inflammatory agent is a drug that helps reduce swelling or inflammation." []
-is_a: HMDM:0000073 ! drug class
-property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
-
-[Term]
 id: HMDM:0000843
 name: PEMT (Phospholipid methyltransferase) super family
 def: "Phospholipid N-methyltransferase (PLMT) enzymes catalyze the S-adenosylmethionine-dependent methylation of ethanolamine-containing phospholipids to produce phosphatidylcholine. Phosphatidylcholine is the most abundant phospholipid in most non-plastid membranes of eukaryotes and functions as a structural membrane lipid, and as a precursor to important lipid-based signaling molecules. In mammals and fungi, phosphatidylcholine can be formed through two distinct pathways: (a) the “nucleotide pathway” in which free choline is incorporated in phosphatidylcholine using CDP-choline as an intermediate, and (b) the “methylation pathway” whereby phosphatidylcholine is produced directly from phosphatidylethanolamine (PtdEtn) via three sequential methylation reactions using S-adenosylmethionine (AdoMet) as the methyl donor. In plants, phosphatidylcholine biosynthesis occurs through a branched pathway that utilizes components of both the nucleotide and methylation pathways. In mammals, the 18-kDa integral membrane protein phosphatidylethanolamine N-methyltransferase (PEMT) is a PLMT that is expressed primarily in the liver. PEMT catalyzes all three of the methylation reactions needed to convert PtdEtn to phosphatidylcholine." [PMID:19366698]
@@ -15835,13 +15946,6 @@ id: HMDM:0000844
 name: methylation of a molecule
 def: "A chemical process in which a methyl group is added to a molecule." []
 is_a: HMDM:0000015 ! mechanism
-property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
-
-[Term]
-id: HMDM:0000845
-name: analgesic
-def: "Analgesics are the drugs which bring insensibility to pain without loosing consciousness. Treatment strategy is generally based on the type of pain. Most of the analgesics are associated with serious side effects, such as NSAIDS can cause severe GI disturbance and opioids can cause addiction." [PMID:27142107]
-is_a: HMDM:0000073 ! drug class
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 
 [Term]
@@ -15996,7 +16100,7 @@ name: Pseudomonas aeruginosa CYP107S1
 def: "CYP107S1 is a cytochrome P450 (CYP) enzyme found in the bacterium Pseudomonas aeruginosa. It can metabolize fluoroquinolone antibiotics (ciprofloxacin and fleroxacin), a cystic fibrosis transmembrane conductance regulator potentiator (ivacaftor), and a selective estrogen receptor modulator antimicrobial adjuvant (raloxifene)." [PMID:39032655]
 is_a: HMDM:0000929 ! bacterial cytochrome P450 (CYP) family 107 subfamily
 relationship: HMDM:0000938 CHEBI:66901 ! metabolizes drug ivacaftor
-relationship: HMDM:0000938 HMDM:0000108 ! metabolizes drug raloxifene
+relationship: HMDM:0000938 CHEBI:8772 ! metabolizes drug raloxifene
 property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 
 [Term]
@@ -16228,6 +16332,13 @@ is_a: UBERON:0010000 ! multicellular anatomical structure
 [Term]
 id: chebi
 name: chebi
+
+[Term]
+id: http://purl.obolibrary.org/obo/CHEBI:9352
+name: sulindac
+def: "A monocarboxylic acid that is 1-benzylidene-1H-indene which is substituted at positions 2, 3, and 5 by methyl, carboxymethyl, and fluorine respectively, and in which the phenyl group of the benzylidene moiety is substituted at the para position by a methylsulfinyl group. It is a prodrug for the corresponding sulfide, a non-steroidal anti-inflammatory drug, used particularly in the treatment of acute and chronic inflammatory conditions. Sulindac is used to relieve pain, tenderness, swelling, and stiffness caused by osteoarthritis (arthritis caused by a breakdown of the lining of the joints), rheumatoid arthritis (arthritis caused by swelling of the lining of the joints), and ankylosing spondylitis (arthritis that mainly affects the spine)." []
+is_a: CHEBI:23888 ! drug
+property_value: dcterms:contributor https://orcid.org/0000-0001-9259-5280
 
 [Typedef]
 id: BFO:0000050

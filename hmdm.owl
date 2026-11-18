@@ -2114,12 +2114,6 @@ For example, A and B may be gene products and binding of B by A positively regul
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35610"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35620"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -3135,6 +3129,18 @@ For example, A and B may be gene products and binding of B by A positively regul
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_14434 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_14434">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24780"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35555"/>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>CHEBI:14434</oboInOwl:id>
+        <rdfs:label>imidazole</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_145498 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_145498">
@@ -4082,6 +4088,36 @@ For example, A and B may be gene products and binding of B by A positively regul
         <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>CHEBI:16042</oboInOwl:id>
         <rdfs:label>halide anion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16069 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16069">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_14434"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0018033"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50059"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0018034"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_30366"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0018036"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51802"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An imidazole tautomer which has the migrating hydrogen at position 1.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>CHEBI:16069</oboInOwl:id>
+        <rdfs:label>1H-imidazole</rdfs:label>
     </owl:Class>
     
 
@@ -7187,11 +7223,23 @@ For example, A and B may be gene products and binding of B by A positively regul
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22587">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33281"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000073"/>
         <obo:IAO_0000115>A substance that destroys or inhibits replication of viruses.</obo:IAO_0000115>
+        <obo:IAO_0000115>An agent that kills a virus or that suppresses its ability to replicate and, hence, inhibits its capability to multiply and reproduce. For example, amantadine (Symmetrel) is a synthetic antiviral. It acts by inhibiting the multiplication of the influenza A virus.</obo:IAO_0000115>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9259-5280"/>
         <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace>human_microbiome_drug_metabolism_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>CHEBI:22587</oboInOwl:id>
+        <oboInOwl:id>HMDM:0000005</oboInOwl:id>
+        <rdfs:label>antiviral</rdfs:label>
         <rdfs:label>antiviral agent</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22587"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An agent that kills a virus or that suppresses its ability to replicate and, hence, inhibits its capability to multiply and reproduce. For example, amantadine (Symmetrel) is a synthetic antiviral. It acts by inhibiting the multiplication of the influenza A virus.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:33726557</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -7452,6 +7500,24 @@ For example, A and B may be gene products and binding of B by A positively regul
         <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>CHEBI:22928</oboInOwl:id>
         <rdfs:label>bromine molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33308"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0018038"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28616"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Any ester of carbamic acid or its &lt;em&gt;N&lt;/em&gt;-substituted derivatives.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>CHEBI:23003</oboInOwl:id>
+        <rdfs:label>carbamate ester</rdfs:label>
     </owl:Class>
     
 
@@ -11010,12 +11076,6 @@ For example, A and B may be gene products and binding of B by A positively regul
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35610"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50276"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -12598,6 +12658,24 @@ For example, A and B may be gene products and binding of B by A positively regul
         <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>CHEBI:30106</oboInOwl:id>
         <rdfs:label>azo group</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30366 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30366">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50335"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0018033"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16069"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An organic nitrogen anion that is the conjugate base of 1&lt;em&gt;H&lt;/em&gt;-imidazole.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>CHEBI:30366</oboInOwl:id>
+        <rdfs:label>imidazolide</rdfs:label>
     </owl:Class>
     
 
@@ -16327,9 +16405,15 @@ For example, A and B may be gene products and binding of B by A positively regul
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35442">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35441"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000073"/>
         <obo:IAO_0000115>A substance used to treat or prevent parasitic infections.</obo:IAO_0000115>
+        <obo:IAO_0000115>Anti-parasitic agent is medication used to treat parasitic diseases.</obo:IAO_0000115>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9259-5280"/>
         <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace>human_microbiome_drug_metabolism_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>CHEBI:35442</oboInOwl:id>
+        <oboInOwl:id>HMDM:0000777</oboInOwl:id>
+        <rdfs:label>anti-parasitic agent</rdfs:label>
         <rdfs:label>antiparasitic agent</rdfs:label>
     </owl:Class>
     
@@ -16476,11 +16560,22 @@ For example, A and B may be gene products and binding of B by A positively regul
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35480">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23888"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52210"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000073"/>
         <obo:IAO_0000115>An agent capable of relieving pain without the loss of consciousness or without producing anaesthesia. In addition, analgesic is a role played by a compound which is exhibited by a capability to cause a reduction of pain symptoms.</obo:IAO_0000115>
+        <obo:IAO_0000115>Analgesics are the drugs which bring insensibility to pain without loosing consciousness. Treatment strategy is generally based on the type of pain. Most of the analgesics are associated with serious side effects, such as NSAIDS can cause severe GI disturbance and opioids can cause addiction.</obo:IAO_0000115>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9259-5280"/>
         <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace>human_microbiome_drug_metabolism_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>CHEBI:35480</oboInOwl:id>
+        <oboInOwl:id>HMDM:0000845</oboInOwl:id>
         <rdfs:label>analgesic</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35480"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Analgesics are the drugs which bring insensibility to pain without loosing consciousness. Treatment strategy is generally based on the type of pain. Most of the analgesics are associated with serious side effects, such as NSAIDS can cause severe GI disturbance and opioids can cause addiction.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:27142107</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -16756,6 +16851,18 @@ For example, A and B may be gene products and binding of B by A positively regul
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35555 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35555">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25693"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35571"/>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>CHEBI:35555</oboInOwl:id>
+        <rdfs:label>mancude organic heteromonocyclic parent</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_35568 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35568">
@@ -16944,11 +17051,23 @@ For example, A and B may be gene products and binding of B by A positively regul
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35610">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23888"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000073"/>
         <obo:IAO_0000115>A substance that inhibits or prevents the proliferation of neoplasms.</obo:IAO_0000115>
+        <obo:IAO_0000115>Antineoplastic drugs (ANDs), also known as cytostatic drugs, are a heterogeneous group of chemicals used to control the growth of neoplastic cells. Most ANDs interfere with cell proliferation through DNA destruction, RNA synthesis, or duplication process. Unfortunately, ANDs do not distinguish cancer cells from normal ones, leading to unwanted adverse effects in patients receiving chemotherapy. The International Agency for Research on Cancer (IARC) classifies some ANDs as human carcinogens.</obo:IAO_0000115>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9259-5280"/>
         <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace>human_microbiome_drug_metabolism_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>CHEBI:35610</oboInOwl:id>
+        <oboInOwl:id>HMDM:0000076</oboInOwl:id>
+        <rdfs:label>anti-neoplastic agent</rdfs:label>
         <rdfs:label>antineoplastic agent</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35610"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Antineoplastic drugs (ANDs), also known as cytostatic drugs, are a heterogeneous group of chemicals used to control the growth of neoplastic cells. Most ANDs interfere with cell proliferation through DNA destruction, RNA synthesis, or duplication process. Unfortunately, ANDs do not distinguish cancer cells from normal ones, leading to unwanted adverse effects in patients receiving chemotherapy. The International Agency for Research on Cancer (IARC) classifies some ANDs as human carcinogens.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:27110842</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -17408,9 +17527,14 @@ For example, A and B may be gene products and binding of B by A positively regul
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35820">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35442"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36043"/>
+        <obo:IAO_0000115>An agent used to inhibit or kill protozoa.</obo:IAO_0000115>
         <obo:IAO_0000115>Any antimicrobial drug which is used to treat or prevent protozoal infections.</obo:IAO_0000115>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9259-5280"/>
         <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace>human_microbiome_drug_metabolism_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>CHEBI:35820</oboInOwl:id>
+        <oboInOwl:id>HMDM:0000782</oboInOwl:id>
+        <rdfs:label>anti-protozoal agent</rdfs:label>
         <rdfs:label>antiprotozoal drug</rdfs:label>
     </owl:Class>
     
@@ -19168,6 +19292,30 @@ For example, A and B may be gene products and binding of B by A positively regul
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_37932 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37932">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35820"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36416"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38093"/>
+        <obo:IAO_0000115>Phenothiazines belong to the oldest synthetic antipsychotic drugs, which do not have their precursor in the world of natural compounds. Apart from their fundamental neuroleptic action connected with the dopaminergic receptors blockade, phenothiazine derivatives also exert diverse biological activities, which account for their cancer chemopreventive-effect, such as calmodulin- and protein kinase C inhibitory actions, anti-proliferative effect, inhibition of P-glycoprotein transport function and reversion of multidrug resistance.</obo:IAO_0000115>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9259-5280"/>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace>human_microbiome_drug_metabolism_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>CHEBI:37932</oboInOwl:id>
+        <oboInOwl:id>HMDM:0000789</oboInOwl:id>
+        <rdfs:label>Phenothiazine</rdfs:label>
+        <rdfs:label>phenothiazine</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37932"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Phenothiazines belong to the oldest synthetic antipsychotic drugs, which do not have their precursor in the world of natural compounds. Apart from their fundamental neuroleptic action connected with the dopaminergic receptors blockade, phenothiazine derivatives also exert diverse biological activities, which account for their cancer chemopreventive-effect, such as calmodulin- and protein kinase C inhibitory actions, anti-proliferative effect, inhibition of P-glycoprotein transport function and reversion of multidrug resistance.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:22580516</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_37941 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37941">
@@ -19404,6 +19552,17 @@ For example, A and B may be gene products and binding of B by A positively regul
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38093 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38093">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26979"/>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>CHEBI:38093</oboInOwl:id>
+        <rdfs:label>phenothiazines</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_38101 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38101">
@@ -19527,13 +19686,33 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/CHEBI_38215 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38215">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38808"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48706"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000073"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000489"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Calcium ions are essential for the chain of events that leads to myocardial contraction. Its role in the cardiac cycle has been studied extensively for years. Calcium is thought to be effective in slow channels. Calcium channel blockers (CCBs) inhibit the flow of extracellular calcium through ion‐specific channels that span the cell wall. When inward calcium flux is inhibited, vascular smooth muscle cells relax, resulting in vasodilation and a lowering of blood pressure (BP).</obo:IAO_0000115>
         <obo:IAO_0000115>One of a class of drugs that acts by selective inhibition of calcium influx through cell membranes or on the release and binding of calcium in intracellular pools.</obo:IAO_0000115>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9259-5280"/>
         <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace>human_microbiome_drug_metabolism_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>CHEBI:38215</oboInOwl:id>
+        <oboInOwl:id>HMDM:0000490</oboInOwl:id>
         <rdfs:label>calcium channel blocker</rdfs:label>
+        <rdfs:label>calcium channel blockers</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38215"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Calcium ions are essential for the chain of events that leads to myocardial contraction. Its role in the cardiac cycle has been studied extensively for years. Calcium is thought to be effective in slow channels. Calcium channel blockers (CCBs) inhibit the flow of extracellular calcium through ion‐specific channels that span the cell wall. When inward calcium flux is inhibited, vascular smooth muscle cells relax, resulting in vasodilation and a lowering of blood pressure (BP).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:21896151</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:8680353</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -20015,6 +20194,18 @@ For example, A and B may be gene products and binding of B by A positively regul
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38767 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38767">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27171"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38106"/>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>CHEBI:38767</oboInOwl:id>
+        <rdfs:label>benzothiophenes</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_38769 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38769">
@@ -20144,6 +20335,17 @@ For example, A and B may be gene products and binding of B by A positively regul
         <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>CHEBI:38831</oboInOwl:id>
         <rdfs:label>2-benzofurans</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38836 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38836">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38767"/>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>CHEBI:38836</oboInOwl:id>
+        <rdfs:label>1-benzothiophenes</rdfs:label>
     </owl:Class>
     
 
@@ -23158,11 +23360,24 @@ For example, A and B may be gene products and binding of B by A positively regul
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_48407">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_66956"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000073"/>
         <obo:IAO_0000115>A drug used in the treatment of Parkinson&apos;s disease.</obo:IAO_0000115>
+        <obo:IAO_0000115>Parkinson’s disease (PD) is characterized by prodromal symptoms, motor difficulties, and psychological or cognitive problems. As a progressive neurodegenerative disease, PD causes focal degeneration of midbrain dopamine (MesDA) neurons. Antiparkinson agents are agents used for treatment of Parkinson’s disease. Medications, include dopamine agonists, monoamine oxidase B inhibitors, levodopa plus carbidopa, etc., anticholinergics and amantadine. Also, new theraputic approaches include, based on recent advances in the understanding of the pathophysiology of Parkinson’s disease, genetic and disease-modifying approaches to reduce abnormal accumulation and aggregation of alpha-synuclein (aSYN), mitochondrial dysfunction, and dysfunction of lysosomal proteins, as well as approaches to reduce neuroinflammation and increase neurorestoration.</obo:IAO_0000115>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9259-5280"/>
         <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace>human_microbiome_drug_metabolism_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>CHEBI:48407</oboInOwl:id>
+        <oboInOwl:id>HMDM:0000261</oboInOwl:id>
+        <rdfs:label>anti-parkinson agent</rdfs:label>
         <rdfs:label>antiparkinson drug</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48407"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Parkinson’s disease (PD) is characterized by prodromal symptoms, motor difficulties, and psychological or cognitive problems. As a progressive neurodegenerative disease, PD causes focal degeneration of midbrain dopamine (MesDA) neurons. Antiparkinson agents are agents used for treatment of Parkinson’s disease. Medications, include dopamine agonists, monoamine oxidase B inhibitors, levodopa plus carbidopa, etc., anticholinergics and amantadine. Also, new theraputic approaches include, based on recent advances in the understanding of the pathophysiology of Parkinson’s disease, genetic and disease-modifying approaches to reduce abnormal accumulation and aggregation of alpha-synuclein (aSYN), mitochondrial dysfunction, and dysfunction of lysosomal proteins, as well as approaches to reduce neuroinflammation and increase neurorestoration.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:30661251</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:35601911</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -23251,6 +23466,18 @@ For example, A and B may be gene products and binding of B by A positively regul
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_48591 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_48591">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26151"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_32988"/>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>CHEBI:48591</oboInOwl:id>
+        <rdfs:label>N-acylpiperidine</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_48626 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_48626">
@@ -23321,6 +23548,18 @@ For example, A and B may be gene products and binding of B by A positively regul
         <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>CHEBI:48706</oboInOwl:id>
         <rdfs:label>antagonist</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_48737 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_48737">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26151"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50996"/>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>CHEBI:48737</oboInOwl:id>
+        <rdfs:label>N-oxyethylpiperidine</rdfs:label>
     </owl:Class>
     
 
@@ -24054,6 +24293,24 @@ For example, A and B may be gene products and binding of B by A positively regul
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_50059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_50059">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59964"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0018034"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16069"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An imidazolium ion that is the cation resulting from protonation at the 3-position of 1&lt;em&gt;H&lt;/em&gt;-imidazole.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>CHEBI:50059</oboInOwl:id>
+        <rdfs:label>imidazolium cation</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_50075 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_50075">
@@ -24407,6 +24664,18 @@ For example, A and B may be gene products and binding of B by A positively regul
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_50335 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_50335">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25696"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35352"/>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>CHEBI:50335</oboInOwl:id>
+        <rdfs:label>organic nitrogen anion</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_50336 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_50336">
@@ -24735,6 +25004,18 @@ For example, A and B may be gene products and binding of B by A positively regul
         <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>CHEBI:50733</oboInOwl:id>
         <rdfs:label>nutraceutical</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_50739 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_50739">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23888"/>
+        <obo:IAO_0000115>A substance that possess antiestrogenic actions but can also produce estrogenic effects as well. It acts as complete or partial agonist or as antagonist. It can be either steroidal or nonsteroidal in structure.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>CHEBI:50739</oboInOwl:id>
+        <rdfs:label>estrogen receptor modulator</rdfs:label>
     </owl:Class>
     
 
@@ -25703,6 +25984,24 @@ For example, A and B may be gene products and binding of B by A positively regul
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_51802 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_51802">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_14434"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0018036"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16069"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Imidazole tautomer which has the migrating hydrogen at position 4.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>CHEBI:51802</oboInOwl:id>
+        <rdfs:label>4H-imidazole</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_51856 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_51856">
@@ -26226,9 +26525,15 @@ For example, A and B may be gene products and binding of B by A positively regul
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_55323">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_55324"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000073"/>
+        <obo:IAO_0000115>An anti-diarrheal agent is a drug used to slow or stop diarrhea.</obo:IAO_0000115>
         <obo:IAO_0000115>Any drug found useful in the symptomatic treatment of diarrhoea.</obo:IAO_0000115>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9259-5280"/>
         <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace>human_microbiome_drug_metabolism_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>CHEBI:55323</oboInOwl:id>
+        <oboInOwl:id>HMDM:0000791</oboInOwl:id>
+        <rdfs:label>anti-diarrheal agent</rdfs:label>
         <rdfs:label>antidiarrhoeal drug</rdfs:label>
     </owl:Class>
     
@@ -27190,6 +27495,18 @@ For example, A and B may be gene products and binding of B by A positively regul
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_59964 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_59964">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25697"/>
+        <obo:IAO_0000115>The cation resulting from protonation or quaternisation at the 3-position of any 1&lt;em&gt;H&lt;/em&gt;-imidazole.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>CHEBI:59964</oboInOwl:id>
+        <rdfs:label>imidazolium ion</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_59999 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_59999">
@@ -28146,12 +28463,6 @@ For example, A and B may be gene products and binding of B by A positively regul
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35610"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50276"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -29039,9 +29350,14 @@ For example, A and B may be gene products and binding of B by A positively regul
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_67079">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33232"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000073"/>
+        <obo:IAO_0000115>An anti-inflammatory agent is a drug that helps reduce swelling or inflammation.</obo:IAO_0000115>
         <obo:IAO_0000115>Any compound that has anti-inflammatory effects.</obo:IAO_0000115>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9259-5280"/>
         <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace>human_microbiome_drug_metabolism_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>CHEBI:67079</oboInOwl:id>
+        <oboInOwl:id>HMDM:0000839</oboInOwl:id>
         <rdfs:label>anti-inflammatory agent</rdfs:label>
     </owl:Class>
     
@@ -29056,6 +29372,44 @@ For example, A and B may be gene products and binding of B by A positively regul
         <oboInOwl:id>CHEBI:67114</oboInOwl:id>
         <rdfs:label>ryanodine receptor agonist</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_67135 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_67135">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24780"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35716"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35820"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33231"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0018038"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16069"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An imidazole that is 1&lt;em&gt;H&lt;/em&gt;-imidazole substituted at position 2 by a nitro group.</obo:IAO_0000115>
+        <obo:IAO_0000115>Nitroimidazoles are a class of antimicrobial drugs that have remarkable broad spectrum activity against parasites, mycobacteria, and anaerobic Gram-positive and Gram-negative bacteria. While nitroimidazoles were discovered in the 1950s, there has been renewed interest in their therapeutic potential, particularly for the treatment of parasitic infections and tuberculosis.</obo:IAO_0000115>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9259-5280"/>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace>human_microbiome_drug_metabolism_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>CHEBI:67135</oboInOwl:id>
+        <oboInOwl:id>HMDM:0000784</oboInOwl:id>
+        <rdfs:label>2-nitroimidazole</rdfs:label>
+        <rdfs:label>Nitroimidazoles</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_67135"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Nitroimidazoles are a class of antimicrobial drugs that have remarkable broad spectrum activity against parasites, mycobacteria, and anaerobic Gram-positive and Gram-negative bacteria. While nitroimidazoles were discovered in the 1950s, there has been renewed interest in their therapeutic potential, particularly for the treatment of parasitic infections and tuberculosis.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:28463485</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -29676,12 +30030,24 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/CHEBI_70727 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_70727">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35610"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_76830"/>
         <obo:IAO_0000115>An EC 5.99.1.* (miscellaneous isomerase) inhibitor that interferes with the action of any of the topoisomerases (enzymes that regulate the overwinding or underwinding of DNA).</obo:IAO_0000115>
+        <obo:IAO_0000115>Topoisomerase inhibitors are chemical compounds that block the action of topoisomerases. Topoisomerase plays key roles in cellular reproduction and DNA organization, as they facilitate the cleavage of single and double stranded DNA to relax supercoils, untangle catenanes, and condense chromosomes in eukaryotic cells. Topoisomerase inhibitors affect these essential cellular processes by preventing topoisomerases from performing DNA strand breaks or prevent the re-ligation step of the topoisomerase mechanism by interacting with topoisomerase-DNA complexes. These topoisomerase-DNA-inhibitor complexes are cytotoxic agents because the un-repaired single and double stranded DNA breaks that they cause can lead to apoptosis and cell death. Due to this ability to induce apoptosis, topoisomerase inhibitors have gained interest as therapeutics against infectious and cancerous cells.</obo:IAO_0000115>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9259-5280"/>
         <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace>human_microbiome_drug_metabolism_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>CHEBI:70727</oboInOwl:id>
+        <oboInOwl:id>HMDM:0000077</oboInOwl:id>
         <rdfs:label>topoisomerase inhibitor</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_70727"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Topoisomerase inhibitors are chemical compounds that block the action of topoisomerases. Topoisomerase plays key roles in cellular reproduction and DNA organization, as they facilitate the cleavage of single and double stranded DNA to relax supercoils, untangle catenanes, and condense chromosomes in eukaryotic cells. Topoisomerase inhibitors affect these essential cellular processes by preventing topoisomerases from performing DNA strand breaks or prevent the re-ligation step of the topoisomerase mechanism by interacting with topoisomerase-DNA complexes. These topoisomerase-DNA-inhibitor complexes are cytotoxic agents because the un-repaired single and double stranded DNA breaks that they cause can lead to apoptosis and cell death. Due to this ability to induce apoptosis, topoisomerase inhibitors have gained interest as therapeutics against infectious and cancerous cells.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:22108601</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:29363591</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -30048,9 +30414,13 @@ For example, A and B may be gene products and binding of B by A positively regul
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_74494">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_68472"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000009"/>
         <obo:IAO_0000115>A pyrimidine deoxyribonucleoside that is a pyrimidine ribonucleoside in which the hydroxy group at the 5&apos; position is replaced by a hydrogen.</obo:IAO_0000115>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9259-5280"/>
         <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace>human_microbiome_drug_metabolism_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>CHEBI:74494</oboInOwl:id>
+        <oboInOwl:id>HMDM:0000068</oboInOwl:id>
         <rdfs:label>pyrimidine 5&apos;-deoxyribonucleoside</rdfs:label>
     </owl:Class>
     
@@ -32733,6 +33103,59 @@ For example, A and B may be gene products and binding of B by A positively regul
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_80630 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_80630">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18946"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23003"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26878"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36820"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48591"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48626"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50996"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000078"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50266"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50276"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_68495"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0018033"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_90895"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0018038"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_8988"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A member of the class of pyranoindolizinoquinolines that is the carbamate ester obtained by formal condensation of the carboxy group of [1,4&apos;-bipiperidine]-1&apos;-carboxylic acid with the phenolic hydroxy group of (4&lt;i&gt;S&lt;/i&gt;)-4,11-diethyl-4,9-dihydroxy-1&lt;em&gt;H&lt;/em&gt;-pyrano[3&apos;,4&apos;:6,7]indolizino[1,2- hydrochloride]quinoline-3,14-dione. Used (in the form of its hydrochloride salt trihydrate) in combination with fluorouracil and leucovorin, for the treatment of patients with metastatic adenocarcinoma of the pancreas after disease progression following gemcitabine-based therapy. It is converted via hydrolysis of the carbamate linkage to its active metabolite, SN-38, which is ~1000 times more active.</obo:IAO_0000115>
+        <obo:IAO_0000115>A member of the class of pyranoindolizinoquinolines that is the carbamate ester obtained by formal condensation of the carboxy group of [1,4&apos;-bipiperidine]-1&apos;-carboxylic acid with the phenolic hydroxy group of (4S)-4,11-diethyl-4,9-dihydroxy-1H-pyrano[3&apos;,4&apos;:6,7]indolizino[1,2- hydrochloride]quinoline-3,14-dione. Used (in the form of its hydrochloride salt trihydrate) in combination with fluorouracil and leucovorin, for the treatment of patients with metastatic adenocarcinoma of the pancreas after disease progression following gemcitabine-based therapy. It is converted via hydrolysis of the carbamate linkage to its active metabolite, SN-38, which is ~1000 times more active.</obo:IAO_0000115>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9259-5280"/>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace>human_microbiome_drug_metabolism_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>CHEBI:80630</oboInOwl:id>
+        <oboInOwl:id>HMDM:0000081</oboInOwl:id>
+        <rdfs:label>irinotecan</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_82680 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_82680">
@@ -33547,6 +33970,7 @@ For example, A and B may be gene products and binding of B by A positively regul
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_87631">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36963"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000073"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
@@ -33560,10 +33984,22 @@ For example, A and B may be gene products and binding of B by A positively regul
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Any organooxygen compound whose structure is related to compactin (mevastatin) and which may be used as an anticholesteremic drug due its EC 1.1.1.34/EC 1.1.1.88 (hydroxymethylglutaryl-CoA reductase) inhibitory properties.</obo:IAO_0000115>
+        <obo:IAO_0000115>Statins, inhibitors of the hydroxymethylglutaryl-CoA (HMG-CoA) reductase enzyme, are molecules of fungal origin. Statins are powerful cholesterol lowering medications and have provided outstanding contributions to the prevention of cardiovascular disease.</obo:IAO_0000115>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9259-5280"/>
         <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace>human_microbiome_drug_metabolism_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>CHEBI:87631</oboInOwl:id>
+        <oboInOwl:id>HMDM:0000708</oboInOwl:id>
         <rdfs:label>statin</rdfs:label>
+        <rdfs:label>statins</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_87631"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Statins, inhibitors of the hydroxymethylglutaryl-CoA (HMG-CoA) reductase enzyme, are molecules of fungal origin. Statins are powerful cholesterol lowering medications and have provided outstanding contributions to the prevention of cardiovascular disease.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:24657242</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:26975972</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -33606,6 +34042,68 @@ For example, A and B may be gene products and binding of B by A positively regul
         <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>CHEBI:87635</oboInOwl:id>
         <rdfs:label>statin (synthetic)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_8772 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_8772">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23888"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33853"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38836"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48737"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_76224"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22587"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35476"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35610"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50646"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50739"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50837"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0018033"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_90191"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A member of the class of 1-benzothiophenes that is 1-benzothiophene in which the hydrogens at positions 2, 3, and 6 have been replaced by &lt;em&gt;p&lt;/em&gt;-hydroxyphenyl, &lt;em&gt;p&lt;/em&gt;-[2-(piperidin-1-yl)ethoxy]benzoyl, and hydroxy groups, respectively.</obo:IAO_0000115>
+        <obo:IAO_0000115>A member of the class of 1-benzothiophenes that is 1-benzothiophene in which the hydrogens at positions 2, 3, and 6 have been replaced by p-hydroxyphenyl, p-[2-(piperidin-1-yl)ethoxy]benzoyl, and hydroxy groups, respectively. Raloxifene is a medication used to prevent and treat osteoporosis in postmenopausal women and those on glucocorticoids. It is also used to reduce the risk of breast cancer in those at high risk. Raloxifene is a selective estrogen receptor modulator (SERM) and therefore a mixed agonist–antagonist of the estrogen receptor (ER). It has estrogenic effects in bone and antiestrogenic effects in the breasts and uterus.</obo:IAO_0000115>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9259-5280"/>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasOBONamespace>human_microbiome_drug_metabolism_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>CHEBI:8772</oboInOwl:id>
+        <oboInOwl:id>HMDM:0000108</oboInOwl:id>
+        <rdfs:label>raloxifene</rdfs:label>
     </owl:Class>
     
 
@@ -33971,12 +34469,6 @@ For example, A and B may be gene products and binding of B by A positively regul
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35610"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_49103"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -33996,6 +34488,24 @@ For example, A and B may be gene products and binding of B by A positively regul
         <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>CHEBI:8988</oboInOwl:id>
         <rdfs:label>SN-38</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_90191 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_90191">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35274"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0018034"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_8772"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An ammonium ion resulting from the protonation of the piperidine nitrogen of raloxifene. The major species at pH 7.3.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>CHEBI:90191</oboInOwl:id>
+        <rdfs:label>raloxifene(1+)</rdfs:label>
     </owl:Class>
     
 
@@ -34068,6 +34578,25 @@ For example, A and B may be gene products and binding of B by A positively regul
         <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>CHEBI:90799</oboInOwl:id>
         <rdfs:label>dipeptide zwitterion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_90895 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_90895">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25697"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35274"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0018034"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_80630"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An organic cation obtained by protonation of the tertiary amino group of irinotecan.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>CHEBI:90895</oboInOwl:id>
+        <rdfs:label>irinotecan(1+)</rdfs:label>
     </owl:Class>
     
 
@@ -34440,6 +34969,74 @@ For example, A and B may be gene products and binding of B by A positively regul
         <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>CHEBI:9342</oboInOwl:id>
         <rdfs:label>sulfinpyrazone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_9352 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_9352">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22063"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25384"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37143"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35475"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35481"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35493"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35544"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35610"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50266"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_66993"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_68495"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0018038"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15366"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A monocarboxylic acid that is 1-benzylidene-1&lt;em&gt;H&lt;/em&gt;-indene which is substituted at positions 2, 3, and 5 by methyl, carboxymethyl, and fluorine respectively, and in which the phenyl group of the benzylidene moiety is substituted at the &lt;em&gt;para&lt;/em&gt; position by a methylsulfinyl group. It is a prodrug for the corresponding sulfide, a non-steroidal anti-inflammatory drug, used particularly in the treatment of acute and chronic inflammatory conditions.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>CHEBI:9352</oboInOwl:id>
+        <rdfs:label>sulindac</rdfs:label>
     </owl:Class>
     
 
@@ -35233,25 +35830,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     
 
 
-    <!-- http://purl.obolibrary.org/obo/HMDM_0000005 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HMDM_0000005">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000073"/>
-        <obo:IAO_0000115>An agent that kills a virus or that suppresses its ability to replicate and, hence, inhibits its capability to multiply and reproduce. For example, amantadine (Symmetrel) is a synthetic antiviral. It acts by inhibiting the multiplication of the influenza A virus.</obo:IAO_0000115>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9259-5280"/>
-        <oboInOwl:hasOBONamespace>human_microbiome_drug_metabolism_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>HMDM:0000005</oboInOwl:id>
-        <rdfs:label>antiviral</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000005"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>An agent that kills a virus or that suppresses its ability to replicate and, hence, inhibits its capability to multiply and reproduce. For example, amantadine (Symmetrel) is a synthetic antiviral. It acts by inhibiting the multiplication of the influenza A virus.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:33726557</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/HMDM_0000006 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HMDM_0000006">
@@ -35294,7 +35872,7 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/HMDM_0000009 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HMDM_0000009">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000005"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22587"/>
         <obo:IAO_0000115>Among the molecules directly targeting viruses, nucleoside analogues form an essential class of broad-spectrum antiviral drugs. Many direct-acting antiviral nucleoside analogues target the viral polymerase responsible for the viral genome replication. Unlike non-nucleoside polymerase inhibitors that often bind to allosteric non-conserved and mutation-tolerant sites, nucleoside analogues directly bind to the more conserved active site of the viral polymerase after conversion to their triphosphate active form. Nucleoside analogs represent the largest class of small molecule-based antivirals, which currently form the backbone of chemotherapy of chronic infections caused by HIV, hepatitis B or C viruses, and herpes viruses.</obo:IAO_0000115>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9259-5280"/>
         <oboInOwl:hasOBONamespace>human_microbiome_drug_metabolism_ontology</oboInOwl:hasOBONamespace>
@@ -35668,19 +36246,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     
 
 
-    <!-- http://purl.obolibrary.org/obo/HMDM_0000068 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HMDM_0000068">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000009"/>
-        <obo:IAO_0000115>A pyrimidine deoxyribonucleoside that is a pyrimidine ribonucleoside in which the hydroxy group at the 5&apos; position is replaced by a hydrogen.</obo:IAO_0000115>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9259-5280"/>
-        <oboInOwl:hasOBONamespace>human_microbiome_drug_metabolism_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>HMDM:0000068</oboInOwl:id>
-        <rdfs:label>pyrimidine 5&apos;-deoxyribonucleoside</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/HMDM_0000073 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HMDM_0000073">
@@ -35707,49 +36272,10 @@ For example, A and B may be gene products and binding of B by A positively regul
     
 
 
-    <!-- http://purl.obolibrary.org/obo/HMDM_0000076 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HMDM_0000076">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000073"/>
-        <obo:IAO_0000115>Antineoplastic drugs (ANDs), also known as cytostatic drugs, are a heterogeneous group of chemicals used to control the growth of neoplastic cells. Most ANDs interfere with cell proliferation through DNA destruction, RNA synthesis, or duplication process. Unfortunately, ANDs do not distinguish cancer cells from normal ones, leading to unwanted adverse effects in patients receiving chemotherapy. The International Agency for Research on Cancer (IARC) classifies some ANDs as human carcinogens.</obo:IAO_0000115>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9259-5280"/>
-        <oboInOwl:hasOBONamespace>human_microbiome_drug_metabolism_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>HMDM:0000076</oboInOwl:id>
-        <rdfs:label>anti-neoplastic agent</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000076"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Antineoplastic drugs (ANDs), also known as cytostatic drugs, are a heterogeneous group of chemicals used to control the growth of neoplastic cells. Most ANDs interfere with cell proliferation through DNA destruction, RNA synthesis, or duplication process. Unfortunately, ANDs do not distinguish cancer cells from normal ones, leading to unwanted adverse effects in patients receiving chemotherapy. The International Agency for Research on Cancer (IARC) classifies some ANDs as human carcinogens.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:27110842</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HMDM_0000077 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HMDM_0000077">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000076"/>
-        <obo:IAO_0000115>Topoisomerase inhibitors are chemical compounds that block the action of topoisomerases. Topoisomerase plays key roles in cellular reproduction and DNA organization, as they facilitate the cleavage of single and double stranded DNA to relax supercoils, untangle catenanes, and condense chromosomes in eukaryotic cells. Topoisomerase inhibitors affect these essential cellular processes by preventing topoisomerases from performing DNA strand breaks or prevent the re-ligation step of the topoisomerase mechanism by interacting with topoisomerase-DNA complexes. These topoisomerase-DNA-inhibitor complexes are cytotoxic agents because the un-repaired single and double stranded DNA breaks that they cause can lead to apoptosis and cell death. Due to this ability to induce apoptosis, topoisomerase inhibitors have gained interest as therapeutics against infectious and cancerous cells.</obo:IAO_0000115>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9259-5280"/>
-        <oboInOwl:hasOBONamespace>human_microbiome_drug_metabolism_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>HMDM:0000077</oboInOwl:id>
-        <rdfs:label>topoisomerase inhibitor</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000077"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Topoisomerase inhibitors are chemical compounds that block the action of topoisomerases. Topoisomerase plays key roles in cellular reproduction and DNA organization, as they facilitate the cleavage of single and double stranded DNA to relax supercoils, untangle catenanes, and condense chromosomes in eukaryotic cells. Topoisomerase inhibitors affect these essential cellular processes by preventing topoisomerases from performing DNA strand breaks or prevent the re-ligation step of the topoisomerase mechanism by interacting with topoisomerase-DNA complexes. These topoisomerase-DNA-inhibitor complexes are cytotoxic agents because the un-repaired single and double stranded DNA breaks that they cause can lead to apoptosis and cell death. Due to this ability to induce apoptosis, topoisomerase inhibitors have gained interest as therapeutics against infectious and cancerous cells.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:22108601</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>PMID:29363591</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/HMDM_0000078 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HMDM_0000078">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000077"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_70727"/>
         <obo:IAO_0000115>Camptothecin (CPT) is a topoisomerase inhibitor. It was discovered in 1966 during a systematic screening of natural products for anticancer drugs. It was isolated from the bark and stem of Camptotheca acuminata (Camptotheca, Happy tree), a tree native to China used in traditional Chinese medicine. CPT has showed anticancer activity in clinical trials, especially against breast, ovarian, colon, lung, and stomach cancers. To maximize the therapeutic effects, four CPT analogues have been approved and are used as antineoplastic agents.</obo:IAO_0000115>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9259-5280"/>
         <oboInOwl:hasOBONamespace>human_microbiome_drug_metabolism_ontology</oboInOwl:hasOBONamespace>
@@ -35762,20 +36288,6 @@ For example, A and B may be gene products and binding of B by A positively regul
         <owl:annotatedTarget>Camptothecin (CPT) is a topoisomerase inhibitor. It was discovered in 1966 during a systematic screening of natural products for anticancer drugs. It was isolated from the bark and stem of Camptotheca acuminata (Camptotheca, Happy tree), a tree native to China used in traditional Chinese medicine. CPT has showed anticancer activity in clinical trials, especially against breast, ovarian, colon, lung, and stomach cancers. To maximize the therapeutic effects, four CPT analogues have been approved and are used as antineoplastic agents.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:21051639</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HMDM_0000081 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HMDM_0000081">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23888"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000078"/>
-        <obo:IAO_0000115>A member of the class of pyranoindolizinoquinolines that is the carbamate ester obtained by formal condensation of the carboxy group of [1,4&apos;-bipiperidine]-1&apos;-carboxylic acid with the phenolic hydroxy group of (4S)-4,11-diethyl-4,9-dihydroxy-1H-pyrano[3&apos;,4&apos;:6,7]indolizino[1,2- hydrochloride]quinoline-3,14-dione. Used (in the form of its hydrochloride salt trihydrate) in combination with fluorouracil and leucovorin, for the treatment of patients with metastatic adenocarcinoma of the pancreas after disease progression following gemcitabine-based therapy. It is converted via hydrolysis of the carbamate linkage to its active metabolite, SN-38, which is ~1000 times more active.</obo:IAO_0000115>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9259-5280"/>
-        <oboInOwl:hasOBONamespace>human_microbiome_drug_metabolism_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>HMDM:0000081</oboInOwl:id>
-        <rdfs:label>irinotecan</rdfs:label>
-    </owl:Class>
     
 
 
@@ -35822,7 +36334,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/HMDM_0000091 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HMDM_0000091">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23888"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000078"/>
         <obo:IAO_0000115>Trastuzumab deruxtecan is a monoclonal antibody medication used for the treatment of breast cancer or for the treatment of gastric or gastroesophageal adenocarcinoma. It is an antibody-drug conjugate composed of an anti-HER2 (human epidermal growth factor receptor 2) antibody, a cleavable tetrapeptide-based linker, and a cytotoxic topoisomerase I inhibitor.</obo:IAO_0000115>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9259-5280"/>
@@ -35914,32 +36425,6 @@ For example, A and B may be gene products and binding of B by A positively regul
         <oboInOwl:hasOBONamespace>human_microbiome_drug_metabolism_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>HMDM:0000098</oboInOwl:id>
         <rdfs:label>cardiac therapy metabolism</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HMDM_0000099 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HMDM_0000099">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23888"/>
-        <obo:IAO_0000115>A monocarboxylic acid that is 1-benzylidene-1H-indene which is substituted at positions 2, 3, and 5 by methyl, carboxymethyl, and fluorine respectively, and in which the phenyl group of the benzylidene moiety is substituted at the para position by a methylsulfinyl group. It is a prodrug for the corresponding sulfide, a non-steroidal anti-inflammatory drug, used particularly in the treatment of acute and chronic inflammatory conditions. Sulindac is used to relieve pain, tenderness, swelling, and stiffness caused by osteoarthritis (arthritis caused by a breakdown of the lining of the joints), rheumatoid arthritis (arthritis caused by swelling of the lining of the joints), and ankylosing spondylitis (arthritis that mainly affects the spine).</obo:IAO_0000115>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9259-5280"/>
-        <oboInOwl:hasOBONamespace>human_microbiome_drug_metabolism_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>HMDM:0000099</oboInOwl:id>
-        <rdfs:label>sulindac</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HMDM_0000108 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HMDM_0000108">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23888"/>
-        <obo:IAO_0000115>A member of the class of 1-benzothiophenes that is 1-benzothiophene in which the hydrogens at positions 2, 3, and 6 have been replaced by p-hydroxyphenyl, p-[2-(piperidin-1-yl)ethoxy]benzoyl, and hydroxy groups, respectively. Raloxifene is a medication used to prevent and treat osteoporosis in postmenopausal women and those on glucocorticoids. It is also used to reduce the risk of breast cancer in those at high risk. Raloxifene is a selective estrogen receptor modulator (SERM) and therefore a mixed agonist–antagonist of the estrogen receptor (ER). It has estrogenic effects in bone and antiestrogenic effects in the breasts and uterus.</obo:IAO_0000115>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9259-5280"/>
-        <oboInOwl:hasOBONamespace>human_microbiome_drug_metabolism_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>HMDM:0000108</oboInOwl:id>
-        <rdfs:label>raloxifene</rdfs:label>
     </owl:Class>
     
 
@@ -37350,26 +37835,6 @@ For example, A and B may be gene products and binding of B by A positively regul
         <owl:annotatedTarget>NADH oxidase (NOX) is a member of the flavoprotein disulfide reductase family that catalyses the pyridine-nucleotide-dependent reduction of various substrates, including O2, H2O2 and thioredoxin. NADH oxidases (NOXs) catalysing the oxidation of NADH to yield NAD+ and H2O, H2O2, or both play an important role in protecting organisms from oxidative stress and maintaining the balance of NAD+/NADH.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:10629192</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:27737924</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HMDM_0000261 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HMDM_0000261">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000073"/>
-        <obo:IAO_0000115>Parkinson’s disease (PD) is characterized by prodromal symptoms, motor difficulties, and psychological or cognitive problems. As a progressive neurodegenerative disease, PD causes focal degeneration of midbrain dopamine (MesDA) neurons. Antiparkinson agents are agents used for treatment of Parkinson’s disease. Medications, include dopamine agonists, monoamine oxidase B inhibitors, levodopa plus carbidopa, etc., anticholinergics and amantadine. Also, new theraputic approaches include, based on recent advances in the understanding of the pathophysiology of Parkinson’s disease, genetic and disease-modifying approaches to reduce abnormal accumulation and aggregation of alpha-synuclein (aSYN), mitochondrial dysfunction, and dysfunction of lysosomal proteins, as well as approaches to reduce neuroinflammation and increase neurorestoration.</obo:IAO_0000115>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9259-5280"/>
-        <oboInOwl:hasOBONamespace>human_microbiome_drug_metabolism_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>HMDM:0000261</oboInOwl:id>
-        <rdfs:label>anti-parkinson agent</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000261"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Parkinson’s disease (PD) is characterized by prodromal symptoms, motor difficulties, and psychological or cognitive problems. As a progressive neurodegenerative disease, PD causes focal degeneration of midbrain dopamine (MesDA) neurons. Antiparkinson agents are agents used for treatment of Parkinson’s disease. Medications, include dopamine agonists, monoamine oxidase B inhibitors, levodopa plus carbidopa, etc., anticholinergics and amantadine. Also, new theraputic approaches include, based on recent advances in the understanding of the pathophysiology of Parkinson’s disease, genetic and disease-modifying approaches to reduce abnormal accumulation and aggregation of alpha-synuclein (aSYN), mitochondrial dysfunction, and dysfunction of lysosomal proteins, as well as approaches to reduce neuroinflammation and increase neurorestoration.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:30661251</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>PMID:35601911</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -38869,8 +39334,8 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/HMDM_0000466 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HMDM_0000466">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22587"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23888"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000005"/>
         <obo:IAO_0000115>Brivudine is an antiviral drug used to treat herpes zoster.</obo:IAO_0000115>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9259-5280"/>
         <oboInOwl:hasOBONamespace>human_microbiome_drug_metabolism_ontology</oboInOwl:hasOBONamespace>
@@ -39007,33 +39472,6 @@ For example, A and B may be gene products and binding of B by A positively regul
         <oboInOwl:id>HMDM:0000489</oboInOwl:id>
         <rdfs:label>cardiovascular system</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HMDM_0000490 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HMDM_0000490">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000073"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000489"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>Calcium ions are essential for the chain of events that leads to myocardial contraction. Its role in the cardiac cycle has been studied extensively for years. Calcium is thought to be effective in slow channels. Calcium channel blockers (CCBs) inhibit the flow of extracellular calcium through ion‐specific channels that span the cell wall. When inward calcium flux is inhibited, vascular smooth muscle cells relax, resulting in vasodilation and a lowering of blood pressure (BP).</obo:IAO_0000115>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9259-5280"/>
-        <oboInOwl:hasOBONamespace>human_microbiome_drug_metabolism_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>HMDM:0000490</oboInOwl:id>
-        <rdfs:label>calcium channel blockers</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000490"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Calcium ions are essential for the chain of events that leads to myocardial contraction. Its role in the cardiac cycle has been studied extensively for years. Calcium is thought to be effective in slow channels. Calcium channel blockers (CCBs) inhibit the flow of extracellular calcium through ion‐specific channels that span the cell wall. When inward calcium flux is inhibited, vascular smooth muscle cells relax, resulting in vasodilation and a lowering of blood pressure (BP).</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:21896151</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>PMID:8680353</oboInOwl:hasDbXref>
-    </owl:Axiom>
     
 
 
@@ -39221,81 +39659,16 @@ For example, A and B may be gene products and binding of B by A positively regul
     
 
 
-    <!-- http://purl.obolibrary.org/obo/HMDM_0000708 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HMDM_0000708">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000073"/>
-        <obo:IAO_0000115>Statins, inhibitors of the hydroxymethylglutaryl-CoA (HMG-CoA) reductase enzyme, are molecules of fungal origin. Statins are powerful cholesterol lowering medications and have provided outstanding contributions to the prevention of cardiovascular disease.</obo:IAO_0000115>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9259-5280"/>
-        <oboInOwl:hasOBONamespace>human_microbiome_drug_metabolism_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>HMDM:0000708</oboInOwl:id>
-        <rdfs:label>statins</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000708"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Statins, inhibitors of the hydroxymethylglutaryl-CoA (HMG-CoA) reductase enzyme, are molecules of fungal origin. Statins are powerful cholesterol lowering medications and have provided outstanding contributions to the prevention of cardiovascular disease.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:24657242</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>PMID:26975972</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HMDM_0000777 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HMDM_0000777">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000073"/>
-        <obo:IAO_0000115>Anti-parasitic agent is medication used to treat parasitic diseases.</obo:IAO_0000115>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9259-5280"/>
-        <oboInOwl:hasOBONamespace>human_microbiome_drug_metabolism_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>HMDM:0000777</oboInOwl:id>
-        <rdfs:label>anti-parasitic agent</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HMDM_0000782 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HMDM_0000782">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000777"/>
-        <obo:IAO_0000115>An agent used to inhibit or kill protozoa.</obo:IAO_0000115>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9259-5280"/>
-        <oboInOwl:hasOBONamespace>human_microbiome_drug_metabolism_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>HMDM:0000782</oboInOwl:id>
-        <rdfs:label>anti-protozoal agent</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/HMDM_0000783 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HMDM_0000783">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000777"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35442"/>
         <obo:IAO_0000115>An agent used to inhibit or kill parasitic worms.</obo:IAO_0000115>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9259-5280"/>
         <oboInOwl:hasOBONamespace>human_microbiome_drug_metabolism_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>HMDM:0000783</oboInOwl:id>
         <rdfs:label>anti-helminthic agent</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HMDM_0000784 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HMDM_0000784">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000782"/>
-        <obo:IAO_0000115>Nitroimidazoles are a class of antimicrobial drugs that have remarkable broad spectrum activity against parasites, mycobacteria, and anaerobic Gram-positive and Gram-negative bacteria. While nitroimidazoles were discovered in the 1950s, there has been renewed interest in their therapeutic potential, particularly for the treatment of parasitic infections and tuberculosis.</obo:IAO_0000115>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9259-5280"/>
-        <oboInOwl:hasOBONamespace>human_microbiome_drug_metabolism_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>HMDM:0000784</oboInOwl:id>
-        <rdfs:label>Nitroimidazoles</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000784"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Nitroimidazoles are a class of antimicrobial drugs that have remarkable broad spectrum activity against parasites, mycobacteria, and anaerobic Gram-positive and Gram-negative bacteria. While nitroimidazoles were discovered in the 1950s, there has been renewed interest in their therapeutic potential, particularly for the treatment of parasitic infections and tuberculosis.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:28463485</oboInOwl:hasDbXref>
-    </owl:Axiom>
     
 
 
@@ -39322,33 +39695,13 @@ For example, A and B may be gene products and binding of B by A positively regul
     <!-- http://purl.obolibrary.org/obo/HMDM_0000787 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HMDM_0000787">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23888"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000789"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37932"/>
         <obo:IAO_0000115>It is a sedative phenothiazine with weak antipsychotic properties. It also has adrenolytic, anticholinergic, metabolic and endocrine effects, and an action on the extrapyramidal system.</obo:IAO_0000115>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9259-5280"/>
         <oboInOwl:hasOBONamespace>human_microbiome_drug_metabolism_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>HMDM:0000787</oboInOwl:id>
         <rdfs:label>Pericyazine</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HMDM_0000789 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HMDM_0000789">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000782"/>
-        <obo:IAO_0000115>Phenothiazines belong to the oldest synthetic antipsychotic drugs, which do not have their precursor in the world of natural compounds. Apart from their fundamental neuroleptic action connected with the dopaminergic receptors blockade, phenothiazine derivatives also exert diverse biological activities, which account for their cancer chemopreventive-effect, such as calmodulin- and protein kinase C inhibitory actions, anti-proliferative effect, inhibition of P-glycoprotein transport function and reversion of multidrug resistance.</obo:IAO_0000115>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9259-5280"/>
-        <oboInOwl:hasOBONamespace>human_microbiome_drug_metabolism_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>HMDM:0000789</oboInOwl:id>
-        <rdfs:label>Phenothiazine</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000789"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Phenothiazines belong to the oldest synthetic antipsychotic drugs, which do not have their precursor in the world of natural compounds. Apart from their fundamental neuroleptic action connected with the dopaminergic receptors blockade, phenothiazine derivatives also exert diverse biological activities, which account for their cancer chemopreventive-effect, such as calmodulin- and protein kinase C inhibitory actions, anti-proliferative effect, inhibition of P-glycoprotein transport function and reversion of multidrug resistance.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:22580516</oboInOwl:hasDbXref>
-    </owl:Axiom>
     
 
 
@@ -39368,19 +39721,6 @@ For example, A and B may be gene products and binding of B by A positively regul
         <owl:annotatedTarget>Racecadotril, which is rapidly metabolized to its active metabolite thiorphan, is a neutral endopeptidase (NEP) inhibitor used in clinical practice for diarrhoea with a remarkable safety profile.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:17028311</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HMDM_0000791 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HMDM_0000791">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000073"/>
-        <obo:IAO_0000115>An anti-diarrheal agent is a drug used to slow or stop diarrhea.</obo:IAO_0000115>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9259-5280"/>
-        <oboInOwl:hasOBONamespace>human_microbiome_drug_metabolism_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>HMDM:0000791</oboInOwl:id>
-        <rdfs:label>anti-diarrheal agent</rdfs:label>
-    </owl:Class>
     
 
 
@@ -39613,19 +39953,6 @@ For example, A and B may be gene products and binding of B by A positively regul
     
 
 
-    <!-- http://purl.obolibrary.org/obo/HMDM_0000839 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HMDM_0000839">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000073"/>
-        <obo:IAO_0000115>An anti-inflammatory agent is a drug that helps reduce swelling or inflammation.</obo:IAO_0000115>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9259-5280"/>
-        <oboInOwl:hasOBONamespace>human_microbiome_drug_metabolism_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>HMDM:0000839</oboInOwl:id>
-        <rdfs:label>anti-inflammatory agent</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/HMDM_0000843 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HMDM_0000843">
@@ -39655,25 +39982,6 @@ For example, A and B may be gene products and binding of B by A positively regul
         <oboInOwl:id>HMDM:0000844</oboInOwl:id>
         <rdfs:label>methylation of a molecule</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HMDM_0000845 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HMDM_0000845">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000073"/>
-        <obo:IAO_0000115>Analgesics are the drugs which bring insensibility to pain without loosing consciousness. Treatment strategy is generally based on the type of pain. Most of the analgesics are associated with serious side effects, such as NSAIDS can cause severe GI disturbance and opioids can cause addiction.</obo:IAO_0000115>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9259-5280"/>
-        <oboInOwl:hasOBONamespace>human_microbiome_drug_metabolism_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>HMDM:0000845</oboInOwl:id>
-        <rdfs:label>analgesic</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000845"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Analgesics are the drugs which bring insensibility to pain without loosing consciousness. Treatment strategy is generally based on the type of pain. Most of the analgesics are associated with serious side effects, such as NSAIDS can cause severe GI disturbance and opioids can cause addiction.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:27142107</oboInOwl:hasDbXref>
-    </owl:Axiom>
     
 
 
@@ -40073,7 +40381,7 @@ For example, A and B may be gene products and binding of B by A positively regul
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000938"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HMDM_0000108"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_8772"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>CYP107S1 is a cytochrome P450 (CYP) enzyme found in the bacterium Pseudomonas aeruginosa. It can metabolize fluoroquinolone antibiotics (ciprofloxacin and fleroxacin), a cystic fibrosis transmembrane conductance regulator potentiator (ivacaftor), and a selective estrogen receptor modulator antimicrobial adjuvant (raloxifene).</obo:IAO_0000115>
@@ -40609,6 +40917,19 @@ For example, A and B may be gene products and binding of B by A positively regul
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010000"/>
         <oboInOwl:id>UBERON:0011216</oboInOwl:id>
         <rdfs:label>organ system subdivision</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI:9352 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI:9352">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23888"/>
+        <obo:IAO_0000115>A monocarboxylic acid that is 1-benzylidene-1H-indene which is substituted at positions 2, 3, and 5 by methyl, carboxymethyl, and fluorine respectively, and in which the phenyl group of the benzylidene moiety is substituted at the para position by a methylsulfinyl group. It is a prodrug for the corresponding sulfide, a non-steroidal anti-inflammatory drug, used particularly in the treatment of acute and chronic inflammatory conditions. Sulindac is used to relieve pain, tenderness, swelling, and stiffness caused by osteoarthritis (arthritis caused by a breakdown of the lining of the joints), rheumatoid arthritis (arthritis caused by swelling of the lining of the joints), and ankylosing spondylitis (arthritis that mainly affects the spine).</obo:IAO_0000115>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0001-9259-5280"/>
+        <oboInOwl:hasOBONamespace>human_microbiome_drug_metabolism_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>HMDM:0000099</oboInOwl:id>
+        <rdfs:label>sulindac</rdfs:label>
     </owl:Class>
     
 

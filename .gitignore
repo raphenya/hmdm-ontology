@@ -73,3 +73,15 @@ sandbox
 !hmdm.obo
 !hmdm.json
 qc.sh
+docs/annotationproperties
+docs/classes
+docs/objectproperties
+docs/individuals
+docs/css
+docs/images
+docs/js
+docs/ontologies
+docs/index.html
+docs/index-all.html
+docs/datatypes
+docs/contents.html

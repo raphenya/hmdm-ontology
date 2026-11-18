@@ -692,6 +692,16 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_14434",
+      "lbl" : "imidazole",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chebi_ontology"
+        } ]
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_145498",
       "lbl" : "donepezil (1+)",
       "type" : "CLASS",
@@ -1072,6 +1082,19 @@
       "meta" : {
         "definition" : {
           "val" : "A monoatomic monoanion resulting from the addition of an electron to any halogen atom."
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chebi_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_16069",
+      "lbl" : "1H-imidazole",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "An imidazole tautomer which has the migrating hydrogen at position 1."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -2309,11 +2332,18 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A substance that destroys or inhibits replication of viruses."
+          "val" : "An agent that kills a virus or that suppresses its ability to replicate and, hence, inhibits its capability to multiply and reproduce. For example, amantadine (Symmetrel) is a synthetic antiviral. It acts by inhibiting the multiplication of the influenza A virus.",
+          "xrefs" : [ "PMID:33726557" ]
         },
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/contributor",
+          "val" : "https://orcid.org/0000-0001-9259-5280"
+        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "chebi_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "human_microbiome_drug_metabolism_ontology"
         } ]
       }
     }, {
@@ -2527,6 +2557,19 @@
       "lbl" : "bromine molecular entity",
       "type" : "CLASS",
       "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chebi_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_23003",
+      "lbl" : "carbamate ester",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Any ester of carbamic acid or its <em>N</em>-substituted derivatives."
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "chebi_ontology"
@@ -5544,6 +5587,19 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_30366",
+      "lbl" : "imidazolide",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "An organic nitrogen anion that is the conjugate base of 1<em>H</em>-imidazole."
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chebi_ontology"
+        } ]
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_30566",
       "lbl" : "gamma-aminobutyrate",
       "type" : "CLASS",
@@ -8078,11 +8134,17 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A substance used to treat or prevent parasitic infections."
+          "val" : "Anti-parasitic agent is medication used to treat parasitic diseases."
         },
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/contributor",
+          "val" : "https://orcid.org/0000-0001-9259-5280"
+        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "chebi_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "human_microbiome_drug_metabolism_ontology"
         } ]
       }
     }, {
@@ -8231,11 +8293,18 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "An agent capable of relieving pain without the loss of consciousness or without producing anaesthesia. In addition, analgesic is a role played by a compound which is exhibited by a capability to cause a reduction of pain symptoms."
+          "val" : "Analgesics are the drugs which bring insensibility to pain without loosing consciousness. Treatment strategy is generally based on the type of pain. Most of the analgesics are associated with serious side effects, such as NSAIDS can cause severe GI disturbance and opioids can cause addiction.",
+          "xrefs" : [ "PMID:27142107" ]
         },
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/contributor",
+          "val" : "https://orcid.org/0000-0001-9259-5280"
+        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "chebi_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "human_microbiome_drug_metabolism_ontology"
         } ]
       }
     }, {
@@ -8511,6 +8580,16 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_35555",
+      "lbl" : "mancude organic heteromonocyclic parent",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chebi_ontology"
+        } ]
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_35568",
       "lbl" : "mancude ring",
       "type" : "CLASS",
@@ -8634,11 +8713,18 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A substance that inhibits or prevents the proliferation of neoplasms."
+          "val" : "Antineoplastic drugs (ANDs), also known as cytostatic drugs, are a heterogeneous group of chemicals used to control the growth of neoplastic cells. Most ANDs interfere with cell proliferation through DNA destruction, RNA synthesis, or duplication process. Unfortunately, ANDs do not distinguish cancer cells from normal ones, leading to unwanted adverse effects in patients receiving chemotherapy. The International Agency for Research on Cancer (IARC) classifies some ANDs as human carcinogens.",
+          "xrefs" : [ "PMID:27110842" ]
         },
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/contributor",
+          "val" : "https://orcid.org/0000-0001-9259-5280"
+        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "chebi_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "human_microbiome_drug_metabolism_ontology"
         } ]
       }
     }, {
@@ -9071,8 +9157,14 @@
           "val" : "Any antimicrobial drug which is used to treat or prevent protozoal infections."
         },
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/contributor",
+          "val" : "https://orcid.org/0000-0001-9259-5280"
+        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "chebi_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "human_microbiome_drug_metabolism_ontology"
         } ]
       }
     }, {
@@ -10469,6 +10561,26 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_37932",
+      "lbl" : "phenothiazine",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Phenothiazines belong to the oldest synthetic antipsychotic drugs, which do not have their precursor in the world of natural compounds. Apart from their fundamental neuroleptic action connected with the dopaminergic receptors blockade, phenothiazine derivatives also exert diverse biological activities, which account for their cancer chemopreventive-effect, such as calmodulin- and protein kinase C inhibitory actions, anti-proliferative effect, inhibition of P-glycoprotein transport function and reversion of multidrug resistance.",
+          "xrefs" : [ "PMID:22580516" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/contributor",
+          "val" : "https://orcid.org/0000-0001-9259-5280"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chebi_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "human_microbiome_drug_metabolism_ontology"
+        } ]
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_37941",
       "lbl" : "clopidogrel",
       "type" : "CLASS",
@@ -10625,6 +10737,16 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_38093",
+      "lbl" : "phenothiazines",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chebi_ontology"
+        } ]
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_38101",
       "lbl" : "organonitrogen heterocyclic compound",
       "type" : "CLASS",
@@ -10738,15 +10860,21 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_38215",
-      "lbl" : "calcium channel blocker",
+      "lbl" : "calcium channel blockers",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
           "val" : "One of a class of drugs that acts by selective inhibition of calcium influx through cell membranes or on the release and binding of calcium in intracellular pools."
         },
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/contributor",
+          "val" : "https://orcid.org/0000-0001-9259-5280"
+        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "chebi_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "human_microbiome_drug_metabolism_ontology"
         } ]
       }
     }, {
@@ -11075,6 +11203,16 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_38767",
+      "lbl" : "benzothiophenes",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chebi_ontology"
+        } ]
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_38769",
       "lbl" : "indazoles",
       "type" : "CLASS",
@@ -11173,6 +11311,16 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_38831",
       "lbl" : "2-benzofurans",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chebi_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_38836",
+      "lbl" : "1-benzothiophenes",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -12383,11 +12531,18 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A drug used in the treatment of Parkinson's disease."
+          "val" : "Parkinson’s disease (PD) is characterized by prodromal symptoms, motor difficulties, and psychological or cognitive problems. As a progressive neurodegenerative disease, PD causes focal degeneration of midbrain dopamine (MesDA) neurons. Antiparkinson agents are agents used for treatment of Parkinson’s disease. Medications, include dopamine agonists, monoamine oxidase B inhibitors, levodopa plus carbidopa, etc., anticholinergics and amantadine. Also, new theraputic approaches include, based on recent advances in the understanding of the pathophysiology of Parkinson’s disease, genetic and disease-modifying approaches to reduce abnormal accumulation and aggregation of alpha-synuclein (aSYN), mitochondrial dysfunction, and dysfunction of lysosomal proteins, as well as approaches to reduce neuroinflammation and increase neurorestoration.",
+          "xrefs" : [ "PMID:30661251", "PMID:35601911" ]
         },
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/contributor",
+          "val" : "https://orcid.org/0000-0001-9259-5280"
+        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "chebi_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "human_microbiome_drug_metabolism_ontology"
         } ]
       }
     }, {
@@ -12479,6 +12634,16 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_48591",
+      "lbl" : "N-acylpiperidine",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chebi_ontology"
+        } ]
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_48626",
       "lbl" : "pyranoindolizinoquinoline",
       "type" : "CLASS",
@@ -12542,6 +12707,16 @@
         "definition" : {
           "val" : "Substance that attaches to and blocks cell receptors that normally bind naturally occurring substances."
         },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chebi_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_48737",
+      "lbl" : "N-oxyethylpiperidine",
+      "type" : "CLASS",
+      "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "chebi_ontology"
@@ -12946,6 +13121,19 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_50059",
+      "lbl" : "imidazolium cation",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "An imidazolium ion that is the cation resulting from protonation at the 3-position of 1<em>H</em>-imidazole."
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chebi_ontology"
+        } ]
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_50075",
       "lbl" : "dihydropyridine",
       "type" : "CLASS",
@@ -13269,6 +13457,16 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_50335",
+      "lbl" : "organic nitrogen anion",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chebi_ontology"
+        } ]
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_50336",
       "lbl" : "4-hydroxybenzyl group",
       "type" : "CLASS",
@@ -13569,6 +13767,19 @@
       "meta" : {
         "definition" : {
           "val" : "A product in capsule, tablet or liquid form that provide essential nutrients, such as a vitamin, an essential mineral, a protein, an herb, or similar nutritional substance."
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chebi_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_50739",
+      "lbl" : "estrogen receptor modulator",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A substance that possess antiestrogenic actions but can also produce estrogenic effects as well. It acts as complete or partial agonist or as antagonist. It can be either steroidal or nonsteroidal in structure."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -14423,6 +14634,19 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_51802",
+      "lbl" : "4H-imidazole",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Imidazole tautomer which has the migrating hydrogen at position 4."
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chebi_ontology"
+        } ]
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_51856",
       "lbl" : "methylphenidate(1+)",
       "type" : "CLASS",
@@ -14767,8 +14991,14 @@
           "val" : "Any drug found useful in the symptomatic treatment of diarrhoea."
         },
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/contributor",
+          "val" : "https://orcid.org/0000-0001-9259-5280"
+        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "chebi_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "human_microbiome_drug_metabolism_ontology"
         } ]
       }
     }, {
@@ -15389,6 +15619,19 @@
       "meta" : {
         "definition" : {
           "val" : "The trialkylammonium ion resulting from the protonation of the amino group of thebaine."
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chebi_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_59964",
+      "lbl" : "imidazolium ion",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "The cation resulting from protonation or quaternisation at the 3-position of any 1<em>H</em>-imidazole."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -16818,8 +17061,14 @@
           "val" : "Any compound that has anti-inflammatory effects."
         },
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/contributor",
+          "val" : "https://orcid.org/0000-0001-9259-5280"
+        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "chebi_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "human_microbiome_drug_metabolism_ontology"
         } ]
       }
     }, {
@@ -16833,6 +17082,26 @@
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "chebi_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_67135",
+      "lbl" : "Nitroimidazoles",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Nitroimidazoles are a class of antimicrobial drugs that have remarkable broad spectrum activity against parasites, mycobacteria, and anaerobic Gram-positive and Gram-negative bacteria. While nitroimidazoles were discovered in the 1950s, there has been renewed interest in their therapeutic potential, particularly for the treatment of parasitic infections and tuberculosis.",
+          "xrefs" : [ "PMID:28463485" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/contributor",
+          "val" : "https://orcid.org/0000-0001-9259-5280"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chebi_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "human_microbiome_drug_metabolism_ontology"
         } ]
       }
     }, {
@@ -16997,11 +17266,18 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "An EC 5.99.1.* (miscellaneous isomerase) inhibitor that interferes with the action of any of the topoisomerases (enzymes that regulate the overwinding or underwinding of DNA)."
+          "val" : "Topoisomerase inhibitors are chemical compounds that block the action of topoisomerases. Topoisomerase plays key roles in cellular reproduction and DNA organization, as they facilitate the cleavage of single and double stranded DNA to relax supercoils, untangle catenanes, and condense chromosomes in eukaryotic cells. Topoisomerase inhibitors affect these essential cellular processes by preventing topoisomerases from performing DNA strand breaks or prevent the re-ligation step of the topoisomerase mechanism by interacting with topoisomerase-DNA complexes. These topoisomerase-DNA-inhibitor complexes are cytotoxic agents because the un-repaired single and double stranded DNA breaks that they cause can lead to apoptosis and cell death. Due to this ability to induce apoptosis, topoisomerase inhibitors have gained interest as therapeutics against infectious and cancerous cells.",
+          "xrefs" : [ "PMID:22108601", "PMID:29363591" ]
         },
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/contributor",
+          "val" : "https://orcid.org/0000-0001-9259-5280"
+        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "chebi_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "human_microbiome_drug_metabolism_ontology"
         } ]
       }
     }, {
@@ -17325,8 +17601,14 @@
           "val" : "A pyrimidine deoxyribonucleoside that is a pyrimidine ribonucleoside in which the hydroxy group at the 5' position is replaced by a hydrogen."
         },
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/contributor",
+          "val" : "https://orcid.org/0000-0001-9259-5280"
+        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "chebi_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "human_microbiome_drug_metabolism_ontology"
         } ]
       }
     }, {
@@ -19212,6 +19494,25 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_80630",
+      "lbl" : "irinotecan",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A member of the class of pyranoindolizinoquinolines that is the carbamate ester obtained by formal condensation of the carboxy group of [1,4'-bipiperidine]-1'-carboxylic acid with the phenolic hydroxy group of (4S)-4,11-diethyl-4,9-dihydroxy-1H-pyrano[3',4':6,7]indolizino[1,2- hydrochloride]quinoline-3,14-dione. Used (in the form of its hydrochloride salt trihydrate) in combination with fluorouracil and leucovorin, for the treatment of patients with metastatic adenocarcinoma of the pancreas after disease progression following gemcitabine-based therapy. It is converted via hydrolysis of the carbamate linkage to its active metabolite, SN-38, which is ~1000 times more active."
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/contributor",
+          "val" : "https://orcid.org/0000-0001-9259-5280"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chebi_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "human_microbiome_drug_metabolism_ontology"
+        } ]
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_82680",
       "lbl" : "monounsaturated fatty acid anion",
       "type" : "CLASS",
@@ -19743,15 +20044,22 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_87631",
-      "lbl" : "statin",
+      "lbl" : "statins",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Any organooxygen compound whose structure is related to compactin (mevastatin) and which may be used as an anticholesteremic drug due its EC 1.1.1.34/EC 1.1.1.88 (hydroxymethylglutaryl-CoA reductase) inhibitory properties."
+          "val" : "Statins, inhibitors of the hydroxymethylglutaryl-CoA (HMG-CoA) reductase enzyme, are molecules of fungal origin. Statins are powerful cholesterol lowering medications and have provided outstanding contributions to the prevention of cardiovascular disease.",
+          "xrefs" : [ "PMID:24657242", "PMID:26975972" ]
         },
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/contributor",
+          "val" : "https://orcid.org/0000-0001-9259-5280"
+        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "chebi_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "human_microbiome_drug_metabolism_ontology"
         } ]
       }
     }, {
@@ -19791,6 +20099,25 @@
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "chebi_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_8772",
+      "lbl" : "raloxifene",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A member of the class of 1-benzothiophenes that is 1-benzothiophene in which the hydrogens at positions 2, 3, and 6 have been replaced by p-hydroxyphenyl, p-[2-(piperidin-1-yl)ethoxy]benzoyl, and hydroxy groups, respectively. Raloxifene is a medication used to prevent and treat osteoporosis in postmenopausal women and those on glucocorticoids. It is also used to reduce the risk of breast cancer in those at high risk. Raloxifene is a selective estrogen receptor modulator (SERM) and therefore a mixed agonist–antagonist of the estrogen receptor (ER). It has estrogenic effects in bone and antiestrogenic effects in the breasts and uterus."
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/contributor",
+          "val" : "https://orcid.org/0000-0001-9259-5280"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chebi_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "human_microbiome_drug_metabolism_ontology"
         } ]
       }
     }, {
@@ -19950,6 +20277,19 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_90191",
+      "lbl" : "raloxifene(1+)",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "An ammonium ion resulting from the protonation of the piperidine nitrogen of raloxifene. The major species at pH 7.3."
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chebi_ontology"
+        } ]
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_90318",
       "lbl" : "EC 6.4.1.1 (pyruvate carboxylase) inhibitor",
       "type" : "CLASS",
@@ -20008,6 +20348,19 @@
       "meta" : {
         "definition" : {
           "val" : "Any peptide zwitterion comprising two amino acid residues. Major structure at pH 7.3."
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chebi_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_90895",
+      "lbl" : "irinotecan(1+)",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "An organic cation obtained by protonation of the tertiary amino group of irinotecan."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -20110,6 +20463,19 @@
       "lbl" : "sulfinpyrazone",
       "type" : "CLASS",
       "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chebi_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_9352",
+      "lbl" : "sulindac",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A monocarboxylic acid that is 1-benzylidene-1<em>H</em>-indene which is substituted at positions 2, 3, and 5 by methyl, carboxymethyl, and fluorine respectively, and in which the phenyl group of the benzylidene moiety is substituted at the <em>para</em> position by a methylsulfinyl group. It is a prodrug for the corresponding sulfide, a non-steroidal anti-inflammatory drug, used particularly in the treatment of acute and chronic inflammatory conditions."
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "chebi_ontology"
@@ -20491,23 +20857,6 @@
         } ]
       }
     }, {
-      "id" : "http://purl.obolibrary.org/obo/HMDM_0000005",
-      "lbl" : "antiviral",
-      "type" : "CLASS",
-      "meta" : {
-        "definition" : {
-          "val" : "An agent that kills a virus or that suppresses its ability to replicate and, hence, inhibits its capability to multiply and reproduce. For example, amantadine (Symmetrel) is a synthetic antiviral. It acts by inhibiting the multiplication of the influenza A virus.",
-          "xrefs" : [ "PMID:33726557" ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.org/dc/terms/contributor",
-          "val" : "https://orcid.org/0000-0001-9259-5280"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "human_microbiome_drug_metabolism_ontology"
-        } ]
-      }
-    }, {
       "id" : "http://purl.obolibrary.org/obo/HMDM_0000006",
       "lbl" : "determinant of drug metabolism",
       "type" : "CLASS",
@@ -20837,22 +21186,6 @@
         } ]
       }
     }, {
-      "id" : "http://purl.obolibrary.org/obo/HMDM_0000068",
-      "lbl" : "pyrimidine 5'-deoxyribonucleoside",
-      "type" : "CLASS",
-      "meta" : {
-        "definition" : {
-          "val" : "A pyrimidine deoxyribonucleoside that is a pyrimidine ribonucleoside in which the hydroxy group at the 5' position is replaced by a hydrogen."
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.org/dc/terms/contributor",
-          "val" : "https://orcid.org/0000-0001-9259-5280"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "human_microbiome_drug_metabolism_ontology"
-        } ]
-      }
-    }, {
       "id" : "http://purl.obolibrary.org/obo/HMDM_0000073",
       "lbl" : "drug class",
       "type" : "CLASS",
@@ -20885,40 +21218,6 @@
         } ]
       }
     }, {
-      "id" : "http://purl.obolibrary.org/obo/HMDM_0000076",
-      "lbl" : "anti-neoplastic agent",
-      "type" : "CLASS",
-      "meta" : {
-        "definition" : {
-          "val" : "Antineoplastic drugs (ANDs), also known as cytostatic drugs, are a heterogeneous group of chemicals used to control the growth of neoplastic cells. Most ANDs interfere with cell proliferation through DNA destruction, RNA synthesis, or duplication process. Unfortunately, ANDs do not distinguish cancer cells from normal ones, leading to unwanted adverse effects in patients receiving chemotherapy. The International Agency for Research on Cancer (IARC) classifies some ANDs as human carcinogens.",
-          "xrefs" : [ "PMID:27110842" ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.org/dc/terms/contributor",
-          "val" : "https://orcid.org/0000-0001-9259-5280"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "human_microbiome_drug_metabolism_ontology"
-        } ]
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/HMDM_0000077",
-      "lbl" : "topoisomerase inhibitor",
-      "type" : "CLASS",
-      "meta" : {
-        "definition" : {
-          "val" : "Topoisomerase inhibitors are chemical compounds that block the action of topoisomerases. Topoisomerase plays key roles in cellular reproduction and DNA organization, as they facilitate the cleavage of single and double stranded DNA to relax supercoils, untangle catenanes, and condense chromosomes in eukaryotic cells. Topoisomerase inhibitors affect these essential cellular processes by preventing topoisomerases from performing DNA strand breaks or prevent the re-ligation step of the topoisomerase mechanism by interacting with topoisomerase-DNA complexes. These topoisomerase-DNA-inhibitor complexes are cytotoxic agents because the un-repaired single and double stranded DNA breaks that they cause can lead to apoptosis and cell death. Due to this ability to induce apoptosis, topoisomerase inhibitors have gained interest as therapeutics against infectious and cancerous cells.",
-          "xrefs" : [ "PMID:22108601", "PMID:29363591" ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.org/dc/terms/contributor",
-          "val" : "https://orcid.org/0000-0001-9259-5280"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "human_microbiome_drug_metabolism_ontology"
-        } ]
-      }
-    }, {
       "id" : "http://purl.obolibrary.org/obo/HMDM_0000078",
       "lbl" : "Camptothecin Analogues",
       "type" : "CLASS",
@@ -20926,22 +21225,6 @@
         "definition" : {
           "val" : "Camptothecin (CPT) is a topoisomerase inhibitor. It was discovered in 1966 during a systematic screening of natural products for anticancer drugs. It was isolated from the bark and stem of Camptotheca acuminata (Camptotheca, Happy tree), a tree native to China used in traditional Chinese medicine. CPT has showed anticancer activity in clinical trials, especially against breast, ovarian, colon, lung, and stomach cancers. To maximize the therapeutic effects, four CPT analogues have been approved and are used as antineoplastic agents.",
           "xrefs" : [ "PMID:21051639" ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.org/dc/terms/contributor",
-          "val" : "https://orcid.org/0000-0001-9259-5280"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "human_microbiome_drug_metabolism_ontology"
-        } ]
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/HMDM_0000081",
-      "lbl" : "irinotecan",
-      "type" : "CLASS",
-      "meta" : {
-        "definition" : {
-          "val" : "A member of the class of pyranoindolizinoquinolines that is the carbamate ester obtained by formal condensation of the carboxy group of [1,4'-bipiperidine]-1'-carboxylic acid with the phenolic hydroxy group of (4S)-4,11-diethyl-4,9-dihydroxy-1H-pyrano[3',4':6,7]indolizino[1,2- hydrochloride]quinoline-3,14-dione. Used (in the form of its hydrochloride salt trihydrate) in combination with fluorouracil and leucovorin, for the treatment of patients with metastatic adenocarcinoma of the pancreas after disease progression following gemcitabine-based therapy. It is converted via hydrolysis of the carbamate linkage to its active metabolite, SN-38, which is ~1000 times more active."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/terms/contributor",
@@ -21073,38 +21356,6 @@
       "meta" : {
         "definition" : {
           "val" : "The process of breaking down of a cardiac therapy drug which improve the heart's energy production and efficiency."
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.org/dc/terms/contributor",
-          "val" : "https://orcid.org/0000-0001-9259-5280"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "human_microbiome_drug_metabolism_ontology"
-        } ]
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/HMDM_0000099",
-      "lbl" : "sulindac",
-      "type" : "CLASS",
-      "meta" : {
-        "definition" : {
-          "val" : "A monocarboxylic acid that is 1-benzylidene-1H-indene which is substituted at positions 2, 3, and 5 by methyl, carboxymethyl, and fluorine respectively, and in which the phenyl group of the benzylidene moiety is substituted at the para position by a methylsulfinyl group. It is a prodrug for the corresponding sulfide, a non-steroidal anti-inflammatory drug, used particularly in the treatment of acute and chronic inflammatory conditions. Sulindac is used to relieve pain, tenderness, swelling, and stiffness caused by osteoarthritis (arthritis caused by a breakdown of the lining of the joints), rheumatoid arthritis (arthritis caused by swelling of the lining of the joints), and ankylosing spondylitis (arthritis that mainly affects the spine)."
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.org/dc/terms/contributor",
-          "val" : "https://orcid.org/0000-0001-9259-5280"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "human_microbiome_drug_metabolism_ontology"
-        } ]
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/HMDM_0000108",
-      "lbl" : "raloxifene",
-      "type" : "CLASS",
-      "meta" : {
-        "definition" : {
-          "val" : "A member of the class of 1-benzothiophenes that is 1-benzothiophene in which the hydrogens at positions 2, 3, and 6 have been replaced by p-hydroxyphenyl, p-[2-(piperidin-1-yl)ethoxy]benzoyl, and hydroxy groups, respectively. Raloxifene is a medication used to prevent and treat osteoporosis in postmenopausal women and those on glucocorticoids. It is also used to reduce the risk of breast cancer in those at high risk. Raloxifene is a selective estrogen receptor modulator (SERM) and therefore a mixed agonist–antagonist of the estrogen receptor (ER). It has estrogenic effects in bone and antiestrogenic effects in the breasts and uterus."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/terms/contributor",
@@ -21780,23 +22031,6 @@
         "definition" : {
           "val" : "NADH oxidase (NOX) is a member of the flavoprotein disulfide reductase family that catalyses the pyridine-nucleotide-dependent reduction of various substrates, including O2, H2O2 and thioredoxin. NADH oxidases (NOXs) catalysing the oxidation of NADH to yield NAD+ and H2O, H2O2, or both play an important role in protecting organisms from oxidative stress and maintaining the balance of NAD+/NADH.",
           "xrefs" : [ "PMID:10629192", "PMID:27737924" ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.org/dc/terms/contributor",
-          "val" : "https://orcid.org/0000-0001-9259-5280"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "human_microbiome_drug_metabolism_ontology"
-        } ]
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/HMDM_0000261",
-      "lbl" : "anti-parkinson agent",
-      "type" : "CLASS",
-      "meta" : {
-        "definition" : {
-          "val" : "Parkinson’s disease (PD) is characterized by prodromal symptoms, motor difficulties, and psychological or cognitive problems. As a progressive neurodegenerative disease, PD causes focal degeneration of midbrain dopamine (MesDA) neurons. Antiparkinson agents are agents used for treatment of Parkinson’s disease. Medications, include dopamine agonists, monoamine oxidase B inhibitors, levodopa plus carbidopa, etc., anticholinergics and amantadine. Also, new theraputic approaches include, based on recent advances in the understanding of the pathophysiology of Parkinson’s disease, genetic and disease-modifying approaches to reduce abnormal accumulation and aggregation of alpha-synuclein (aSYN), mitochondrial dysfunction, and dysfunction of lysosomal proteins, as well as approaches to reduce neuroinflammation and increase neurorestoration.",
-          "xrefs" : [ "PMID:30661251", "PMID:35601911" ]
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/terms/contributor",
@@ -22937,23 +23171,6 @@
         } ]
       }
     }, {
-      "id" : "http://purl.obolibrary.org/obo/HMDM_0000490",
-      "lbl" : "calcium channel blockers",
-      "type" : "CLASS",
-      "meta" : {
-        "definition" : {
-          "val" : "Calcium ions are essential for the chain of events that leads to myocardial contraction. Its role in the cardiac cycle has been studied extensively for years. Calcium is thought to be effective in slow channels. Calcium channel blockers (CCBs) inhibit the flow of extracellular calcium through ion‐specific channels that span the cell wall. When inward calcium flux is inhibited, vascular smooth muscle cells relax, resulting in vasodilation and a lowering of blood pressure (BP).",
-          "xrefs" : [ "PMID:21896151", "PMID:8680353" ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.org/dc/terms/contributor",
-          "val" : "https://orcid.org/0000-0001-9259-5280"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "human_microbiome_drug_metabolism_ontology"
-        } ]
-      }
-    }, {
       "id" : "http://purl.obolibrary.org/obo/HMDM_0000491",
       "lbl" : "hydrolysis of a molecule",
       "type" : "CLASS",
@@ -23122,78 +23339,12 @@
         } ]
       }
     }, {
-      "id" : "http://purl.obolibrary.org/obo/HMDM_0000708",
-      "lbl" : "statins",
-      "type" : "CLASS",
-      "meta" : {
-        "definition" : {
-          "val" : "Statins, inhibitors of the hydroxymethylglutaryl-CoA (HMG-CoA) reductase enzyme, are molecules of fungal origin. Statins are powerful cholesterol lowering medications and have provided outstanding contributions to the prevention of cardiovascular disease.",
-          "xrefs" : [ "PMID:24657242", "PMID:26975972" ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.org/dc/terms/contributor",
-          "val" : "https://orcid.org/0000-0001-9259-5280"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "human_microbiome_drug_metabolism_ontology"
-        } ]
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/HMDM_0000777",
-      "lbl" : "anti-parasitic agent",
-      "type" : "CLASS",
-      "meta" : {
-        "definition" : {
-          "val" : "Anti-parasitic agent is medication used to treat parasitic diseases."
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.org/dc/terms/contributor",
-          "val" : "https://orcid.org/0000-0001-9259-5280"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "human_microbiome_drug_metabolism_ontology"
-        } ]
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/HMDM_0000782",
-      "lbl" : "anti-protozoal agent",
-      "type" : "CLASS",
-      "meta" : {
-        "definition" : {
-          "val" : "An agent used to inhibit or kill protozoa."
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.org/dc/terms/contributor",
-          "val" : "https://orcid.org/0000-0001-9259-5280"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "human_microbiome_drug_metabolism_ontology"
-        } ]
-      }
-    }, {
       "id" : "http://purl.obolibrary.org/obo/HMDM_0000783",
       "lbl" : "anti-helminthic agent",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
           "val" : "An agent used to inhibit or kill parasitic worms."
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.org/dc/terms/contributor",
-          "val" : "https://orcid.org/0000-0001-9259-5280"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "human_microbiome_drug_metabolism_ontology"
-        } ]
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/HMDM_0000784",
-      "lbl" : "Nitroimidazoles",
-      "type" : "CLASS",
-      "meta" : {
-        "definition" : {
-          "val" : "Nitroimidazoles are a class of antimicrobial drugs that have remarkable broad spectrum activity against parasites, mycobacteria, and anaerobic Gram-positive and Gram-negative bacteria. While nitroimidazoles were discovered in the 1950s, there has been renewed interest in their therapeutic potential, particularly for the treatment of parasitic infections and tuberculosis.",
-          "xrefs" : [ "PMID:28463485" ]
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/terms/contributor",
@@ -23237,23 +23388,6 @@
         } ]
       }
     }, {
-      "id" : "http://purl.obolibrary.org/obo/HMDM_0000789",
-      "lbl" : "Phenothiazine",
-      "type" : "CLASS",
-      "meta" : {
-        "definition" : {
-          "val" : "Phenothiazines belong to the oldest synthetic antipsychotic drugs, which do not have their precursor in the world of natural compounds. Apart from their fundamental neuroleptic action connected with the dopaminergic receptors blockade, phenothiazine derivatives also exert diverse biological activities, which account for their cancer chemopreventive-effect, such as calmodulin- and protein kinase C inhibitory actions, anti-proliferative effect, inhibition of P-glycoprotein transport function and reversion of multidrug resistance.",
-          "xrefs" : [ "PMID:22580516" ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.org/dc/terms/contributor",
-          "val" : "https://orcid.org/0000-0001-9259-5280"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "human_microbiome_drug_metabolism_ontology"
-        } ]
-      }
-    }, {
       "id" : "http://purl.obolibrary.org/obo/HMDM_0000790",
       "lbl" : "Racecadotril",
       "type" : "CLASS",
@@ -23261,22 +23395,6 @@
         "definition" : {
           "val" : "Racecadotril, which is rapidly metabolized to its active metabolite thiorphan, is a neutral endopeptidase (NEP) inhibitor used in clinical practice for diarrhoea with a remarkable safety profile.",
           "xrefs" : [ "PMID:17028311" ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.org/dc/terms/contributor",
-          "val" : "https://orcid.org/0000-0001-9259-5280"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "human_microbiome_drug_metabolism_ontology"
-        } ]
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/HMDM_0000791",
-      "lbl" : "anti-diarrheal agent",
-      "type" : "CLASS",
-      "meta" : {
-        "definition" : {
-          "val" : "An anti-diarrheal agent is a drug used to slow or stop diarrhea."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/terms/contributor",
@@ -23422,22 +23540,6 @@
         } ]
       }
     }, {
-      "id" : "http://purl.obolibrary.org/obo/HMDM_0000839",
-      "lbl" : "anti-inflammatory agent",
-      "type" : "CLASS",
-      "meta" : {
-        "definition" : {
-          "val" : "An anti-inflammatory agent is a drug that helps reduce swelling or inflammation."
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.org/dc/terms/contributor",
-          "val" : "https://orcid.org/0000-0001-9259-5280"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "human_microbiome_drug_metabolism_ontology"
-        } ]
-      }
-    }, {
       "id" : "http://purl.obolibrary.org/obo/HMDM_0000843",
       "lbl" : "PEMT (Phospholipid methyltransferase) super family",
       "type" : "CLASS",
@@ -23461,23 +23563,6 @@
       "meta" : {
         "definition" : {
           "val" : "A chemical process in which a methyl group is added to a molecule."
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.org/dc/terms/contributor",
-          "val" : "https://orcid.org/0000-0001-9259-5280"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "human_microbiome_drug_metabolism_ontology"
-        } ]
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/HMDM_0000845",
-      "lbl" : "analgesic",
-      "type" : "CLASS",
-      "meta" : {
-        "definition" : {
-          "val" : "Analgesics are the drugs which bring insensibility to pain without loosing consciousness. Treatment strategy is generally based on the type of pain. Most of the analgesics are associated with serious side effects, such as NSAIDS can cause severe GI disturbance and opioids can cause addiction.",
-          "xrefs" : [ "PMID:27142107" ]
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/terms/contributor",
@@ -24122,6 +24207,22 @@
       "id" : "http://purl.obolibrary.org/obo/UBERON_0011216",
       "lbl" : "organ system subdivision",
       "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI:9352",
+      "lbl" : "sulindac",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A monocarboxylic acid that is 1-benzylidene-1H-indene which is substituted at positions 2, 3, and 5 by methyl, carboxymethyl, and fluorine respectively, and in which the phenyl group of the benzylidene moiety is substituted at the para position by a methylsulfinyl group. It is a prodrug for the corresponding sulfide, a non-steroidal anti-inflammatory drug, used particularly in the treatment of acute and chronic inflammatory conditions. Sulindac is used to relieve pain, tenderness, swelling, and stiffness caused by osteoarthritis (arthritis caused by a breakdown of the lining of the joints), rheumatoid arthritis (arthritis caused by swelling of the lining of the joints), and ankylosing spondylitis (arthritis that mainly affects the spine)."
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/contributor",
+          "val" : "https://orcid.org/0000-0001-9259-5280"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "human_microbiome_drug_metabolism_ontology"
+        } ]
+      }
     }, {
       "id" : "http://purl.obolibrary.org/obo/doid#chebi",
       "lbl" : "chebi",
@@ -26016,10 +26117,6 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_100241",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_35610"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_100241",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_35620"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_100241",
@@ -26573,6 +26670,14 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_14321",
       "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_29987"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_14434",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_24780"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_14434",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_35555"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_145498",
       "pred" : "is_a",
@@ -27141,6 +27246,22 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_16042",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_79389"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_16069",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_14434"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_16069",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018033",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_50059"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_16069",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_30366"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_16069",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018036",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_51802"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_16134",
       "pred" : "is_a",
@@ -29134,6 +29255,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33281"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_22587",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HMDM_0000073"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_22676",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_37848"
@@ -29289,6 +29414,14 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_22928",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000051",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_22927"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_23003",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33308"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_23003",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018038",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_28616"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_23004",
       "pred" : "is_a",
@@ -31224,10 +31357,6 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_27656",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_35610"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_27656",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_50276"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_27656",
@@ -32265,6 +32394,14 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_30106",
       "pred" : "http://purl.obolibrary.org/obo/RO_0018037",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_30096"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_30366",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_50335"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_30366",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018033",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_16069"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_30566",
       "pred" : "is_a",
@@ -34402,6 +34539,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_35441"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_35442",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HMDM_0000073"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_35457",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_35674"
@@ -34473,6 +34614,10 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_35480",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_52210"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_35480",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HMDM_0000073"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_35481",
       "pred" : "is_a",
@@ -34585,6 +34730,14 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_35554",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_23888"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_35555",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_25693"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_35555",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_35571"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_35568",
       "pred" : "is_a",
@@ -34701,6 +34854,10 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_35610",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_23888"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_35610",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HMDM_0000073"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_35618",
       "pred" : "is_a",
@@ -35810,6 +35967,18 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0018033",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_139371"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_37932",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_35820"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_37932",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_36416"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_37932",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_38093"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_37941",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000004"
@@ -35946,6 +36115,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_83970"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_38093",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_26979"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_38101",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24532"
@@ -36012,11 +36185,23 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_38215",
       "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_38215",
+      "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_38808"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_38215",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_48706"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_38215",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HMDM_0000073"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_38215",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000056",
+      "obj" : "http://purl.obolibrary.org/obo/HMDM_0000489"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_38234",
       "pred" : "is_a",
@@ -36290,6 +36475,14 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_50753"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_38767",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_27171"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_38767",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_38106"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_38769",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_27171"
@@ -36353,6 +36546,10 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_38831",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_35259"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_38836",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_38767"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_38856",
       "pred" : "is_a",
@@ -38266,6 +38463,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_66956"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_48407",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HMDM_0000073"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_48420",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_22888"
@@ -38301,6 +38502,14 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_48585",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_26151"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_48591",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_26151"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_48591",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_32988"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_48626",
       "pred" : "is_a",
@@ -38345,6 +38554,14 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_48706",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_52210"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_48737",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_26151"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_48737",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_50996"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_48819",
       "pred" : "is_a",
@@ -38798,6 +39015,14 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0018040",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_16134"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_50059",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_59964"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_50059",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_16069"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_50075",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_26421"
@@ -38946,6 +39171,14 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_50325"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_50335",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_25696"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_50335",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_35352"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_50336",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_50325"
@@ -39075,6 +39308,10 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_167559"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_50733",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_23888"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_50739",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_23888"
     }, {
@@ -39538,6 +39775,14 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_17087"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_51802",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_14434"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_51802",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018036",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_16069"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_51856",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_35274"
@@ -39809,6 +40054,10 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_55323",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_55324"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_55323",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HMDM_0000073"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_55324",
       "pred" : "is_a",
@@ -40322,6 +40571,10 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_9519"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_59964",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_25697"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_59999",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
@@ -40792,10 +41045,6 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_63632",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_35610"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_63632",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_50276"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_63719",
@@ -41234,9 +41483,37 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33232"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_67079",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HMDM_0000073"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_67114",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_38809"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_67135",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000004"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_67135",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_24780"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_67135",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_35716"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_67135",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_35820"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_67135",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33231"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_67135",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018038",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_16069"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_67142",
       "pred" : "is_a",
@@ -41648,6 +41925,10 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_70727",
       "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_35610"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_70727",
+      "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_76830"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_70781",
@@ -41833,6 +42114,10 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_74494",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_68472"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_74494",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HMDM_0000009"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_74518",
       "pred" : "is_a",
@@ -43266,6 +43551,58 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_78000"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_80630",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_18946"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_80630",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_23003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_80630",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_26878"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_80630",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_36820"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_80630",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_48591"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_80630",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_48626"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_80630",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_50996"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_80630",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HMDM_0000078"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_80630",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_50266"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_80630",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_50276"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_80630",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_68495"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_80630",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018033",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_90895"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_80630",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018038",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_8988"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_82680",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_2580"
@@ -43771,6 +44108,10 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_36963"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_87631",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HMDM_0000073"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_87631",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_35664"
     }, {
@@ -43797,6 +44138,54 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_87635",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_87631"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_8772",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_23888"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_8772",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33853"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_8772",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_38836"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_8772",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_48737"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_8772",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_76224"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_8772",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_22587"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_8772",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_35476"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_8772",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_35610"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_8772",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_50646"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_8772",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_50739"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_8772",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_50837"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_8772",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018033",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_90191"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_87732",
       "pred" : "is_a",
@@ -44056,10 +44445,6 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_8988",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_35610"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_8988",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_49103"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_8988",
@@ -44069,6 +44454,14 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_8988",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_68495"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_90191",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_35274"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_90191",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_8772"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_90318",
       "pred" : "is_a",
@@ -44097,6 +44490,18 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_90799",
       "pred" : "http://purl.obolibrary.org/obo/RO_0018036",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_46761"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_90895",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_25697"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_90895",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_35274"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_90895",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018034",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_80630"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_90959",
       "pred" : "is_a",
@@ -44357,6 +44762,54 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_9342",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_35841"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_9352",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_22063"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_9352",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_25384"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_9352",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_37143"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_9352",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_35475"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_9352",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_35481"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_9352",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_35493"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_9352",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_35544"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_9352",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_35610"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_9352",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_50266"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_9352",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_66993"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_9352",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_68495"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_9352",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0018038",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_15366"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_9398",
       "pred" : "is_a",
@@ -44758,10 +45211,6 @@
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_23888"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/HMDM_0000005",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HMDM_0000073"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/HMDM_0000006",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HMDM_0000001"
@@ -44776,7 +45225,7 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HMDM_0000009",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HMDM_0000005"
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_22587"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HMDM_0000010",
       "pred" : "is_a",
@@ -44918,10 +45367,6 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0000056",
       "obj" : "http://purl.obolibrary.org/obo/HMDM_0000126"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/HMDM_0000068",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HMDM_0000009"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/HMDM_0000073",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HMDM_0000008"
@@ -44930,25 +45375,9 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HMDM_0000073"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/HMDM_0000076",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HMDM_0000073"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/HMDM_0000077",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HMDM_0000076"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/HMDM_0000078",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HMDM_0000077"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/HMDM_0000081",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_23888"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/HMDM_0000081",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HMDM_0000078"
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_70727"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HMDM_0000089",
       "pred" : "is_a",
@@ -44965,10 +45394,6 @@
       "sub" : "http://purl.obolibrary.org/obo/HMDM_0000090",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HMDM_0000012"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/HMDM_0000091",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_23888"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HMDM_0000091",
       "pred" : "is_a",
@@ -45005,14 +45430,6 @@
       "sub" : "http://purl.obolibrary.org/obo/HMDM_0000098",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HMDM_0000007"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/HMDM_0000099",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_23888"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/HMDM_0000108",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_23888"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HMDM_0000125",
       "pred" : "is_a",
@@ -45718,10 +46135,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HMDM_0000264"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/HMDM_0000261",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HMDM_0000073"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/HMDM_0000264",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HMDM_0000012"
@@ -46384,11 +46797,11 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HMDM_0000466",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_23888"
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_22587"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HMDM_0000466",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HMDM_0000005"
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_23888"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HMDM_0000467",
       "pred" : "is_a",
@@ -46442,18 +46855,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HMDM_0000488"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/HMDM_0000490",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/BFO_0000002"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/HMDM_0000490",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HMDM_0000073"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/HMDM_0000490",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0000056",
-      "obj" : "http://purl.obolibrary.org/obo/HMDM_0000489"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/HMDM_0000491",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HMDM_0000015"
@@ -46494,25 +46895,9 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HMDM_0000012"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/HMDM_0000708",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HMDM_0000073"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/HMDM_0000777",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HMDM_0000073"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/HMDM_0000782",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HMDM_0000777"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/HMDM_0000783",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HMDM_0000777"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/HMDM_0000784",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HMDM_0000782"
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_35442"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HMDM_0000785",
       "pred" : "is_a",
@@ -46520,23 +46905,11 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HMDM_0000787",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_23888"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/HMDM_0000787",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HMDM_0000789"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/HMDM_0000789",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HMDM_0000782"
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_37932"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HMDM_0000790",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_23888"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/HMDM_0000791",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HMDM_0000073"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HMDM_0000792",
       "pred" : "is_a",
@@ -46642,10 +47015,6 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0000056",
       "obj" : "http://purl.obolibrary.org/obo/HMDM_0000142"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/HMDM_0000839",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HMDM_0000073"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/HMDM_0000843",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HMDM_0000012"
@@ -46653,10 +47022,6 @@
       "sub" : "http://purl.obolibrary.org/obo/HMDM_0000844",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HMDM_0000015"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/HMDM_0000845",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HMDM_0000073"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HMDM_0000846",
       "pred" : "is_a",
@@ -46772,7 +47137,7 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HMDM_0000933",
       "pred" : "http://purl.obolibrary.org/obo/HMDM_0000938",
-      "obj" : "http://purl.obolibrary.org/obo/HMDM_0000108"
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_8772"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HMDM_0000934",
       "pred" : "is_a",
@@ -46945,6 +47310,10 @@
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0011216",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0010000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI:9352",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_23888"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/IAO_0000125",
       "pred" : "type",

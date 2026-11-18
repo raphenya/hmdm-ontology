@@ -55,6 +55,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_142546>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_142548>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_142549>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_14321>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_14434>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_145498>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_145499>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_145502>))
@@ -85,6 +86,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_15903>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_15966>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_16015>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_16042>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_16069>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_16134>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_16150>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_16189>))
@@ -201,6 +203,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_22888>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_22925>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_22927>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_22928>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_23003>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_23004>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_23018>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_23019>))
@@ -449,6 +452,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_30089>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_30096>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_30103>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_30106>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_30366>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_30566>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_305790>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_30659>))
@@ -692,6 +696,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_35543>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_35544>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_35552>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_35554>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_35555>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_35568>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_35570>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_35571>))
@@ -853,6 +858,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_37887>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_37890>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_37912>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_37919>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_37932>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_37941>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_37942>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_37955>))
@@ -865,6 +871,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_38032>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_38068>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_38070>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_38092>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_38093>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_38101>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_38104>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_38106>))
@@ -904,6 +911,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_38700>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_38716>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_38755>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_38757>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_38767>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_38769>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_38773>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_38777>))
@@ -914,6 +922,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_38796>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_38808>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_38809>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_38831>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_38836>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_38856>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_38867>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_38932>))
@@ -1021,12 +1030,14 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_48560>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_48561>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_48578>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_48585>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_48591>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_48626>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_48633>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_48676>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_48684>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_48705>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_48706>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_48737>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_48819>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_48850>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_48851>))
@@ -1059,6 +1070,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_49662>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_4974>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_5001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_50047>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_50059>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_50075>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_50092>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_50112>))
@@ -1085,6 +1097,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_50313>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_50316>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_50325>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_50329>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_50335>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_50336>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_50358>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_50390>))
@@ -1110,6 +1123,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_50689>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_50690>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_50699>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_50733>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_50739>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_50745>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_50748>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_50750>))
@@ -1177,6 +1191,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_51614>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_51683>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_51689>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_51721>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_51802>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_51856>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_51857>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_51860>))
@@ -1253,6 +1268,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_59876>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_59888>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_59905>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_59953>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_59964>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_59999>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_60004>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_60038>))
@@ -1364,6 +1380,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_67012>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_67013>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_67079>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_67114>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_67135>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_67142>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_67239>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_6775>))
@@ -1547,6 +1564,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_7936>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_79388>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_79389>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_8024>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_80630>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_82680>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_82812>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_82813>))
@@ -1592,6 +1610,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_87631>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_87632>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_87633>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_87635>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_8772>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_87732>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_87737>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_87738>))
@@ -1604,11 +1623,13 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_88188>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_88225>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_8871>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_8988>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_90191>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_90318>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_90688>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_90710>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_90753>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_90799>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_90895>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_90959>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_91007>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_91079>))
@@ -1617,6 +1638,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_9123>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_9150>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_9334>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_9342>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_9352>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_9398>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_9434>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_94563>))
@@ -2201,6 +2223,15 @@ SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_14321> ObjectSomeValuesFrom(<ht
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_14321> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0018033> <http://purl.obolibrary.org/obo/CHEBI_18237>))
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_14321> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0018034> <http://purl.obolibrary.org/obo/CHEBI_29987>))
 
+# Class: <http://purl.obolibrary.org/obo/CHEBI_14434> (imidazole)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_14434> "chebi_ontology")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_14434> "CHEBI:14434")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_14434> "imidazole")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_14434> <http://purl.obolibrary.org/obo/CHEBI_24780>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_14434> <http://purl.obolibrary.org/obo/CHEBI_35555>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_14434> <http://purl.obolibrary.org/obo/CHEBI_38179>)
+
 # Class: <http://purl.obolibrary.org/obo/CHEBI_145498> (donepezil (1+))
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_145498> "A piperidinium ion resulting from the protonation of amino group of donepezil.")
@@ -2560,6 +2591,17 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_16042> "halide anion")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_16042> <http://purl.obolibrary.org/obo/CHEBI_33429>)
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_16042> <http://purl.obolibrary.org/obo/CHEBI_79389>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_16069> (1H-imidazole)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_16069> "An imidazole tautomer which has the migrating hydrogen at position 1.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_16069> "chebi_ontology")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_16069> "CHEBI:16069")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_16069> "1H-imidazole")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_16069> <http://purl.obolibrary.org/obo/CHEBI_14434>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_16069> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0018033> <http://purl.obolibrary.org/obo/CHEBI_50059>))
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_16069> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0018034> <http://purl.obolibrary.org/obo/CHEBI_30366>))
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_16069> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0018036> <http://purl.obolibrary.org/obo/CHEBI_51802>))
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_16134> (ammonia)
 
@@ -3896,6 +3938,15 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_22928> "bromine molecular entity")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_22928> <http://purl.obolibrary.org/obo/CHEBI_24471>)
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_22928> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/CHEBI_22927>))
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_23003> (carbamate ester)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_23003> "Any ester of carbamic acid or its <em>N</em>-substituted derivatives.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_23003> "chebi_ontology")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_23003> "CHEBI:23003")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_23003> "carbamate ester")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_23003> <http://purl.obolibrary.org/obo/CHEBI_33308>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_23003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0018038> <http://purl.obolibrary.org/obo/CHEBI_28616>))
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_23004> (carbamoyl group)
 
@@ -6321,6 +6372,15 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_30106> "azo
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_30106> <http://purl.obolibrary.org/obo/CHEBI_33246>)
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_30106> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0018037> <http://purl.obolibrary.org/obo/CHEBI_30096>))
 
+# Class: <http://purl.obolibrary.org/obo/CHEBI_30366> (imidazolide)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_30366> "An organic nitrogen anion that is the conjugate base of 1<em>H</em>-imidazole.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_30366> "chebi_ontology")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_30366> "CHEBI:30366")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_30366> "imidazolide")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_30366> <http://purl.obolibrary.org/obo/CHEBI_50335>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_30366> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0018033> <http://purl.obolibrary.org/obo/CHEBI_16069>))
+
 # Class: <http://purl.obolibrary.org/obo/CHEBI_30566> (gamma-aminobutyrate)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_30566> "An γ-amino acid anion resulting from the deprotonation of the carboxy group of γ-aminobutyric acid.")
@@ -8534,6 +8594,14 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_35554> "cardiovascular drug")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_35554> <http://purl.obolibrary.org/obo/CHEBI_23888>)
 
+# Class: <http://purl.obolibrary.org/obo/CHEBI_35555> (mancude organic heteromonocyclic parent)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_35555> "chebi_ontology")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_35555> "CHEBI:35555")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_35555> "mancude organic heteromonocyclic parent")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_35555> <http://purl.obolibrary.org/obo/CHEBI_25693>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_35555> <http://purl.obolibrary.org/obo/CHEBI_35571>)
+
 # Class: <http://purl.obolibrary.org/obo/CHEBI_35568> (mancude ring)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_35568> "Any molecular entity that consists of a ring having (formally) the maximum number of noncumulative double bonds.")
@@ -9923,6 +9991,14 @@ SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_37919> <http://purl.obolibrary.
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_37919> <http://purl.obolibrary.org/obo/CHEBI_26819>)
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_37919> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0018033> <http://purl.obolibrary.org/obo/CHEBI_139371>))
 
+# Class: <http://purl.obolibrary.org/obo/CHEBI_37932> (phenothiazine)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_37932> "chebi_ontology")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_37932> "CHEBI:37932")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_37932> "phenothiazine")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_37932> <http://purl.obolibrary.org/obo/CHEBI_36416>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_37932> <http://purl.obolibrary.org/obo/CHEBI_38093>)
+
 # Class: <http://purl.obolibrary.org/obo/CHEBI_37941> (clopidogrel)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_37941> "A thienopyridine that is 4,5,6,7-tetrahydrothieno[3,2-<em>c</em>]pyridine in which the hydrogen attached to the nitrogen is replaced by an <em>o</em>-chlorobenzyl group, the methylene hydrogen of which is replaced by a  methoxycarbonyl group (the <i>S</i> enantiomer). A P2Y<small><sub>12</sub></small> receptor antagonist, it is used to inhibit blood clots and prevent heart attacks.")
@@ -10042,6 +10118,13 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_38092> "cardenolide glycoside")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_38092> <http://purl.obolibrary.org/obo/CHEBI_74634>)
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_38092> <http://purl.obolibrary.org/obo/CHEBI_83970>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_38093> (phenothiazines)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_38093> "chebi_ontology")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_38093> "CHEBI:38093")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_38093> "phenothiazines")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_38093> <http://purl.obolibrary.org/obo/CHEBI_26979>)
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_38101> (organonitrogen heterocyclic compound)
 
@@ -10390,6 +10473,14 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_38757> "iso
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_38757> <http://purl.obolibrary.org/obo/CHEBI_3992>)
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_38757> <http://purl.obolibrary.org/obo/CHEBI_50753>)
 
+# Class: <http://purl.obolibrary.org/obo/CHEBI_38767> (benzothiophenes)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_38767> "chebi_ontology")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_38767> "CHEBI:38767")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_38767> "benzothiophenes")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_38767> <http://purl.obolibrary.org/obo/CHEBI_27171>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_38767> <http://purl.obolibrary.org/obo/CHEBI_38106>)
+
 # Class: <http://purl.obolibrary.org/obo/CHEBI_38769> (indazoles)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_38769> "chebi_ontology")
@@ -10468,6 +10559,13 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_38831> "CHEBI:38831")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_38831> "2-benzofurans")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_38831> <http://purl.obolibrary.org/obo/CHEBI_35259>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_38836> (1-benzothiophenes)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_38836> "chebi_ontology")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_38836> "CHEBI:38836")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_38836> "1-benzothiophenes")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_38836> <http://purl.obolibrary.org/obo/CHEBI_38767>)
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_38856> (halophenol)
 
@@ -11697,6 +11795,14 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_48585> "heteroarylpiperidine")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_48585> <http://purl.obolibrary.org/obo/CHEBI_26151>)
 
+# Class: <http://purl.obolibrary.org/obo/CHEBI_48591> (N-acylpiperidine)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_48591> "chebi_ontology")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_48591> "CHEBI:48591")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_48591> "N-acylpiperidine")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_48591> <http://purl.obolibrary.org/obo/CHEBI_26151>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_48591> <http://purl.obolibrary.org/obo/CHEBI_32988>)
+
 # Class: <http://purl.obolibrary.org/obo/CHEBI_48626> (pyranoindolizinoquinoline)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_48626> "chebi_ontology")
@@ -11746,6 +11852,14 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_48706> "CHEBI:48706")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_48706> "antagonist")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_48706> <http://purl.obolibrary.org/obo/CHEBI_52210>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_48737> (N-oxyethylpiperidine)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_48737> "chebi_ontology")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_48737> "CHEBI:48737")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_48737> "N-oxyethylpiperidine")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_48737> <http://purl.obolibrary.org/obo/CHEBI_26151>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_48737> <http://purl.obolibrary.org/obo/CHEBI_50996>)
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_48819> (cyano group)
 
@@ -12084,6 +12198,15 @@ SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_50047> <http://purl.obolibrary.
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_50047> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_39142>))
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_50047> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0018040> <http://purl.obolibrary.org/obo/CHEBI_16134>))
 
+# Class: <http://purl.obolibrary.org/obo/CHEBI_50059> (imidazolium cation)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_50059> "An imidazolium ion that is the cation resulting from protonation at the 3-position of 1<em>H</em>-imidazole.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_50059> "chebi_ontology")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_50059> "CHEBI:50059")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_50059> "imidazolium cation")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_50059> <http://purl.obolibrary.org/obo/CHEBI_59964>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_50059> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0018034> <http://purl.obolibrary.org/obo/CHEBI_16069>))
+
 # Class: <http://purl.obolibrary.org/obo/CHEBI_50075> (dihydropyridine)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_50075> "chebi_ontology")
@@ -12297,6 +12420,14 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_50329> "2-carboxyethyl group")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_50329> <http://purl.obolibrary.org/obo/CHEBI_50325>)
 
+# Class: <http://purl.obolibrary.org/obo/CHEBI_50335> (organic nitrogen anion)
+
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_50335> "chebi_ontology")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_50335> "CHEBI:50335")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_50335> "organic nitrogen anion")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_50335> <http://purl.obolibrary.org/obo/CHEBI_25696>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_50335> <http://purl.obolibrary.org/obo/CHEBI_35352>)
+
 # Class: <http://purl.obolibrary.org/obo/CHEBI_50336> (4-hydroxybenzyl group)
 
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_50336> "chebi_ontology")
@@ -12498,6 +12629,14 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_50733> "CHEBI:50733")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_50733> "nutraceutical")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_50733> <http://purl.obolibrary.org/obo/CHEBI_23888>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_50739> (estrogen receptor modulator)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_50739> "A substance that possess antiestrogenic actions but can also produce estrogenic effects as well. It acts as complete or partial agonist or as antagonist. It can be either steroidal or nonsteroidal in structure.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_50739> "chebi_ontology")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_50739> "CHEBI:50739")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_50739> "estrogen receptor modulator")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_50739> <http://purl.obolibrary.org/obo/CHEBI_23888>)
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_50745> (progestogen)
 
@@ -13075,6 +13214,15 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_51721> "CHEBI:51721")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_51721> "alpha,beta-unsaturated ketone")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_51721> <http://purl.obolibrary.org/obo/CHEBI_17087>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_51802> (4H-imidazole)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_51802> "Imidazole tautomer which has the migrating hydrogen at position 4.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_51802> "chebi_ontology")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_51802> "CHEBI:51802")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_51802> "4H-imidazole")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_51802> <http://purl.obolibrary.org/obo/CHEBI_14434>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_51802> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0018036> <http://purl.obolibrary.org/obo/CHEBI_16069>))
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_51856> (methylphenidate(1+))
 
@@ -13794,6 +13942,14 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_59953> "thebaine(1+)")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_59953> <http://purl.obolibrary.org/obo/CHEBI_35274>)
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_59953> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0018034> <http://purl.obolibrary.org/obo/CHEBI_9519>))
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_59964> (imidazolium ion)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_59964> "The cation resulting from protonation or quaternisation at the 3-position of any 1<em>H</em>-imidazole.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_59964> "chebi_ontology")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_59964> "CHEBI:59964")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_59964> "imidazolium ion")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_59964> <http://purl.obolibrary.org/obo/CHEBI_25697>)
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_59999> (chemical substance)
 
@@ -14801,6 +14957,17 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespac
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_67114> "CHEBI:67114")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_67114> "ryanodine receptor agonist")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_67114> <http://purl.obolibrary.org/obo/CHEBI_38809>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_67135> (2-nitroimidazole)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_67135> "An imidazole that is 1<em>H</em>-imidazole substituted at position 2 by a nitro group.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_67135> "chebi_ontology")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_67135> "CHEBI:67135")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_67135> "2-nitroimidazole")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_67135> <http://purl.obolibrary.org/obo/CHEBI_24780>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_67135> <http://purl.obolibrary.org/obo/CHEBI_35716>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_67135> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_33231>))
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_67135> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0018038> <http://purl.obolibrary.org/obo/CHEBI_16069>))
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_67142> (nucleobase analogue)
 
@@ -16601,6 +16768,26 @@ SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_8024> ObjectSomeValuesFrom(<htt
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_8024> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_35674>))
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_8024> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0018034> <http://purl.obolibrary.org/obo/CHEBI_78000>))
 
+# Class: <http://purl.obolibrary.org/obo/CHEBI_80630> (irinotecan)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_80630> "A member of the class of pyranoindolizinoquinolines that is the carbamate ester obtained by formal condensation of the carboxy group of [1,4'-bipiperidine]-1'-carboxylic acid with the phenolic hydroxy group of (4<i>S</i>)-4,11-diethyl-4,9-dihydroxy-1<em>H</em>-pyrano[3',4':6,7]indolizino[1,2- hydrochloride]quinoline-3,14-dione. Used (in the form of its hydrochloride salt trihydrate) in combination with fluorouracil and leucovorin, for the treatment of patients with metastatic adenocarcinoma of the pancreas after disease progression following gemcitabine-based therapy. It is converted via hydrolysis of the carbamate linkage to its active metabolite, SN-38, which is ~1000 times more active.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_80630> "chebi_ontology")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_80630> "CHEBI:80630")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_80630> "irinotecan")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_80630> <http://purl.obolibrary.org/obo/CHEBI_18946>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_80630> <http://purl.obolibrary.org/obo/CHEBI_23003>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_80630> <http://purl.obolibrary.org/obo/CHEBI_26878>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_80630> <http://purl.obolibrary.org/obo/CHEBI_36820>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_80630> <http://purl.obolibrary.org/obo/CHEBI_48591>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_80630> <http://purl.obolibrary.org/obo/CHEBI_48626>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_80630> <http://purl.obolibrary.org/obo/CHEBI_50996>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_80630> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_35610>))
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_80630> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_50266>))
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_80630> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_50276>))
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_80630> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_68495>))
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_80630> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0018033> <http://purl.obolibrary.org/obo/CHEBI_90895>))
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_80630> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0018038> <http://purl.obolibrary.org/obo/CHEBI_8988>))
+
 # Class: <http://purl.obolibrary.org/obo/CHEBI_82680> (monounsaturated fatty acid anion)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_82680> "Any unsaturated fatty acid anion with one double or triple bond in the fatty acid chain.")
@@ -17052,6 +17239,24 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_87635> "statin (synthetic)")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_87635> <http://purl.obolibrary.org/obo/CHEBI_87631>)
 
+# Class: <http://purl.obolibrary.org/obo/CHEBI_8772> (raloxifene)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_8772> "A member of the class of 1-benzothiophenes that is 1-benzothiophene in which the hydrogens at positions 2, 3, and 6 have been replaced by <em>p</em>-hydroxyphenyl, <em>p</em>-[2-(piperidin-1-yl)ethoxy]benzoyl, and hydroxy groups, respectively.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_8772> "chebi_ontology")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_8772> "CHEBI:8772")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_8772> "raloxifene")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_8772> <http://purl.obolibrary.org/obo/CHEBI_33853>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_8772> <http://purl.obolibrary.org/obo/CHEBI_38836>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_8772> <http://purl.obolibrary.org/obo/CHEBI_48737>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_8772> <http://purl.obolibrary.org/obo/CHEBI_76224>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_8772> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_22587>))
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_8772> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_35476>))
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_8772> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_35610>))
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_8772> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_50646>))
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_8772> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_50739>))
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_8772> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_50837>))
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_8772> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0018033> <http://purl.obolibrary.org/obo/CHEBI_90191>))
+
 # Class: <http://purl.obolibrary.org/obo/CHEBI_87732> (4-hydroxy-3-(3-oxo-1-phenylbutyl)-1-benzopyran-2-one)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_87732> "A member of the class of coumarins that is 4-hydroxycoumarin which is substituted at position 3 by a 1-phenyl-3-oxo-1-butyl group.")
@@ -17206,6 +17411,15 @@ SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_8988> ObjectSomeValuesFrom(<htt
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_8988> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_50276>))
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_8988> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_68495>))
 
+# Class: <http://purl.obolibrary.org/obo/CHEBI_90191> (raloxifene(1+))
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_90191> "An ammonium ion resulting from the protonation of the piperidine nitrogen of raloxifene. The major species at pH 7.3.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_90191> "chebi_ontology")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_90191> "CHEBI:90191")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_90191> "raloxifene(1+)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_90191> <http://purl.obolibrary.org/obo/CHEBI_35274>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_90191> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0018034> <http://purl.obolibrary.org/obo/CHEBI_8772>))
+
 # Class: <http://purl.obolibrary.org/obo/CHEBI_90318> (EC 6.4.1.1 (pyruvate carboxylase) inhibitor)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_90318> "An EC 6.4.1.* (carboxylase) inhibitor that interferes with the action of pyruvate carboxylase (EC 6.4.1.1).")
@@ -17247,6 +17461,16 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://pu
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_90799> "dipeptide zwitterion")
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_90799> <http://purl.obolibrary.org/obo/CHEBI_60466>)
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_90799> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0018036> <http://purl.obolibrary.org/obo/CHEBI_46761>))
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_90895> (irinotecan(1+))
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_90895> "An organic cation obtained by protonation of the tertiary amino group of irinotecan.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_90895> "chebi_ontology")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_90895> "CHEBI:90895")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_90895> "irinotecan(1+)")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_90895> <http://purl.obolibrary.org/obo/CHEBI_25697>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_90895> <http://purl.obolibrary.org/obo/CHEBI_35274>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_90895> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0018034> <http://purl.obolibrary.org/obo/CHEBI_80630>))
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_90959> (tiotropium bromide)
 
@@ -17371,6 +17595,26 @@ SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_9342> <http://purl.obolibrary.o
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_9342> <http://purl.obolibrary.org/obo/CHEBI_38312>)
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_9342> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_35841>))
 SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_9342> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_35845>))
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_9352> (sulindac)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_9352> "A monocarboxylic acid that is 1-benzylidene-1<em>H</em>-indene which is substituted at positions 2, 3, and 5 by methyl, carboxymethyl, and fluorine respectively, and in which the phenyl group of the benzylidene moiety is substituted at the <em>para</em> position by a methylsulfinyl group. It is a prodrug for the corresponding sulfide, a non-steroidal anti-inflammatory drug, used particularly in the treatment of acute and chronic inflammatory conditions.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/CHEBI_9352> "chebi_ontology")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/CHEBI_9352> "CHEBI:9352")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_9352> "sulindac")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_9352> <http://purl.obolibrary.org/obo/CHEBI_22063>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_9352> <http://purl.obolibrary.org/obo/CHEBI_25384>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_9352> <http://purl.obolibrary.org/obo/CHEBI_37143>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_9352> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_35475>))
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_9352> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_35480>))
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_9352> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_35481>))
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_9352> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_35493>))
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_9352> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_35544>))
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_9352> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_35610>))
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_9352> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_50266>))
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_9352> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_66993>))
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_9352> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/CHEBI_68495>))
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_9352> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0018038> <http://purl.obolibrary.org/obo/CHEBI_15366>))
 
 # Class: <http://purl.obolibrary.org/obo/CHEBI_9398> (tamsulosin)
 

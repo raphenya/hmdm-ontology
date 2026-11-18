@@ -28,9 +28,24 @@ Annotation(oboInOwl:hasOBOFormatVersion "1.2")
 Annotation(oboInOwl:saved-by "HMDM")
 Annotation(rdfs:comment "The Human Microbiome Drug Metabolism (HMDM) Ontology is a resource for the scientific community to understand how the human gut microbiome metabolizes drugs. It provides a structured vocabulary for describing the genes, enzymes, and mechanisms involved in drug metabolism by gut bacteria. It is available under the Attribution 4.0 International (CC BY 4.0) license, allowing for sharing and adaptation with proper attribution.")
 
+Declaration(Class(obo:CHEBI_22587))
 Declaration(Class(obo:CHEBI_23888))
+Declaration(Class(obo:CHEBI_35442))
+Declaration(Class(obo:CHEBI_35480))
+Declaration(Class(obo:CHEBI_35610))
+Declaration(Class(obo:CHEBI_35820))
+Declaration(Class(obo:CHEBI_37932))
+Declaration(Class(obo:CHEBI_38215))
+Declaration(Class(obo:CHEBI_48407))
+Declaration(Class(obo:CHEBI_55323))
+Declaration(Class(obo:CHEBI_67079))
+Declaration(Class(obo:CHEBI_67135))
+Declaration(Class(obo:CHEBI_70727))
+Declaration(Class(obo:CHEBI_74494))
+Declaration(Class(obo:CHEBI_80630))
+Declaration(Class(obo:CHEBI_87631))
+Declaration(Class(obo:CHEBI_8772))
 Declaration(Class(obo:HMDM_0000001))
-Declaration(Class(obo:HMDM_0000005))
 Declaration(Class(obo:HMDM_0000006))
 Declaration(Class(obo:HMDM_0000007))
 Declaration(Class(obo:HMDM_0000008))
@@ -51,13 +66,9 @@ Declaration(Class(obo:HMDM_0000035))
 Declaration(Class(obo:HMDM_0000037))
 Declaration(Class(obo:HMDM_0000049))
 Declaration(Class(obo:HMDM_0000050))
-Declaration(Class(obo:HMDM_0000068))
 Declaration(Class(obo:HMDM_0000073))
 Declaration(Class(obo:HMDM_0000074))
-Declaration(Class(obo:HMDM_0000076))
-Declaration(Class(obo:HMDM_0000077))
 Declaration(Class(obo:HMDM_0000078))
-Declaration(Class(obo:HMDM_0000081))
 Declaration(Class(obo:HMDM_0000089))
 Declaration(Class(obo:HMDM_0000090))
 Declaration(Class(obo:HMDM_0000091))
@@ -66,8 +77,6 @@ Declaration(Class(obo:HMDM_0000094))
 Declaration(Class(obo:HMDM_0000095))
 Declaration(Class(obo:HMDM_0000097))
 Declaration(Class(obo:HMDM_0000098))
-Declaration(Class(obo:HMDM_0000099))
-Declaration(Class(obo:HMDM_0000108))
 Declaration(Class(obo:HMDM_0000125))
 Declaration(Class(obo:HMDM_0000126))
 Declaration(Class(obo:HMDM_0000128))
@@ -108,7 +117,6 @@ Declaration(Class(obo:HMDM_0000237))
 Declaration(Class(obo:HMDM_0000238))
 Declaration(Class(obo:HMDM_0000239))
 Declaration(Class(obo:HMDM_0000240))
-Declaration(Class(obo:HMDM_0000261))
 Declaration(Class(obo:HMDM_0000264))
 Declaration(Class(obo:HMDM_0000265))
 Declaration(Class(obo:HMDM_0000266))
@@ -176,7 +184,6 @@ Declaration(Class(obo:HMDM_0000486))
 Declaration(Class(obo:HMDM_0000487))
 Declaration(Class(obo:HMDM_0000488))
 Declaration(Class(obo:HMDM_0000489))
-Declaration(Class(obo:HMDM_0000490))
 Declaration(Class(obo:HMDM_0000491))
 Declaration(Class(obo:HMDM_0000493))
 Declaration(Class(obo:HMDM_0000494))
@@ -187,16 +194,10 @@ Declaration(Class(obo:HMDM_0000499))
 Declaration(Class(obo:HMDM_0000501))
 Declaration(Class(obo:HMDM_0000503))
 Declaration(Class(obo:HMDM_0000707))
-Declaration(Class(obo:HMDM_0000708))
-Declaration(Class(obo:HMDM_0000777))
-Declaration(Class(obo:HMDM_0000782))
 Declaration(Class(obo:HMDM_0000783))
-Declaration(Class(obo:HMDM_0000784))
 Declaration(Class(obo:HMDM_0000785))
 Declaration(Class(obo:HMDM_0000787))
-Declaration(Class(obo:HMDM_0000789))
 Declaration(Class(obo:HMDM_0000790))
-Declaration(Class(obo:HMDM_0000791))
 Declaration(Class(obo:HMDM_0000792))
 Declaration(Class(obo:HMDM_0000793))
 Declaration(Class(obo:HMDM_0000820))
@@ -205,10 +206,8 @@ Declaration(Class(obo:HMDM_0000825))
 Declaration(Class(obo:HMDM_0000830))
 Declaration(Class(obo:HMDM_0000833))
 Declaration(Class(obo:HMDM_0000834))
-Declaration(Class(obo:HMDM_0000839))
 Declaration(Class(obo:HMDM_0000843))
 Declaration(Class(obo:HMDM_0000844))
-Declaration(Class(obo:HMDM_0000845))
 Declaration(Class(obo:HMDM_0000846))
 Declaration(Class(obo:HMDM_0000847))
 Declaration(Class(obo:HMDM_0000848))
@@ -234,6 +233,7 @@ Declaration(Class(obo:HMDM_0000933))
 Declaration(Class(obo:HMDM_0000934))
 Declaration(Class(obo:HMDM_0000937))
 Declaration(Class(obo:NCIT_C77313))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI:9352>))
 Declaration(ObjectProperty(obo:HMDM_0000484))
 Declaration(ObjectProperty(obo:HMDM_0000927))
 Declaration(ObjectProperty(obo:HMDM_0000938))
@@ -318,6 +318,152 @@ InverseObjectProperties(obo:HMDM_0000938 obo:NCIT_R122)
 #   Classes
 ############################
 
+# Class: obo:CHEBI_22587 (antiviral)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:33726557") obo:IAO_0000115 obo:CHEBI_22587 "An agent that kills a virus or that suppresses its ability to replicate and, hence, inhibits its capability to multiply and reproduce. For example, amantadine (Symmetrel) is a synthetic antiviral. It acts by inhibiting the multiplication of the influenza A virus.")
+AnnotationAssertion(dcterms:contributor obo:CHEBI_22587 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:CHEBI_22587 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:CHEBI_22587 "HMDM:0000005")
+AnnotationAssertion(rdfs:label obo:CHEBI_22587 "antiviral")
+SubClassOf(obo:CHEBI_22587 obo:HMDM_0000073)
+
+# Class: obo:CHEBI_35442 (anti-parasitic agent)
+
+AnnotationAssertion(obo:IAO_0000115 obo:CHEBI_35442 "Anti-parasitic agent is medication used to treat parasitic diseases.")
+AnnotationAssertion(dcterms:contributor obo:CHEBI_35442 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:CHEBI_35442 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:CHEBI_35442 "HMDM:0000777")
+AnnotationAssertion(rdfs:label obo:CHEBI_35442 "anti-parasitic agent")
+SubClassOf(obo:CHEBI_35442 obo:HMDM_0000073)
+
+# Class: obo:CHEBI_35480 (analgesic)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:27142107") obo:IAO_0000115 obo:CHEBI_35480 "Analgesics are the drugs which bring insensibility to pain without loosing consciousness. Treatment strategy is generally based on the type of pain. Most of the analgesics are associated with serious side effects, such as NSAIDS can cause severe GI disturbance and opioids can cause addiction.")
+AnnotationAssertion(dcterms:contributor obo:CHEBI_35480 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:CHEBI_35480 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:CHEBI_35480 "HMDM:0000845")
+AnnotationAssertion(rdfs:label obo:CHEBI_35480 "analgesic")
+SubClassOf(obo:CHEBI_35480 obo:HMDM_0000073)
+
+# Class: obo:CHEBI_35610 (anti-neoplastic agent)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:27110842") obo:IAO_0000115 obo:CHEBI_35610 "Antineoplastic drugs (ANDs), also known as cytostatic drugs, are a heterogeneous group of chemicals used to control the growth of neoplastic cells. Most ANDs interfere with cell proliferation through DNA destruction, RNA synthesis, or duplication process. Unfortunately, ANDs do not distinguish cancer cells from normal ones, leading to unwanted adverse effects in patients receiving chemotherapy. The International Agency for Research on Cancer (IARC) classifies some ANDs as human carcinogens.")
+AnnotationAssertion(dcterms:contributor obo:CHEBI_35610 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:CHEBI_35610 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:CHEBI_35610 "HMDM:0000076")
+AnnotationAssertion(rdfs:label obo:CHEBI_35610 "anti-neoplastic agent")
+SubClassOf(obo:CHEBI_35610 obo:HMDM_0000073)
+
+# Class: obo:CHEBI_35820 (anti-protozoal agent)
+
+AnnotationAssertion(obo:IAO_0000115 obo:CHEBI_35820 "An agent used to inhibit or kill protozoa.")
+AnnotationAssertion(dcterms:contributor obo:CHEBI_35820 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:CHEBI_35820 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:CHEBI_35820 "HMDM:0000782")
+AnnotationAssertion(rdfs:label obo:CHEBI_35820 "anti-protozoal agent")
+SubClassOf(obo:CHEBI_35820 obo:CHEBI_35442)
+
+# Class: obo:CHEBI_37932 (Phenothiazine)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:22580516") obo:IAO_0000115 obo:CHEBI_37932 "Phenothiazines belong to the oldest synthetic antipsychotic drugs, which do not have their precursor in the world of natural compounds. Apart from their fundamental neuroleptic action connected with the dopaminergic receptors blockade, phenothiazine derivatives also exert diverse biological activities, which account for their cancer chemopreventive-effect, such as calmodulin- and protein kinase C inhibitory actions, anti-proliferative effect, inhibition of P-glycoprotein transport function and reversion of multidrug resistance.")
+AnnotationAssertion(dcterms:contributor obo:CHEBI_37932 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:CHEBI_37932 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:CHEBI_37932 "HMDM:0000789")
+AnnotationAssertion(rdfs:label obo:CHEBI_37932 "Phenothiazine")
+SubClassOf(obo:CHEBI_37932 obo:CHEBI_35820)
+
+# Class: obo:CHEBI_38215 (calcium channel blockers)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:21896151") Annotation(oboInOwl:hasDbXref "PMID:8680353") obo:IAO_0000115 obo:CHEBI_38215 "Calcium ions are essential for the chain of events that leads to myocardial contraction. Its role in the cardiac cycle has been studied extensively for years. Calcium is thought to be effective in slow channels. Calcium channel blockers (CCBs) inhibit the flow of extracellular calcium through ion‐specific channels that span the cell wall. When inward calcium flux is inhibited, vascular smooth muscle cells relax, resulting in vasodilation and a lowering of blood pressure (BP).")
+AnnotationAssertion(dcterms:contributor obo:CHEBI_38215 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:CHEBI_38215 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:CHEBI_38215 "HMDM:0000490")
+AnnotationAssertion(rdfs:label obo:CHEBI_38215 "calcium channel blockers")
+SubClassOf(obo:CHEBI_38215 obo:HMDM_0000073)
+SubClassOf(obo:CHEBI_38215 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000489))
+
+# Class: obo:CHEBI_48407 (anti-parkinson agent)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:30661251") Annotation(oboInOwl:hasDbXref "PMID:35601911") obo:IAO_0000115 obo:CHEBI_48407 "Parkinson’s disease (PD) is characterized by prodromal symptoms, motor difficulties, and psychological or cognitive problems. As a progressive neurodegenerative disease, PD causes focal degeneration of midbrain dopamine (MesDA) neurons. Antiparkinson agents are agents used for treatment of Parkinson’s disease. Medications, include dopamine agonists, monoamine oxidase B inhibitors, levodopa plus carbidopa, etc., anticholinergics and amantadine. Also, new theraputic approaches include, based on recent advances in the understanding of the pathophysiology of Parkinson’s disease, genetic and disease-modifying approaches to reduce abnormal accumulation and aggregation of alpha-synuclein (aSYN), mitochondrial dysfunction, and dysfunction of lysosomal proteins, as well as approaches to reduce neuroinflammation and increase neurorestoration.")
+AnnotationAssertion(dcterms:contributor obo:CHEBI_48407 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:CHEBI_48407 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:CHEBI_48407 "HMDM:0000261")
+AnnotationAssertion(rdfs:label obo:CHEBI_48407 "anti-parkinson agent")
+SubClassOf(obo:CHEBI_48407 obo:HMDM_0000073)
+
+# Class: obo:CHEBI_55323 (anti-diarrheal agent)
+
+AnnotationAssertion(obo:IAO_0000115 obo:CHEBI_55323 "An anti-diarrheal agent is a drug used to slow or stop diarrhea.")
+AnnotationAssertion(dcterms:contributor obo:CHEBI_55323 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:CHEBI_55323 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:CHEBI_55323 "HMDM:0000791")
+AnnotationAssertion(rdfs:label obo:CHEBI_55323 "anti-diarrheal agent")
+SubClassOf(obo:CHEBI_55323 obo:HMDM_0000073)
+
+# Class: obo:CHEBI_67079 (anti-inflammatory agent)
+
+AnnotationAssertion(obo:IAO_0000115 obo:CHEBI_67079 "An anti-inflammatory agent is a drug that helps reduce swelling or inflammation.")
+AnnotationAssertion(dcterms:contributor obo:CHEBI_67079 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:CHEBI_67079 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:CHEBI_67079 "HMDM:0000839")
+AnnotationAssertion(rdfs:label obo:CHEBI_67079 "anti-inflammatory agent")
+SubClassOf(obo:CHEBI_67079 obo:HMDM_0000073)
+
+# Class: obo:CHEBI_67135 (Nitroimidazoles)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:28463485") obo:IAO_0000115 obo:CHEBI_67135 "Nitroimidazoles are a class of antimicrobial drugs that have remarkable broad spectrum activity against parasites, mycobacteria, and anaerobic Gram-positive and Gram-negative bacteria. While nitroimidazoles were discovered in the 1950s, there has been renewed interest in their therapeutic potential, particularly for the treatment of parasitic infections and tuberculosis.")
+AnnotationAssertion(dcterms:contributor obo:CHEBI_67135 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:CHEBI_67135 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:CHEBI_67135 "HMDM:0000784")
+AnnotationAssertion(rdfs:label obo:CHEBI_67135 "Nitroimidazoles")
+SubClassOf(obo:CHEBI_67135 obo:CHEBI_35820)
+
+# Class: obo:CHEBI_70727 (topoisomerase inhibitor)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:22108601") Annotation(oboInOwl:hasDbXref "PMID:29363591") obo:IAO_0000115 obo:CHEBI_70727 "Topoisomerase inhibitors are chemical compounds that block the action of topoisomerases. Topoisomerase plays key roles in cellular reproduction and DNA organization, as they facilitate the cleavage of single and double stranded DNA to relax supercoils, untangle catenanes, and condense chromosomes in eukaryotic cells. Topoisomerase inhibitors affect these essential cellular processes by preventing topoisomerases from performing DNA strand breaks or prevent the re-ligation step of the topoisomerase mechanism by interacting with topoisomerase-DNA complexes. These topoisomerase-DNA-inhibitor complexes are cytotoxic agents because the un-repaired single and double stranded DNA breaks that they cause can lead to apoptosis and cell death. Due to this ability to induce apoptosis, topoisomerase inhibitors have gained interest as therapeutics against infectious and cancerous cells.")
+AnnotationAssertion(dcterms:contributor obo:CHEBI_70727 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:CHEBI_70727 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:CHEBI_70727 "HMDM:0000077")
+AnnotationAssertion(rdfs:label obo:CHEBI_70727 "topoisomerase inhibitor")
+SubClassOf(obo:CHEBI_70727 obo:CHEBI_35610)
+
+# Class: obo:CHEBI_74494 (pyrimidine 5'-deoxyribonucleoside)
+
+AnnotationAssertion(obo:IAO_0000115 obo:CHEBI_74494 "A pyrimidine deoxyribonucleoside that is a pyrimidine ribonucleoside in which the hydroxy group at the 5' position is replaced by a hydrogen.")
+AnnotationAssertion(dcterms:contributor obo:CHEBI_74494 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:CHEBI_74494 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:CHEBI_74494 "HMDM:0000068")
+AnnotationAssertion(rdfs:label obo:CHEBI_74494 "pyrimidine 5'-deoxyribonucleoside")
+SubClassOf(obo:CHEBI_74494 obo:HMDM_0000009)
+
+# Class: obo:CHEBI_80630 (irinotecan)
+
+AnnotationAssertion(obo:IAO_0000115 obo:CHEBI_80630 "A member of the class of pyranoindolizinoquinolines that is the carbamate ester obtained by formal condensation of the carboxy group of [1,4'-bipiperidine]-1'-carboxylic acid with the phenolic hydroxy group of (4S)-4,11-diethyl-4,9-dihydroxy-1H-pyrano[3',4':6,7]indolizino[1,2- hydrochloride]quinoline-3,14-dione. Used (in the form of its hydrochloride salt trihydrate) in combination with fluorouracil and leucovorin, for the treatment of patients with metastatic adenocarcinoma of the pancreas after disease progression following gemcitabine-based therapy. It is converted via hydrolysis of the carbamate linkage to its active metabolite, SN-38, which is ~1000 times more active.")
+AnnotationAssertion(dcterms:contributor obo:CHEBI_80630 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:CHEBI_80630 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:CHEBI_80630 "HMDM:0000081")
+AnnotationAssertion(rdfs:label obo:CHEBI_80630 "irinotecan")
+SubClassOf(obo:CHEBI_80630 obo:CHEBI_23888)
+SubClassOf(obo:CHEBI_80630 obo:HMDM_0000078)
+
+# Class: obo:CHEBI_87631 (statins)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:24657242") Annotation(oboInOwl:hasDbXref "PMID:26975972") obo:IAO_0000115 obo:CHEBI_87631 "Statins, inhibitors of the hydroxymethylglutaryl-CoA (HMG-CoA) reductase enzyme, are molecules of fungal origin. Statins are powerful cholesterol lowering medications and have provided outstanding contributions to the prevention of cardiovascular disease.")
+AnnotationAssertion(dcterms:contributor obo:CHEBI_87631 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:CHEBI_87631 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:CHEBI_87631 "HMDM:0000708")
+AnnotationAssertion(rdfs:label obo:CHEBI_87631 "statins")
+SubClassOf(obo:CHEBI_87631 obo:HMDM_0000073)
+
+# Class: obo:CHEBI_8772 (raloxifene)
+
+AnnotationAssertion(obo:IAO_0000115 obo:CHEBI_8772 "A member of the class of 1-benzothiophenes that is 1-benzothiophene in which the hydrogens at positions 2, 3, and 6 have been replaced by p-hydroxyphenyl, p-[2-(piperidin-1-yl)ethoxy]benzoyl, and hydroxy groups, respectively. Raloxifene is a medication used to prevent and treat osteoporosis in postmenopausal women and those on glucocorticoids. It is also used to reduce the risk of breast cancer in those at high risk. Raloxifene is a selective estrogen receptor modulator (SERM) and therefore a mixed agonist–antagonist of the estrogen receptor (ER). It has estrogenic effects in bone and antiestrogenic effects in the breasts and uterus.")
+AnnotationAssertion(dcterms:contributor obo:CHEBI_8772 <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:CHEBI_8772 "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id obo:CHEBI_8772 "HMDM:0000108")
+AnnotationAssertion(rdfs:label obo:CHEBI_8772 "raloxifene")
+SubClassOf(obo:CHEBI_8772 obo:CHEBI_23888)
+
 # Class: obo:HMDM_0000001 (root of drug metabolism)
 
 AnnotationAssertion(obo:IAO_0000115 obo:HMDM_0000001 "The human gut microbiome transforms and degrade drugs using enzymes.")
@@ -326,15 +472,6 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000001 "human_microbiome_
 AnnotationAssertion(oboInOwl:id obo:HMDM_0000001 "HMDM:0000001")
 AnnotationAssertion(rdfs:label obo:HMDM_0000001 "root of drug metabolism")
 SubClassOf(obo:HMDM_0000001 ObjectSomeValuesFrom(obo:BFO_0000050 obo:CHEBI_23888))
-
-# Class: obo:HMDM_0000005 (antiviral)
-
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:33726557") obo:IAO_0000115 obo:HMDM_0000005 "An agent that kills a virus or that suppresses its ability to replicate and, hence, inhibits its capability to multiply and reproduce. For example, amantadine (Symmetrel) is a synthetic antiviral. It acts by inhibiting the multiplication of the influenza A virus.")
-AnnotationAssertion(dcterms:contributor obo:HMDM_0000005 <https://orcid.org/0000-0001-9259-5280>)
-AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000005 "human_microbiome_drug_metabolism_ontology")
-AnnotationAssertion(oboInOwl:id obo:HMDM_0000005 "HMDM:0000005")
-AnnotationAssertion(rdfs:label obo:HMDM_0000005 "antiviral")
-SubClassOf(obo:HMDM_0000005 obo:HMDM_0000073)
 
 # Class: obo:HMDM_0000006 (determinant of drug metabolism)
 
@@ -370,7 +507,7 @@ AnnotationAssertion(dcterms:contributor obo:HMDM_0000009 <https://orcid.org/0000
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000009 "human_microbiome_drug_metabolism_ontology")
 AnnotationAssertion(oboInOwl:id obo:HMDM_0000009 "HMDM:0000009")
 AnnotationAssertion(rdfs:label obo:HMDM_0000009 "nucleoside antiviral")
-SubClassOf(obo:HMDM_0000009 obo:HMDM_0000005)
+SubClassOf(obo:HMDM_0000009 obo:CHEBI_22587)
 
 # Class: obo:HMDM_0000010 (Escherichia coli thymidine phosphorylase (deoA))
 
@@ -534,15 +671,6 @@ SubClassOf(obo:HMDM_0000050 ObjectSomeValuesFrom(obo:MOP_0001162 obo:CHEBI_16450
 SubClassOf(obo:HMDM_0000050 ObjectSomeValuesFrom(obo:MOP_0001162 obo:CHEBI_31521))
 SubClassOf(obo:HMDM_0000050 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000126))
 
-# Class: obo:HMDM_0000068 (pyrimidine 5'-deoxyribonucleoside)
-
-AnnotationAssertion(obo:IAO_0000115 obo:HMDM_0000068 "A pyrimidine deoxyribonucleoside that is a pyrimidine ribonucleoside in which the hydroxy group at the 5' position is replaced by a hydrogen.")
-AnnotationAssertion(dcterms:contributor obo:HMDM_0000068 <https://orcid.org/0000-0001-9259-5280>)
-AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000068 "human_microbiome_drug_metabolism_ontology")
-AnnotationAssertion(oboInOwl:id obo:HMDM_0000068 "HMDM:0000068")
-AnnotationAssertion(rdfs:label obo:HMDM_0000068 "pyrimidine 5'-deoxyribonucleoside")
-SubClassOf(obo:HMDM_0000068 obo:HMDM_0000009)
-
 # Class: obo:HMDM_0000073 (drug class)
 
 AnnotationAssertion(obo:IAO_0000115 obo:HMDM_0000073 "A drug class is a set of medications and other compounds that have similar chemical structures, the same mechanism of action, a related mode of action, and/or are used to treat the same disease.")
@@ -561,24 +689,6 @@ AnnotationAssertion(oboInOwl:id obo:HMDM_0000074 "HMDM:0000074")
 AnnotationAssertion(rdfs:label obo:HMDM_0000074 "herbal medication and supplementation")
 SubClassOf(obo:HMDM_0000074 obo:HMDM_0000073)
 
-# Class: obo:HMDM_0000076 (anti-neoplastic agent)
-
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:27110842") obo:IAO_0000115 obo:HMDM_0000076 "Antineoplastic drugs (ANDs), also known as cytostatic drugs, are a heterogeneous group of chemicals used to control the growth of neoplastic cells. Most ANDs interfere with cell proliferation through DNA destruction, RNA synthesis, or duplication process. Unfortunately, ANDs do not distinguish cancer cells from normal ones, leading to unwanted adverse effects in patients receiving chemotherapy. The International Agency for Research on Cancer (IARC) classifies some ANDs as human carcinogens.")
-AnnotationAssertion(dcterms:contributor obo:HMDM_0000076 <https://orcid.org/0000-0001-9259-5280>)
-AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000076 "human_microbiome_drug_metabolism_ontology")
-AnnotationAssertion(oboInOwl:id obo:HMDM_0000076 "HMDM:0000076")
-AnnotationAssertion(rdfs:label obo:HMDM_0000076 "anti-neoplastic agent")
-SubClassOf(obo:HMDM_0000076 obo:HMDM_0000073)
-
-# Class: obo:HMDM_0000077 (topoisomerase inhibitor)
-
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:22108601") Annotation(oboInOwl:hasDbXref "PMID:29363591") obo:IAO_0000115 obo:HMDM_0000077 "Topoisomerase inhibitors are chemical compounds that block the action of topoisomerases. Topoisomerase plays key roles in cellular reproduction and DNA organization, as they facilitate the cleavage of single and double stranded DNA to relax supercoils, untangle catenanes, and condense chromosomes in eukaryotic cells. Topoisomerase inhibitors affect these essential cellular processes by preventing topoisomerases from performing DNA strand breaks or prevent the re-ligation step of the topoisomerase mechanism by interacting with topoisomerase-DNA complexes. These topoisomerase-DNA-inhibitor complexes are cytotoxic agents because the un-repaired single and double stranded DNA breaks that they cause can lead to apoptosis and cell death. Due to this ability to induce apoptosis, topoisomerase inhibitors have gained interest as therapeutics against infectious and cancerous cells.")
-AnnotationAssertion(dcterms:contributor obo:HMDM_0000077 <https://orcid.org/0000-0001-9259-5280>)
-AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000077 "human_microbiome_drug_metabolism_ontology")
-AnnotationAssertion(oboInOwl:id obo:HMDM_0000077 "HMDM:0000077")
-AnnotationAssertion(rdfs:label obo:HMDM_0000077 "topoisomerase inhibitor")
-SubClassOf(obo:HMDM_0000077 obo:HMDM_0000076)
-
 # Class: obo:HMDM_0000078 (Camptothecin Analogues)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:21051639") obo:IAO_0000115 obo:HMDM_0000078 "Camptothecin (CPT) is a topoisomerase inhibitor. It was discovered in 1966 during a systematic screening of natural products for anticancer drugs. It was isolated from the bark and stem of Camptotheca acuminata (Camptotheca, Happy tree), a tree native to China used in traditional Chinese medicine. CPT has showed anticancer activity in clinical trials, especially against breast, ovarian, colon, lung, and stomach cancers. To maximize the therapeutic effects, four CPT analogues have been approved and are used as antineoplastic agents.")
@@ -586,17 +696,7 @@ AnnotationAssertion(dcterms:contributor obo:HMDM_0000078 <https://orcid.org/0000
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000078 "human_microbiome_drug_metabolism_ontology")
 AnnotationAssertion(oboInOwl:id obo:HMDM_0000078 "HMDM:0000078")
 AnnotationAssertion(rdfs:label obo:HMDM_0000078 "Camptothecin Analogues")
-SubClassOf(obo:HMDM_0000078 obo:HMDM_0000077)
-
-# Class: obo:HMDM_0000081 (irinotecan)
-
-AnnotationAssertion(obo:IAO_0000115 obo:HMDM_0000081 "A member of the class of pyranoindolizinoquinolines that is the carbamate ester obtained by formal condensation of the carboxy group of [1,4'-bipiperidine]-1'-carboxylic acid with the phenolic hydroxy group of (4S)-4,11-diethyl-4,9-dihydroxy-1H-pyrano[3',4':6,7]indolizino[1,2- hydrochloride]quinoline-3,14-dione. Used (in the form of its hydrochloride salt trihydrate) in combination with fluorouracil and leucovorin, for the treatment of patients with metastatic adenocarcinoma of the pancreas after disease progression following gemcitabine-based therapy. It is converted via hydrolysis of the carbamate linkage to its active metabolite, SN-38, which is ~1000 times more active.")
-AnnotationAssertion(dcterms:contributor obo:HMDM_0000081 <https://orcid.org/0000-0001-9259-5280>)
-AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000081 "human_microbiome_drug_metabolism_ontology")
-AnnotationAssertion(oboInOwl:id obo:HMDM_0000081 "HMDM:0000081")
-AnnotationAssertion(rdfs:label obo:HMDM_0000081 "irinotecan")
-SubClassOf(obo:HMDM_0000081 obo:CHEBI_23888)
-SubClassOf(obo:HMDM_0000081 obo:HMDM_0000078)
+SubClassOf(obo:HMDM_0000078 obo:CHEBI_70727)
 
 # Class: obo:HMDM_0000089 (fluoropyrimidines deglycosylation enzyme)
 
@@ -674,24 +774,6 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000098 "human_microbiome_
 AnnotationAssertion(oboInOwl:id obo:HMDM_0000098 "HMDM:0000098")
 AnnotationAssertion(rdfs:label obo:HMDM_0000098 "cardiac therapy metabolism")
 SubClassOf(obo:HMDM_0000098 obo:HMDM_0000007)
-
-# Class: obo:HMDM_0000099 (sulindac)
-
-AnnotationAssertion(obo:IAO_0000115 obo:HMDM_0000099 "A monocarboxylic acid that is 1-benzylidene-1H-indene which is substituted at positions 2, 3, and 5 by methyl, carboxymethyl, and fluorine respectively, and in which the phenyl group of the benzylidene moiety is substituted at the para position by a methylsulfinyl group. It is a prodrug for the corresponding sulfide, a non-steroidal anti-inflammatory drug, used particularly in the treatment of acute and chronic inflammatory conditions. Sulindac is used to relieve pain, tenderness, swelling, and stiffness caused by osteoarthritis (arthritis caused by a breakdown of the lining of the joints), rheumatoid arthritis (arthritis caused by swelling of the lining of the joints), and ankylosing spondylitis (arthritis that mainly affects the spine).")
-AnnotationAssertion(dcterms:contributor obo:HMDM_0000099 <https://orcid.org/0000-0001-9259-5280>)
-AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000099 "human_microbiome_drug_metabolism_ontology")
-AnnotationAssertion(oboInOwl:id obo:HMDM_0000099 "HMDM:0000099")
-AnnotationAssertion(rdfs:label obo:HMDM_0000099 "sulindac")
-SubClassOf(obo:HMDM_0000099 obo:CHEBI_23888)
-
-# Class: obo:HMDM_0000108 (raloxifene)
-
-AnnotationAssertion(obo:IAO_0000115 obo:HMDM_0000108 "A member of the class of 1-benzothiophenes that is 1-benzothiophene in which the hydrogens at positions 2, 3, and 6 have been replaced by p-hydroxyphenyl, p-[2-(piperidin-1-yl)ethoxy]benzoyl, and hydroxy groups, respectively. Raloxifene is a medication used to prevent and treat osteoporosis in postmenopausal women and those on glucocorticoids. It is also used to reduce the risk of breast cancer in those at high risk. Raloxifene is a selective estrogen receptor modulator (SERM) and therefore a mixed agonist–antagonist of the estrogen receptor (ER). It has estrogenic effects in bone and antiestrogenic effects in the breasts and uterus.")
-AnnotationAssertion(dcterms:contributor obo:HMDM_0000108 <https://orcid.org/0000-0001-9259-5280>)
-AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000108 "human_microbiome_drug_metabolism_ontology")
-AnnotationAssertion(oboInOwl:id obo:HMDM_0000108 "HMDM:0000108")
-AnnotationAssertion(rdfs:label obo:HMDM_0000108 "raloxifene")
-SubClassOf(obo:HMDM_0000108 obo:CHEBI_23888)
 
 # Class: obo:HMDM_0000125 (decarboxylation of a molecule)
 
@@ -1163,15 +1245,6 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000240 "human_microbiome_
 AnnotationAssertion(oboInOwl:id obo:HMDM_0000240 "HMDM:0000240")
 AnnotationAssertion(rdfs:label obo:HMDM_0000240 "NADH oxidase")
 SubClassOf(obo:HMDM_0000240 obo:HMDM_0000264)
-
-# Class: obo:HMDM_0000261 (anti-parkinson agent)
-
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:30661251") Annotation(oboInOwl:hasDbXref "PMID:35601911") obo:IAO_0000115 obo:HMDM_0000261 "Parkinson’s disease (PD) is characterized by prodromal symptoms, motor difficulties, and psychological or cognitive problems. As a progressive neurodegenerative disease, PD causes focal degeneration of midbrain dopamine (MesDA) neurons. Antiparkinson agents are agents used for treatment of Parkinson’s disease. Medications, include dopamine agonists, monoamine oxidase B inhibitors, levodopa plus carbidopa, etc., anticholinergics and amantadine. Also, new theraputic approaches include, based on recent advances in the understanding of the pathophysiology of Parkinson’s disease, genetic and disease-modifying approaches to reduce abnormal accumulation and aggregation of alpha-synuclein (aSYN), mitochondrial dysfunction, and dysfunction of lysosomal proteins, as well as approaches to reduce neuroinflammation and increase neurorestoration.")
-AnnotationAssertion(dcterms:contributor obo:HMDM_0000261 <https://orcid.org/0000-0001-9259-5280>)
-AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000261 "human_microbiome_drug_metabolism_ontology")
-AnnotationAssertion(oboInOwl:id obo:HMDM_0000261 "HMDM:0000261")
-AnnotationAssertion(rdfs:label obo:HMDM_0000261 "anti-parkinson agent")
-SubClassOf(obo:HMDM_0000261 obo:HMDM_0000073)
 
 # Class: obo:HMDM_0000264 (Flavoenzymes)
 
@@ -1770,8 +1843,8 @@ AnnotationAssertion(dcterms:contributor obo:HMDM_0000466 <https://orcid.org/0000
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000466 "human_microbiome_drug_metabolism_ontology")
 AnnotationAssertion(oboInOwl:id obo:HMDM_0000466 "HMDM:0000466")
 AnnotationAssertion(rdfs:label obo:HMDM_0000466 "Brivudine")
+SubClassOf(obo:HMDM_0000466 obo:CHEBI_22587)
 SubClassOf(obo:HMDM_0000466 obo:CHEBI_23888)
-SubClassOf(obo:HMDM_0000466 obo:HMDM_0000005)
 
 # Class: obo:HMDM_0000467 (Bifidobacterium adolescentis strain L2-32 20beta-Hydroxysteroid Dehydrogenase)
 
@@ -1839,16 +1912,6 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000489 "human_microbiome_
 AnnotationAssertion(oboInOwl:id obo:HMDM_0000489 "HMDM:0000489")
 AnnotationAssertion(rdfs:label obo:HMDM_0000489 "cardiovascular system")
 SubClassOf(obo:HMDM_0000489 obo:HMDM_0000488)
-
-# Class: obo:HMDM_0000490 (calcium channel blockers)
-
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:21896151") Annotation(oboInOwl:hasDbXref "PMID:8680353") obo:IAO_0000115 obo:HMDM_0000490 "Calcium ions are essential for the chain of events that leads to myocardial contraction. Its role in the cardiac cycle has been studied extensively for years. Calcium is thought to be effective in slow channels. Calcium channel blockers (CCBs) inhibit the flow of extracellular calcium through ion‐specific channels that span the cell wall. When inward calcium flux is inhibited, vascular smooth muscle cells relax, resulting in vasodilation and a lowering of blood pressure (BP).")
-AnnotationAssertion(dcterms:contributor obo:HMDM_0000490 <https://orcid.org/0000-0001-9259-5280>)
-AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000490 "human_microbiome_drug_metabolism_ontology")
-AnnotationAssertion(oboInOwl:id obo:HMDM_0000490 "HMDM:0000490")
-AnnotationAssertion(rdfs:label obo:HMDM_0000490 "calcium channel blockers")
-SubClassOf(obo:HMDM_0000490 obo:HMDM_0000073)
-SubClassOf(obo:HMDM_0000490 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000489))
 
 # Class: obo:HMDM_0000491 (hydrolysis of a molecule)
 
@@ -1940,33 +2003,6 @@ AnnotationAssertion(oboInOwl:id obo:HMDM_0000707 "HMDM:0000707")
 AnnotationAssertion(rdfs:label obo:HMDM_0000707 "Alpha/beta hydrolase superfamily")
 SubClassOf(obo:HMDM_0000707 obo:HMDM_0000012)
 
-# Class: obo:HMDM_0000708 (statins)
-
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:24657242") Annotation(oboInOwl:hasDbXref "PMID:26975972") obo:IAO_0000115 obo:HMDM_0000708 "Statins, inhibitors of the hydroxymethylglutaryl-CoA (HMG-CoA) reductase enzyme, are molecules of fungal origin. Statins are powerful cholesterol lowering medications and have provided outstanding contributions to the prevention of cardiovascular disease.")
-AnnotationAssertion(dcterms:contributor obo:HMDM_0000708 <https://orcid.org/0000-0001-9259-5280>)
-AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000708 "human_microbiome_drug_metabolism_ontology")
-AnnotationAssertion(oboInOwl:id obo:HMDM_0000708 "HMDM:0000708")
-AnnotationAssertion(rdfs:label obo:HMDM_0000708 "statins")
-SubClassOf(obo:HMDM_0000708 obo:HMDM_0000073)
-
-# Class: obo:HMDM_0000777 (anti-parasitic agent)
-
-AnnotationAssertion(obo:IAO_0000115 obo:HMDM_0000777 "Anti-parasitic agent is medication used to treat parasitic diseases.")
-AnnotationAssertion(dcterms:contributor obo:HMDM_0000777 <https://orcid.org/0000-0001-9259-5280>)
-AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000777 "human_microbiome_drug_metabolism_ontology")
-AnnotationAssertion(oboInOwl:id obo:HMDM_0000777 "HMDM:0000777")
-AnnotationAssertion(rdfs:label obo:HMDM_0000777 "anti-parasitic agent")
-SubClassOf(obo:HMDM_0000777 obo:HMDM_0000073)
-
-# Class: obo:HMDM_0000782 (anti-protozoal agent)
-
-AnnotationAssertion(obo:IAO_0000115 obo:HMDM_0000782 "An agent used to inhibit or kill protozoa.")
-AnnotationAssertion(dcterms:contributor obo:HMDM_0000782 <https://orcid.org/0000-0001-9259-5280>)
-AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000782 "human_microbiome_drug_metabolism_ontology")
-AnnotationAssertion(oboInOwl:id obo:HMDM_0000782 "HMDM:0000782")
-AnnotationAssertion(rdfs:label obo:HMDM_0000782 "anti-protozoal agent")
-SubClassOf(obo:HMDM_0000782 obo:HMDM_0000777)
-
 # Class: obo:HMDM_0000783 (anti-helminthic agent)
 
 AnnotationAssertion(obo:IAO_0000115 obo:HMDM_0000783 "An agent used to inhibit or kill parasitic worms.")
@@ -1974,16 +2010,7 @@ AnnotationAssertion(dcterms:contributor obo:HMDM_0000783 <https://orcid.org/0000
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000783 "human_microbiome_drug_metabolism_ontology")
 AnnotationAssertion(oboInOwl:id obo:HMDM_0000783 "HMDM:0000783")
 AnnotationAssertion(rdfs:label obo:HMDM_0000783 "anti-helminthic agent")
-SubClassOf(obo:HMDM_0000783 obo:HMDM_0000777)
-
-# Class: obo:HMDM_0000784 (Nitroimidazoles)
-
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:28463485") obo:IAO_0000115 obo:HMDM_0000784 "Nitroimidazoles are a class of antimicrobial drugs that have remarkable broad spectrum activity against parasites, mycobacteria, and anaerobic Gram-positive and Gram-negative bacteria. While nitroimidazoles were discovered in the 1950s, there has been renewed interest in their therapeutic potential, particularly for the treatment of parasitic infections and tuberculosis.")
-AnnotationAssertion(dcterms:contributor obo:HMDM_0000784 <https://orcid.org/0000-0001-9259-5280>)
-AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000784 "human_microbiome_drug_metabolism_ontology")
-AnnotationAssertion(oboInOwl:id obo:HMDM_0000784 "HMDM:0000784")
-AnnotationAssertion(rdfs:label obo:HMDM_0000784 "Nitroimidazoles")
-SubClassOf(obo:HMDM_0000784 obo:HMDM_0000782)
+SubClassOf(obo:HMDM_0000783 obo:CHEBI_35442)
 
 # Class: obo:HMDM_0000785 (Nitroreductases)
 
@@ -2002,16 +2029,7 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000787 "human_microbiome_
 AnnotationAssertion(oboInOwl:id obo:HMDM_0000787 "HMDM:0000787")
 AnnotationAssertion(rdfs:label obo:HMDM_0000787 "Pericyazine")
 SubClassOf(obo:HMDM_0000787 obo:CHEBI_23888)
-SubClassOf(obo:HMDM_0000787 obo:HMDM_0000789)
-
-# Class: obo:HMDM_0000789 (Phenothiazine)
-
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:22580516") obo:IAO_0000115 obo:HMDM_0000789 "Phenothiazines belong to the oldest synthetic antipsychotic drugs, which do not have their precursor in the world of natural compounds. Apart from their fundamental neuroleptic action connected with the dopaminergic receptors blockade, phenothiazine derivatives also exert diverse biological activities, which account for their cancer chemopreventive-effect, such as calmodulin- and protein kinase C inhibitory actions, anti-proliferative effect, inhibition of P-glycoprotein transport function and reversion of multidrug resistance.")
-AnnotationAssertion(dcterms:contributor obo:HMDM_0000789 <https://orcid.org/0000-0001-9259-5280>)
-AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000789 "human_microbiome_drug_metabolism_ontology")
-AnnotationAssertion(oboInOwl:id obo:HMDM_0000789 "HMDM:0000789")
-AnnotationAssertion(rdfs:label obo:HMDM_0000789 "Phenothiazine")
-SubClassOf(obo:HMDM_0000789 obo:HMDM_0000782)
+SubClassOf(obo:HMDM_0000787 obo:CHEBI_37932)
 
 # Class: obo:HMDM_0000790 (Racecadotril)
 
@@ -2021,15 +2039,6 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000790 "human_microbiome_
 AnnotationAssertion(oboInOwl:id obo:HMDM_0000790 "HMDM:0000790")
 AnnotationAssertion(rdfs:label obo:HMDM_0000790 "Racecadotril")
 SubClassOf(obo:HMDM_0000790 obo:CHEBI_23888)
-
-# Class: obo:HMDM_0000791 (anti-diarrheal agent)
-
-AnnotationAssertion(obo:IAO_0000115 obo:HMDM_0000791 "An anti-diarrheal agent is a drug used to slow or stop diarrhea.")
-AnnotationAssertion(dcterms:contributor obo:HMDM_0000791 <https://orcid.org/0000-0001-9259-5280>)
-AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000791 "human_microbiome_drug_metabolism_ontology")
-AnnotationAssertion(oboInOwl:id obo:HMDM_0000791 "HMDM:0000791")
-AnnotationAssertion(rdfs:label obo:HMDM_0000791 "anti-diarrheal agent")
-SubClassOf(obo:HMDM_0000791 obo:HMDM_0000073)
 
 # Class: obo:HMDM_0000792 (HAD superfamily)
 
@@ -2117,15 +2126,6 @@ SubClassOf(obo:HMDM_0000834 ObjectSomeValuesFrom(obo:MOP_0000569 obo:CHEBI_7770)
 SubClassOf(obo:HMDM_0000834 ObjectSomeValuesFrom(obo:MOP_0000569 obo:CHEBI_9334))
 SubClassOf(obo:HMDM_0000834 ObjectSomeValuesFrom(obo:RO_0000056 obo:HMDM_0000142))
 
-# Class: obo:HMDM_0000839 (anti-inflammatory agent)
-
-AnnotationAssertion(obo:IAO_0000115 obo:HMDM_0000839 "An anti-inflammatory agent is a drug that helps reduce swelling or inflammation.")
-AnnotationAssertion(dcterms:contributor obo:HMDM_0000839 <https://orcid.org/0000-0001-9259-5280>)
-AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000839 "human_microbiome_drug_metabolism_ontology")
-AnnotationAssertion(oboInOwl:id obo:HMDM_0000839 "HMDM:0000839")
-AnnotationAssertion(rdfs:label obo:HMDM_0000839 "anti-inflammatory agent")
-SubClassOf(obo:HMDM_0000839 obo:HMDM_0000073)
-
 # Class: obo:HMDM_0000843 (PEMT (Phospholipid methyltransferase) super family)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:19366698") obo:IAO_0000115 obo:HMDM_0000843 "Phospholipid N-methyltransferase (PLMT) enzymes catalyze the S-adenosylmethionine-dependent methylation of ethanolamine-containing phospholipids to produce phosphatidylcholine. Phosphatidylcholine is the most abundant phospholipid in most non-plastid membranes of eukaryotes and functions as a structural membrane lipid, and as a precursor to important lipid-based signaling molecules. In mammals and fungi, phosphatidylcholine can be formed through two distinct pathways: (a) the “nucleotide pathway” in which free choline is incorporated in phosphatidylcholine using CDP-choline as an intermediate, and (b) the “methylation pathway” whereby phosphatidylcholine is produced directly from phosphatidylethanolamine (PtdEtn) via three sequential methylation reactions using S-adenosylmethionine (AdoMet) as the methyl donor. In plants, phosphatidylcholine biosynthesis occurs through a branched pathway that utilizes components of both the nucleotide and methylation pathways. In mammals, the 18-kDa integral membrane protein phosphatidylethanolamine N-methyltransferase (PEMT) is a PLMT that is expressed primarily in the liver. PEMT catalyzes all three of the methylation reactions needed to convert PtdEtn to phosphatidylcholine.")
@@ -2143,15 +2143,6 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000844 "human_microbiome_
 AnnotationAssertion(oboInOwl:id obo:HMDM_0000844 "HMDM:0000844")
 AnnotationAssertion(rdfs:label obo:HMDM_0000844 "methylation of a molecule")
 SubClassOf(obo:HMDM_0000844 obo:HMDM_0000015)
-
-# Class: obo:HMDM_0000845 (analgesic)
-
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "PMID:27142107") obo:IAO_0000115 obo:HMDM_0000845 "Analgesics are the drugs which bring insensibility to pain without loosing consciousness. Treatment strategy is generally based on the type of pain. Most of the analgesics are associated with serious side effects, such as NSAIDS can cause severe GI disturbance and opioids can cause addiction.")
-AnnotationAssertion(dcterms:contributor obo:HMDM_0000845 <https://orcid.org/0000-0001-9259-5280>)
-AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000845 "human_microbiome_drug_metabolism_ontology")
-AnnotationAssertion(oboInOwl:id obo:HMDM_0000845 "HMDM:0000845")
-AnnotationAssertion(rdfs:label obo:HMDM_0000845 "analgesic")
-SubClassOf(obo:HMDM_0000845 obo:HMDM_0000073)
 
 # Class: obo:HMDM_0000846 (Pyridoxamine phosphate oxidase family)
 
@@ -2346,7 +2337,7 @@ AnnotationAssertion(oboInOwl:id obo:HMDM_0000933 "HMDM:0000933")
 AnnotationAssertion(rdfs:label obo:HMDM_0000933 "Pseudomonas aeruginosa CYP107S1")
 SubClassOf(obo:HMDM_0000933 obo:HMDM_0000929)
 SubClassOf(obo:HMDM_0000933 ObjectSomeValuesFrom(obo:HMDM_0000938 obo:CHEBI_66901))
-SubClassOf(obo:HMDM_0000933 ObjectSomeValuesFrom(obo:HMDM_0000938 obo:HMDM_0000108))
+SubClassOf(obo:HMDM_0000933 ObjectSomeValuesFrom(obo:HMDM_0000938 obo:CHEBI_8772))
 
 # Class: obo:HMDM_0000934 (cystic fibrosis transmembrane conductance regulator (CFTR) potentiators)
 
@@ -2365,6 +2356,15 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000937 "human_microbiome_
 AnnotationAssertion(oboInOwl:id obo:HMDM_0000937 "HMDM:0000937")
 AnnotationAssertion(rdfs:label obo:HMDM_0000937 "molybdopterin-containing oxidoreductase family")
 SubClassOf(obo:HMDM_0000937 obo:HMDM_0000012)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI:9352> (sulindac)
+
+AnnotationAssertion(obo:IAO_0000115 <http://purl.obolibrary.org/obo/CHEBI:9352> "A monocarboxylic acid that is 1-benzylidene-1H-indene which is substituted at positions 2, 3, and 5 by methyl, carboxymethyl, and fluorine respectively, and in which the phenyl group of the benzylidene moiety is substituted at the para position by a methylsulfinyl group. It is a prodrug for the corresponding sulfide, a non-steroidal anti-inflammatory drug, used particularly in the treatment of acute and chronic inflammatory conditions. Sulindac is used to relieve pain, tenderness, swelling, and stiffness caused by osteoarthritis (arthritis caused by a breakdown of the lining of the joints), rheumatoid arthritis (arthritis caused by swelling of the lining of the joints), and ankylosing spondylitis (arthritis that mainly affects the spine).")
+AnnotationAssertion(dcterms:contributor <http://purl.obolibrary.org/obo/CHEBI:9352> <https://orcid.org/0000-0001-9259-5280>)
+AnnotationAssertion(oboInOwl:hasOBONamespace <http://purl.obolibrary.org/obo/CHEBI:9352> "human_microbiome_drug_metabolism_ontology")
+AnnotationAssertion(oboInOwl:id <http://purl.obolibrary.org/obo/CHEBI:9352> "HMDM:0000099")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI:9352> "sulindac")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI:9352> obo:CHEBI_23888)
 
 
 )
