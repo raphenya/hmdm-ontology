@@ -28,8 +28,8 @@ Annotation(oboInOwl:hasOBOFormatVersion "1.2")
 Annotation(oboInOwl:saved-by "HMDM")
 Annotation(rdfs:comment "The Human Microbiome Drug Metabolism (HMDM) Ontology is a resource for the scientific community to understand how the human gut microbiome metabolizes drugs. It provides a structured vocabulary for describing the genes, enzymes, and mechanisms involved in drug metabolism by gut bacteria. It is available under the Attribution 4.0 International (CC BY 4.0) license, allowing for sharing and adaptation with proper attribution.")
 
+Declaration(Class(obo:CHEBI_23888))
 Declaration(Class(obo:HMDM_0000001))
-Declaration(Class(obo:HMDM_0000002))
 Declaration(Class(obo:HMDM_0000005))
 Declaration(Class(obo:HMDM_0000006))
 Declaration(Class(obo:HMDM_0000007))
@@ -325,15 +325,7 @@ AnnotationAssertion(dcterms:contributor obo:HMDM_0000001 <https://orcid.org/0000
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000001 "human_microbiome_drug_metabolism_ontology")
 AnnotationAssertion(oboInOwl:id obo:HMDM_0000001 "HMDM:0000001")
 AnnotationAssertion(rdfs:label obo:HMDM_0000001 "root of drug metabolism")
-
-# Class: obo:HMDM_0000002 (drug)
-
-AnnotationAssertion(obo:IAO_0000115 obo:HMDM_0000002 "A drug is any substance that causes a change in an organism's physiology or psychology when consumed or introduced.")
-AnnotationAssertion(dcterms:contributor obo:HMDM_0000002 <https://orcid.org/0000-0001-9259-5280>)
-AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000002 "human_microbiome_drug_metabolism_ontology")
-AnnotationAssertion(oboInOwl:id obo:HMDM_0000002 "HMDM:0000002")
-AnnotationAssertion(rdfs:label obo:HMDM_0000002 "drug")
-SubClassOf(obo:HMDM_0000002 obo:HMDM_0000001)
+SubClassOf(obo:HMDM_0000001 ObjectSomeValuesFrom(obo:RO_0000056 obo:CHEBI_23888))
 
 # Class: obo:HMDM_0000005 (antiviral)
 
@@ -603,7 +595,7 @@ AnnotationAssertion(dcterms:contributor obo:HMDM_0000081 <https://orcid.org/0000
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000081 "human_microbiome_drug_metabolism_ontology")
 AnnotationAssertion(oboInOwl:id obo:HMDM_0000081 "HMDM:0000081")
 AnnotationAssertion(rdfs:label obo:HMDM_0000081 "irinotecan")
-SubClassOf(obo:HMDM_0000081 obo:HMDM_0000002)
+SubClassOf(obo:HMDM_0000081 obo:CHEBI_23888)
 SubClassOf(obo:HMDM_0000081 obo:HMDM_0000078)
 
 # Class: obo:HMDM_0000089 (fluoropyrimidines deglycosylation enzyme)
@@ -633,7 +625,7 @@ AnnotationAssertion(dcterms:contributor obo:HMDM_0000091 <https://orcid.org/0000
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000091 "human_microbiome_drug_metabolism_ontology")
 AnnotationAssertion(oboInOwl:id obo:HMDM_0000091 "HMDM:0000091")
 AnnotationAssertion(rdfs:label obo:HMDM_0000091 "Trastuzumab deruxtecan")
-SubClassOf(obo:HMDM_0000091 obo:HMDM_0000002)
+SubClassOf(obo:HMDM_0000091 obo:CHEBI_23888)
 SubClassOf(obo:HMDM_0000091 obo:HMDM_0000078)
 
 # Class: obo:HMDM_0000092 (carboxyl-lyase)
@@ -690,7 +682,7 @@ AnnotationAssertion(dcterms:contributor obo:HMDM_0000099 <https://orcid.org/0000
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000099 "human_microbiome_drug_metabolism_ontology")
 AnnotationAssertion(oboInOwl:id obo:HMDM_0000099 "HMDM:0000099")
 AnnotationAssertion(rdfs:label obo:HMDM_0000099 "sulindac")
-SubClassOf(obo:HMDM_0000099 obo:HMDM_0000002)
+SubClassOf(obo:HMDM_0000099 obo:CHEBI_23888)
 
 # Class: obo:HMDM_0000108 (raloxifene)
 
@@ -699,7 +691,7 @@ AnnotationAssertion(dcterms:contributor obo:HMDM_0000108 <https://orcid.org/0000
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000108 "human_microbiome_drug_metabolism_ontology")
 AnnotationAssertion(oboInOwl:id obo:HMDM_0000108 "HMDM:0000108")
 AnnotationAssertion(rdfs:label obo:HMDM_0000108 "raloxifene")
-SubClassOf(obo:HMDM_0000108 obo:HMDM_0000002)
+SubClassOf(obo:HMDM_0000108 obo:CHEBI_23888)
 
 # Class: obo:HMDM_0000125 (decarboxylation of a molecule)
 
@@ -1778,7 +1770,7 @@ AnnotationAssertion(dcterms:contributor obo:HMDM_0000466 <https://orcid.org/0000
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000466 "human_microbiome_drug_metabolism_ontology")
 AnnotationAssertion(oboInOwl:id obo:HMDM_0000466 "HMDM:0000466")
 AnnotationAssertion(rdfs:label obo:HMDM_0000466 "Brivudine")
-SubClassOf(obo:HMDM_0000466 obo:HMDM_0000002)
+SubClassOf(obo:HMDM_0000466 obo:CHEBI_23888)
 SubClassOf(obo:HMDM_0000466 obo:HMDM_0000005)
 
 # Class: obo:HMDM_0000467 (Bifidobacterium adolescentis strain L2-32 20beta-Hydroxysteroid Dehydrogenase)
@@ -2009,7 +2001,7 @@ AnnotationAssertion(dcterms:contributor obo:HMDM_0000787 <https://orcid.org/0000
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000787 "human_microbiome_drug_metabolism_ontology")
 AnnotationAssertion(oboInOwl:id obo:HMDM_0000787 "HMDM:0000787")
 AnnotationAssertion(rdfs:label obo:HMDM_0000787 "Pericyazine")
-SubClassOf(obo:HMDM_0000787 obo:HMDM_0000002)
+SubClassOf(obo:HMDM_0000787 obo:CHEBI_23888)
 SubClassOf(obo:HMDM_0000787 obo:HMDM_0000789)
 
 # Class: obo:HMDM_0000789 (Phenothiazine)
@@ -2028,7 +2020,7 @@ AnnotationAssertion(dcterms:contributor obo:HMDM_0000790 <https://orcid.org/0000
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:HMDM_0000790 "human_microbiome_drug_metabolism_ontology")
 AnnotationAssertion(oboInOwl:id obo:HMDM_0000790 "HMDM:0000790")
 AnnotationAssertion(rdfs:label obo:HMDM_0000790 "Racecadotril")
-SubClassOf(obo:HMDM_0000790 obo:HMDM_0000002)
+SubClassOf(obo:HMDM_0000790 obo:CHEBI_23888)
 
 # Class: obo:HMDM_0000791 (anti-diarrheal agent)
 
